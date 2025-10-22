@@ -1,39 +1,65 @@
-# Partition-vs-Mixture
+# Partition vs Mixture
 
-## Model Analysis Result for 1kp Plant Data
+Phylogenetic inference underpins our understanding of evolutionary relationships, and choosing an appropriate evolutionary model is critical—especially when **heterogeneity** is present across genes, sites, and lineages. Partitioned and profile **mixture** models capture different aspects of this heterogeneity, but past comparisons between them have been confounded by limitations of the Akaike Information Criterion (AIC), which is not directly comparable across different model classes.
+
+**This project addresses that issue by applying a marginal AIC (mAIC) framework** to enable direct, like-for-like comparisons between partitioned and mixture models. We benchmark **partitioned** models against **C60 mixture** models across **nine** large empirical amino-acid datasets, and we assess not only **model fit** (mAIC) but also **model adequacy** (recovery of sequence properties) and **robustness** (stability of tree inference).
+
+---
+
+### What each major piece does
+
+- **9datasets_summary.md**  
+ Provides comprehensive information for each dataset (e.g., number of sites and number of loci), along with links to the data repository and the corresponding paper.
+
+- **data/**  
+  Provides alignment data for each dataset at multiple subsampling levels.
+
+- **result/**  
+  Centralized outputs of model estimation and summaries:
+  - CSV tables of fitted models and corresponding model-fit statistics (cAIC/mAIC/log-likelihood).
+  - Markdown notes summarizing all information (e.g. commands, model parameters, runtimes, and cross-model comparisons).
+
+- **scripts/iqtree_pipeline.sh**  
+  One-command pipeline to:
+  1) run MF+MERGE on p/Q/q partition schemes,  
+  2) select the best partition by AIC & mAIC,  
+  3) initialize C60 from MF,  
+  4) fit C60 variants (+F / no-F, with/without weight optimization),  
+  5) compare models by AIC/mAIC,  
+  6) (full mode) run a final tree search under the best C60 model.  
+  Produces a timestamped log and writes IQ-TREE outputs into each dataset’s `partition/` and `c60/`.
+
+- **scripts/parameter_nex.py**  
+  Parses an `.iqtree` file and its `.log` to create a **NEXUS** model block, including `frequency F`, `+I`, `+G/R`, and `FMIX{...}`, enabling reproducible re-runs under the exact fitted model.
+
+- **scripts/lrm_distance.py**  
+  Computes **Lin–Rajan–Moret (LRM)** tree distances among all trees in a folder (**pairwise**) and versus a mandatory `reference.treefile` (**to-Ref**), with summary statistics (mean/SD/median).
 
 
+## Example usage
 
-Below is the detailed comparison of several models evaluated for plant data:
+### Model estimation (per dataset)
+```bash
+bash Model_estimation_pipeline.sh
+```
 
-# Model Analysis for Plant Data
+### Build a parameter NEXUS from a finished run
+```bash
+python parameter_nex.py <path/to/run.iqtree> <path/to/run.log> --outdir .
+```
 
-## Results
+### Robustness test (LRM distances)
+```bash
+python Robustness_test.py <path/to/.treefile> -o lrm_distances.txt
+```
 
-### Model Comparison and Selection
+> For minimal IQ-TREE commands covering all model types, see  
+> `scripts/Model_estimation_mAIC_calculation/Only_commands.txt`.
+---
 
-Below is the detailed comparison of several models evaluated for plant data:
+## References
 
-| Species | Category                   | Free Parameters | Number of Partitions | Mixture-based LogL | mAIC or AIC    | LogL            | AIC            | Run Time                               | Command                                                                                                           |
-|---------|----------------------------|-----------------|----------------------|--------------------|----------------|-----------------|----------------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 20      | Edge-linked partition      | 1688            | 162                  | -2656197.4349      | 5315770.87     | -2651058.8646  | 5305493.7293   | 15 min with 80 threads                 | iqtree2 -s all_concated.phy -q all_concated.nex                                                                     |
-| 20      | Edge-proportional partition| 1927            | 105                  | -2497042.9292      | 4997939.8584   | -2484231.6237  | 4972317.2475   | 1.5h with 50 threads                   | iqtree2 -s all_concated.phy -p all_concated.nex                                                                     |
-| 20      | Edge-unlinked partition    | 6732            | 140                  | -2496868.8428      | 5007201.6855   | -2474757.1266  | 4962978.2531   | 2h with 50 threads                     | iqtree2 -s all_concated.phy -Q all_concated.nex                                                                     |
-| 20      | C10 weight optimized       | NA              | NA                   | NA                 | 5036713.3919   | NA              | NA             | 3h initialize + 7h estimation, 30 threads | iqtree2 -s all_concated.phy -m Q.plant+C10+R6 --opt-weights-only --init-model all_concated.phy.model               |
-| 20      | C10 weight unoptimized     | NA              | NA                   | NA                 | 5054752.2331   | NA              | NA             | 7h estimation, 40 threads              | iqtree2 -s all_concated.phy -m Q.plant+C10+R6                                                                      |
-| 20      | C20 weight unoptimized     | NA              | NA                   | NA                 | 5037813.8559   | NA              | NA             | 14h estimation, 40 threads             | iqtree2 -s all_concated.phy -m Q.plant+C20+R6                                                                      |
-| 20      | C20 weight optimized       | NA              | NA                   | NA                 | 5005795.864    | NA              | NA             | 21h estimation, 30 threads             | iqtree2 -s all_concated.phy -m Q.plant+C20+R6 --opt-weights-only                                                   |
-| 20      | C20+F optimized            | NA              | NA                   | NA                 | 4968139.4167   | NA              | NA             | 13h estimation, 60 threads             | iqtree2 -s all_concated.phy -m Q.plant+C20+F+R6 --opt-weights-only                                                 |
-| 20      | C10+F weight optimized     | NA              | NA                   | NA                 | 4976154.2086   | NA              | NA             | 8h estimation, 40 threads              | iqtree2 -s all_concated.phy -m Q.plant+C10+F+R6 --opt-weights-only                                                 |
-| 50      | Edge-linked partition      | NA              | NA                   | NA                 | 10378557.9084  | NA              | 10443827.7692  | 1h with 50 threads                     | similar                                                                                                           |
-| 50      | Edge-proportional partition| NA              | NA                   | NA                 | 9637018.4445   | NA              | 9611795.1476   | 20h with 64 threads                    | similar                                                                                                           |
-| 50      | Edge-unlinked partition    | NA              | NA                   | NA                 | 9668024.4723   | NA              | 9592644.0406   | 12h with 50 threads                    | similar                                                                                                           |
-| 50      | C10 weight unoptimized     | NA              | NA                   | NA                 | 9701799.4079   | NA              | NA             | 26h initialize + 53h estimation, 30 threads | similar                                                                                                           |
-| 50      | C10 weight optimized       | NA              | NA                   | NA                 | 9672705.2508   | NA              | NA             | 58h estimation, 20 threads             | similar                                                                                                           |
-
-### Interpretation
-
-- The **Edge-proportional partition** (20 species) has the lowest AIC (4972317.2475), indicating the best model fit with a reasonable number of parameters.
-- Weight-optimized models (e.g., C20+F optimized) also performed competitively but required significantly more computational resources.
-- Larger datasets (50 species) showed a substantial increase in computational time without clear improvements in model fit.
+- Knight, R., Maxwell, P., Birmingham, A., Carnes, J., Caporaso, J. G., Easton, B. C., … Huttley, G. A. (2007). **PyCogent: a toolkit for making sense from sequence.** *Genome Biology*, 8(8), R171. https://doi.org/10.1186/gb-2007-8-8-r171
+- Lin, Y., Rajan, V., & Moret, B. M. (2012). **A metric for phylogenetic trees based on matching.** *IEEE/ACM Transactions on Computational Biology and Bioinformatics*, 9(4), 1014–1022. https://doi.org/10.1109/TCBB.2011.157  
+- Minh, B. Q., Schmidt, H. A., Chernomor, O., Schrempf, D., Woodhams, M. D., von Haeseler, A., & Lanfear, B. (2020). **IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era.** *Molecular Biology and Evolution*, 37(5), 1530–1534. https://doi.org/10.1093/molbev/msaa015  
 
