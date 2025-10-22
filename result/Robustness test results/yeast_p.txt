@@ -1,0 +1,66 @@
+LRM between Ascoidea_asiatica9_p_search and Candida_apicola9_p_search: 0.000000
+LRM between Ascoidea_asiatica9_p_search and Fusarium_graminearum9_p_search: 0.000000
+LRM between Ascoidea_asiatica9_p_search and Metschnikowia_bowlesiae9_p_search: 0.000000
+LRM between Ascoidea_asiatica9_p_search and Nakaseomyces_castellii9_p_search: 0.000000
+LRM between Ascoidea_asiatica9_p_search and Schizosaccharomyces_pombe9_p_search: 0.000000
+LRM between Ascoidea_asiatica9_p_search and yHMPu5000034614_Saturnispora_silvae9_p_search: 0.000000
+LRM between Ascoidea_asiatica9_p_search and yHMPu5000035633_Candida_hispaniensis9_p_search: 0.000000
+LRM between Ascoidea_asiatica9_p_search and yHMPu5000035654_Tortispora_ganteri9_p_search: 0.000000
+LRM between Ascoidea_asiatica9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Candida_apicola9_p_search and Fusarium_graminearum9_p_search: 0.000000
+LRM between Candida_apicola9_p_search and Metschnikowia_bowlesiae9_p_search: 0.000000
+LRM between Candida_apicola9_p_search and Nakaseomyces_castellii9_p_search: 0.000000
+LRM between Candida_apicola9_p_search and Schizosaccharomyces_pombe9_p_search: 0.000000
+LRM between Candida_apicola9_p_search and yHMPu5000034614_Saturnispora_silvae9_p_search: 0.000000
+LRM between Candida_apicola9_p_search and yHMPu5000035633_Candida_hispaniensis9_p_search: 0.000000
+LRM between Candida_apicola9_p_search and yHMPu5000035654_Tortispora_ganteri9_p_search: 0.000000
+LRM between Candida_apicola9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Fusarium_graminearum9_p_search and Metschnikowia_bowlesiae9_p_search: 0.000000
+LRM between Fusarium_graminearum9_p_search and Nakaseomyces_castellii9_p_search: 0.000000
+LRM between Fusarium_graminearum9_p_search and Schizosaccharomyces_pombe9_p_search: 0.000000
+LRM between Fusarium_graminearum9_p_search and yHMPu5000034614_Saturnispora_silvae9_p_search: 0.000000
+LRM between Fusarium_graminearum9_p_search and yHMPu5000035633_Candida_hispaniensis9_p_search: 0.000000
+LRM between Fusarium_graminearum9_p_search and yHMPu5000035654_Tortispora_ganteri9_p_search: 0.000000
+LRM between Fusarium_graminearum9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and Nakaseomyces_castellii9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and Schizosaccharomyces_pombe9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and yHMPu5000034614_Saturnispora_silvae9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and yHMPu5000035633_Candida_hispaniensis9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and yHMPu5000035654_Tortispora_ganteri9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Nakaseomyces_castellii9_p_search and Schizosaccharomyces_pombe9_p_search: 0.000000
+LRM between Nakaseomyces_castellii9_p_search and yHMPu5000034614_Saturnispora_silvae9_p_search: 0.000000
+LRM between Nakaseomyces_castellii9_p_search and yHMPu5000035633_Candida_hispaniensis9_p_search: 0.000000
+LRM between Nakaseomyces_castellii9_p_search and yHMPu5000035654_Tortispora_ganteri9_p_search: 0.000000
+LRM between Nakaseomyces_castellii9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Schizosaccharomyces_pombe9_p_search and yHMPu5000034614_Saturnispora_silvae9_p_search: 0.000000
+LRM between Schizosaccharomyces_pombe9_p_search and yHMPu5000035633_Candida_hispaniensis9_p_search: 0.000000
+LRM between Schizosaccharomyces_pombe9_p_search and yHMPu5000035654_Tortispora_ganteri9_p_search: 0.000000
+LRM between Schizosaccharomyces_pombe9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+LRM between yHMPu5000034614_Saturnispora_silvae9_p_search and yHMPu5000035633_Candida_hispaniensis9_p_search: 0.000000
+LRM between yHMPu5000034614_Saturnispora_silvae9_p_search and yHMPu5000035654_Tortispora_ganteri9_p_search: 0.000000
+LRM between yHMPu5000034614_Saturnispora_silvae9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+LRM between yHMPu5000035633_Candida_hispaniensis9_p_search and yHMPu5000035654_Tortispora_ganteri9_p_search: 0.000000
+LRM between yHMPu5000035633_Candida_hispaniensis9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+LRM between yHMPu5000035654_Tortispora_ganteri9_p_search and yHMPu5000035671_Phaffomyces_antillensis9_p_search: 0.000000
+
+Mean LRM: 0.000000
+Std LRM: 0.000000
+Median LRM: 0.000000
+
+========================================
+
+LRM between Ascoidea_asiatica9_p_search and reference: 0.000000
+LRM between Candida_apicola9_p_search and reference: 0.000000
+LRM between Fusarium_graminearum9_p_search and reference: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and reference: 0.000000
+LRM between Nakaseomyces_castellii9_p_search and reference: 0.000000
+LRM between Schizosaccharomyces_pombe9_p_search and reference: 0.000000
+LRM between yHMPu5000034614_Saturnispora_silvae9_p_search and reference: 0.000000
+LRM between yHMPu5000035633_Candida_hispaniensis9_p_search and reference: 0.000000
+LRM between yHMPu5000035654_Tortispora_ganteri9_p_search and reference: 0.000000
+LRM between yHMPu5000035671_Phaffomyces_antillensis9_p_search and reference: 0.000000
+
+Mean LRM to reference: 0.000000
+Std LRM to reference: 0.000000
+Median LRM to reference: 0.000000

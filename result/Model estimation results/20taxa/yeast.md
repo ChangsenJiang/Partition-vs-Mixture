@@ -1,0 +1,33 @@
+# Summary of Results for yeast
+
+| Name | Free parameters | Partitions | Mix LogL | mAIC | LogL | AIC | Runtime | Command |
+|------|-----------------|------------|-----------|------|------|-----|---------|---------|
+| yeast20_c60_search | 37 | NA | NA | 10726396.8140 | -5363161.4070 | 10726396.8140 | 48.85 h | `../../iqtree2 -s 20_concated.nex -mdef yeast20_c60_F_parameter.nex -m Q_YEAST_C60_F_I_R10 -t ../partition/Q/yeast20_Q_search.treefile -T 50 --mem 100G -pre yeast20_c60_search` |
+| yeast20_c60_opt | 115 | NA | NA | 10770890.6548 | -5385330.3274 | 10770890.6548 | 15.72 h | `../../iqtree2 -s ./20_concated.nex -m Q.YEAST+C60+I+R10 -te ../partition/Q/yeast20_Q_search.treefile -mwopt -T 60 -mem 150G -pre yeast20_c60_opt` |
+| **yeast20_c60_F** | 135 | NA | NA | 10726686.7293 | -5363208.3646 | 10726686.7293 | 7.50 h | `../../iqtree2 -s ./20_concated.nex -m Q.YEAST+C60+F+I+R10 -te ../partition/Q/yeast20_Q_search.treefile -T 50 --mem 100G -safe -pre yeast20_c60_F` |
+| yeast20_c60_unopt | 56 | NA | NA | 10848983.5718 | -5424435.7859 | 10848983.5718 | 71.37 h | `../../iqtree2 -s ./20_concated.nex -m Q.YEAST+C60+I+R10 -te ../partition/Q/yeast20_Q_search.treefile -T 25 --mem 50G -safe -pre yeast20_c60_unopt` |
+| 20yeast_c60_init | 56 | NA | NA | 10838156.7519 | -5419022.3760 | 10838156.7519 | 19.79 h | `../../iqtree2 -s 20_concated.nex -m MF -merit AIC -T 50 --mem 100G -pre 20yeast_c60_init` |
+| **yeast20_p_mf** | 3595 | 166 | -5410749.7058 | 10828689.4116 | -5378626.0145 | 10764442.0291 | 4.76 h | `../../../iqtree2 -s 20_concated.nex -p 20_concated.nex -m MF+MERGE -merit AIC -T 12 -pre yeast20_p_mf` |
+| yeast20_q_mf | 3421 | 222 | -5424209.1346 | 10855260.2693 | -5394286.7679 | 10795415.5359 | 0.85 h | `../../../iqtree2 -s 20_concated.nex -q 20_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 12 -pre yeast20_q_mf` |
+| yeast20_Q_search | 14535 | 330 | -5424259.8364 | 10877589.6728 | -5341078.6155 | 10711227.2311 | 0.21 h | `../../../iqtree2 -s 20_concated.nex -Q yeast20_Q_mf.best_model.nex -t yeast20_Q_mf.treefile -T 50 -pre yeast20_Q_search` |
+| yeast20_Q_mf | 16220 | 330 | -5424295.4929 | 10881030.9858 | -5341078.6564 | 10714597.3128 | 2.19 h | `../../../iqtree2 -s 20_concated.nex -Q 20_concated.nex -m MF+MERGE -merit AIC -T 12 -pre yeast20_Q_mf` |
+
+## Summary of log file
+1. Partition Analysis
+- Best partition: Q with AIC: 10714597.3128
+- Best partition: p with mAIC: 10828689.4116
+
+2. C60 Initialization
+- Selected model: Q.YEAST+I+R10
+
+3. C60 Running (full mode)
+- Best C60: c60_F with AIC: 10726686.7293
+- Best overall: C60 (c60_F) with AIC: 10726686.7293
+
+4. Treesearch Result
+- yeast20_c60_search with mAIC: 10726396.8140
+- yeast20_Q_search with mAIC: 10877589.6728
+
+5. Corrected mAIC using correct parameter number:
+- yeast20_c60_search: 2 * 135 - 2 * -5363161.4070 = 10726592.814
+- yeast20_Q_search: 2 * 16220 - 2 * -5424259.8364 = 10880959.6728

@@ -1,0 +1,66 @@
+LRM between ANAPLA9_p_search and CALSQU9_p_search: 0.000000
+LRM between ANAPLA9_p_search and CAMPRO9_p_search: 0.000000
+LRM between ANAPLA9_p_search and CORBRA9_p_search: 0.000000
+LRM between ANAPLA9_p_search and HALALB9_p_search: 0.000000
+LRM between ANAPLA9_p_search and JUNHYE9_p_search: 0.000000
+LRM between ANAPLA9_p_search and NANAUR9_p_search: 0.000000
+LRM between ANAPLA9_p_search and NOTORN9_p_search: 0.000000
+LRM between ANAPLA9_p_search and URILOM9_p_search: 0.000000
+LRM between ANAPLA9_p_search and ZOSLAT9_p_search: 0.000000
+LRM between CALSQU9_p_search and CAMPRO9_p_search: 0.000000
+LRM between CALSQU9_p_search and CORBRA9_p_search: 0.000000
+LRM between CALSQU9_p_search and HALALB9_p_search: 0.000000
+LRM between CALSQU9_p_search and JUNHYE9_p_search: 0.000000
+LRM between CALSQU9_p_search and NANAUR9_p_search: 0.000000
+LRM between CALSQU9_p_search and NOTORN9_p_search: 0.000000
+LRM between CALSQU9_p_search and URILOM9_p_search: 0.000000
+LRM between CALSQU9_p_search and ZOSLAT9_p_search: 0.000000
+LRM between CAMPRO9_p_search and CORBRA9_p_search: 0.000000
+LRM between CAMPRO9_p_search and HALALB9_p_search: 0.000000
+LRM between CAMPRO9_p_search and JUNHYE9_p_search: 0.000000
+LRM between CAMPRO9_p_search and NANAUR9_p_search: 0.000000
+LRM between CAMPRO9_p_search and NOTORN9_p_search: 0.000000
+LRM between CAMPRO9_p_search and URILOM9_p_search: 0.000000
+LRM between CAMPRO9_p_search and ZOSLAT9_p_search: 0.000000
+LRM between CORBRA9_p_search and HALALB9_p_search: 0.000000
+LRM between CORBRA9_p_search and JUNHYE9_p_search: 0.000000
+LRM between CORBRA9_p_search and NANAUR9_p_search: 0.000000
+LRM between CORBRA9_p_search and NOTORN9_p_search: 0.000000
+LRM between CORBRA9_p_search and URILOM9_p_search: 0.000000
+LRM between CORBRA9_p_search and ZOSLAT9_p_search: 0.000000
+LRM between HALALB9_p_search and JUNHYE9_p_search: 0.000000
+LRM between HALALB9_p_search and NANAUR9_p_search: 0.000000
+LRM between HALALB9_p_search and NOTORN9_p_search: 0.000000
+LRM between HALALB9_p_search and URILOM9_p_search: 0.000000
+LRM between HALALB9_p_search and ZOSLAT9_p_search: 0.000000
+LRM between JUNHYE9_p_search and NANAUR9_p_search: 0.000000
+LRM between JUNHYE9_p_search and NOTORN9_p_search: 0.000000
+LRM between JUNHYE9_p_search and URILOM9_p_search: 0.000000
+LRM between JUNHYE9_p_search and ZOSLAT9_p_search: 0.000000
+LRM between NANAUR9_p_search and NOTORN9_p_search: 0.000000
+LRM between NANAUR9_p_search and URILOM9_p_search: 0.000000
+LRM between NANAUR9_p_search and ZOSLAT9_p_search: 0.000000
+LRM between NOTORN9_p_search and URILOM9_p_search: 0.000000
+LRM between NOTORN9_p_search and ZOSLAT9_p_search: 0.000000
+LRM between URILOM9_p_search and ZOSLAT9_p_search: 0.000000
+
+Mean LRM: 0.000000
+Std LRM: 0.000000
+Median LRM: 0.000000
+
+========================================
+
+LRM between ANAPLA9_p_search and reference: 0.000000
+LRM between CALSQU9_p_search and reference: 0.000000
+LRM between CAMPRO9_p_search and reference: 0.000000
+LRM between CORBRA9_p_search and reference: 0.000000
+LRM between HALALB9_p_search and reference: 0.000000
+LRM between JUNHYE9_p_search and reference: 0.000000
+LRM between NANAUR9_p_search and reference: 0.000000
+LRM between NOTORN9_p_search and reference: 0.000000
+LRM between URILOM9_p_search and reference: 0.000000
+LRM between ZOSLAT9_p_search and reference: 0.000000
+
+Mean LRM to reference: 0.000000
+Std LRM to reference: 0.000000
+Median LRM to reference: 0.000000

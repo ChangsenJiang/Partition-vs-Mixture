@@ -1,0 +1,36 @@
+# Summary of Results for yeast
+
+| Name | Free parameters | Partitions | Mix LogL | mAIC | LogL | AIC | BIC | Runtime | Command |
+|------|-----------------|------------|-----------|------|------|-----|-----|---------|---------|
+| **yeast5_c60_F** | 88 | NA | NA | 3281370.3074 | -1640597.1537 | 3281370.3074 | 3282263.8089 | 0.67 h | `../../iqtree2 -s ./5_concated.nex -m LG+C60+F+I+G4 -te ../partition/Q/yeast5_Q_search.treefile -T 21 -mem 120G -safe -pre yeast5_c60_F` |
+| yeast5_c60_unopt | 9 | NA | NA | 3316525.0792 | -1658253.5396 | 3316525.0792 | 3316616.4601 | 0.21 h | `../../iqtree2 -s ./5_concated.nex -m LG+C60+I+G4 -te ../partition/Q/yeast5_Q_search.treefile -T 21 -mem 120G -safe -pre yeast5_c60_unopt` |
+| yeast5_c60_search | 7 | NA | NA | 3281217.0986 | -1640601.5493 | 3281217.0986 | 3281288.1725 | 1.00 h | `../../iqtree2 -s 5_concated.nex -mdef yeast5_c60_F_parameter.nex -m LG_C60_F_I_G4 -t ../partition/Q/yeast5_Q_search.treefile -bb 1000 --wbtl -T 21 --mem 120G -pre yeast5_c60_search` |
+| 5yeast_c60_init | 28 | NA | NA | 3285125.7127 | -1642534.8564 | 3285125.7127 | 3285410.0087 | 1.03 h | `../../iqtree2 -s 5_concated.nex -m MF -merit AIC -T 21 -mem 120G -pre 5yeast_c60_init` |
+| yeast5_c60_opt | 68 | NA | NA | 3291154.1269 | -1645509.0634 | 3291154.1269 | 3291844.5598 | 0.21 h | `../../iqtree2 -s ./5_concated.nex -m LG+C60+I+G4 -te ../partition/Q/yeast5_Q_search.treefile -mwopt -T 21 -mem 120G -safe -pre yeast5_c60_opt` |
+| **yeast5_p_mf** | 3014 | 162 | -1643865.3792 | 3293758.7585 | -1616856.4652 | 3239740.9303 | 3270343.3557 | 0.64 h | `../../../iqtree2 -s 5_concated.nex -p 5_concated.nex -m MF+MERGE -merit AIC -T 5 -pre yeast5_p_mf` |
+| yeast5_p_search | 2752 | 162 | -1643874.2893 | 3293252.5786 | -1616856.4645 | 3239216.9291 | 3267159.1569 | 0.02 h | `../../../iqtree2 -s 5_concated.nex -p yeast5_p_mf.best_model.nex -t yeast5_p_mf.treefile -bb 1000 --wbtl -T 21 -pre yeast5_p_search` |
+| yeast5_q_mf | 3092 | 187 | -1658782.2826 | 3323748.5652 | -1623105.3239 | 3252394.6478 | 3283789.0404 | 0.43 h | `../../../iqtree2 -s 5_concated.nex -q 5_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 5 -pre yeast5_q_mf` |
+| yeast5_Q_search | 4100 | 196 | -1644722.8279 | 3297645.6558 | -1613199.2531 | 3234598.5061 | 3276227.5519 | 0.02 h | `../../../iqtree2 -s 5_concated.nex -Q yeast5_Q_mf.best_model.nex -t yeast5_Q_mf.treefile -bb 1000 --wbtl -T 21 -pre yeast5_Q_search` |
+| yeast5_Q_mf | 4432 | 196 | -1644617.8547 | 3298099.7093 | -1613199.2540 | 3235262.5080 | 3280262.4912 | 0.52 h | `../../../iqtree2 -s 5_concated.nex -Q 5_concated.nex -m MF+MERGE -merit AIC -T 5 -pre yeast5_Q_mf` |
+
+## Summary of log file
+1. Partition Analysis
+- Best partition: Q with AIC: 3235262.5080
+- Best partition: p with mAIC: 3293758.7585
+
+2. C60 Initialization
+- Selected model: LG+F+I+G4
+
+3. C60 Running (full mode)
+- Best C60: c60_F with AIC: 3281370.3074
+- Best overall: C60 (c60_F) with AIC: 3281370.3074
+
+4. Treesearch Result
+- yeast5_c60_search with mAIC: 3281217.0986
+- yeast5_p_search with mAIC: 3293252.5786
+- yeast5_Q_search with mAIC: 3297645.6558
+
+5. Corrected mAIC using correct parameter number:
+- yeast5_c60_search: 2 * 88 - 2 * -1640601.5493 = 3281379.0986
+- yeast5_p_search: 2 * 3014 - 2 * -1643874.2893 = 3293776.58
+- yeast5_Q_search: 2 * 4432 - 2 * -1644722.8279 = 3298309.66

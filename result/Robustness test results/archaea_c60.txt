@@ -1,0 +1,66 @@
+LRM between GCA_0002007159_c60_search and GCA_0003879659_c60_search: 0.000000
+LRM between GCA_0002007159_c60_search and GCA_0008060559_c60_search: 2.000000
+LRM between GCA_0002007159_c60_search and GCA_0013159259_c60_search: 0.000000
+LRM between GCA_0002007159_c60_search and GCA_0015640359_c60_search: 2.000000
+LRM between GCA_0002007159_c60_search and GCA_0016292059_c60_search: 2.000000
+LRM between GCA_0002007159_c60_search and GCA_0018965159_c60_search: 0.000000
+LRM between GCA_0002007159_c60_search and GCA_0024120859_c60_search: 0.000000
+LRM between GCA_0002007159_c60_search and GCA_0027790759_c60_search: 0.000000
+LRM between GCA_0002007159_c60_search and GCA_0027903159_c60_search: 2.000000
+LRM between GCA_0003879659_c60_search and GCA_0008060559_c60_search: 2.000000
+LRM between GCA_0003879659_c60_search and GCA_0013159259_c60_search: 0.000000
+LRM between GCA_0003879659_c60_search and GCA_0015640359_c60_search: 0.000000
+LRM between GCA_0003879659_c60_search and GCA_0016292059_c60_search: 0.000000
+LRM between GCA_0003879659_c60_search and GCA_0018965159_c60_search: 0.000000
+LRM between GCA_0003879659_c60_search and GCA_0024120859_c60_search: 0.000000
+LRM between GCA_0003879659_c60_search and GCA_0027790759_c60_search: 0.000000
+LRM between GCA_0003879659_c60_search and GCA_0027903159_c60_search: 0.000000
+LRM between GCA_0008060559_c60_search and GCA_0013159259_c60_search: 2.000000
+LRM between GCA_0008060559_c60_search and GCA_0015640359_c60_search: 0.000000
+LRM between GCA_0008060559_c60_search and GCA_0016292059_c60_search: 2.000000
+LRM between GCA_0008060559_c60_search and GCA_0018965159_c60_search: 2.000000
+LRM between GCA_0008060559_c60_search and GCA_0024120859_c60_search: 2.000000
+LRM between GCA_0008060559_c60_search and GCA_0027790759_c60_search: 2.000000
+LRM between GCA_0008060559_c60_search and GCA_0027903159_c60_search: 0.000000
+LRM between GCA_0013159259_c60_search and GCA_0015640359_c60_search: 2.000000
+LRM between GCA_0013159259_c60_search and GCA_0016292059_c60_search: 2.000000
+LRM between GCA_0013159259_c60_search and GCA_0018965159_c60_search: 0.000000
+LRM between GCA_0013159259_c60_search and GCA_0024120859_c60_search: 0.000000
+LRM between GCA_0013159259_c60_search and GCA_0027790759_c60_search: 0.000000
+LRM between GCA_0013159259_c60_search and GCA_0027903159_c60_search: 2.000000
+LRM between GCA_0015640359_c60_search and GCA_0016292059_c60_search: 0.000000
+LRM between GCA_0015640359_c60_search and GCA_0018965159_c60_search: 2.000000
+LRM between GCA_0015640359_c60_search and GCA_0024120859_c60_search: 0.000000
+LRM between GCA_0015640359_c60_search and GCA_0027790759_c60_search: 2.000000
+LRM between GCA_0015640359_c60_search and GCA_0027903159_c60_search: 0.000000
+LRM between GCA_0016292059_c60_search and GCA_0018965159_c60_search: 2.000000
+LRM between GCA_0016292059_c60_search and GCA_0024120859_c60_search: 0.000000
+LRM between GCA_0016292059_c60_search and GCA_0027790759_c60_search: 2.000000
+LRM between GCA_0016292059_c60_search and GCA_0027903159_c60_search: 0.000000
+LRM between GCA_0018965159_c60_search and GCA_0024120859_c60_search: 0.000000
+LRM between GCA_0018965159_c60_search and GCA_0027790759_c60_search: 0.000000
+LRM between GCA_0018965159_c60_search and GCA_0027903159_c60_search: 2.000000
+LRM between GCA_0024120859_c60_search and GCA_0027790759_c60_search: 0.000000
+LRM between GCA_0024120859_c60_search and GCA_0027903159_c60_search: 0.000000
+LRM between GCA_0027790759_c60_search and GCA_0027903159_c60_search: 2.000000
+
+Mean LRM: 0.844444
+Std LRM: 0.998989
+Median LRM: 0.000000
+
+========================================
+
+LRM between GCA_0002007159_c60_search and reference: 2.000000
+LRM between GCA_0003879659_c60_search and reference: 0.000000
+LRM between GCA_0008060559_c60_search and reference: 2.000000
+LRM between GCA_0013159259_c60_search and reference: 2.000000
+LRM between GCA_0015640359_c60_search and reference: 0.000000
+LRM between GCA_0016292059_c60_search and reference: 0.000000
+LRM between GCA_0018965159_c60_search and reference: 2.000000
+LRM between GCA_0024120859_c60_search and reference: 0.000000
+LRM between GCA_0027790759_c60_search and reference: 2.000000
+LRM between GCA_0027903159_c60_search and reference: 0.000000
+
+Mean LRM to reference: 1.000000
+Std LRM to reference: 1.054093
+Median LRM to reference: 1.000000

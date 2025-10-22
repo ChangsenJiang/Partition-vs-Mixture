@@ -1,0 +1,35 @@
+# Summary of Results for archaea
+
+| Name | Free parameters | Partitions | Mix LogL | mAIC | LogL | AIC | BIC | Runtime | Command |
+|------|-----------------|------------|-----------|------|------|-----|-----|---------|---------|
+| archaea10_c60_opt | 82 | NA | NA | 580994.2773 | -290415.1387 | 580994.2773 | 581629.9529 | 0.65 h | `../../iqtree2 -s ./10_concated.nex -m LG+C60+R4 -te ../partition/Q/archaea10_Q_search.treefile -mwopt -T 15 -mem 120G -safe -pre archaea10_c60_opt` |
+| 10archaea_c60_init | 42 | NA | NA | 580553.4815 | -290234.7408 | 580553.4815 | 580879.0715 | 0.25 h | `../../iqtree2 -s 10_concated.nex -m MF -merit AIC -T 15 -mem 120G -pre 10archaea_c60_init` |
+| archaea10_c60_search | 17 | NA | NA | 577055.8974 | -288510.9487 | 577055.8974 | 577187.6839 | 1.08 h | `../../iqtree2 -s 10_concated.nex -mdef archaea10_c60_F_parameter.nex -m LG_C60_F_R4 -t ../partition/Q/archaea10_Q_search.treefile -bb 1000 --wbtl -T 15 --mem 120G -pre archaea10_c60_search` |
+| **archaea10_c60_F** | 102 | NA | NA | 577226.8498 | -288511.4249 | 577226.8498 | 578017.5682 | 0.84 h | `../../iqtree2 -s ./10_concated.nex -m LG+C60+F+R4 -te ../partition/Q/archaea10_Q_search.treefile -T 15 -mem 120G -safe -pre archaea10_c60_F` |
+| archaea10_p_search | 559 | 30 | -290201.9295 | 581521.8590 | -288723.5387 | 578565.0774 | 582898.5244 | 0.03 h | `../../../iqtree2 -s 10_concated.nex -p archaea10_p_mf.best_model.nex -t archaea10_p_mf.treefile -bb 1000 --wbtl -T 15 -pre archaea10_p_search` |
+| **archaea10_p_mf** | 630 | 30 | -290201.8394 | 581663.6789 | -288723.5386 | 578707.0771 | 583590.9261 | 0.44 h | `../../../iqtree2 -s 10_concated.nex -p 10_concated.nex -m MF+MERGE -merit AIC -T 3 -pre archaea10_p_mf` |
+| archaea10_q_mf | 762 | 38 | -291300.7101 | 584125.4203 | -289027.0607 | 579578.1213 | 585485.2530 | 0.08 h | `../../../iqtree2 -s 10_concated.nex -q 10_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 3 -pre archaea10_q_mf` |
+| archaea10_Q_mf | 1234 | 36 | -290186.1580 | 582840.3160 | -287657.6449 | 577783.2899 | 587349.4322 | 0.31 h | `../../../iqtree2 -s 10_concated.nex -Q 10_concated.nex -m MF+MERGE -merit AIC -T 3 -pre archaea10_Q_mf` |
+| archaea10_Q_search | 1150 | 36 | -290175.6833 | 582651.3666 | -287657.6453 | 577615.2906 | 586530.2531 | 0.03 h | `../../../iqtree2 -s 10_concated.nex -Q archaea10_Q_mf.best_model.nex -t archaea10_Q_mf.treefile -bb 1000 --wbtl -T 15 -pre archaea10_Q_search` |
+
+## Summary of log file
+1. Partition Analysis
+- Best partition: Q with AIC: 577783.2899
+- Best partition: p with mAIC: 581663.6789
+
+2. C60 Initialization
+- Selected model: LG+F+R4
+
+3. C60 Running (full mode)
+- Best C60: c60_F with AIC: 577226.8498
+- Best overall: C60 (c60_F) with AIC: 577226.8498
+
+4. Treesearch Result
+- archaea10_c60_search with mAIC: 577055.8974
+- archaea10_p_search with mAIC: 581521.8590
+- archaea10_Q_search with mAIC: 582651.3666
+
+5. Corrected mAIC using correct parameter number:
+- archaea10_c60_search: 2 * 102 - 2 * -288510.9487 = 577225.8974
+- archaea10_p_search: 2 * 630 - 2 * -290201.9295 = 581663.86
+- archaea10_Q_search: 2 * 1234 - 2 * -290175.6833 = 582819.37

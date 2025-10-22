@@ -1,0 +1,66 @@
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Calothrix_sp_336_39_p_search: 0.000000
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Calothrix_sp_NIES_39749_p_search: 0.000000
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Calothrix_sp_PCC_63039_p_search: 0.000000
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Chroococcidiopsis_thermalis9_p_search: 0.000000
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Cylindrospermopsis_raciborskii9_p_search: 0.000000
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Dictyo34449_p_search: 0.000000
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Gloeocapsa_sp9_p_search: 0.000000
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Rivularia_sp9_p_search: 2.000000
+LRM between Calothrix_rhizosoleniae_SC019_p_search and Synechocystis_sp9_p_search: 0.000000
+LRM between Calothrix_sp_336_39_p_search and Calothrix_sp_NIES_39749_p_search: 0.000000
+LRM between Calothrix_sp_336_39_p_search and Calothrix_sp_PCC_63039_p_search: 0.000000
+LRM between Calothrix_sp_336_39_p_search and Chroococcidiopsis_thermalis9_p_search: 0.000000
+LRM between Calothrix_sp_336_39_p_search and Cylindrospermopsis_raciborskii9_p_search: 0.000000
+LRM between Calothrix_sp_336_39_p_search and Dictyo34449_p_search: 0.000000
+LRM between Calothrix_sp_336_39_p_search and Gloeocapsa_sp9_p_search: 0.000000
+LRM between Calothrix_sp_336_39_p_search and Rivularia_sp9_p_search: 2.000000
+LRM between Calothrix_sp_336_39_p_search and Synechocystis_sp9_p_search: 0.000000
+LRM between Calothrix_sp_NIES_39749_p_search and Calothrix_sp_PCC_63039_p_search: 0.000000
+LRM between Calothrix_sp_NIES_39749_p_search and Chroococcidiopsis_thermalis9_p_search: 0.000000
+LRM between Calothrix_sp_NIES_39749_p_search and Cylindrospermopsis_raciborskii9_p_search: 0.000000
+LRM between Calothrix_sp_NIES_39749_p_search and Dictyo34449_p_search: 0.000000
+LRM between Calothrix_sp_NIES_39749_p_search and Gloeocapsa_sp9_p_search: 0.000000
+LRM between Calothrix_sp_NIES_39749_p_search and Rivularia_sp9_p_search: 2.000000
+LRM between Calothrix_sp_NIES_39749_p_search and Synechocystis_sp9_p_search: 0.000000
+LRM between Calothrix_sp_PCC_63039_p_search and Chroococcidiopsis_thermalis9_p_search: 0.000000
+LRM between Calothrix_sp_PCC_63039_p_search and Cylindrospermopsis_raciborskii9_p_search: 0.000000
+LRM between Calothrix_sp_PCC_63039_p_search and Dictyo34449_p_search: 0.000000
+LRM between Calothrix_sp_PCC_63039_p_search and Gloeocapsa_sp9_p_search: 0.000000
+LRM between Calothrix_sp_PCC_63039_p_search and Rivularia_sp9_p_search: 2.000000
+LRM between Calothrix_sp_PCC_63039_p_search and Synechocystis_sp9_p_search: 0.000000
+LRM between Chroococcidiopsis_thermalis9_p_search and Cylindrospermopsis_raciborskii9_p_search: 0.000000
+LRM between Chroococcidiopsis_thermalis9_p_search and Dictyo34449_p_search: 0.000000
+LRM between Chroococcidiopsis_thermalis9_p_search and Gloeocapsa_sp9_p_search: 0.000000
+LRM between Chroococcidiopsis_thermalis9_p_search and Rivularia_sp9_p_search: 2.000000
+LRM between Chroococcidiopsis_thermalis9_p_search and Synechocystis_sp9_p_search: 0.000000
+LRM between Cylindrospermopsis_raciborskii9_p_search and Dictyo34449_p_search: 0.000000
+LRM between Cylindrospermopsis_raciborskii9_p_search and Gloeocapsa_sp9_p_search: 0.000000
+LRM between Cylindrospermopsis_raciborskii9_p_search and Rivularia_sp9_p_search: 0.000000
+LRM between Cylindrospermopsis_raciborskii9_p_search and Synechocystis_sp9_p_search: 0.000000
+LRM between Dictyo34449_p_search and Gloeocapsa_sp9_p_search: 0.000000
+LRM between Dictyo34449_p_search and Rivularia_sp9_p_search: 0.000000
+LRM between Dictyo34449_p_search and Synechocystis_sp9_p_search: 0.000000
+LRM between Gloeocapsa_sp9_p_search and Rivularia_sp9_p_search: 2.000000
+LRM between Gloeocapsa_sp9_p_search and Synechocystis_sp9_p_search: 0.000000
+LRM between Rivularia_sp9_p_search and Synechocystis_sp9_p_search: 2.000000
+
+Mean LRM: 0.311111
+Std LRM: 0.733058
+Median LRM: 0.000000
+
+========================================
+
+LRM between Calothrix_rhizosoleniae_SC019_p_search and reference: 0.000000
+LRM between Calothrix_sp_336_39_p_search and reference: 0.000000
+LRM between Calothrix_sp_NIES_39749_p_search and reference: 0.000000
+LRM between Calothrix_sp_PCC_63039_p_search and reference: 0.000000
+LRM between Chroococcidiopsis_thermalis9_p_search and reference: 0.000000
+LRM between Cylindrospermopsis_raciborskii9_p_search and reference: 0.000000
+LRM between Dictyo34449_p_search and reference: 0.000000
+LRM between Gloeocapsa_sp9_p_search and reference: 0.000000
+LRM between Rivularia_sp9_p_search and reference: 2.000000
+LRM between Synechocystis_sp9_p_search and reference: 0.000000
+
+Mean LRM to reference: 0.200000
+Std LRM to reference: 0.632456
+Median LRM to reference: 0.000000

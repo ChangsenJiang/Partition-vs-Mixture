@@ -1,0 +1,11 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,BIC,RunT,Command
+Legume10_c60_opt,84,NA,NA,1899247.2613,-949539.6307,1899247.2613,1900059.3420,7.50 h,../../iqtree2 -s ./10_concated.nex -m Q.PLANT+C60+R5 -te ../partition/Q/Legume10_Q_search.treefile -mwopt -T 30 -mem 120G -safe -pre Legume10_c60_opt
+Legume10_c60_F,104,NA,NA,1895793.0774,-947792.5387,1895793.0774,1896798.5106,7.37 h,../../iqtree2 -s ./10_concated.nex -m Q.PLANT+C60+F+R5 -te ../partition/Q/Legume10_Q_search.treefile -T 30 -mem 120G -safe -pre Legume10_c60_F
+Legume10_c60_search,17,NA,NA,1895503.2802,-947734.6401,1895503.2802,1895667.6299,5.63 h,../../iqtree2 -s 10_concated.nex -mdef Legume10_c60_F_parameter.nex -m Q_PLANT_C60_F_R5 -t ../partition/Q/Legume10_Q_search.treefile -bb 1000 --wbtl -T 30 --mem 120G -pre Legume10_c60_search
+10Legume_c60_init,25,NA,NA,1910133.0844,-955041.5422,1910133.0844,1910374.7751,1.73 h,../../iqtree2 -s 10_concated.nex -m MF -merit AIC -T 30 -mem 120G -pre 10Legume_c60_init
+Legume10_c60_unopt,25,NA,NA,1906757.0007,-953353.5004,1906757.0007,1906998.6914,5.20 h,../../iqtree2 -s ./10_concated.nex -m Q.PLANT+C60+R5 -te ../partition/Q/Legume10_Q_search.treefile -T 30 -mem 120G -safe -pre Legume10_c60_unopt
+Legume10_p_search,1158,97,-956357.1892,1915030.3784,-949060.0231,1900436.0462,1911631.1587,0.08 h,../../../iqtree2 -s 10_concated.nex -p Legume10_p_mf.best_model.nex -t Legume10_p_mf.treefile -bb 1000 --wbtl -T 30 -pre Legume10_p_search
+Legume10_p_mf,1425,97,-956363.4876,1915576.9752,-949086.1018,1901022.2036,1914798.5727,0.91 h,../../../iqtree2 -s 10_concated.nex -p 10_concated.nex -m MF+MERGE -merit AIC -T 7 -pre Legume10_p_mf
+Legume10_q_mf,1428,164,-981467.1911,1965790.3821,-951678.2433,1906212.4866,1920017.8585,0.36 h,"../../../iqtree2 -s 10_concated.nex -q 10_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 7 -pre Legume10_q_mf"
+Legume10_Q_mf,2556,96,-958891.1650,1922894.3300,-947406.4047,1899924.8095,1924635.2651,0.80 h,../../../iqtree2 -s 10_concated.nex -Q 10_concated.nex -m MF+MERGE -merit AIC -T 7 -pre Legume10_Q_mf
+Legume10_Q_search,2266,96,-958888.1872,1922308.3743,-947406.4000,1899344.8000,1921251.6437,0.06 h,../../../iqtree2 -s 10_concated.nex -Q Legume10_Q_mf.best_model.nex -t Legume10_Q_mf.treefile -bb 1000 --wbtl -T 30 -pre Legume10_Q_search

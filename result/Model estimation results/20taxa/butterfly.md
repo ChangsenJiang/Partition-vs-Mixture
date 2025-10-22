@@ -1,0 +1,33 @@
+# Summary of Results for butterfly
+
+| Name | Free parameters | Partitions | Mix LogL | mAIC | LogL | AIC | Runtime | Command |
+|------|-----------------|------------|-----------|------|------|-----|---------|---------|
+| butterfly20_c60_unopt | 48 | NA | NA | 3898634.8681 | -1949269.4341 | 3898634.8681 | 22.51 h | `../../iqtree2 -s ./20_concated.nex -m Q.INSECT+C60+I+R6 -te ../partition/Q/butterfly20_Q_search.treefile -T 60 -mem 120G -safe -pre butterfly20_c60_unopt` |
+| butterfly20_c60_search | 37 | NA | NA | 3867858.1082 | -1933892.0541 | 3867858.1082 | 13.02 h | `../../iqtree2 -s 20_concated.nex -mdef butterfly20_c60_F_parameter.nex -m Q_INSECT_C60_F_I_R6 -t ../partition/Q/butterfly20_Q_search.treefile -T 60 --mem 120G -pre butterfly20_c60_search` |
+| butterfly20_c60_opt | 107 | NA | NA | 3874076.9119 | -1936931.4560 | 3874076.9119 | 17.26 h | `../../iqtree2 -s ./20_concated.nex -m Q.INSECT+C60+I+R6 -te ../partition/Q/butterfly20_Q_search.treefile -mwopt -T 60 -mem 120G -safe -pre butterfly20_c60_opt` |
+| 20butterfly_c60_init | 48 | NA | NA | 3906075.8932 | -1952989.9466 | 3906075.8932 | 2.45 h | `../../iqtree2 -s 20_concated.nex -m MF -merit AIC -T 60 -mem 120G -pre 20butterfly_c60_init` |
+| **butterfly20_c60_F** | 127 | NA | NA | 3868161.7930 | -1933953.8965 | 3868161.7930 | 2.78 h | `../../iqtree2 -s ./20_concated.nex -m Q.INSECT+C60+F+I+R6 -te ../partition/Q/butterfly20_Q_search.treefile -T 60 -mem 120G -safe -pre butterfly20_c60_F` |
+| **butterfly20_p_mf** | 2230 | 137 | -1952949.9758 | 3910359.9516 | -1932190.4003 | 3868840.8005 | 1.25 h | `../../../iqtree2 -s 20_concated.nex -p 20_concated.nex -m MF+MERGE -merit AIC -T 15 -pre butterfly20_p_mf` |
+| butterfly20_q_mf | 1967 | 180 | -1969817.8880 | 3943569.7760 | -1941212.8223 | 3886359.6445 | 0.44 h | `../../../iqtree2 -s 20_concated.nex -q 20_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 15 -pre butterfly20_q_mf` |
+| butterfly20_Q_mf | 12465 | 281 | -1977288.9463 | 3979507.8926 | -1904780.4737 | 3834490.9473 | 0.95 h | `../../../iqtree2 -s 20_concated.nex -Q 20_concated.nex -m MF+MERGE -merit AIC -T 15 -pre butterfly20_Q_mf` |
+| butterfly20_Q_search | 11511 | 281 | -1977311.5842 | 3977645.1684 | -1904781.0154 | 3832584.0308 | 0.09 h | `../../../iqtree2 -s 20_concated.nex -Q butterfly20_Q_mf.best_model.nex -t butterfly20_Q_mf.treefile -T 60 -pre butterfly20_Q_search` |
+
+## Summary of log file
+1. Partition Analysis
+- Best partition: Q with AIC: 3834490.9473
+- Best partition: p with mAIC: 3910359.9516
+
+2. C60 Initialization
+- Selected model: Q.INSECT+I+R6
+
+3. C60 Running (full mode)
+- Best C60: c60_F with AIC: 3868161.7930
+- Best overall: C60 (c60_F) with AIC: 3868161.7930
+
+4. Treesearch Result
+- butterfly20_c60_search with mAIC: 3867858.1082
+- butterfly20_Q_search with mAIC: 3977645.1684
+
+5. Corrected mAIC using correct parameter number:
+- butterfly20_c60_search: 2 * 127 - 2 * -1933892.0541 = 3868038.1082
+- butterfly20_Q_search: 2 * 12465 - 2 * -1977311.5842 = 3979553.1684

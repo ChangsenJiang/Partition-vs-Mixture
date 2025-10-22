@@ -1,0 +1,33 @@
+# Summary of Results for cyanobacteria
+
+| Name | Free parameters | Partitions | Mix LogL | mAIC | LogL | AIC | Runtime | Command |
+|------|-----------------|------------|-----------|------|------|-----|---------|---------|
+| **cyanobacteria20_c60_F** | 131 | NA | NA | 3806802.1507 | -1903270.0754 | 3806802.1507 | 1.33 h | `../../iqtree2 -s ./20_concated.nex -m Q.PLANT+C60+F+I+R8 -te ../partition/Q/cyanobacteria20_Q_search.treefile -T 50 -mem 120G -safe -pre cyanobacteria20_c60_F` |
+| cyanobacteria20_c60_unopt | 52 | NA | NA | 3820547.7427 | -1910221.8713 | 3820547.7427 | 12.12 h | `../../iqtree2 -s ./20_concated.nex -m Q.PLANT+C60+I+R8 -te ../partition/Q/cyanobacteria20_Q_search.treefile -T 50 -mem 120G -safe -pre cyanobacteria20_c60_unopt` |
+| cyanobacteria20_c60_search | 37 | NA | NA | 3806469.3517 | -1903197.6758 | 3806469.3517 | 12.37 h | `../../iqtree2 -s 20_concated.nex -mdef cyanobacteria20_c60_F_parameter.nex -m Q_PLANT_C60_F_I_R8 -t ../partition/Q/cyanobacteria20_Q_search.treefile -T 50 --mem 120G -pre cyanobacteria20_c60_search` |
+| 20cyanobacteria_c60_init | 71 | NA | NA | 3899550.1239 | -1949704.0620 | 3899550.1239 | 7.37 h | `../../iqtree2 -s 20_concated.nex -m MF -merit AIC -T 50 -mem 120G -pre 20cyanobacteria_c60_init` |
+| cyanobacteria20_c60_opt | 111 | NA | NA | 3810443.7925 | -1905110.8963 | 3810443.7925 | 0.38 h | `../../iqtree2 -s ./20_concated.nex -m Q.PLANT+C60+I+R8 -te ../partition/Q/cyanobacteria20_Q_search.treefile -mwopt -T 50 -mem 120G -safe -pre cyanobacteria20_c60_opt` |
+| **cyanobacteria20_p_mf** | 2099 | 109 | -1936086.6844 | 3876371.3689 | -1933819.3892 | 3871836.7785 | 2.84 h | `../../../iqtree2 -s 20_concated.nex -p 20_concated.nex -m MF+MERGE -merit AIC -T 12 -pre cyanobacteria20_p_mf` |
+| cyanobacteria20_q_mf | 1985 | 151 | -1959202.7454 | 3922375.4908 | -1939947.3554 | 3883864.7107 | 1.27 h | `../../../iqtree2 -s 20_concated.nex -q 20_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 12 -pre cyanobacteria20_q_mf` |
+| cyanobacteria20_Q_search | 6824 | 146 | -1938643.5783 | 3890935.1565 | -1918524.7023 | 3850697.4047 | 0.32 h | `../../../iqtree2 -s 20_concated.nex -Q cyanobacteria20_Q_mf.best_model.nex -t cyanobacteria20_Q_mf.treefile -T 50 -pre cyanobacteria20_Q_search` |
+| cyanobacteria20_Q_mf | 7588 | 146 | -1938812.6964 | 3892801.3928 | -1918695.0882 | 3852566.1763 | 2.57 h | `../../../iqtree2 -s 20_concated.nex -Q 20_concated.nex -m MF+MERGE -merit AIC -T 12 -pre cyanobacteria20_Q_mf` |
+
+## Summary of log file
+1. Partition Analysis
+- Best partition: Q with AIC: 3852566.1763
+- Best partition: p with mAIC: 3876371.3689
+
+2. C60 Initialization
+- Selected model: Q.PLANT+F+I+R8
+
+3. C60 Running (full mode)
+- Best C60: c60_F with AIC: 3806802.1507
+- Best overall: C60 (c60_F) with AIC: 3806802.1507
+
+4. Treesearch Result
+- cyanobacteria20_c60_search with mAIC: 3806469.3517
+- cyanobacteria20_Q_search with mAIC: 3890935.1565
+
+5. Corrected mAIC using correct parameter number:
+- cyanobacteria20_c60_search: 2 * 131 - 2 * -1903197.6758 = 3806657.3516
+- cyanobacteria20_Q_search: 2 * 7588 - 2 * -1938643.5783 = 3892463.1566

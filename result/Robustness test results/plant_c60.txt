@@ -1,0 +1,66 @@
+LRM between BFIK9_c60_search and BNCU9_c60_search: 0.000000
+LRM between BFIK9_c60_search and Chlre_v5_59_c60_search: 0.000000
+LRM between BFIK9_c60_search and CSUV9_c60_search: 0.000000
+LRM between BFIK9_c60_search and HKZW9_c60_search: 0.000000
+LRM between BFIK9_c60_search and Micpu_v3_09_c60_search: 0.000000
+LRM between BFIK9_c60_search and MMKU9_c60_search: 0.000000
+LRM between BFIK9_c60_search and SKYV9_c60_search: 0.000000
+LRM between BFIK9_c60_search and YPIC9_c60_search: 0.000000
+LRM between BFIK9_c60_search and ZFGK9_c60_search: 0.000000
+LRM between BNCU9_c60_search and Chlre_v5_59_c60_search: 0.000000
+LRM between BNCU9_c60_search and CSUV9_c60_search: 0.000000
+LRM between BNCU9_c60_search and HKZW9_c60_search: 0.000000
+LRM between BNCU9_c60_search and Micpu_v3_09_c60_search: 0.000000
+LRM between BNCU9_c60_search and MMKU9_c60_search: 0.000000
+LRM between BNCU9_c60_search and SKYV9_c60_search: 0.000000
+LRM between BNCU9_c60_search and YPIC9_c60_search: 0.000000
+LRM between BNCU9_c60_search and ZFGK9_c60_search: 0.000000
+LRM between Chlre_v5_59_c60_search and CSUV9_c60_search: 0.000000
+LRM between Chlre_v5_59_c60_search and HKZW9_c60_search: 0.000000
+LRM between Chlre_v5_59_c60_search and Micpu_v3_09_c60_search: 0.000000
+LRM between Chlre_v5_59_c60_search and MMKU9_c60_search: 0.000000
+LRM between Chlre_v5_59_c60_search and SKYV9_c60_search: 0.000000
+LRM between Chlre_v5_59_c60_search and YPIC9_c60_search: 0.000000
+LRM between Chlre_v5_59_c60_search and ZFGK9_c60_search: 0.000000
+LRM between CSUV9_c60_search and HKZW9_c60_search: 0.000000
+LRM between CSUV9_c60_search and Micpu_v3_09_c60_search: 0.000000
+LRM between CSUV9_c60_search and MMKU9_c60_search: 0.000000
+LRM between CSUV9_c60_search and SKYV9_c60_search: 0.000000
+LRM between CSUV9_c60_search and YPIC9_c60_search: 0.000000
+LRM between CSUV9_c60_search and ZFGK9_c60_search: 0.000000
+LRM between HKZW9_c60_search and Micpu_v3_09_c60_search: 0.000000
+LRM between HKZW9_c60_search and MMKU9_c60_search: 0.000000
+LRM between HKZW9_c60_search and SKYV9_c60_search: 0.000000
+LRM between HKZW9_c60_search and YPIC9_c60_search: 0.000000
+LRM between HKZW9_c60_search and ZFGK9_c60_search: 0.000000
+LRM between Micpu_v3_09_c60_search and MMKU9_c60_search: 0.000000
+LRM between Micpu_v3_09_c60_search and SKYV9_c60_search: 0.000000
+LRM between Micpu_v3_09_c60_search and YPIC9_c60_search: 0.000000
+LRM between Micpu_v3_09_c60_search and ZFGK9_c60_search: 0.000000
+LRM between MMKU9_c60_search and SKYV9_c60_search: 0.000000
+LRM between MMKU9_c60_search and YPIC9_c60_search: 0.000000
+LRM between MMKU9_c60_search and ZFGK9_c60_search: 0.000000
+LRM between SKYV9_c60_search and YPIC9_c60_search: 0.000000
+LRM between SKYV9_c60_search and ZFGK9_c60_search: 0.000000
+LRM between YPIC9_c60_search and ZFGK9_c60_search: 0.000000
+
+Mean LRM: 0.000000
+Std LRM: 0.000000
+Median LRM: 0.000000
+
+========================================
+
+LRM between BFIK9_c60_search and reference: 0.000000
+LRM between BNCU9_c60_search and reference: 0.000000
+LRM between Chlre_v5_59_c60_search and reference: 0.000000
+LRM between CSUV9_c60_search and reference: 0.000000
+LRM between HKZW9_c60_search and reference: 0.000000
+LRM between Micpu_v3_09_c60_search and reference: 0.000000
+LRM between MMKU9_c60_search and reference: 0.000000
+LRM between SKYV9_c60_search and reference: 0.000000
+LRM between YPIC9_c60_search and reference: 0.000000
+LRM between ZFGK9_c60_search and reference: 0.000000
+
+Mean LRM to reference: 0.000000
+Std LRM to reference: 0.000000
+Median LRM to reference: 0.000000

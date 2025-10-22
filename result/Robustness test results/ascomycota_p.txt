@@ -1,0 +1,66 @@
+LRM between Candida_hispaniensis9_p_search and Huntiella_omanensis9_p_search: 0.000000
+LRM between Candida_hispaniensis9_p_search and Kazachstania_transvaalensis9_p_search: 0.000000
+LRM between Candida_hispaniensis9_p_search and Metschnikowia_bowlesiae9_p_search: 0.000000
+LRM between Candida_hispaniensis9_p_search and Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Candida_hispaniensis9_p_search and Phialophora_attae9_p_search: 0.000000
+LRM between Candida_hispaniensis9_p_search and Saturnispora_silvae9_p_search: 0.000000
+LRM between Candida_hispaniensis9_p_search and Schizosaccharomyces_octosporus9_p_search: 0.000000
+LRM between Candida_hispaniensis9_p_search and Starmerella_apicola9_p_search: 0.000000
+LRM between Candida_hispaniensis9_p_search and Tortispora_starmeri9_p_search: 0.000000
+LRM between Huntiella_omanensis9_p_search and Kazachstania_transvaalensis9_p_search: 0.000000
+LRM between Huntiella_omanensis9_p_search and Metschnikowia_bowlesiae9_p_search: 0.000000
+LRM between Huntiella_omanensis9_p_search and Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Huntiella_omanensis9_p_search and Phialophora_attae9_p_search: 0.000000
+LRM between Huntiella_omanensis9_p_search and Saturnispora_silvae9_p_search: 0.000000
+LRM between Huntiella_omanensis9_p_search and Schizosaccharomyces_octosporus9_p_search: 0.000000
+LRM between Huntiella_omanensis9_p_search and Starmerella_apicola9_p_search: 0.000000
+LRM between Huntiella_omanensis9_p_search and Tortispora_starmeri9_p_search: 0.000000
+LRM between Kazachstania_transvaalensis9_p_search and Metschnikowia_bowlesiae9_p_search: 0.000000
+LRM between Kazachstania_transvaalensis9_p_search and Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Kazachstania_transvaalensis9_p_search and Phialophora_attae9_p_search: 0.000000
+LRM between Kazachstania_transvaalensis9_p_search and Saturnispora_silvae9_p_search: 0.000000
+LRM between Kazachstania_transvaalensis9_p_search and Schizosaccharomyces_octosporus9_p_search: 0.000000
+LRM between Kazachstania_transvaalensis9_p_search and Starmerella_apicola9_p_search: 0.000000
+LRM between Kazachstania_transvaalensis9_p_search and Tortispora_starmeri9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and Phaffomyces_antillensis9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and Phialophora_attae9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and Saturnispora_silvae9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and Schizosaccharomyces_octosporus9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and Starmerella_apicola9_p_search: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and Tortispora_starmeri9_p_search: 0.000000
+LRM between Phaffomyces_antillensis9_p_search and Phialophora_attae9_p_search: 0.000000
+LRM between Phaffomyces_antillensis9_p_search and Saturnispora_silvae9_p_search: 0.000000
+LRM between Phaffomyces_antillensis9_p_search and Schizosaccharomyces_octosporus9_p_search: 0.000000
+LRM between Phaffomyces_antillensis9_p_search and Starmerella_apicola9_p_search: 0.000000
+LRM between Phaffomyces_antillensis9_p_search and Tortispora_starmeri9_p_search: 0.000000
+LRM between Phialophora_attae9_p_search and Saturnispora_silvae9_p_search: 0.000000
+LRM between Phialophora_attae9_p_search and Schizosaccharomyces_octosporus9_p_search: 0.000000
+LRM between Phialophora_attae9_p_search and Starmerella_apicola9_p_search: 0.000000
+LRM between Phialophora_attae9_p_search and Tortispora_starmeri9_p_search: 0.000000
+LRM between Saturnispora_silvae9_p_search and Schizosaccharomyces_octosporus9_p_search: 0.000000
+LRM between Saturnispora_silvae9_p_search and Starmerella_apicola9_p_search: 0.000000
+LRM between Saturnispora_silvae9_p_search and Tortispora_starmeri9_p_search: 0.000000
+LRM between Schizosaccharomyces_octosporus9_p_search and Starmerella_apicola9_p_search: 0.000000
+LRM between Schizosaccharomyces_octosporus9_p_search and Tortispora_starmeri9_p_search: 0.000000
+LRM between Starmerella_apicola9_p_search and Tortispora_starmeri9_p_search: 0.000000
+
+Mean LRM: 0.000000
+Std LRM: 0.000000
+Median LRM: 0.000000
+
+========================================
+
+LRM between Candida_hispaniensis9_p_search and reference: 0.000000
+LRM between Huntiella_omanensis9_p_search and reference: 0.000000
+LRM between Kazachstania_transvaalensis9_p_search and reference: 0.000000
+LRM between Metschnikowia_bowlesiae9_p_search and reference: 0.000000
+LRM between Phaffomyces_antillensis9_p_search and reference: 0.000000
+LRM between Phialophora_attae9_p_search and reference: 0.000000
+LRM between Saturnispora_silvae9_p_search and reference: 0.000000
+LRM between Schizosaccharomyces_octosporus9_p_search and reference: 0.000000
+LRM between Starmerella_apicola9_p_search and reference: 0.000000
+LRM between Tortispora_starmeri9_p_search and reference: 0.000000
+
+Mean LRM to reference: 0.000000
+Std LRM to reference: 0.000000
+Median LRM to reference: 0.000000

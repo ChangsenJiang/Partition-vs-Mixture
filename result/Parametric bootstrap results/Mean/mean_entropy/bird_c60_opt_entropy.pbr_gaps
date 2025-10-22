@@ -1,0 +1,5 @@
+Test of model adequacy / across sites entropy heterogeneity
+Entropy (original data): 0.18978907142935714
+Average entropy (simulated data): 0.20244002921113924
+SD simulated data: 0.0008496115527766789
+Z-score: 14.890284554672736

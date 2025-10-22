@@ -1,0 +1,66 @@
+LRM between Anurida_maritima9_c60_search and Conwentzia_psociformis9_c60_search: 3.000000
+LRM between Anurida_maritima9_c60_search and DROSOPHILA_MELANOGASTER9_c60_search: 3.000000
+LRM between Anurida_maritima9_c60_search and Ectopsocus_briggsi9_c60_search: 0.000000
+LRM between Anurida_maritima9_c60_search and Essigella_californica9_c60_search: 3.000000
+LRM between Anurida_maritima9_c60_search and IXODES_SCAPULARIS9_c60_search: 2.000000
+LRM between Anurida_maritima9_c60_search and Lepeophtheirus_salmonis9_c60_search: 2.000000
+LRM between Anurida_maritima9_c60_search and Polyommatus_icarus9_c60_search: 3.000000
+LRM between Anurida_maritima9_c60_search and Stylops_melittae9_c60_search: 3.000000
+LRM between Anurida_maritima9_c60_search and Velia_caprai9_c60_search: 3.000000
+LRM between Conwentzia_psociformis9_c60_search and DROSOPHILA_MELANOGASTER9_c60_search: 0.000000
+LRM between Conwentzia_psociformis9_c60_search and Ectopsocus_briggsi9_c60_search: 0.000000
+LRM between Conwentzia_psociformis9_c60_search and Essigella_californica9_c60_search: 0.000000
+LRM between Conwentzia_psociformis9_c60_search and IXODES_SCAPULARIS9_c60_search: 0.000000
+LRM between Conwentzia_psociformis9_c60_search and Lepeophtheirus_salmonis9_c60_search: 0.000000
+LRM between Conwentzia_psociformis9_c60_search and Polyommatus_icarus9_c60_search: 0.000000
+LRM between Conwentzia_psociformis9_c60_search and Stylops_melittae9_c60_search: 0.000000
+LRM between Conwentzia_psociformis9_c60_search and Velia_caprai9_c60_search: 0.000000
+LRM between DROSOPHILA_MELANOGASTER9_c60_search and Ectopsocus_briggsi9_c60_search: 0.000000
+LRM between DROSOPHILA_MELANOGASTER9_c60_search and Essigella_californica9_c60_search: 0.000000
+LRM between DROSOPHILA_MELANOGASTER9_c60_search and IXODES_SCAPULARIS9_c60_search: 0.000000
+LRM between DROSOPHILA_MELANOGASTER9_c60_search and Lepeophtheirus_salmonis9_c60_search: 0.000000
+LRM between DROSOPHILA_MELANOGASTER9_c60_search and Polyommatus_icarus9_c60_search: 0.000000
+LRM between DROSOPHILA_MELANOGASTER9_c60_search and Stylops_melittae9_c60_search: 0.000000
+LRM between DROSOPHILA_MELANOGASTER9_c60_search and Velia_caprai9_c60_search: 0.000000
+LRM between Ectopsocus_briggsi9_c60_search and Essigella_californica9_c60_search: 0.000000
+LRM between Ectopsocus_briggsi9_c60_search and IXODES_SCAPULARIS9_c60_search: 0.000000
+LRM between Ectopsocus_briggsi9_c60_search and Lepeophtheirus_salmonis9_c60_search: 0.000000
+LRM between Ectopsocus_briggsi9_c60_search and Polyommatus_icarus9_c60_search: 0.000000
+LRM between Ectopsocus_briggsi9_c60_search and Stylops_melittae9_c60_search: 0.000000
+LRM between Ectopsocus_briggsi9_c60_search and Velia_caprai9_c60_search: 0.000000
+LRM between Essigella_californica9_c60_search and IXODES_SCAPULARIS9_c60_search: 0.000000
+LRM between Essigella_californica9_c60_search and Lepeophtheirus_salmonis9_c60_search: 0.000000
+LRM between Essigella_californica9_c60_search and Polyommatus_icarus9_c60_search: 0.000000
+LRM between Essigella_californica9_c60_search and Stylops_melittae9_c60_search: 0.000000
+LRM between Essigella_californica9_c60_search and Velia_caprai9_c60_search: 0.000000
+LRM between IXODES_SCAPULARIS9_c60_search and Lepeophtheirus_salmonis9_c60_search: 0.000000
+LRM between IXODES_SCAPULARIS9_c60_search and Polyommatus_icarus9_c60_search: 0.000000
+LRM between IXODES_SCAPULARIS9_c60_search and Stylops_melittae9_c60_search: 0.000000
+LRM between IXODES_SCAPULARIS9_c60_search and Velia_caprai9_c60_search: 0.000000
+LRM between Lepeophtheirus_salmonis9_c60_search and Polyommatus_icarus9_c60_search: 0.000000
+LRM between Lepeophtheirus_salmonis9_c60_search and Stylops_melittae9_c60_search: 0.000000
+LRM between Lepeophtheirus_salmonis9_c60_search and Velia_caprai9_c60_search: 0.000000
+LRM between Polyommatus_icarus9_c60_search and Stylops_melittae9_c60_search: 0.000000
+LRM between Polyommatus_icarus9_c60_search and Velia_caprai9_c60_search: 0.000000
+LRM between Stylops_melittae9_c60_search and Velia_caprai9_c60_search: 0.000000
+
+Mean LRM: 0.488889
+Std LRM: 1.079188
+Median LRM: 0.000000
+
+========================================
+
+LRM between Anurida_maritima9_c60_search and reference: 3.000000
+LRM between Conwentzia_psociformis9_c60_search and reference: 0.000000
+LRM between DROSOPHILA_MELANOGASTER9_c60_search and reference: 0.000000
+LRM between Ectopsocus_briggsi9_c60_search and reference: 0.000000
+LRM between Essigella_californica9_c60_search and reference: 0.000000
+LRM between IXODES_SCAPULARIS9_c60_search and reference: 0.000000
+LRM between Lepeophtheirus_salmonis9_c60_search and reference: 0.000000
+LRM between Polyommatus_icarus9_c60_search and reference: 0.000000
+LRM between Stylops_melittae9_c60_search and reference: 0.000000
+LRM between Velia_caprai9_c60_search and reference: 0.000000
+
+Mean LRM to reference: 0.300000
+Std LRM to reference: 0.948683
+Median LRM to reference: 0.000000

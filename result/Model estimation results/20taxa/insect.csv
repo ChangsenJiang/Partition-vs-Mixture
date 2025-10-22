@@ -1,0 +1,11 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,RunT,Command
+insect20_c60_opt,106,NA,NA,2899336.8593,-1449562.4297,2899336.8593,56.70 h,../../iqtree2 -s ./20_concated.nex -m Q.INSECT+C60+R6 -te ../partition/Q/insect20_Q_search.treefile -mwopt -T 40 -mem 120G -safe -pre insect20_c60_opt
+insect20_c60_search,37,NA,NA,2893582.8664,-1446754.4332,2893582.8664,56.80 h,../../iqtree2 -s 20_concated.nex -mdef insect20_c60_F_parameter.nex -m Q_INSECT_C60_F_R6 -t ../partition/Q/insect20_Q_search.treefile -T 40 --mem 120G -pre insect20_c60_search
+insect20_c60_unopt,47,NA,NA,2917148.7534,-1458527.3767,2917148.7534,22.57 h,../../iqtree2 -s ./20_concated.nex -m Q.INSECT+C60+R6 -te ../partition/Q/insect20_Q_search.treefile -T 40 -mem 120G -safe -pre insect20_c60_unopt
+insect20_c60_F,126,NA,NA,2893803.8458,-1446775.9229,2893803.8458,12.84 h,../../iqtree2 -s ./20_concated.nex -m Q.INSECT+C60+F+R6 -te ../partition/Q/insect20_Q_search.treefile -T 40 -mem 120G -safe -pre insect20_c60_F
+20insect_c60_init,47,NA,NA,2932658.9478,-1466282.4739,2932658.9478,3.41 h,../../iqtree2 -s 20_concated.nex -m MF -merit AIC -T 40 -mem 120G -pre 20insect_c60_init
+insect20_p_mf,1803,125,-1462272.0159,2928150.0318,-1451313.5692,2906233.1385,3.48 h,../../../iqtree2 -s 20_concated.nex -p 20_concated.nex -m MF+MERGE -merit AIC -T 10 -pre insect20_p_mf
+insect20_Q_mf,9685,232,-1465924.0108,2951218.0216,-1432696.4233,2884762.8466,1.52 h,../../../iqtree2 -s 20_concated.nex -Q 20_concated.nex -m MF+MERGE -merit AIC -T 10 -pre insect20_Q_mf
+insect20_Q_search,8980,232,-1465747.9537,2949455.9075,-1432555.2150,2883070.4301,0.22 h,../../../iqtree2 -s 20_concated.nex -Q insect20_Q_mf.best_model.nex -t insect20_Q_mf.treefile -T 40 -pre insect20_Q_search
+insect20_q_mf,1518,169,-1465863.0219,2934762.0439,-1457481.4456,2917998.8911,0.58 h,"../../../iqtree2 -s 20_concated.nex -q 20_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 10 -pre insect20_q_mf"
+insect_A,244,NA,NA,78745474.2242,-39372493.1121,78745474.2242,84.21 h,../iqtree2 -s supermatrix_A_filtered.fasta -T 60 -pre insect_A

@@ -1,0 +1,20 @@
+Edge-unlinked partitioned model:
+iqtree2 -s alignment.nex -Q alignment.nex -m MF+MERGE -merit AIC
+
+Edge-proportional partitioned model:
+iqtree2 -s alignment.nex -p alignment.nex -m MF+MERGE -merit AIC
+
+Edge-linked partitioned model:
+iqtree2 -s alignment.nex -q alignment.nex -m MF+MERGE -merit AIC
+
+Initialization to choose exchangeability and RHAS for C60 model:
+iqtree2 -s alignment.nex -m MF -merit AIC
+
+C60-fix model
+iqtree2 -s alignment.nex -m exchangebility+C60+RHAS -te fixed_tree.treefile
+
+C60-opt model
+iqtree2 -s alignment.nex -m exchangebility+C60+RHAS -te fixed_tree.treefile -mwopt
+
+C60+F model
+iqtree2 -s alignment.nex -m exchangebility+C60+F+RHAS -te fixed_tree.treefile

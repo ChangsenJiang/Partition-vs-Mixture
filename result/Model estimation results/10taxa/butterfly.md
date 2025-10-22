@@ -1,0 +1,36 @@
+# Summary of Results for butterfly
+
+| Name | Free parameters | Partitions | Mix LogL | mAIC | LogL | AIC | BIC | Runtime | Command |
+|------|-----------------|------------|-----------|------|------|-----|-----|---------|---------|
+| **butterfly10_c60_F** | 104 | NA | NA | 2553105.0098 | -1276448.5049 | 2553105.0098 | 2554133.8531 | 5.95 h | `../../iqtree2 -s ./10_concated.nex -m Q.YEAST+C60+F+R5 -te ../partition/Q/butterfly10_Q_search.treefile -T 45 -mem 120G -safe -pre butterfly10_c60_F` |
+| butterfly10_c60_search | 17 | NA | NA | 2552936.0043 | -1276451.0021 | 2552936.0043 | 2553104.1806 | 3.46 h | `../../iqtree2 -s 10_concated.nex -mdef butterfly10_c60_F_parameter.nex -m Q_YEAST_C60_F_R5 -t ../partition/Q/butterfly10_Q_search.treefile -bb 1000 --wbtl -T 45 --mem 120G -pre butterfly10_c60_search` |
+| 10butterfly_c60_init | 44 | NA | NA | 2565203.8391 | -1282557.9195 | 2565203.8391 | 2565639.1190 | 1.19 h | `../../iqtree2 -s 10_concated.nex -m MF -merit AIC -T 45 -mem 120G -pre 10butterfly_c60_init` |
+| butterfly10_c60_opt | 84 | NA | NA | 2557875.4948 | -1278853.7474 | 2557875.4948 | 2558706.4837 | 7.80 h | `../../iqtree2 -s ./10_concated.nex -m Q.YEAST+C60+R5 -te ../partition/Q/butterfly10_Q_search.treefile -mwopt -T 45 -mem 120G -safe -pre butterfly10_c60_opt` |
+| butterfly10_c60_unopt | 25 | NA | NA | 2574386.5743 | -1287168.2871 | 2574386.5743 | 2574633.8924 | 5.13 h | `../../iqtree2 -s ./10_concated.nex -m Q.YEAST+C60+R5 -te ../partition/Q/butterfly10_Q_search.treefile -T 45 -mem 120G -safe -pre butterfly10_c60_unopt` |
+| **butterfly10_p_mf** | 2262 | 129 | -1283512.5074 | 2571549.0148 | -1264555.9575 | 2533635.9150 | 2556013.2566 | 0.70 h | `../../../iqtree2 -s 10_concated.nex -p 10_concated.nex -m MF+MERGE -merit AIC -T 11 -pre butterfly10_p_mf` |
+| butterfly10_p_search | 1969 | 129 | -1283512.5510 | 2570963.1021 | -1264555.9465 | 2533049.8929 | 2552528.6664 | 0.05 h | `../../../iqtree2 -s 10_concated.nex -p butterfly10_p_mf.best_model.nex -t butterfly10_p_mf.treefile -bb 1000 --wbtl -T 45 -pre butterfly10_p_search` |
+| butterfly10_q_mf | 2407 | 181 | -1305417.6745 | 2615649.3489 | -1270353.7565 | 2545521.5131 | 2569333.2997 | 0.37 h | `../../../iqtree2 -s 10_concated.nex -q 10_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 11 -pre butterfly10_q_mf` |
+| butterfly10_Q_mf | 6444 | 228 | -1291146.0297 | 2595180.0594 | -1253111.9330 | 2519111.8661 | 2582860.5794 | 0.53 h | `../../../iqtree2 -s 10_concated.nex -Q 10_concated.nex -m MF+MERGE -merit AIC -T 11 -pre butterfly10_Q_mf` |
+| butterfly10_Q_search | 5985 | 228 | -1291140.8514 | 2594251.7028 | -1253111.9377 | 2518193.8755 | 2577401.8285 | 0.03 h | `../../../iqtree2 -s 10_concated.nex -Q butterfly10_Q_mf.best_model.nex -t butterfly10_Q_mf.treefile -bb 1000 --wbtl -T 45 -pre butterfly10_Q_search` |
+
+## Summary of log file
+1. Partition Analysis
+- Best partition: Q with AIC: 2519111.8661
+- Best partition: p with mAIC: 2571549.0148
+
+2. C60 Initialization
+- Selected model: Q.YEAST+F+R5
+
+3. C60 Running (full mode)
+- Best C60: c60_F with AIC: 2553105.0098
+- Best overall: C60 (c60_F) with AIC: 2553105.0098
+
+4. Treesearch Result
+- butterfly10_c60_search with mAIC: 2552936.0043
+- butterfly10_p_search with mAIC: 2570963.1021
+- butterfly10_Q_search with mAIC: 2594251.7028
+
+5. Corrected mAIC using correct parameter number:
+- butterfly10_c60_search: 2 * 104 - 2 * -1276451.0021 = 2553110.0042
+- butterfly10_p_search: 2 * 2262 - 2 * -1283512.551 = 2571549.10
+- butterfly10_Q_search: 2 * 6444 - 2 * -1291140.8514 = 2595169.70

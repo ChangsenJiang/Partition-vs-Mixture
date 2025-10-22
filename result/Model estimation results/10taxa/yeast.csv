@@ -1,0 +1,11 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,BIC,RunT,Command
+yeast10_c60_opt,83,NA,NA,5987468.8378,-2993651.4189,5987468.8378,5988311.5721,6.40 h,../../iqtree2 -s ./10_concated.nex -m LG+C60+I+R4 -te ../partition/Q/yeast10_Q_search.treefile -mwopt -T 45 -mem 120G -safe -pre yeast10_c60_opt
+10yeast_c60_init,43,NA,NA,5989494.3614,-2994704.1807,5989494.3614,5989930.9587,4.52 h,../../iqtree2 -s 10_concated.nex -m MF -merit AIC -T 45 -mem 120G -pre 10yeast_c60_init
+yeast10_c60_search,17,NA,NA,5960590.7254,-2980278.3627,5960590.7254,5960763.3336,5.09 h,../../iqtree2 -s 10_concated.nex -mdef yeast10_c60_F_parameter.nex -m LG_C60_F_I_R4 -t ../partition/Q/yeast10_Q_search.treefile -bb 1000 --wbtl -T 45 --mem 120G -pre yeast10_c60_search
+yeast10_c60_F,103,NA,NA,5960763.5085,-2980278.7542,5960763.5085,5961809.3114,2.89 h,../../iqtree2 -s ./10_concated.nex -m LG+C60+F+I+R4 -te ../partition/Q/yeast10_Q_search.treefile -T 45 -mem 120G -safe -pre yeast10_c60_F
+yeast10_c60_unopt,24,NA,NA,6032301.9416,-3016126.9708,6032301.9416,6032545.6238,3.53 h,../../iqtree2 -s ./10_concated.nex -m LG+C60+I+R4 -te ../partition/Q/yeast10_Q_search.treefile -T 45 -mem 120G -safe -pre yeast10_c60_unopt
+yeast10_p_search,2841,165,-2994681.0212,5995044.0425,-2962392.1092,5930466.2183,5959312.1010,0.22 h,../../../iqtree2 -s 10_concated.nex -p yeast10_p_mf.best_model.nex -t yeast10_p_mf.treefile -bb 1000 --wbtl -T 45 -pre yeast10_p_search
+yeast10_p_mf,3356,165,-2994681.6824,5996075.3648,-2962392.1118,5931496.2236,5965571.1206,1.33 h,../../../iqtree2 -s 10_concated.nex -p 10_concated.nex -m MF+MERGE -merit AIC -T 11 -pre yeast10_p_mf
+yeast10_q_mf,3663,222,-3006370.0888,6020066.1777,-2972368.9566,5952063.9133,5989255.9120,0.55 h,"../../../iqtree2 -s 10_concated.nex -q 10_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 11 -pre yeast10_q_mf"
+yeast10_Q_search,7318,262,-2998404.6716,6011445.3432,-2947464.6943,5909565.3886,5983868.1586,0.06 h,../../../iqtree2 -s 10_concated.nex -Q yeast10_Q_mf.best_model.nex -t yeast10_Q_mf.treefile -bb 1000 --wbtl -T 45 -pre yeast10_Q_search
+yeast10_Q_mf,8105,262,-2998415.8462,6013041.6924,-2947464.7029,5911139.4058,5993432.9219,1.05 h,../../../iqtree2 -s 10_concated.nex -Q 10_concated.nex -m MF+MERGE -merit AIC -T 11 -pre yeast10_Q_mf

@@ -1,0 +1,36 @@
+# Summary of Results for Ascomycota
+
+| Name | Free parameters | Partitions | Mix LogL | mAIC | LogL | AIC | BIC | Runtime | Command |
+|------|-----------------|------------|-----------|------|------|-----|-----|---------|---------|
+| **Ascomycota10_c60_F** | 109 | NA | NA | 8204879.3190 | -4102330.6595 | 8204879.3190 | 8206024.6247 | 9.56 h | `../../iqtree2 -s ./10_concated.nex -m LG+C60+F+I+R7 -te ../partition/Q/Ascomycota10_Q_search.treefile -T 40 -mem 120G -safe -pre Ascomycota10_c60_F` |
+| Ascomycota10_c60_search | 17 | NA | NA | 8204702.3808 | -4102334.1904 | 8204702.3808 | 8204881.0064 | 52.38 h | `../../iqtree2 -s 10_concated.nex -mdef Ascomycota10_c60_F_parameter.nex -m LG_C60_F_I_R7 -t ../partition/Q/Ascomycota10_Q_search.treefile -bb 1000 --wbtl -T 40 --mem 120G -pre Ascomycota10_c60_search` |
+| Ascomycota10_c60_opt | 89 | NA | NA | 8237249.0677 | -4118535.5338 | 8237249.0677 | 8238184.2255 | 100.46 h | `../../iqtree2 -s ./10_concated.nex -m LG+C60+I+R7 -te ../partition/Q/Ascomycota10_Q_search.treefile -mwopt -T 40 -mem 120G -safe -pre Ascomycota10_c60_opt` |
+| Ascomycota10_c60_unopt | 30 | NA | NA | 8302205.7252 | -4151072.8626 | 8302205.7252 | 8302520.9469 | 52.97 h | `../../iqtree2 -s ./10_concated.nex -m LG+C60+I+R7 -te ../partition/Q/Ascomycota10_Q_search.treefile -T 40 -mem 120G -safe -pre Ascomycota10_c60_unopt` |
+| 10Ascomycota_c60_init | 49 | NA | NA | 8237368.3160 | -4118635.1580 | 8237368.3160 | 8237883.1782 | 18.34 h | `../../iqtree2 -s 10_concated.nex -m MF -merit AIC -T 40 -mem 120G -pre 10Ascomycota_c60_init` |
+| Ascomycota10_p_search | 3338 | 187 | -4118162.5484 | 8243001.0967 | -4078244.5593 | 8163165.1185 | 8198238.7907 | 0.56 h | `../../../iqtree2 -s 10_concated.nex -p Ascomycota10_p_mf.best_model.nex -t Ascomycota10_p_mf.treefile -bb 1000 --wbtl -T 40 -pre Ascomycota10_p_search` |
+| **Ascomycota10_p_mf** | 3957 | 187 | -4118162.0652 | 8244238.1305 | -4078244.5549 | 8164403.1098 | 8205980.8572 | 8.00 h | `../../../iqtree2 -s 10_concated.nex -p 10_concated.nex -m MF+MERGE -merit AIC -T 10 -pre Ascomycota10_p_mf` |
+| Ascomycota10_q_mf | 3931 | 233 | -4141079.7053 | 8290021.4107 | -4090490.5988 | 8188843.1975 | 8230147.7528 | 2.31 h | `../../../iqtree2 -s 10_concated.nex -q 10_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 10 -pre Ascomycota10_q_mf` |
+| Ascomycota10_Q_mf | 9308 | 278 | -4123091.0366 | 8264798.0731 | -4059303.6333 | 8137223.2666 | 8235026.0650 | 5.95 h | `../../../iqtree2 -s 10_concated.nex -Q 10_concated.nex -m MF+MERGE -merit AIC -T 10 -pre Ascomycota10_Q_mf` |
+| Ascomycota10_Q_search | 8461 | 278 | -4123091.5214 | 8263105.0429 | -4059303.6259 | 8135529.2517 | 8224432.2896 | 0.30 h | `../../../iqtree2 -s 10_concated.nex -Q Ascomycota10_Q_mf.best_model.nex -t Ascomycota10_Q_mf.treefile -bb 1000 --wbtl -T 40 -pre Ascomycota10_Q_search` |
+
+## Summary of log file
+1. Partition Analysis
+- Best partition: Q with AIC: 8137223.2666
+- Best partition: p with mAIC: 8244238.1305
+
+2. C60 Initialization
+- Selected model: LG+F+I+R7
+
+3. C60 Running (full mode)
+- Best C60: c60_F with AIC: 8204879.3190
+- Best overall: C60 (c60_F) with AIC: 8204879.3190
+
+4. Treesearch Result
+- Ascomycota10_c60_search with mAIC: 8204702.3808
+- Ascomycota10_p_search with mAIC: 8243001.0967
+- Ascomycota10_Q_search with mAIC: 8263105.0429
+
+5. Corrected mAIC using correct parameter number:
+- Ascomycota10_c60_search: 2 * 109 - 2 * -4102334.1904 = 8204886.3808
+- Ascomycota10_p_search: 2 * 3957 - 2 * -4118162.5484 = 8244239.10
+- Ascomycota10_Q_search: 2 * 9308 - 2 * -4123091.5214 = 8264799.04

@@ -1,0 +1,66 @@
+LRM between Cannabis_sativa9_p_search and Carica_papaya9_p_search: 4.000000
+LRM between Cannabis_sativa9_p_search and Cucumis_sativus9_p_search: 3.000000
+LRM between Cannabis_sativa9_p_search and Eucalyptus_grandis9_p_search: 0.000000
+LRM between Cannabis_sativa9_p_search and Fragaria_vesca9_p_search: 0.000000
+LRM between Cannabis_sativa9_p_search and Lactuca_sativa9_p_search: 4.000000
+LRM between Cannabis_sativa9_p_search and Lathyrus_sativus9_p_search: 0.000000
+LRM between Cannabis_sativa9_p_search and Linum_usitatissimum9_p_search: 4.000000
+LRM between Cannabis_sativa9_p_search and Mimulus_guttatus9_p_search: 0.000000
+LRM between Cannabis_sativa9_p_search and Papaver_somniferum9_p_search: 4.000000
+LRM between Carica_papaya9_p_search and Cucumis_sativus9_p_search: 0.000000
+LRM between Carica_papaya9_p_search and Eucalyptus_grandis9_p_search: 0.000000
+LRM between Carica_papaya9_p_search and Fragaria_vesca9_p_search: 6.000000
+LRM between Carica_papaya9_p_search and Lactuca_sativa9_p_search: 3.000000
+LRM between Carica_papaya9_p_search and Lathyrus_sativus9_p_search: 4.000000
+LRM between Carica_papaya9_p_search and Linum_usitatissimum9_p_search: 0.000000
+LRM between Carica_papaya9_p_search and Mimulus_guttatus9_p_search: 3.000000
+LRM between Carica_papaya9_p_search and Papaver_somniferum9_p_search: 3.000000
+LRM between Cucumis_sativus9_p_search and Eucalyptus_grandis9_p_search: 0.000000
+LRM between Cucumis_sativus9_p_search and Fragaria_vesca9_p_search: 3.000000
+LRM between Cucumis_sativus9_p_search and Lactuca_sativa9_p_search: 4.000000
+LRM between Cucumis_sativus9_p_search and Lathyrus_sativus9_p_search: 3.000000
+LRM between Cucumis_sativus9_p_search and Linum_usitatissimum9_p_search: 0.000000
+LRM between Cucumis_sativus9_p_search and Mimulus_guttatus9_p_search: 4.000000
+LRM between Cucumis_sativus9_p_search and Papaver_somniferum9_p_search: 4.000000
+LRM between Eucalyptus_grandis9_p_search and Fragaria_vesca9_p_search: 2.000000
+LRM between Eucalyptus_grandis9_p_search and Lactuca_sativa9_p_search: 3.000000
+LRM between Eucalyptus_grandis9_p_search and Lathyrus_sativus9_p_search: 0.000000
+LRM between Eucalyptus_grandis9_p_search and Linum_usitatissimum9_p_search: 0.000000
+LRM between Eucalyptus_grandis9_p_search and Mimulus_guttatus9_p_search: 0.000000
+LRM between Eucalyptus_grandis9_p_search and Papaver_somniferum9_p_search: 3.000000
+LRM between Fragaria_vesca9_p_search and Lactuca_sativa9_p_search: 6.000000
+LRM between Fragaria_vesca9_p_search and Lathyrus_sativus9_p_search: 0.000000
+LRM between Fragaria_vesca9_p_search and Linum_usitatissimum9_p_search: 6.000000
+LRM between Fragaria_vesca9_p_search and Mimulus_guttatus9_p_search: 2.000000
+LRM between Fragaria_vesca9_p_search and Papaver_somniferum9_p_search: 6.000000
+LRM between Lactuca_sativa9_p_search and Lathyrus_sativus9_p_search: 4.000000
+LRM between Lactuca_sativa9_p_search and Linum_usitatissimum9_p_search: 0.000000
+LRM between Lactuca_sativa9_p_search and Mimulus_guttatus9_p_search: 4.000000
+LRM between Lactuca_sativa9_p_search and Papaver_somniferum9_p_search: 0.000000
+LRM between Lathyrus_sativus9_p_search and Linum_usitatissimum9_p_search: 4.000000
+LRM between Lathyrus_sativus9_p_search and Mimulus_guttatus9_p_search: 0.000000
+LRM between Lathyrus_sativus9_p_search and Papaver_somniferum9_p_search: 4.000000
+LRM between Linum_usitatissimum9_p_search and Mimulus_guttatus9_p_search: 3.000000
+LRM between Linum_usitatissimum9_p_search and Papaver_somniferum9_p_search: 0.000000
+LRM between Mimulus_guttatus9_p_search and Papaver_somniferum9_p_search: 4.000000
+
+Mean LRM: 2.377778
+Std LRM: 2.059224
+Median LRM: 3.000000
+
+========================================
+
+LRM between Cannabis_sativa9_p_search and reference: 0.000000
+LRM between Carica_papaya9_p_search and reference: 4.000000
+LRM between Cucumis_sativus9_p_search and reference: 4.000000
+LRM between Eucalyptus_grandis9_p_search and reference: 0.000000
+LRM between Fragaria_vesca9_p_search and reference: 2.000000
+LRM between Lactuca_sativa9_p_search and reference: 4.000000
+LRM between Lathyrus_sativus9_p_search and reference: 0.000000
+LRM between Linum_usitatissimum9_p_search and reference: 4.000000
+LRM between Mimulus_guttatus9_p_search and reference: 0.000000
+LRM between Papaver_somniferum9_p_search and reference: 4.000000
+
+Mean LRM to reference: 2.200000
+Std LRM to reference: 1.988858
+Median LRM to reference: 3.000000
