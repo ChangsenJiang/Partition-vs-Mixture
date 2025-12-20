@@ -6,7 +6,7 @@ Phylogenetic inference underpins our understanding of evolutionary relationships
 
 
 
-## What each major piece does
+## Repository structure
 
 - **[data](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/data)**  
   Provides processed alignment data for each dataset at multiple subsampling levels to be used for analysis.
@@ -36,6 +36,10 @@ Phylogenetic inference underpins our understanding of evolutionary relationships
 - README.md
 
   This document
+
+- IQ-TREE 2.4.0-Linux
+
+  Includes the IQ-TREE binary file used in this analysis 
 
 
 ## Analysis Process
