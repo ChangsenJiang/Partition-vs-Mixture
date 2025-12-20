@@ -8,26 +8,32 @@ Phylogenetic inference underpins our understanding of evolutionary relationships
 
 ## What each major piece does
 
-- **summary_9datasets.md**  
- Provides comprehensive information for each dataset (e.g., number of sites and number of loci), along with links to the data repository and the corresponding paper.
-
 - **[data](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/data)**  
   Provides processed alignment data for each dataset at multiple subsampling levels to be used for analysis.
 
-- **result**  
-  Centralized outputs of model estimation and summaries:
-  - CSV tables of fitted models and corresponding model-fit statistics (cAIC/mAIC/log-likelihood).
-  - Markdown notes summarizing all information (e.g. commands, model parameters, runtimes, and cross-model comparisons).
+- **[result](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results)**  
+  Centralized outputs of model estimation and summaries (results from the archaea dataset were used as examples below):
+  - [CSV tables](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/results/1_Model_estimation/20taxa/archaea/archaea.csv) of fitted models and corresponding model-fit statistics (cAIC/mAIC/log-likelihood).
+  - [Markdown notes](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/results/1_Model_estimation/20taxa/archaea/archaea.md) summarizing all information (e.g. commands, model parameters, runtimes, and cross-model comparisons).
+  - [`.iqtree`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/results/1_Model_estimation/20taxa/archaea/c60/archaea20_c60_F.iqtree) and [`.log`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/results/1_Model_estimation/20taxa/archaea/c60/archaea20_c60_F.log) files that records all results and the estimation process, and [all files](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results/1_Model_estimation/20taxa/archaea) generated during the iqtree process
 
-- **scripts**
+  It also contains the result from the parametric bootstrap test and robustness test (Details explained in the "Analysis Process" section below)
+  
+    
+
+- **[scripts](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/scripts)**
 
   Scripts for the 
-    + Model estimation and mAIC calculation in 20,10,5 taxa
-    + Extended parametric bootstrap test in 20 taxa
-    + Robustness test in 20 taxa
+    + Model estimation and mAIC calculation in 20,10,5 taxa subsample level
+    + Extended parametric bootstrap test in 20 taxa subsample level
+    + Robustness test in 20 taxa subsample level
   
-  Details explained in the Analysis process below
-- **README.md**
+  Details explained in the "Analysis Process" section below
+
+- **[summary_9datasets.md](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/summary_9datasets.md)**  
+ Provides comprehensive information for each dataset (e.g., number of sites and number of loci), along with **links to the data repository and the corresponding paper.**
+ 
+- README.md
 
   This document
 
@@ -47,7 +53,7 @@ iqtree2 -t <TREE_FILE> -k <number of species>
 
 ### 1. Model estimation
 
-For each dataset, the data alignment and scripts should be placed in the following folder structure, an example could be found [here].
+For each dataset, the data alignment and scripts should be placed in the following folder structure
 
 ```bash
 datasets
@@ -95,9 +101,9 @@ This would
   7) Produces a timestamped log and writes IQ-TREE outputs into each dataset’s `partition/` and `c60/`
 
 > [!NOTE] 
-> For specific IQ-TREE commands performed in this pipeline, see [here]().
+> For specific IQ-TREE commands performed in this pipeline, see [here](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/scripts/1_Model_estimation/Only_commands.txt).
 
-After estimation, the [mAIC/cAIC values](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/result/Model%20estimation%20results/20taxa/1kplant_re.csv) for each model could be used for plotting **Fig. 1** in the paper
+After estimation, the [mAIC/cAIC values](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results/1_Model_estimation/20taxa) for each model could be extracted from the `.iqtree` and `.log` files, then used for plotting **Fig. 1** in the paper
 
 
 
@@ -106,7 +112,7 @@ After estimation, the [mAIC/cAIC values](https://github.com/ChangsenJiang/Partit
 ### 2. Extended Parametric bootstrap test
 #### 2.1 Extract the estimated model parameters from Step 1
 
-For every partitioned model estimated in step 1, the model parameter is simply the `.best_model.nex` file generated during the estimation.
+For every partitioned model estimated in step 1, the model parameter file is simply the `.best_model.nex` file generated during the estimation.
 
 For every C60 model, the model parameters could be extracted by first extracting its corresponding `.iqtree` and `.log` file, then run 
 
@@ -142,7 +148,7 @@ After the above process, **100 simulated alignments should be generated for each
 
 #### 2.3 Performing extended parametric bootstrap test
 
-We will use the scripts written by Yutong Shao to perform the test.
+We will use the program written by [Yutong Shao](https://github.com/Yutong-Shao/new-metrics-PBT) to perform the test.
 
 First, enter the `scripts/2_Parametric bootstrap_test` folder, and install and activate the required environment through
 
@@ -179,8 +185,8 @@ Finally, for **each dataset folder**, run
 ```
 python PBT.py <parametric_bootstrap_test_dataset_n> <OriginalAlignment>  
 ```
-
-- `OriginalAlignment`: the path to the original empirical fasta alignment
+- `parametric_bootstrap_test_dataset_n`: the path to the simulated alignment for each dataset
+- `OriginalAlignment`: the path to the original empirical fasta alignment for each dataset
 
 this script would
 
@@ -194,7 +200,8 @@ this script would
   - sitewise Shannon entropy
   - sitewise diversity
 
-Results for the parametric bootstrap test are summarized in [`.pbr_gaps`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/result/Parametric%20bootstrap%20results/Mean/mean_div/1kplant_c60_F.pbr_gaps) and [`.txt_gaps`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/result/Parametric%20bootstrap%20results/Mean/mean_div/1kplant_c60_F.txt_gaps) files.
+> [!NOTE] 
+> Results for the parametric bootstrap test are summarized in [`.pbr_gaps`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/result/Parametric%20bootstrap%20results/Mean/mean_div/1kplant_c60_F.pbr_gaps) and [`.txt_gaps`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/result/Parametric%20bootstrap%20results/Mean/mean_div/1kplant_c60_F.txt_gaps) files.
 Results for the CvM test are summarized in [`cvm_diversity/entropy_results.txt`](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/result/Parametric%20bootstrap%20results/CvM%20test/Ascomycota), which could be used to plot **Figure 2&3** in the paper
 
 
@@ -249,7 +256,10 @@ For **each model folder in each dataset**, run
 python Robustness_test.py <treefile_folder> -o <output_name.txt>
 ```
 
-This would compute **Lin–Rajan–Moret (LRM)** tree distances between all trees generated from the minus-one-taxa subalignment and the original `reference.treefile` (to-Ref LRM distance), and also calculates the summary statistics (mean/SD/median) for those calculated LRM distances. [These results](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/result/Robustness%20test%20results) could then be used to plot **Figure 4** in the paper
+This would compute **Lin–Rajan–Moret (LRM)** tree distances between all trees generated from the minus-one-taxa subalignment and the original `reference.treefile` (to-Ref LRM distance), and also calculates the summary statistics (mean/SD/median) for those calculated LRM distances. 
+
+> [!NOTE] 
+> [LRM results](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results/3_Robustness_test) could then be used to plot **Figure 4** in the paper
 
 
 
