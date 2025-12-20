@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# iqtree_pipeline.sh
+# model_estimation_pipeline.sh
 # Author: Changsen Jiang
-# Description (For more description, see Section 2.3 in my thesis):
+# Description:
 # This script runs a complete IQ-TREE phylogenetic analysis pipeline automatically on a given dataset directory.
 # It supports both partitioned models and C60 profile mixture models,
 # including automatic selection of best models based on AIC/mAIC scores and subsequent tree search.
@@ -26,7 +26,7 @@
 #   ns       - Number of taxa in the dataset (e.g. 20)
 #   threads  - Maximum number of CPU threads to use
 #   maxmem   - Maximum memory to allocate (e.g. 120G)
-#   mode     - Analysis mode: "simple" (C60+F or C60±mwopt) or "full" (all C60 variants + tree search)
+#   mode     - always choose "full"
 #
 # Requirements:
 #   - IQ-TREE 2 executable available as ../../iqtree2

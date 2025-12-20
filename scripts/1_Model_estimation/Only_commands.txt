@@ -7,6 +7,9 @@ iqtree2 -s alignment.nex -p alignment.nex -m MF+MERGE -merit AIC
 Edge-linked partitioned model:
 iqtree2 -s alignment.nex -q alignment.nex -m MF+MERGE -merit AIC
 
+Partitioned model treesearch:
+iqtree2 -s alignment.nex -Q/p/q *.best_model.nex -m MF+MERGE -merit AIC (optional: -optfromgiven)
+
 Initialization to choose exchangeability and RHAS for C60 model:
 iqtree2 -s alignment.nex -m MF -merit AIC
 
@@ -18,3 +21,6 @@ iqtree2 -s alignment.nex -m exchangebility+C60+RHAS -te fixed_tree.treefile -mwo
 
 C60+F model
 iqtree2 -s alignment.nex -m exchangebility+C60+F+RHAS -te fixed_tree.treefile
+
+C60 treesearch
+iqtree2 -s alignment.nex -mdef c60model_parameter.nex -m model_name_extracted -t fixed_tree.treefile
