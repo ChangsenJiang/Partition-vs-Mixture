@@ -1,0 +1,23 @@
+	Command being timed: "../../iqtree2 -s 10_concated.nex -mdef Legume10_c60_F_parameter.nex -m Q_PLANT_C60_F_R5 -t ../partition/Q/Legume10_Q_search.treefile -bb 1000 --wbtl -T 30 --mem 120G -pre Legume10_c60_search"
+	User time (seconds): 360643.35
+	System time (seconds): 732.13
+	Percent of CPU this job got: 1781%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:38:05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 26896804
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 282486144
+	Voluntary context switches: 739307
+	Involuntary context switches: 1208313
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 14072
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

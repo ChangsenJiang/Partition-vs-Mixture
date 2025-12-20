@@ -1,0 +1,201 @@
+IQ-TREE 2.4.0 built Mar 21 2025
+
+Input file name: 10_concated.nex
+User tree file name: ../partition/Q/butterfly10_Q_search.treefile
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 64364
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 10 sequences with 146199 amino-acid sites
+Number of constant sites: 66686 (= 45.6132% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 66686 (= 45.6132% of all sites)
+Number of parsimony informative sites: 31147
+Number of distinct site patterns: 78505
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: Q_YEAST_C60_F_R5+R5
+
+  No  Component      Rate    Weight   Parameters
+   1  Q.YEAST+FF    1.0000   0.4471   Q.YEAST+FF
+   2  Q.YEAST+FC60pi1  1.0000   0.0121   Q.YEAST+FC60pi1
+   3  Q.YEAST+FC60pi2  1.0000   0.0000   Q.YEAST+FC60pi2
+   4  Q.YEAST+FC60pi3  1.0000   0.0048   Q.YEAST+FC60pi3
+   5  Q.YEAST+FC60pi4  1.0000   0.0000   Q.YEAST+FC60pi4
+   6  Q.YEAST+FC60pi5  1.0000   0.0077   Q.YEAST+FC60pi5
+   7  Q.YEAST+FC60pi6  1.0000   0.0073   Q.YEAST+FC60pi6
+   8  Q.YEAST+FC60pi7  1.0000   0.0009   Q.YEAST+FC60pi7
+   9  Q.YEAST+FC60pi8  1.0000   0.0083   Q.YEAST+FC60pi8
+  10  Q.YEAST+FC60pi9  1.0000   0.0000   Q.YEAST+FC60pi9
+  11  Q.YEAST+FC60pi10  1.0000   0.0170   Q.YEAST+FC60pi10
+  12  Q.YEAST+FC60pi11  1.0000   0.0338   Q.YEAST+FC60pi11
+  13  Q.YEAST+FC60pi12  1.0000   0.0187   Q.YEAST+FC60pi12
+  14  Q.YEAST+FC60pi13  1.0000   0.0000   Q.YEAST+FC60pi13
+  15  Q.YEAST+FC60pi14  1.0000   0.0072   Q.YEAST+FC60pi14
+  16  Q.YEAST+FC60pi15  1.0000   0.0000   Q.YEAST+FC60pi15
+  17  Q.YEAST+FC60pi16  1.0000   0.0000   Q.YEAST+FC60pi16
+  18  Q.YEAST+FC60pi17  1.0000   0.0262   Q.YEAST+FC60pi17
+  19  Q.YEAST+FC60pi18  1.0000   0.0391   Q.YEAST+FC60pi18
+  20  Q.YEAST+FC60pi19  1.0000   0.0162   Q.YEAST+FC60pi19
+  21  Q.YEAST+FC60pi20  1.0000   0.0000   Q.YEAST+FC60pi20
+  22  Q.YEAST+FC60pi21  1.0000   0.0034   Q.YEAST+FC60pi21
+  23  Q.YEAST+FC60pi22  1.0000   0.0254   Q.YEAST+FC60pi22
+  24  Q.YEAST+FC60pi23  1.0000   0.0024   Q.YEAST+FC60pi23
+  25  Q.YEAST+FC60pi24  1.0000   0.0000   Q.YEAST+FC60pi24
+  26  Q.YEAST+FC60pi25  1.0000   0.0074   Q.YEAST+FC60pi25
+  27  Q.YEAST+FC60pi26  1.0000   0.0027   Q.YEAST+FC60pi26
+  28  Q.YEAST+FC60pi27  1.0000   0.0326   Q.YEAST+FC60pi27
+  29  Q.YEAST+FC60pi28  1.0000   0.0000   Q.YEAST+FC60pi28
+  30  Q.YEAST+FC60pi29  1.0000   0.0000   Q.YEAST+FC60pi29
+  31  Q.YEAST+FC60pi30  1.0000   0.0163   Q.YEAST+FC60pi30
+  32  Q.YEAST+FC60pi31  1.0000   0.0160   Q.YEAST+FC60pi31
+  33  Q.YEAST+FC60pi32  1.0000   0.0104   Q.YEAST+FC60pi32
+  34  Q.YEAST+FC60pi33  1.0000   0.0157   Q.YEAST+FC60pi33
+  35  Q.YEAST+FC60pi34  1.0000   0.0128   Q.YEAST+FC60pi34
+  36  Q.YEAST+FC60pi35  1.0000   0.0232   Q.YEAST+FC60pi35
+  37  Q.YEAST+FC60pi36  1.0000   0.0090   Q.YEAST+FC60pi36
+  38  Q.YEAST+FC60pi37  1.0000   0.0133   Q.YEAST+FC60pi37
+  39  Q.YEAST+FC60pi38  1.0000   0.0377   Q.YEAST+FC60pi38
+  40  Q.YEAST+FC60pi39  1.0000   0.0055   Q.YEAST+FC60pi39
+  41  Q.YEAST+FC60pi40  1.0000   0.0015   Q.YEAST+FC60pi40
+  42  Q.YEAST+FC60pi41  1.0000   0.0016   Q.YEAST+FC60pi41
+  43  Q.YEAST+FC60pi42  1.0000   0.0082   Q.YEAST+FC60pi42
+  44  Q.YEAST+FC60pi43  1.0000   0.0244   Q.YEAST+FC60pi43
+  45  Q.YEAST+FC60pi44  1.0000   0.0000   Q.YEAST+FC60pi44
+  46  Q.YEAST+FC60pi45  1.0000   0.0000   Q.YEAST+FC60pi45
+  47  Q.YEAST+FC60pi46  1.0000   0.0004   Q.YEAST+FC60pi46
+  48  Q.YEAST+FC60pi47  1.0000   0.0000   Q.YEAST+FC60pi47
+  49  Q.YEAST+FC60pi48  1.0000   0.0076   Q.YEAST+FC60pi48
+  50  Q.YEAST+FC60pi49  1.0000   0.0000   Q.YEAST+FC60pi49
+  51  Q.YEAST+FC60pi50  1.0000   0.0000   Q.YEAST+FC60pi50
+  52  Q.YEAST+FC60pi51  1.0000   0.0148   Q.YEAST+FC60pi51
+  53  Q.YEAST+FC60pi52  1.0000   0.0063   Q.YEAST+FC60pi52
+  54  Q.YEAST+FC60pi53  1.0000   0.0002   Q.YEAST+FC60pi53
+  55  Q.YEAST+FC60pi54  1.0000   0.0143   Q.YEAST+FC60pi54
+  56  Q.YEAST+FC60pi55  1.0000   0.0290   Q.YEAST+FC60pi55
+  57  Q.YEAST+FC60pi56  1.0000   0.0000   Q.YEAST+FC60pi56
+  58  Q.YEAST+FC60pi57  1.0000   0.0000   Q.YEAST+FC60pi57
+  59  Q.YEAST+FC60pi58  1.0000   0.0084   Q.YEAST+FC60pi58
+  60  Q.YEAST+FC60pi59  1.0000   0.0023   Q.YEAST+FC60pi59
+  61  Q.YEAST+FC60pi60  1.0000   0.0004   Q.YEAST+FC60pi60
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.3062,0.0312) (0.2311,0.3081) (0.1796,0.8250) (0.2018,1.9041) (0.0813,4.7579)
+
+ Category  Relative_rate  Proportion
+  1         0.0312         0.3062
+  2         0.3081         0.2311
+  3         0.8250         0.1796
+  4         1.9041         0.2018
+  5         4.7579         0.0813
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1276451.0021 (s.e. 2413.7222)
+Unconstrained log-likelihood (without tree): -1470139.0471
+Number of free parameters (#branches + #model parameters): 17
+Akaike information criterion (AIC) score: 2552936.0043
+Corrected Akaike information criterion (AICc) score: 2552936.0085
+Bayesian information criterion (BIC) score: 2553104.1806
+
+Total tree length (sum of branch lengths): 4.2955
+Sum of internal branch lengths: 0.8000 (18.6249% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++------------Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2
+|
+|                   +---------------------------Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST
+|          +--------| (100/100)
+|          |        |             +-----------------------Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster
+|          |        |  +----------| (100/100)
+|          |        |  |          +-----------------Diptera_Culicidae_Anophelinae_Anopheles_gambiae
+|          |        +--| (100/100)
+|          |           +------------------Siphonaptera_Pulicidae_Archaeopsyllini_Ctenocephalides_felis
+|     +----| (100/100)
+|     |    |    +------------Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida
+|     |    +----| (100/100)
+|     |         +-----------Trichoptera_Leptoceridae_Leptocerinae_Nectopsyche_candida
+|  +--| (100/100)
+|  |  +------------Neopseustoidea_Neopseustidae_Neopseustinae_Neopseustis_meyricki_RINSinlTEERAAPEI__79
++--| (100/100)
+|  +------------------Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2
+|
++-----------Tischerioidea_Tischeriidae_Tischeria_quercitella_Ts2
+
+Tree in newick format:
+
+(Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2:0.2609441402,((((Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST:0.5717161523,((Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster:0.4930027882,Diptera_Culicidae_Anophelinae_Anopheles_gambiae:0.3690634844)100/100:0.2283659762,Siphonaptera_Pulicidae_Archaeopsyllini_Ctenocephalides_felis:0.3847581518)100/100:0.0513205983)100/100:0.1961934457,(Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida:0.2726197259,Trichoptera_Leptoceridae_Leptocerinae_Nectopsyche_candida:0.2393020159)100/100:0.1052967609)100/100:0.1169506696,Neopseustoidea_Neopseustidae_Neopseustinae_Neopseustis_meyricki_RINSinlTEERAAPEI__79:0.2694644120)100/100:0.0546911564,Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2:0.3835443657)100/100:0.0472184167,Tischerioidea_Tischeriidae_Tischeria_quercitella_Ts2:0.2510799814);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -1276451.00223579
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++------------Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2
+|
+|                   +---------------------------Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST
+|          +--------| (100)
+|          |        |             +-----------------------Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster
+|          |        |  +----------| (100)
+|          |        |  |          +-----------------Diptera_Culicidae_Anophelinae_Anopheles_gambiae
+|          |        +--| (100)
+|          |           +------------------Siphonaptera_Pulicidae_Archaeopsyllini_Ctenocephalides_felis
+|     +----| (100)
+|     |    |    +------------Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida
+|     |    +----| (100)
+|     |         +-----------Trichoptera_Leptoceridae_Leptocerinae_Nectopsyche_candida
+|  +--| (100)
+|  |  +------------Neopseustoidea_Neopseustidae_Neopseustinae_Neopseustis_meyricki_RINSinlTEERAAPEI__79
++--| (100)
+|  +------------------Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2
+|
++-----------Tischerioidea_Tischeriidae_Tischeria_quercitella_Ts2
+
+
+Consensus tree in newick format: 
+
+(Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2:0.2609348017,((((Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST:0.5716810652,((Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster:0.4929552757,Diptera_Culicidae_Anophelinae_Anopheles_gambiae:0.3690410859)100:0.2283404427,Siphonaptera_Pulicidae_Archaeopsyllini_Ctenocephalides_felis:0.3847236744)100:0.0513232668)100:0.1961787920,(Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida:0.2726072325,Trichoptera_Leptoceridae_Leptocerinae_Nectopsyche_candida:0.2392880679)100:0.1052949878)100:0.1169522474,Neopseustoidea_Neopseustidae_Neopseustinae_Neopseustis_meyricki_RINSinlTEERAAPEI__79:0.2694543913)100:0.0546812582,Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2:0.3835256981)100:0.0472248821,Tischerioidea_Tischeriidae_Tischeria_quercitella_Ts2:0.2510685119);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Jun 14 15:09:53 2025
+Total CPU time used: 512681.057 seconds (142h:24m:41s)
+Total wall-clock time used: 36922574.81 seconds (10256h:16m:14s)
+

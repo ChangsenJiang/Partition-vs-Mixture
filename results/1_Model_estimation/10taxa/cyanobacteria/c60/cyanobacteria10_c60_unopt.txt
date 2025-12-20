@@ -1,0 +1,23 @@
+	Command being timed: "../../iqtree2 -s ./10_concated.nex -m LG+C60+R6 -te ../partition/Q/cyanobacteria10_Q_search.treefile -T 40 -mem 120G -safe -pre cyanobacteria10_c60_unopt"
+	User time (seconds): 251659.00
+	System time (seconds): 876.08
+	Percent of CPU this job got: 3725%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:52:58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 30348608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 161
+	Minor (reclaiming a frame) page faults: 240124368
+	Voluntary context switches: 939556
+	Involuntary context switches: 251732
+	Swaps: 0
+	File system inputs: 16032
+	File system outputs: 2704
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

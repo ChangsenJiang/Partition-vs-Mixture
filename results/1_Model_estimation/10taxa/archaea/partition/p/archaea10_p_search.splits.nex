@@ -1,0 +1,48 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=10;
+TAXLABELS
+[1] 'GCA_002790315'
+[2] 'GCA_002779075'
+[3] 'GCA_001629205'
+[4] 'GCA_000806055'
+[5] 'GCA_001896515'
+[6] 'GCA_001564035'
+[7] 'GCA_001315925'
+[8] 'GCA_000200715'
+[9] 'GCA_000387965'
+[10] 'GCA_002412085'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=10 nsplits=23;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 5,
+	100	 2 5,
+	100	 3,
+	100	 7,
+	100	 8,
+	100	 7 8,
+	100	 3 7 8,
+	100	 6,
+	14	 3 6 7 8,
+	80	 1 4 9 10,
+	100	 4,
+	100	 10,
+	15	 4 10,
+	100	 9,
+	97	 4 9 10,
+	100	 1,
+	54	 9 10,
+	76	 1 4 6 9 10,
+	31	 4 9,
+	20	 4 6 9 10,
+	10	 1 2 5,
+	3	 1 4,
+;
+END; [Splits]
+

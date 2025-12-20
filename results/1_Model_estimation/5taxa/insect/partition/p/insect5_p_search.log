@@ -1,0 +1,1830 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    fisher.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../../iqtree2 -s 5_concated.nex -p insect5_p_mf.best_model.nex -t insect5_p_mf.treefile -bb 1000 --wbtl -T 30 -pre insect5_p_search
+Seed:    426026 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 13 02:51:28 2025
+Kernel:  AVX+FMA - 30 threads (31 CPU cores detected)
+
+Reading partition model file insect5_p_mf.best_model.nex ...
+Reading alignment file 5_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 1132 sites contain only gaps or ambiguous characters.
+Alignment has 5 sequences with 76398 columns, 25323 distinct patterns
+4164 parsimony-informative, 39570 singleton sites, 32664 constant sites
+                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0042224 secs using 2014% CPU
+   1  Lepeophtheirus_salmonis   44.77%    failed      0.00%
+   2  Stylops_melittae          40.37%    failed      0.00%
+   3  Anurida_maritima          41.36%    failed      0.00%
+   4  DROSOPHILA_MELANOGASTER    3.40%    failed      0.00%
+   5  Essigella_californica     16.92%    failed      0.00%
+****  TOTAL                     29.37%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Loading 105 partitions...
+Identifying sites to remove: done in 6.40154e-05 secs using 84.35% CPU
+Identifying sites to remove: done in 0.000275113 secs using 92.33% CPU
+Identifying sites to remove: done in 3.77558e-05 secs using 74.16% CPU
+Identifying sites to remove: done in 0.000284843 secs using 93.03% CPU
+Identifying sites to remove: done in 9.69172e-05 secs using 92.86% CPU
+Identifying sites to remove: done in 4.60111e-05 secs using 84.76% CPU
+Identifying sites to remove: done in 0.000163142 secs using 91.33% CPU
+Identifying sites to remove: done in 3.17395e-05 secs using 81.92% CPU
+Identifying sites to remove: done in 0.000141475 secs using 95.42% CPU
+Identifying sites to remove: done in 0.000119351 secs using 1.265e+04% CPU
+Identifying sites to remove: done in 3.52301e-05 secs using 82.32% CPU
+Identifying sites to remove: done in 6.31101e-05 secs using 90.32% CPU
+Identifying sites to remove: done in 5.59799e-05 secs using 91.1% CPU
+Identifying sites to remove: done in 4.6283e-05 secs using 86.42% CPU
+Identifying sites to remove: done in 0.000165518 secs using 2.478e+04% CPU
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	AA	5	2156	127	1145	Q.YEAST+F+G4{0.761187}	DOMAIN_CL0010.nex_DOMAIN_EOG50000R.nex_DOMAIN_EOG56DJJW.nex_DOMAIN_EOG58CZ9C.nex_DOMAIN_EOG5FQZ6W.nex_DOMAIN_EOG5VQ852.nex_DOMAIN_PB002302.nex_DOMAIN_PB010178.nex_DOMAIN_PB018715.nex_DOMAIN_PF06544_7.nex_DOMAIN_PF07933_9.nex
+2	AA	5	245	12	112	Q.INSECT+F+G4{0.36864}	DOMAIN_CL0018.nex
+3	AA	5	2223	126	901	Q.YEAST+F+R3{0.552921,0.138651,0.404292,0.754033,0.0427869,14.455}	DOMAIN_CL0022.nex
+4	AA	5	4669	285	2185	LG+F+I{0.0729573}+G4{0.865121}	DOMAIN_CL0039.nex_DOMAIN_EOG531ZCZ.nex_DOMAIN_EOG54F4SN.nex_DOMAIN_EOG5H9W2M.nex_DOMAIN_PF04727_8.nex_DOMAIN_PF10436_4.nex_DOMAIN_PF13959_1.nex
+5	AA	5	806	62	330	Q.YEAST+F+G4{1.28711}	DOMAIN_CL0043.nex_DOMAIN_EOG583BM8.nex_DOMAIN_EOG5B8GW5.nex_DOMAIN_EOG5P5HRS.nex_DOMAIN_EOG5QV9VG.nex_DOMAIN_EOG5RN8RD.nex_DOMAIN_PB011290.nex_DOMAIN_PF10349_4.nex
+6	AA	5	1674	88	561	LG+F+G4{1.77903}	DOMAIN_CL0050.nex_DOMAIN_EOG515DWK.nex_DOMAIN_EOG5612K9.nex_DOMAIN_EOG580GC5.nex_DOMAIN_EOG59P8DX.nex_DOMAIN_EOG5H44KQ.nex_DOMAIN_EOG5NS1T4.nex_DOMAIN_EOG5RBP1S.nex_DOMAIN_PF00248_16.nex_DOMAIN_PF04561_9.nex
+7	AA	5	4182	260	1743	LG+F+I{0.198224}+R2{0.558404,0.607787,0.243372,2.7144}	DOMAIN_CL0052.nex_DOMAIN_CL0246.nex_DOMAIN_EOG502V73.nex_DOMAIN_EOG59ZW4H.nex_DOMAIN_EOG5H44KT.nex_DOMAIN_EOG5HQC0C.nex_DOMAIN_EOG5KSN1C.nex_DOMAIN_EOG5XD265.nex_DOMAIN_PB000968.nex_DOMAIN_PF00334_14.nex_DOMAIN_PF03367_8.nex_DOMAIN_PF10146_4.nex
+8	AA	5	1343	150	644	LG+I{0.212416}+G4{1.04216}	DOMAIN_CL0061.nex_DOMAIN_CL0459.nex_DOMAIN_PB003590.nex_DOMAIN_PB003609.nex
+9	AA	5	1350	105	553	LG+F+G4{0.926641}	DOMAIN_CL0066.nex_DOMAIN_EOG5FXPPM.nex_DOMAIN_PB011408.nex_DOMAIN_PB012098.nex
+10	AA	5	742	38	252	LG+F+R2{0.514791,0.304953,0.485209,1.73742}	DOMAIN_CL0118.nex_DOMAIN_EOG5RR4ZS.nex_DOMAIN_EOG5T4B9Q.nex
+11	AA	5	649	20	419	JTT+F+R2{0.844773,0.464815,0.155227,3.91257}	DOMAIN_CL0130.nex_DOMAIN_EOG55DV6B.nex
+12	AA	5	422	49	140	Q.INSECT+F+I{0.200878}	DOMAIN_CL0147.nex_DOMAIN_EOG53FFDB.nex_DOMAIN_PB013336.nex_DOMAIN_PF01576_14.nex
+13	AA	5	1054	83	624	LG+F+I{0.317187}+G4{1.18958}	DOMAIN_CL0151.nex_DOMAIN_EOG534TPB.nex_DOMAIN_EOG573N7M.nex_DOMAIN_EOG57H457.nex_DOMAIN_PB009845.nex_DOMAIN_PB018691.nex_DOMAIN_PF00289_17.nex_DOMAIN_PF01172_13.nex
+14	AA	5	490	20	104	LG+F+G4{1.37569}	DOMAIN_CL0157.nex_DOMAIN_PB000774.nex_DOMAIN_PF00995_18.nex
+15	AA	5	1084	80	408	LG+F+I{0.151621}+R2{0.673066,0.548672,0.175313,3.5976}	DOMAIN_CL0175.nex_DOMAIN_EOG57H45S.nex_DOMAIN_EOG5PZGNH.nex_DOMAIN_EOG5RR4ZF.nex_DOMAIN_EOG5WH71Z.nex_DOMAIN_EOG5Z34WB.nex_DOMAIN_PB008836.nex_DOMAIN_PB016317.nex_DOMAIN_PF02301_13.nex
+16	AA	5	811	81	452	LG+I{0.350043}+G4{1.22322}	DOMAIN_CL0179.nex_DOMAIN_EOG5RJDGB.nex_DOMAIN_PF00081_17.nex_DOMAIN_PF00253_16.nex
+17	AA	5	1173	131	329	Q.YEAST+F+R2{0.396929,0.24369,0.603071,1.49779}	DOMAIN_CL0190.nex_DOMAIN_EOG51C5BV.nex_DOMAIN_PB006063.nex_DOMAIN_PB007801.nex_DOMAIN_PF01652_13.nex_DOMAIN_PF02099_12.nex_DOMAIN_PF10265_4.nex
+18	AA	5	501	63	156	LG+F+G4{1.14468}	DOMAIN_CL0207.nex_DOMAIN_PF05603_7.nex
+19	AA	5	1645	74	1051	Q.YEAST+F+G4{0.394202}	DOMAIN_CL0208.nex_DOMAIN_EOG5H9W1J.nex_DOMAIN_PF05670_8.nex
+20	AA	5	1360	160	543	Q.YEAST+F+G4{0.814844}	DOMAIN_CL0220.nex_DOMAIN_EOG50GB6F.nex_DOMAIN_EOG5X3FGB.nex_DOMAIN_PB009319.nex
+21	AA	5	1974	106	825	LG+F+G4{0.871224}	DOMAIN_CL0260.nex_DOMAIN_CL0329.nex_DOMAIN_PF09174_5.nex_DOMAIN_PF10513_4.nex
+22	AA	5	1491	81	850	Q.INSECT+F+G4{1.24107}	DOMAIN_CL0267.nex_DOMAIN_PB014570.nex_DOMAIN_PF09735_4.nex_DOMAIN_PF10189_4.nex
+23	AA	5	816	15	438	LG+F+G4{1.13463}	DOMAIN_CL0357.nex_DOMAIN_EOG5BNZSS.nex_DOMAIN_PF00086_13.nex_DOMAIN_PF00622_23.nex
+24	AA	5	447	72	94	MTZOA+F+G4{1.15652}	DOMAIN_CL0412.nex_DOMAIN_EOG5ZGMV9.nex_DOMAIN_PB016447.nex_DOMAIN_PF10233_4.nex
+25	AA	5	860	11	536	Q.INSECT+F	DOMAIN_CL0431.nex_DOMAIN_EOG58KPT5.nex_DOMAIN_EOG5CNP6Z.nex_DOMAIN_PB013706.nex_DOMAIN_PF00110_14.nex_DOMAIN_PF03493_13.nex_DOMAIN_PF06469_6.nex
+26	AA	5	63	2	14	Q.INSECT+R2{0.324228,0.0739408,0.675772,1.44431}	DOMAIN_CL0506.nex_DOMAIN_EOG53BK4M.nex
+27	AA	5	2721	113	1061	Q.YEAST+F+G4{1.17058}	DOMAIN_EOG500005.nex_DOMAIN_EOG50K6FM.nex_DOMAIN_EOG576HGC.nex_DOMAIN_EOG57WM3S.nex_DOMAIN_EOG5BRV2N.nex_DOMAIN_EOG5FFBGP.nex_DOMAIN_EOG5G1JZ9.nex_DOMAIN_EOG5S7H52.nex_DOMAIN_EOG5XPNZC.nex_DOMAIN_PB005610.nex_DOMAIN_PB006404.nex_DOMAIN_PF02582_9.nex_DOMAIN_PF06468_8.nex_DOMAIN_PF08612_6.nex_DOMAIN_PF08941_5.nex_DOMAIN_PF14551_1.nex
+28	AA	5	1089	24	299	Q.YEAST+F+R2{0.669004,0.46067,0.330996,2.09009}	DOMAIN_EOG508KQM.nex_DOMAIN_EOG53R22W.nex_DOMAIN_EOG5VX0M2.nex_DOMAIN_PB003402.nex_DOMAIN_PB008193.nex_DOMAIN_PF14645_1.nex
+29	AA	5	900	15	375	DCMUT+F+I{0.149332}+R2{0.637414,0.116935,0.213255,4.33971}	DOMAIN_EOG515DV8.nex_DOMAIN_EOG59W0WR.nex_DOMAIN_EOG5CC2GJ.nex_DOMAIN_EOG5PG4FW.nex_DOMAIN_PF15306_1.nex
+30	AA	5	886	34	445	Q.INSECT+G4{2.01951}	DOMAIN_EOG51C5BG.nex_DOMAIN_EOG57H451.nex_DOMAIN_EOG5M37R2.nex_DOMAIN_PB009879.nex_DOMAIN_PB011139.nex_DOMAIN_PF01805_15.nex_DOMAIN_PF09454_5.nex
+31	AA	5	944	61	154	WAG+F+R2{0.335082,0.31483,0.664918,1.34529}	DOMAIN_EOG51JWTF.nex_DOMAIN_EOG5NK9BD.nex_DOMAIN_EOG5TQJQW.nex
+32	AA	5	954	34	301	RTREV+F+I{0.124128}+G4{3.19537}	DOMAIN_EOG51JWTT.nex_DOMAIN_EOG51NS2P.nex_DOMAIN_EOG57M0F5.nex_DOMAIN_EOG5PZGPZ.nex_DOMAIN_EOG5QRFKC.nex_DOMAIN_EOG5ZW3S1.nex
+33	AA	4	72	2	9	PMB+F+G4{1.38731}	DOMAIN_EOG51VHJV.nex_DOMAIN_PB017110.nex
+34	AA	5	1386	37	405	LG+F+G4{1.18999}	DOMAIN_EOG52BVRH.nex_DOMAIN_EOG55DV4M.nex_DOMAIN_EOG55HQC8.nex_DOMAIN_EOG570RZR.nex_DOMAIN_EOG576HFT.nex_DOMAIN_EOG5HX3G9.nex_DOMAIN_EOG5W9GKR.nex_DOMAIN_PB003683.nex_DOMAIN_PB013561.nex_DOMAIN_PF02585_12.nex
+35	AA	5	983	24	594	Q.INSECT+I{0.299768}	DOMAIN_EOG52FQZ9.nex_DOMAIN_EOG54XGZH.nex_DOMAIN_PF00572_13.nex_DOMAIN_PF10540_4.nex_DOMAIN_PF13838_1.nex
+36	AA	5	27	0	9	RTREV+G4{0.241626}	DOMAIN_EOG52FQZK.nex_DOMAIN_EOG573N6J.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_EOG52FQZK.nex_DOMAIN_EOG573N6J.nex
+37	AA	5	333	1	141	BLOSUM62	DOMAIN_EOG52V6XH.nex_DOMAIN_EOG55DV50.nex
+38	AA	5	753	15	497	RTREV+F+I{0.387207}+R2{0.55352,0.395328,0.0592735,13.1792}	DOMAIN_EOG534TMX.nex_DOMAIN_PF00696_23.nex
+39	AA	5	1596	68	647	LG+F+G4{1.32301}	DOMAIN_EOG53R22M.nex_DOMAIN_EOG551C5S.nex_DOMAIN_EOG5CNP74.nex_DOMAIN_EOG5DBRW1.nex_DOMAIN_EOG5H189W.nex_DOMAIN_PF02383_13.nex_DOMAIN_PF04950_7.nex
+40	AA	5	1830	94	653	LG+F+R2{0.379732,0.311029,0.620268,1.42179}	DOMAIN_EOG53TX9C.nex_DOMAIN_EOG56Q57V.nex_DOMAIN_EOG5DFN3G.nex_DOMAIN_EOG5KD526.nex_DOMAIN_EOG5KH18X.nex_DOMAIN_PF03351_12.nex
+41	AA	4	444	0	158	LG+F	DOMAIN_EOG53TXB9.nex_DOMAIN_PF14545_1.nex_DOMAIN_PF14702_1.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_EOG53TXB9.nex_DOMAIN_PF14545_1.nex_DOMAIN_PF14702_1.nex
+42	AA	5	62	8	13	LG	DOMAIN_EOG54MW8B.nex_DOMAIN_PF08159_7.nex
+43	AA	5	330	20	187	MTZOA+F+G4{1.52929}	DOMAIN_EOG5547F7.nex_DOMAIN_EOG5XD26V.nex
+44	AA	5	1298	5	526	Q.YEAST+F+G4{4.57323}	DOMAIN_EOG55DV4S.nex_DOMAIN_EOG5F7M1P.nex_DOMAIN_EOG5HT77W.nex_DOMAIN_EOG5Z613N.nex_DOMAIN_PB004656.nex_DOMAIN_PB015130.nex_DOMAIN_PF14728_1.nex
+45	AA	5	735	40	339	Q.INSECT+F+R3{0.408655,0.0477937,0.523087,0.500584,0.0682575,10.5281}	DOMAIN_EOG5612JW.nex_DOMAIN_EOG57SQWM.nex_DOMAIN_EOG59P8DC.nex_DOMAIN_EOG5DR7TM.nex
+46	AA	5	1061	25	318	WAG+F+I{0.0807408}+G4{2.1181}	DOMAIN_EOG56T1G8.nex_DOMAIN_EOG5MGQP9.nex_DOMAIN_EOG5QJQ33.nex_DOMAIN_PB008240.nex
+47	AA	4	42	2	25	RTREV+F	DOMAIN_EOG576HGB.nex_DOMAIN_PB019714.nex
+48	AA	5	525	41	146	RTREV+F+I{0.111702}+G4{2.50244}	DOMAIN_EOG579CQ2.nex_DOMAIN_EOG5KPRSD.nex_DOMAIN_EOG5PK0QJ.nex_DOMAIN_PF07780_7.nex
+49	AA	5	236	3	80	WAG+F+G4{1.00807}	DOMAIN_EOG57SQVX.nex_DOMAIN_EOG5QBZNX.nex_DOMAIN_EOG5QNKBN.nex
+50	AA	5	71	2	14	Q.INSECT+G4{0.58978}	DOMAIN_EOG5866V6.nex_DOMAIN_EOG5CJT08.nex_DOMAIN_EOG5W9GK5.nex
+51	AA	5	787	94	268	Q.YEAST+R2{0.498119,0.314601,0.501881,1.68026}	DOMAIN_EOG58CZB3.nex_DOMAIN_EOG5KH1B9.nex_DOMAIN_EOG5SXKTQ.nex_DOMAIN_PB003395.nex_DOMAIN_PF02887_11.nex_DOMAIN_PF04699_9.nex
+52	AA	5	536	14	236	WAG+F+G4{0.541557}	DOMAIN_EOG58GTJ4.nex_DOMAIN_EOG59CNQH.nex_DOMAIN_EOG5JSXMR.nex
+53	AA	5	216	6	55	DCMUT+F+I{0.0695099}+R2{0.713572,0.132332,0.216918,4.17473}	DOMAIN_EOG58KPS9.nex_DOMAIN_PB016592.nex
+54	AA	5	1279	112	506	Q.INSECT+F+G4{1.14831}	DOMAIN_EOG58KPSP.nex_DOMAIN_EOG5VT4C5.nex_DOMAIN_PB001110.nex_DOMAIN_PF01608_12.nex_DOMAIN_PF09725_4.nex_DOMAIN_PF12783_2.nex
+55	AA	5	603	19	191	Q.PFAM+F+I{0.127902}+G4{3.48109}	DOMAIN_EOG58PK18.nex_DOMAIN_EOG5T1G2P.nex_DOMAIN_PB011334.nex_DOMAIN_PB017096.nex_DOMAIN_PF10187_4.nex_DOMAIN_PF14943_1.nex
+56	AA	5	437	19	154	Q.INSECT+F+G4{0.829695}	DOMAIN_EOG58PK1K.nex_DOMAIN_EOG5DV425.nex_DOMAIN_EOG5MSBCZ.nex_DOMAIN_EOG5RBP0V.nex
+57	AA	4	460	3	226	WAG+F+I{0.124998}	DOMAIN_EOG59ZW49.nex_DOMAIN_EOG5G79F7.nex_DOMAIN_PF01392_17.nex_DOMAIN_PF01530_13.nex
+58	AA	5	1393	36	474	WAG+F+G4{2.55892}	DOMAIN_EOG5BNZT1.nex_DOMAIN_EOG5HHMHT.nex_DOMAIN_EOG5QZ62Q.nex_DOMAIN_EOG5S4MX6.nex_DOMAIN_PB002467.nex_DOMAIN_PF06350_7.nex
+59	AA	5	1213	78	568	LG+I{0.287813}	DOMAIN_EOG5BVQ8G.nex_DOMAIN_EOG5FXPQ3.nex_DOMAIN_EOG5NS1T8.nex_DOMAIN_EOG5TDZ22.nex_DOMAIN_EOG5V41QC.nex_DOMAIN_PF00690_21.nex_DOMAIN_PF01196_14.nex_DOMAIN_PF02777_13.nex_DOMAIN_PF06777_6.nex_DOMAIN_PF11414_3.nex
+60	AA	5	516	0	247	BLOSUM62+F+G4{15.9801}	DOMAIN_EOG5BZKJ9.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_EOG5BZKJ9.nex
+61	AA	3	119	0	44	PMB	DOMAIN_EOG5C2FRP.nex_DOMAIN_PB002126.nex_DOMAIN_PF12114_3.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_EOG5C2FRP.nex_DOMAIN_PB002126.nex_DOMAIN_PF12114_3.nex
+62	AA	5	612	19	247	RTREV+F+I{0.0410265}+G4{1.96522}	DOMAIN_EOG5C8693.nex_DOMAIN_EOG5ZGMV1.nex
+63	AA	5	588	24	128	LG+I{0.0454115}+G4{5.34445}	DOMAIN_EOG5CFXQ8.nex_DOMAIN_EOG5DZ09S.nex_DOMAIN_EOG5G4F6M.nex_DOMAIN_EOG5Z613P.nex_DOMAIN_PB015882.nex_DOMAIN_PB019623.nex
+64	AA	4	56	0	9	Q.INSECT+G4{0.398702}	DOMAIN_EOG5CVDNW.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_EOG5CVDNW.nex
+65	AA	5	1550	51	447	LG+F+G4{2.06319}	DOMAIN_EOG5DBRW9.nex_DOMAIN_EOG5DV42G.nex_DOMAIN_EOG5H9W25.nex_DOMAIN_EOG5HQC0M.nex_DOMAIN_EOG5Z8WC1.nex_DOMAIN_PF09724_4.nex_DOMAIN_PF11938_3.nex_DOMAIN_PF14533_1.nex
+66	AA	5	201	15	62	Q.INSECT+F+G4{0.946219}	DOMAIN_EOG5DV42P.nex_DOMAIN_EOG5PG4HC.nex
+67	AA	5	436	51	167	LG+I{0.194788}+G4{2.45355}	DOMAIN_EOG5F7M0T.nex_DOMAIN_PB009171.nex
+68	AA	5	876	41	393	LG+I{0.0798569}+G4{2.10255}	DOMAIN_EOG5GF1WP.nex_DOMAIN_EOG5TB2SN.nex_DOMAIN_EOG5Z8WBS.nex_DOMAIN_PB001890.nex_DOMAIN_PB019459.nex_DOMAIN_PF02142_17.nex_DOMAIN_PF08338_6.nex_DOMAIN_PF14727_1.nex
+69	AA	5	101	3	25	RTREV+F+G4{0.68912}	DOMAIN_EOG5GF1X9.nex
+70	AA	5	289	31	62	Q.PFAM+F+G4{2.07935}	DOMAIN_EOG5GHX3Z.nex_DOMAIN_EOG5M0CH2.nex_DOMAIN_EOG5W9GJS.nex
+71	AA	5	372	20	140	CPREV+F+G4{1.21073}	DOMAIN_EOG5GXD3S.nex_DOMAIN_PF01275_14.nex
+72	AA	5	1216	60	576	Q.INSECT+F+I{0.168234}+G4{1.82715}	DOMAIN_EOG5H18B5.nex_DOMAIN_EOG5J3TZP.nex_DOMAIN_EOG5QNKBC.nex_DOMAIN_EOG5WH71W.nex_DOMAIN_PB013539.nex_DOMAIN_PF09744_4.nex
+73	AA	5	361	20	146	FLU+F+I{0.108916}+G4{2.07012}	DOMAIN_EOG5HHMH7.nex_DOMAIN_EOG5Z08N2.nex
+74	AA	5	74	2	44	Q.PLANT+G4{0.215094}	DOMAIN_EOG5HT785.nex
+75	AA	5	292	3	84	Q.INSECT+G4{1.64772}	DOMAIN_EOG5J6Q6W.nex_DOMAIN_PF14778_1.nex
+76	AA	4	180	5	103	VT+F+G4{2.2619}	DOMAIN_EOG5J9KGB.nex
+77	AA	4	32	1	21	Q.PFAM+R2{0.870278,0.0562501,0.129722,7.33144}	DOMAIN_EOG5K3JD6.nex
+78	AA	5	560	6	197	Q.INSECT+F+G4{1.06225}	DOMAIN_EOG5MCVF6.nex_DOMAIN_PB013460.nex
+79	AA	5	46	0	20	LG+F+G4{0.874109}	DOMAIN_EOG5N5TBZ.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_EOG5N5TBZ.nex
+80	AA	5	345	27	141	Q.INSECT+F+G4{0.703334}	DOMAIN_EOG5NZS85.nex_DOMAIN_EOG5PG4G6.nex
+81	AA	5	243	8	79	Q.INSECT+F+G4{1.32989}	DOMAIN_EOG5NZS90.nex_DOMAIN_PB005492.nex
+82	AA	3	304	0	237	FLU+F+G4{0.987198}	DOMAIN_EOG5RJDGG.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_EOG5RJDGG.nex
+83	AA	5	153	22	49	RTREV+F+G4{0.765429}	DOMAIN_EOG5RV17Z.nex_DOMAIN_PF08243_6.nex
+84	AA	5	114	6	28	Q.YEAST+F+R2{0.587279,0.0252686,0.412721,2.38699}	DOMAIN_EOG5STQMD.nex
+85	AA	5	445	42	161	LG+F+I{0.213973}+G4{1.44789}	DOMAIN_EOG5TDZ17.nex_DOMAIN_PF06212_7.nex
+86	AA	5	241	12	61	VT+F+I{0.0399361}	DOMAIN_EOG5VT4CH.nex
+87	AA	5	840	12	617	Q.INSECT+F+G4{0.576591}	DOMAIN_EOG5W0VV5.nex_DOMAIN_PB001367.nex_DOMAIN_PF01873_12.nex_DOMAIN_PF07657_8.nex
+88	AA	5	178	3	54	Q.INSECT+F+G4{1.34156}	DOMAIN_EOG5XSJ5Q.nex
+89	AA	3	182	0	84	MTMAM+F	DOMAIN_EOG5Z8WBT.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_EOG5Z8WBT.nex
+90	AA	5	616	23	469	Q.INSECT+F+G4{0.399135}	DOMAIN_PB001867.nex_DOMAIN_PB015030.nex_DOMAIN_PF00244_15.nex_DOMAIN_PF01849_13.nex_DOMAIN_PF08513_6.nex
+91	AA	5	350	2	299	LG	DOMAIN_PB002146.nex_DOMAIN_PB002814.nex_DOMAIN_PB003452.nex_DOMAIN_PF06292_12.nex
+92	AA	3	67	0	67	Q.INSECT	DOMAIN_PB002252.nex
+WARNING: No variant sites in partition DOMAIN_PB002252.nex
+93	AA	5	589	99	147	LG+F+G4{1.09982}	DOMAIN_PB003133.nex_DOMAIN_PB018852.nex_DOMAIN_PF07542_6.nex_DOMAIN_PF08737_5.nex
+94	AA	3	99	0	78	FLAVI+F	DOMAIN_PB007605.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_PB007605.nex
+95	AA	4	69	1	18	Q.INSECT	DOMAIN_PB009442.nex_DOMAIN_PF12901_2.nex
+96	AA	5	41	0	37	BLOSUM62+I{0.880725}	DOMAIN_PB010459.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_PB010459.nex
+97	AA	5	815	51	546	LG+F+I{0.543924}	DOMAIN_PB015947.nex_DOMAIN_PF00833_13.nex_DOMAIN_PF01283_14.nex_DOMAIN_PF04055_16.nex
+98	AA	3	76	0	35	Q.YEAST+G4{0.193065}	DOMAIN_PF00778_12.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_PF00778_12.nex
+99	AA	5	438	48	188	Q.PFAM+F+G4{1.16973}	DOMAIN_PF01084_15.nex_DOMAIN_PF01247_13.nex_DOMAIN_PF01778_12.nex_DOMAIN_PF10406_4.nex
+100	AA	5	232	16	140	FLU+F+G4{0.723064}	DOMAIN_PF01485_16.nex_DOMAIN_PF09360_5.nex
+101	AA	5	459	52	280	Q.INSECT+G4{0.49741}	DOMAIN_PF01655_13.nex_DOMAIN_PF03371_10.nex
+102	AA	5	235	18	126	Q.YEAST+F+G4{0.506513}	DOMAIN_PF04153_13.nex_DOMAIN_PF05071_11.nex
+103	AA	5	71	7	12	Q.INSECT+F+R2{0.72179,0.0490648,0.27821,3.46711}	DOMAIN_PF08079_7.nex
+104	AA	5	93	13	16	Q.INSECT+F+G4{1.81003}	DOMAIN_PF10046_4.nex
+105	AA	3	194	0	50	Q.PFAM+G4{2.92917}	DOMAIN_PF10228_4.nex
+WARNING: No parsimony-informative sites in partition DOMAIN_PF10228_4.nex
+Degree of missing data: 0.009
+Info: multi-threading strategy over partitions
+WARNING: States(s) P rarely appear in partition DOMAIN_CL0018.nex and may cause numerical problems
+WARNING: States(s) C rarely appear in partition DOMAIN_EOG54MW8B.nex_DOMAIN_PF08159_7.nex and may cause numerical problems
+WARNING: States(s) C, E, K rarely appear in partition DOMAIN_EOG576HGB.nex_DOMAIN_PB019714.nex and may cause numerical problems
+WARNING: States(s) W rarely appear in partition DOMAIN_EOG5J9KGB.nex and may cause numerical problems
+WARNING: States(s) D, C, I, W rarely appear in partition DOMAIN_EOG5K3JD6.nex and may cause numerical problems
+WARNING: States(s) R, N, H, W, Y rarely appear in partition DOMAIN_EOG5N5TBZ.nex and may cause numerical problems
+WARNING: States(s) W rarely appear in partition DOMAIN_EOG5STQMD.nex and may cause numerical problems
+WARNING: States(s) C, W rarely appear in partition DOMAIN_EOG5XSJ5Q.nex and may cause numerical problems
+WARNING: States(s) W rarely appear in partition DOMAIN_EOG5Z8WBT.nex and may cause numerical problems
+WARNING: States(s) C rarely appear in partition DOMAIN_PB009442.nex_DOMAIN_PF12901_2.nex and may cause numerical problems
+NOTE: State(s) C, W not present in partition DOMAIN_PF08079_7.nex and thus removed from Markov process to prevent numerical problems
+WARNING: States(s) C, W rarely appear in partition DOMAIN_PF10046_4.nex and may cause numerical problems
+NOTE: 2 states (see above) are not present and thus removed from Markov process to prevent numerical problems
+Reading input tree file insect5_p_mf.treefile ...
+Generating 1000 samples for ultrafast bootstrap (seed: 426026)...
+WARNING: Normalizing category proportions so that sum of them equals to 1
+WARNING: Normalizing category proportions so that sum of them equals to 1
+WARNING: Normalizing category proportions so that sum of them equals to 1
+WARNING: Normalizing category proportions so that sum of them equals to 1
+WARNING: Normalizing category proportions so that sum of them equals to 1
+
+NOTE: 321 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -518665.651
+Current log-likelihood at step 1: -518611.145
+Current log-likelihood at step 2: -518611.144
+Partition-specific rates:  0.355 1.091 1.238 0.511 0.459 0.746 0.680 0.501 0.581 0.947 0.269 0.668 0.295 1.637 0.873 0.388 0.745 0.627 0.295 0.562 0.589 0.384 0.505 1.438 0.241 2.006 0.657 1.075 6.104 0.384 1.301 1.254 2.309 1.016 0.292 114.651 0.672 1.057 0.629 0.755 0.807 0.577 1.701 1.536 1.312 0.996 0.312 0.846 1.525 7.824 0.510 0.888 6.812 0.482 0.918 1.011 0.538 1.021 0.410 1.306 19.651 2.251 1.190 23.680 1.050 1.544 0.601 1.152 9.211 1.511 0.630 0.627 1.091 0.632 2.228 0.586 2.325 2.095 0.955 0.763 1.408 0.676 0.934 19.885 0.843 0.983 0.347 0.998 6.546 0.141 0.070 0.000 0.897 1.435 0.566 0.059 0.195 10.499 0.391 0.283 0.225 0.409 9.429 0.788 1.187
+Parameters optimization took 1 rounds (0.231 sec)
+
+Wrote distance file to... 
+
+Do NNI search on 1 best initial trees
+Optimizing NNI: done in 0.197609 secs using 2537% CPU
+Finish initializing candidate tree set (1)
+Current best tree score: -518611.144 / CPU time: 0.226
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.310919 secs using 2942% CPU
+UPDATE BEST LOG-LIKELIHOOD: -518611.144
+Optimizing NNI: done in 0.30694 secs using 2952% CPU
+UPDATE BEST LOG-LIKELIHOOD: -518611.144
+Optimizing NNI: done in 0.325313 secs using 2789% CPU
+Optimizing NNI: done in 0.320606 secs using 2830% CPU
+Optimizing NNI: done in 0.302694 secs using 2978% CPU
+Optimizing NNI: done in 0.304067 secs using 2966% CPU
+Optimizing NNI: done in 0.306369 secs using 2946% CPU
+Optimizing NNI: done in 0.35035 secs using 2671% CPU
+Optimizing NNI: done in 0.318958 secs using 2908% CPU
+Iteration 10 / LogL: -518611.144 / Time: 5727h:25m:51s
+Optimizing NNI: done in 0.319448 secs using 2954% CPU
+Optimizing NNI: done in 0.411667 secs using 2945% CPU
+Optimizing NNI: done in 0.91614 secs using 2885% CPU
+Optimizing NNI: done in 0.924446 secs using 2850% CPU
+Optimizing NNI: done in 0.943406 secs using 2776% CPU
+Optimizing NNI: done in 0.60355 secs using 2739% CPU
+Optimizing NNI: done in 0.303941 secs using 2961% CPU
+Optimizing NNI: done in 0.309518 secs using 2947% CPU
+Optimizing NNI: done in 1.19593 secs using 1669% CPU
+Optimizing NNI: done in 89.4461 secs using 25.68% CPU
+Iteration 20 / LogL: -518611.144 / Time: 5727h:27m:27s
+Optimizing NNI: done in 1.47098 secs using 1578% CPU
+Optimizing NNI: done in 0.491109 secs using 2876% CPU
+Optimizing NNI: done in 0.297088 secs using 2951% CPU
+Optimizing NNI: done in 0.297896 secs using 2975% CPU
+Optimizing NNI: done in 0.346864 secs using 2595% CPU
+Optimizing NNI: done in 0.295295 secs using 2950% CPU
+Optimizing NNI: done in 0.294158 secs using 2948% CPU
+Optimizing NNI: done in 0.29564 secs using 2948% CPU
+Optimizing NNI: done in 0.285987 secs using 2947% CPU
+Optimizing NNI: done in 0.298109 secs using 2985% CPU
+Iteration 30 / LogL: -518611.144 / Time: 5727h:27m:32s (0h:4m:15s left)
+Optimizing NNI: done in 0.289664 secs using 2942% CPU
+Optimizing NNI: done in 0.287714 secs using 2960% CPU
+Optimizing NNI: done in 0.293358 secs using 2955% CPU
+Optimizing NNI: done in 0.296007 secs using 2972% CPU
+Optimizing NNI: done in 0.295369 secs using 2981% CPU
+Optimizing NNI: done in 0.296684 secs using 2943% CPU
+Optimizing NNI: done in 0.296784 secs using 2926% CPU
+Optimizing NNI: done in 0.292717 secs using 2977% CPU
+Optimizing NNI: done in 0.296791 secs using 2980% CPU
+Optimizing NNI: done in 0.29512 secs using 2972% CPU
+Iteration 40 / LogL: -518611.144 / Time: 5727h:27m:35s (0h:2m:47s left)
+Optimizing NNI: done in 0.292234 secs using 2972% CPU
+Optimizing NNI: done in 0.326428 secs using 2684% CPU
+Optimizing NNI: done in 0.286816 secs using 2955% CPU
+Optimizing NNI: done in 0.285977 secs using 2968% CPU
+Optimizing NNI: done in 0.287168 secs using 2942% CPU
+Optimizing NNI: done in 0.288036 secs using 2968% CPU
+Optimizing NNI: done in 0.283935 secs using 2960% CPU
+Optimizing NNI: done in 0.280288 secs using 2980% CPU
+Optimizing NNI: done in 0.291019 secs using 2971% CPU
+Optimizing NNI: done in 0.288143 secs using 2972% CPU
+Iteration 50 / LogL: -518611.144 / Time: 5727h:27m:38s (0h:1m:54s left)
+Log-likelihood cutoff on original alignment: -518611.144
+UFBoot trees printed to insect5_p_search.ufboot
+Optimizing NNI: done in 0.293212 secs using 2965% CPU
+Optimizing NNI: done in 0.278919 secs using 2938% CPU
+Optimizing NNI: done in 0.288477 secs using 2936% CPU
+Optimizing NNI: done in 0.29047 secs using 2925% CPU
+Optimizing NNI: done in 0.289818 secs using 2966% CPU
+Optimizing NNI: done in 0.290206 secs using 2941% CPU
+Optimizing NNI: done in 0.291512 secs using 2955% CPU
+Optimizing NNI: done in 0.293264 secs using 2960% CPU
+Optimizing NNI: done in 0.29189 secs using 2972% CPU
+Optimizing NNI: done in 0.292609 secs using 2949% CPU
+Iteration 60 / LogL: -518611.144 / Time: 5727h:27m:41s (0h:1m:18s left)
+Optimizing NNI: done in 0.287105 secs using 2936% CPU
+Optimizing NNI: done in 0.292383 secs using 2943% CPU
+Optimizing NNI: done in 0.293611 secs using 2937% CPU
+Optimizing NNI: done in 0.286997 secs using 2970% CPU
+Optimizing NNI: done in 0.300205 secs using 2950% CPU
+Optimizing NNI: done in 0.289974 secs using 2952% CPU
+Optimizing NNI: done in 0.291519 secs using 2957% CPU
+Optimizing NNI: done in 0.289826 secs using 2935% CPU
+Optimizing NNI: done in 0.290659 secs using 2988% CPU
+Optimizing NNI: done in 0.295571 secs using 2968% CPU
+Iteration 70 / LogL: -518611.144 / Time: 5727h:27m:44s (0h:0m:51s left)
+Optimizing NNI: done in 0.289417 secs using 2949% CPU
+Optimizing NNI: done in 0.288365 secs using 2964% CPU
+Optimizing NNI: done in 0.290483 secs using 2966% CPU
+Optimizing NNI: done in 0.297609 secs using 2949% CPU
+Optimizing NNI: done in 0.315097 secs using 2750% CPU
+Optimizing NNI: done in 0.295806 secs using 2943% CPU
+Optimizing NNI: done in 0.288566 secs using 2963% CPU
+Optimizing NNI: done in 0.286144 secs using 2977% CPU
+Optimizing NNI: done in 0.289115 secs using 2964% CPU
+Optimizing NNI: done in 0.293184 secs using 2944% CPU
+Iteration 80 / LogL: -518611.144 / Time: 5727h:27m:47s (0h:0m:30s left)
+Optimizing NNI: done in 0.290907 secs using 2975% CPU
+Optimizing NNI: done in 0.287434 secs using 2989% CPU
+Optimizing NNI: done in 0.294871 secs using 2950% CPU
+Optimizing NNI: done in 0.284182 secs using 2964% CPU
+Optimizing NNI: done in 0.290729 secs using 2968% CPU
+Optimizing NNI: done in 0.290207 secs using 2941% CPU
+Optimizing NNI: done in 0.284348 secs using 2954% CPU
+Optimizing NNI: done in 0.285414 secs using 2979% CPU
+Optimizing NNI: done in 0.298577 secs using 2945% CPU
+Optimizing NNI: done in 0.297277 secs using 2990% CPU
+Iteration 90 / LogL: -518611.144 / Time: 5727h:27m:50s (0h:0m:13s left)
+Optimizing NNI: done in 0.289088 secs using 2942% CPU
+Optimizing NNI: done in 0.289768 secs using 2951% CPU
+Optimizing NNI: done in 0.285717 secs using 2986% CPU
+Optimizing NNI: done in 0.292125 secs using 2963% CPU
+Optimizing NNI: done in 0.29203 secs using 2959% CPU
+Optimizing NNI: done in 0.293289 secs using 2982% CPU
+Optimizing NNI: done in 0.30704 secs using 2830% CPU
+Optimizing NNI: done in 0.296327 secs using 2919% CPU
+Optimizing NNI: done in 0.293122 secs using 2954% CPU
+Optimizing NNI: done in 0.294524 secs using 2942% CPU
+Iteration 100 / LogL: -518611.144 / Time: 5727h:27m:53s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -518611.144
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UFBoot trees printed to insect5_p_search.ufboot
+Optimizing NNI: done in 0.288351 secs using 2971% CPU
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 5727h:27m:54s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -518611.144
+Current log-likelihood at step 1: -518611.144
+Partition-specific rates:  0.355 1.091 1.238 0.511 0.459 0.746 0.680 0.501 0.581 0.947 0.269 0.668 0.295 1.637 0.873 0.388 0.745 0.627 0.295 0.562 0.589 0.384 0.505 1.438 0.241 2.006 0.657 1.075 6.104 0.384 1.301 1.254 2.309 1.016 0.292 114.651 0.673 1.057 0.629 0.755 0.807 0.578 1.701 1.536 1.312 0.996 0.312 0.846 1.525 7.824 0.510 0.888 6.812 0.482 0.918 1.011 0.538 1.021 0.410 1.306 19.651 2.251 1.190 23.680 1.050 1.544 0.601 1.152 9.211 1.511 0.630 0.627 1.091 0.632 2.228 0.586 2.325 2.095 0.955 0.763 1.408 0.676 0.934 19.885 0.843 0.983 0.347 0.998 6.546 0.141 0.070 0.000 0.897 1.435 0.566 0.059 0.195 10.499 0.391 0.283 0.225 0.409 9.429 0.788 1.187
+Parameters optimization took 0 rounds (0.077 sec)
+
+Partition information was printed to insect5_p_search.best_model.nex
+BEST SCORE FOUND : -518611.144
+Creating bootstrap support values...
+Split supports printed to NEXUS file insect5_p_search.splits.nex
+Total tree length: 3.927
+
+Total number of iterations: 101
+CPU time used for tree search: 1016.905 sec (0h:16m:56s)
+Wall-clock time used for tree search: 125.364 sec (0h:2m:5s)
+Total CPU time used: 1044.502 sec (0h:17m:24s)
+Total wall-clock time used: 20618874.181 sec (5727h:27m:54s)
+UFBoot trees printed to insect5_p_search.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file insect5_p_search.splits.nex...
+5 taxa and 7 splits.
+Consensus tree written to insect5_p_search.contree
+Reading input trees file insect5_p_search.contree
+Log-likelihood of consensus tree: -518611.144
+Identifying sites to remove: done in 0.00228551 secs using 769.3% CPU
+Identifying sites to remove: done in 0.00239534 secs using 1055% CPU
+Identifying sites to remove: done in 0.00240666 secs using 1053% CPU
+Identifying sites to remove: done in 0.0024952 secs using 989.1% CPU
+Identifying sites to remove: done in 0.00256704 secs using 985.7% CPU
+Identifying sites to remove: done in 0.00531945 secs using 801.7% CPU
+Identifying sites to remove: done in 0.00533461 secs using 800.2% CPU
+Identifying sites to remove: done in 0.00538114 secs using 794.1% CPU
+Identifying sites to remove: done in 0.00270127 secs using 2059% CPU
+Identifying sites to remove: done in 0.00147681 secs using 3645% CPU
+Identifying sites to remove: done in 0.00200959 secs using 1012% CPU
+Identifying sites to remove: done in 0.00128475 secs using 2413% CPU
+Identifying sites to remove: done in 0.00145864 secs using 2427% CPU
+Identifying sites to remove: done in 0.000822168 secs using 97.43% CPU
+Identifying sites to remove: done in 0.000963654 secs using 198% CPU
+Identifying sites to remove: done in 0.000201289 secs using 653.3% CPU
+Identifying sites to remove: done in 0.000180695 secs using 719.4% CPU
+Identifying sites to remove: done in 0.000214096 secs using 611.9% CPU
+Identifying sites to remove: done in 0.00024657 secs using 669.6% CPU
+Identifying sites to remove: done in 0.000278037 secs using 659.6% CPU
+Identifying sites to remove: done in 0.00029235 secs using 666% CPU
+Identifying sites to remove: done in 0.000309031 secs using 663.4% CPU
+Identifying sites to remove: done in 0.000388443 secs using 645.4% CPU
+Identifying sites to remove: done in 0.0001706 secs using 484.8% CPU
+Identifying sites to remove: done in 0.000177681 secs using 153.1% CPU
+Identifying sites to remove: done in 0.000234306 secs using 521.1% CPU
+Identifying sites to remove: done in 0.000163473 secs using 135.8% CPU
+Identifying sites to remove: done in 0.000146884 secs using 3618% CPU
+Identifying sites to remove: done in 0.000210449 secs using 95.99% CPU
+Identifying sites to remove: done in 0.000155788 secs using 96.28% CPU
+Identifying sites to remove: done in 0.00106416 secs using 909.6% CPU
+Identifying sites to remove: done in 0.00110867 secs using 1663% CPU
+Identifying sites to remove: done in 0.00117944 secs using 1600% CPU
+Identifying sites to remove: done in 0.00117976 secs using 893.3% CPU
+Identifying sites to remove: done in 0.00122648 secs using 1138% CPU
+Identifying sites to remove: done in 0.00135915 secs using 1046% CPU
+Identifying sites to remove: done in 0.00142312 secs using 1017% CPU
+Identifying sites to remove: done in 0.00168095 secs using 1209% CPU
+Identifying sites to remove: done in 0.000955444 secs using 329.7% CPU
+Identifying sites to remove: done in 0.00138375 secs using 157.6% CPU
+Identifying sites to remove: done in 0.000782903 secs using 5075% CPU
+Identifying sites to remove: done in 0.00103047 secs using 2572% CPU
+Identifying sites to remove: done in 0.00087662 secs using 1667% CPU
+Identifying sites to remove: done in 0.00107936 secs
+Identifying sites to remove: done in 0.00087516 secs using 189.2% CPU
+Identifying sites to remove: done in 0.00200142 secs using 1028% CPU
+Identifying sites to remove: done in 0.00200133 secs using 1029% CPU
+Identifying sites to remove: done in 0.00198203 secs using 1008% CPU
+Identifying sites to remove: done in 0.00210875 secs using 998.4% CPU
+Identifying sites to remove: done in 0.00207936 secs using 1010% CPU
+Identifying sites to remove: done in 0.0020954 secs using 999.4% CPU
+Identifying sites to remove: done in 0.00223524 secs using 967.4% CPU
+Identifying sites to remove: done in 0.00224626 secs using 959% CPU
+Identifying sites to remove: done in 0.00245987 secs using 849.3% CPU
+Identifying sites to remove: done in 0.00209177 secs using 478.8% CPU
+Identifying sites to remove: done in 0.0021192 secs using 920.7% CPU
+Identifying sites to remove: done in 0.00187017 secs using 4053% CPU
+Identifying sites to remove: done in 0.00153267 secs using 1930% CPU
+Identifying sites to remove: done in 0.00178138 secs using 401.1% CPU
+Identifying sites to remove: done in 0.00264804 secs using 1416% CPU
+Identifying sites to remove: done in 0.000463277 secs using 141% CPU
+Identifying sites to remove: done in 0.000451665 secs using 132% CPU
+Identifying sites to remove: done in 0.000550717 secs
+Identifying sites to remove: done in 0.000552721 secs
+Identifying sites to remove: done in 0.000589669 secs
+Identifying sites to remove: done in 0.000612751 secs
+Identifying sites to remove: done in 0.000683352 secs
+Identifying sites to remove: done in 0.000635002 secs
+Identifying sites to remove: done in 0.000474103 secs
+Identifying sites to remove: done in 0.000533447 secs
+Identifying sites to remove: done in 0.000548884 secs using 53.38% CPU
+Identifying sites to remove: done in 0.000469897 secs using 842.5% CPU
+Identifying sites to remove: done in 0.00045573 secs using 977.8% CPU
+Identifying sites to remove: done in 0.000377674 secs using 154.9% CPU
+Identifying sites to remove: done in 0.000451095 secs using 97.54% CPU
+Identifying sites to remove: done in 0.000850469 secs using 1689% CPU
+Identifying sites to remove: done in 0.000904076 secs using 1011% CPU
+Identifying sites to remove: done in 0.000912312 secs using 762% CPU
+Identifying sites to remove: done in 0.000963099 secs using 749.8% CPU
+Identifying sites to remove: done in 0.00101573 secs using 961.7% CPU
+Identifying sites to remove: done in 0.00105909 secs using 937.4% CPU
+Identifying sites to remove: done in 0.00109113 secs using 915.6% CPU
+Identifying sites to remove: done in 0.00116473 secs using 866.6% CPU
+Identifying sites to remove: done in 0.000718214 secs using 690.3% CPU
+Identifying sites to remove: done in 0.00101168 secs using 309.8% CPU
+Identifying sites to remove: done in 0.000907894 secs using 192.9% CPU
+Identifying sites to remove: done in 0.00077809 secs using 98.06% CPU
+Identifying sites to remove: done in 0.000736255 secs using 1.286e+04% CPU
+Identifying sites to remove: done in 0.000717688 secs using 1.269e+04% CPU
+Identifying sites to remove: done in 0.000794012 secs using 484.9% CPU
+Identifying sites to remove: done in 0.00175831 secs using 932.3% CPU
+Identifying sites to remove: done in 0.00174648 secs using 930.7% CPU
+Identifying sites to remove: done in 0.00176344 secs using 936.8% CPU
+Identifying sites to remove: done in 0.00174995 secs using 935.5% CPU
+Identifying sites to remove: done in 0.00183807 secs using 913.8% CPU
+Identifying sites to remove: done in 0.00183721 secs using 909.2% CPU
+Identifying sites to remove: done in 0.00192957 secs using 889.4% CPU
+Identifying sites to remove: done in 0.00226867 secs using 2140% CPU
+Identifying sites to remove: done in 0.00153929 secs using 2084% CPU
+Identifying sites to remove: done in 0.00155625 secs using 2518% CPU
+Identifying sites to remove: done in 0.00246407 secs using 2511% CPU
+Identifying sites to remove: done in 0.00171223 secs
+Identifying sites to remove: done in 0.00152203 secs using 376.8% CPU
+Identifying sites to remove: done in 0.00162037 secs
+Identifying sites to remove: done in 0.00188175 secs using 994.2% CPU
+Identifying sites to remove: done in 0.000780191 secs using 751.6% CPU
+Identifying sites to remove: done in 0.000789825 secs using 768.5% CPU
+Identifying sites to remove: done in 0.000822015 secs using 748.3% CPU
+Identifying sites to remove: done in 0.000878572 secs using 750.3% CPU
+Identifying sites to remove: done in 0.000895321 secs using 735.8% CPU
+Identifying sites to remove: done in 0.000905495 secs using 737.1% CPU
+Identifying sites to remove: done in 0.000988796 secs using 694.6% CPU
+Identifying sites to remove: done in 0.000987057 secs using 809.5% CPU
+Identifying sites to remove: done in 0.00064867 secs using 194.2% CPU
+Identifying sites to remove: done in 0.000770114 secs using 317.9% CPU
+Identifying sites to remove: done in 0.000843745 secs using 4779% CPU
+Identifying sites to remove: done in 0.00077923 secs using 2044% CPU
+Identifying sites to remove: done in 0.000829488 secs using 1072% CPU
+Identifying sites to remove: done in 0.000765521 secs using 557.3% CPU
+Identifying sites to remove: done in 0.000872165 secs using 5901% CPU
+Identifying sites to remove: done in 0.000679407 secs using 763.5% CPU
+Identifying sites to remove: done in 0.000719383 secs using 771.6% CPU
+Identifying sites to remove: done in 0.000767812 secs using 772.8% CPU
+Identifying sites to remove: done in 0.000802573 secs using 763.4% CPU
+Identifying sites to remove: done in 0.000848565 secs using 739% CPU
+Identifying sites to remove: done in 0.000852309 secs using 735.8% CPU
+Identifying sites to remove: done in 0.000942033 secs using 808.7% CPU
+Identifying sites to remove: done in 0.00100799 secs using 760.4% CPU
+Identifying sites to remove: done in 0.000615411 secs using 354.9% CPU
+Identifying sites to remove: done in 0.000694823 secs using 295% CPU
+Identifying sites to remove: done in 0.000776336 secs using 6313% CPU
+Identifying sites to remove: done in 0.000623941 secs using 414.3% CPU
+Identifying sites to remove: done in 0.000610884 secs using 514.5% CPU
+Identifying sites to remove: done in 0.000609685 secs using 117.6% CPU
+Identifying sites to remove: done in 0.000646967 secs using 1.623e+04% CPU
+Identifying sites to remove: done in 0.000380199 secs using 774.3% CPU
+Identifying sites to remove: done in 0.000393007 secs using 769.7% CPU
+Identifying sites to remove: done in 0.000430204 secs using 738.5% CPU
+Identifying sites to remove: done in 0.000426326 secs using 731.8% CPU
+Identifying sites to remove: done in 0.000507899 secs using 692.9% CPU
+Identifying sites to remove: done in 0.000561778 secs using 2052% CPU
+Identifying sites to remove: done in 0.000573181 secs using 2023% CPU
+Identifying sites to remove: done in 0.000563189 secs using 2035% CPU
+Identifying sites to remove: done in 0.000322718 secs using 211.6% CPU
+Identifying sites to remove: done in 0.000380479 secs using 303.8% CPU
+Identifying sites to remove: done in 0.000429474 secs using 126.4% CPU
+Identifying sites to remove: done in 0.00035559 secs using 97.87% CPU
+Identifying sites to remove: done in 0.000433914 secs using 97.95% CPU
+Identifying sites to remove: done in 0.000354078 secs using 97.72% CPU
+Identifying sites to remove: done in 0.000449192 secs using 97.95% CPU
+Identifying sites to remove: done in 0.000253681 secs using 766.7% CPU
+Identifying sites to remove: done in 0.000309534 secs using 2.043e+04% CPU
+Identifying sites to remove: done in 0.000309877 secs using 1.729e+04% CPU
+Identifying sites to remove: done in 0.000310488 secs using 1.725e+04% CPU
+Identifying sites to remove: done in 0.000310306 secs using 1.801e+04% CPU
+Identifying sites to remove: done in 0.000311427 secs using 1.797e+04% CPU
+Identifying sites to remove: done in 0.000310145 secs using 1.727e+04% CPU
+Identifying sites to remove: done in 0.000411727 secs using 1.544e+04% CPU
+Identifying sites to remove: done in 0.00022595 secs using 330.2% CPU
+Identifying sites to remove: done in 0.00025538 secs using 369.6% CPU
+Identifying sites to remove: done in 0.000278782 secs using 149.2% CPU
+Identifying sites to remove: done in 0.000227902 secs using 502% CPU
+Identifying sites to remove: done in 0.000253651 secs using 131.3% CPU
+Identifying sites to remove: done in 0.000219282 secs using 97.14% CPU
+Identifying sites to remove: done in 0.00024084 secs using 97.58% CPU
+Identifying sites to remove: done in 0.000251368 secs using 1147% CPU
+Identifying sites to remove: done in 0.000252545 secs using 1141% CPU
+Identifying sites to remove: done in 0.00025275 secs using 707% CPU
+Identifying sites to remove: done in 0.0003094 secs using 1054% CPU
+Identifying sites to remove: done in 0.000310998 secs using 1057% CPU
+Identifying sites to remove: done in 0.000332631 secs using 1013% CPU
+Identifying sites to remove: done in 0.000334665 secs using 1006% CPU
+Identifying sites to remove: done in 0.000366189 secs using 2940% CPU
+Identifying sites to remove: done in 0.000191689 secs using 971.4% CPU
+Identifying sites to remove: done in 0.000221092 secs using 214.4% CPU
+Identifying sites to remove: done in 0.00024163 secs using 97.67% CPU
+Identifying sites to remove: done in 0.000194386 secs using 97.23% CPU
+Identifying sites to remove: done in 0.000245672 secs using 97.69% CPU
+Identifying sites to remove: done in 0.000198107 secs using 1524% CPU
+Identifying sites to remove: done in 0.000251599 secs using 101.4% CPU
+Identifying sites to remove: done in 0.000410248 secs using 762.5% CPU
+Identifying sites to remove: done in 0.000410371 secs using 774.7% CPU
+Identifying sites to remove: done in 0.000410378 secs using 778.3% CPU
+Identifying sites to remove: done in 0.000475973 secs using 2070% CPU
+Identifying sites to remove: done in 0.000475626 secs using 739.2% CPU
+Identifying sites to remove: done in 0.000477597 secs using 2071% CPU
+Identifying sites to remove: done in 0.000477433 secs using 2071% CPU
+Identifying sites to remove: done in 0.000528883 secs using 682.4% CPU
+Identifying sites to remove: done in 0.000370439 secs using 783.9% CPU
+Identifying sites to remove: done in 0.000376668 secs using 326% CPU
+Identifying sites to remove: done in 0.000396296 secs using 108.5% CPU
+Identifying sites to remove: done in 0.000368197 secs using 463.1% CPU
+Identifying sites to remove: done in 0.000412673 secs using 127.5% CPU
+Identifying sites to remove: done in 0.000375628 secs using 225% CPU
+Identifying sites to remove: done in 0.000399373 secs using 130% CPU
+Identifying sites to remove: done in 0.000301544 secs using 752.1% CPU
+Identifying sites to remove: done in 0.000311434 secs using 1295% CPU
+Identifying sites to remove: done in 0.000311818 secs using 1281% CPU
+Identifying sites to remove: done in 0.000355579 secs using 3059% CPU
+Identifying sites to remove: done in 0.000355363 secs using 2130% CPU
+Identifying sites to remove: done in 0.000336632 secs using 2204% CPU
+Identifying sites to remove: done in 0.000339001 secs using 3176% CPU
+Identifying sites to remove: done in 0.000452016 secs using 2440% CPU
+Identifying sites to remove: done in 0.000263523 secs using 1163% CPU
+Identifying sites to remove: done in 0.000261068 secs using 346.7% CPU
+Identifying sites to remove: done in 0.000295106 secs using 164.3% CPU
+Identifying sites to remove: done in 0.000296693 secs using 2.713e+04% CPU
+Identifying sites to remove: done in 0.000292063 secs using 2.716e+04% CPU
+Identifying sites to remove: done in 0.000252981 secs using 405.6% CPU
+Identifying sites to remove: done in 0.000294924 secs using 107.8% CPU
+Identifying sites to remove: done in 0.00046926 secs using 950.2% CPU
+Identifying sites to remove: done in 0.000526287 secs using 747.1% CPU
+Identifying sites to remove: done in 0.000570372 secs using 746.9% CPU
+Identifying sites to remove: done in 0.000595871 secs using 903.7% CPU
+Identifying sites to remove: done in 0.000596624 secs using 1002% CPU
+Identifying sites to remove: done in 0.000596311 secs using 910.9% CPU
+Identifying sites to remove: done in 0.000636097 secs using 948.4% CPU
+Identifying sites to remove: done in 0.000668947 secs using 839.5% CPU
+Identifying sites to remove: done in 0.000428334 secs using 361.2% CPU
+Identifying sites to remove: done in 0.00046733 secs using 619.3% CPU
+Identifying sites to remove: done in 0.000538327 secs using 157.5% CPU
+Identifying sites to remove: done in 0.00044357 secs using 571.5% CPU
+Identifying sites to remove: done in 0.00054846 secs using 159.2% CPU
+Identifying sites to remove: done in 0.000440467 secs using 217.5% CPU
+Identifying sites to remove: done in 0.000556022 secs using 103.4% CPU
+Identifying sites to remove: done in 0.000376493 secs using 2417% CPU
+Identifying sites to remove: done in 0.000376102 secs using 2419% CPU
+Identifying sites to remove: done in 0.000414185 secs using 1127% CPU
+Identifying sites to remove: done in 0.000419557 secs using 1131% CPU
+Identifying sites to remove: done in 0.00040799 secs using 750.8% CPU
+Identifying sites to remove: done in 0.000420928 secs using 2989% CPU
+Identifying sites to remove: done in 0.000422258 secs using 2234% CPU
+Identifying sites to remove: done in 0.000541687 secs using 2256% CPU
+Identifying sites to remove: done in 0.000382371 secs using 1.777e+04% CPU
+Identifying sites to remove: done in 0.000380024 secs using 1.734e+04% CPU
+Identifying sites to remove: done in 0.00038946 secs using 99.11% CPU
+Identifying sites to remove: done in 0.000333931 secs using 389% CPU
+Identifying sites to remove: done in 0.000343088 secs using 157.4% CPU
+Identifying sites to remove: done in 0.000316203 secs using 645.2% CPU
+Identifying sites to remove: done in 0.000345636 secs using 126.7% CPU
+Identifying sites to remove: done in 0.000619974 secs using 1031% CPU
+Identifying sites to remove: done in 0.000626206 secs using 1039% CPU
+Identifying sites to remove: done in 0.000626352 secs using 2216% CPU
+Identifying sites to remove: done in 0.000627123 secs using 1538% CPU
+Identifying sites to remove: done in 0.000621393 secs using 1540% CPU
+Identifying sites to remove: done in 0.000668991 secs using 2097% CPU
+Identifying sites to remove: done in 0.000711299 secs using 714% CPU
+Identifying sites to remove: done in 0.000628017 secs using 2214% CPU
+Identifying sites to remove: done in 0.00052591 secs using 661.5% CPU
+Identifying sites to remove: done in 0.000547968 secs using 194.5% CPU
+Identifying sites to remove: done in 0.000693101 secs using 1.279e+04% CPU
+Identifying sites to remove: done in 0.000558399 secs using 340.3% CPU
+Identifying sites to remove: done in 0.000540014 secs using 190.2% CPU
+Identifying sites to remove: done in 0.000549179 secs using 603.6% CPU
+Identifying sites to remove: done in 0.00061411 secs using 130.3% CPU
+Identifying sites to remove: done in 0.000335969 secs using 731.9% CPU
+Identifying sites to remove: done in 0.000330985 secs using 751.1% CPU
+Identifying sites to remove: done in 0.00033306 secs using 768.3% CPU
+Identifying sites to remove: done in 0.000349566 secs using 732.9% CPU
+Identifying sites to remove: done in 0.000399951 secs using 685.8% CPU
+Identifying sites to remove: done in 0.000412408 secs using 698.3% CPU
+Identifying sites to remove: done in 0.000395644 secs using 729.9% CPU
+Identifying sites to remove: done in 0.000408024 secs using 705.8% CPU
+Identifying sites to remove: done in 0.000276383 secs using 344.4% CPU
+Identifying sites to remove: done in 0.00029761 secs using 188.5% CPU
+Identifying sites to remove: done in 0.000298243 secs using 97.91% CPU
+Identifying sites to remove: done in 0.000295814 secs using 1.35e+04% CPU
+Identifying sites to remove: done in 0.000290189 secs using 1.343e+04% CPU
+Identifying sites to remove: done in 0.000264332 secs using 394.6% CPU
+Identifying sites to remove: done in 0.00027734 secs using 136.7% CPU
+Identifying sites to remove: done in 0.000550415 secs using 812.1% CPU
+Identifying sites to remove: done in 0.000550471 secs using 812% CPU
+Identifying sites to remove: done in 0.000623241 secs using 740.2% CPU
+Identifying sites to remove: done in 0.000657983 secs using 904.1% CPU
+Identifying sites to remove: done in 0.00136837 secs using 737.2% CPU
+Identifying sites to remove: done in 0.00139437 secs using 896.5% CPU
+Identifying sites to remove: done in 0.00139852 secs using 848.6% CPU
+Identifying sites to remove: done in 0.00139474 secs using 847.7% CPU
+Identifying sites to remove: done in 0.000532921 secs using 523.3% CPU
+Identifying sites to remove: done in 0.000550725 secs using 459.8% CPU
+Identifying sites to remove: done in 0.000663642 secs using 101.4% CPU
+Identifying sites to remove: done in 0.0005215 secs using 454.3% CPU
+Identifying sites to remove: done in 0.000681579 secs using 1.45e+04% CPU
+Identifying sites to remove: done in 0.000521503 secs using 236% CPU
+Identifying sites to remove: done in 0.000674803 secs using 123.4% CPU
+Identifying sites to remove: done in 0.000549022 secs using 789.8% CPU
+Identifying sites to remove: done in 0.000629589 secs using 763.8% CPU
+Identifying sites to remove: done in 0.000689961 secs using 739.8% CPU
+Identifying sites to remove: done in 0.000694416 secs using 737.2% CPU
+Identifying sites to remove: done in 0.000700783 secs using 734.9% CPU
+Identifying sites to remove: done in 0.000757113 secs using 717.5% CPU
+Identifying sites to remove: done in 0.000833817 secs using 777% CPU
+Identifying sites to remove: done in 0.000872128 secs using 744.8% CPU
+Identifying sites to remove: done in 0.000569586 secs using 379.2% CPU
+Identifying sites to remove: done in 0.000556853 secs using 301.9% CPU
+Identifying sites to remove: done in 0.000620663 secs using 119.7% CPU
+Identifying sites to remove: done in 0.000635825 secs using 665.3% CPU
+Identifying sites to remove: done in 0.000611022 secs using 190.5% CPU
+Identifying sites to remove: done in 0.000549965 secs using 246% CPU
+Identifying sites to remove: done in 0.000674222 secs using 113.3% CPU
+Identifying sites to remove: done in 0.000815101 secs using 679.3% CPU
+Identifying sites to remove: done in 0.000913791 secs using 689.2% CPU
+Identifying sites to remove: done in 0.000938743 secs using 687.1% CPU
+Identifying sites to remove: done in 0.000940211 secs using 730.5% CPU
+Identifying sites to remove: done in 0.00100162 secs using 700.4% CPU
+Identifying sites to remove: done in 0.00100008 secs using 659.6% CPU
+Identifying sites to remove: done in 0.00104839 secs using 683.7% CPU
+Identifying sites to remove: done in 0.000733141 secs using 346.3% CPU
+Identifying sites to remove: done in 0.000762686 secs using 513.7% CPU
+Identifying sites to remove: done in 0.000939772 secs using 2954% CPU
+Identifying sites to remove: done in 0.000635769 secs using 1892% CPU
+Identifying sites to remove: done in 0.000856571 secs using 6264% CPU
+Identifying sites to remove: done in 0.000777751 secs using 97.97% CPU
+Identifying sites to remove: done in 0.000757489 secs using 524.5% CPU
+Identifying sites to remove: done in 0.000901226 secs using 339.4% CPU
+Identifying sites to remove: done in 0.000631768 secs using 652.1% CPU
+Identifying sites to remove: done in 0.000623398 secs using 685.6% CPU
+Identifying sites to remove: done in 0.00067953 secs using 668.7% CPU
+Identifying sites to remove: done in 0.000722133 secs using 645.6% CPU
+Identifying sites to remove: done in 0.000756275 secs using 625.6% CPU
+Identifying sites to remove: done in 0.000759237 secs using 638.7% CPU
+Identifying sites to remove: done in 0.000815548 secs using 589.2% CPU
+Identifying sites to remove: done in 0.000643659 secs using 334.2% CPU
+Identifying sites to remove: done in 0.000647664 secs using 307.1% CPU
+Identifying sites to remove: done in 0.000853628 secs using 6975% CPU
+Identifying sites to remove: done in 0.000581276 secs using 9861% CPU
+Identifying sites to remove: done in 0.000635322 secs using 179.8% CPU
+Identifying sites to remove: done in 0.000594765 secs using 98.36% CPU
+Identifying sites to remove: done in 0.000680115 secs using 98.22% CPU
+Identifying sites to remove: done in 0.000519015 secs using 288.6% CPU
+Identifying sites to remove: done in 0.000418141 secs using 632.3% CPU
+Identifying sites to remove: done in 0.000401329 secs using 660.8% CPU
+Identifying sites to remove: done in 0.000405531 secs using 678.6% CPU
+Identifying sites to remove: done in 0.000409484 secs using 695% CPU
+Identifying sites to remove: done in 0.00044027 secs using 614.4% CPU
+Identifying sites to remove: done in 0.000485025 secs using 591.3% CPU
+Identifying sites to remove: done in 0.00048599 secs using 617.5% CPU
+Identifying sites to remove: done in 0.000286095 secs using 201.7% CPU
+Identifying sites to remove: done in 0.000362739 secs using 457.9% CPU
+Identifying sites to remove: done in 0.000347335 secs using 105.1% CPU
+Identifying sites to remove: done in 0.000336319 secs using 475.7% CPU
+Identifying sites to remove: done in 0.000355832 secs using 141.9% CPU
+Identifying sites to remove: done in 0.000334579 secs using 910.4% CPU
+Identifying sites to remove: done in 0.000363242 secs using 132.7% CPU
+Identifying sites to remove: done in 0.000272378 secs using 96.56% CPU
+Identifying sites to remove: done in 0.000289153 secs using 512.5% CPU
+Identifying sites to remove: done in 0.00029039 secs using 526.9% CPU
+Identifying sites to remove: done in 0.000411253 secs using 2798% CPU
+Identifying sites to remove: done in 0.000459265 secs using 2607% CPU
+Identifying sites to remove: done in 0.000447139 secs using 2682% CPU
+Identifying sites to remove: done in 0.000492901 secs using 2411% CPU
+Identifying sites to remove: done in 0.000514284 secs using 2327% CPU
+Identifying sites to remove: done in 0.000561152 secs using 2155% CPU
+Identifying sites to remove: done in 0.000285957 secs using 292.7% CPU
+Identifying sites to remove: done in 0.000283804 secs using 197.7% CPU
+Identifying sites to remove: done in 0.000329621 secs using 98.9% CPU
+Identifying sites to remove: done in 0.000245795 secs using 565.5% CPU
+Identifying sites to remove: done in 0.000259034 secs using 168.7% CPU
+Identifying sites to remove: done in 0.000250358 secs using 903.5% CPU
+Identifying sites to remove: done in 0.000258878 secs using 117% CPU
+Identifying sites to remove: done in 0.00038904 secs using 631.3% CPU
+Identifying sites to remove: done in 0.0003777 secs using 665.6% CPU
+Identifying sites to remove: done in 0.00037881 secs using 676.9% CPU
+Identifying sites to remove: done in 0.000378083 secs using 671.3% CPU
+Identifying sites to remove: done in 0.000463445 secs using 712.1% CPU
+Identifying sites to remove: done in 0.000521928 secs using 672.1% CPU
+Identifying sites to remove: done in 0.000558615 secs using 752.8% CPU
+Identifying sites to remove: done in 0.000301871 secs using 480.3% CPU
+Identifying sites to remove: done in 0.000292916 secs using 299.4% CPU
+Identifying sites to remove: done in 0.000338063 secs using 102.9% CPU
+Identifying sites to remove: done in 0.000276916 secs using 97.5% CPU
+Identifying sites to remove: done in 0.00034162 secs using 98.06% CPU
+Identifying sites to remove: done in 0.0002869 secs using 235.6% CPU
+Identifying sites to remove: done in 0.000367075 secs using 147.9% CPU
+Identifying sites to remove: done in 0.000262734 secs using 1183% CPU
+Identifying sites to remove: done in 6.1363e-05 secs using 306.4% CPU
+Identifying sites to remove: done in 6.62096e-05 secs using 350.4% CPU
+Identifying sites to remove: done in 7.14697e-05 secs using 408.6% CPU
+Identifying sites to remove: done in 0.000115428 secs using 436.6% CPU
+Identifying sites to remove: done in 9.57772e-05 secs using 478.2% CPU
+Identifying sites to remove: done in 7.9453e-05 secs using 329.8% CPU
+Identifying sites to remove: done in 9.78149e-05 secs using 454.9% CPU
+Identifying sites to remove: done in 9.7651e-05 secs using 361.5% CPU
+Identifying sites to remove: done in 5.28693e-05 secs using 92.68% CPU
+Identifying sites to remove: done in 4.8276e-05 secs using 91.14% CPU
+Identifying sites to remove: done in 4.91478e-05 secs using 91.56% CPU
+Identifying sites to remove: done in 5.32717e-05 secs using 705.8% CPU
+Identifying sites to remove: done in 4.83878e-05 secs using 192.2% CPU
+Identifying sites to remove: done in 4.65028e-05 secs using 92.47% CPU
+Identifying sites to remove: done in 5.54472e-05 secs using 91.98% CPU
+Identifying sites to remove: done in 0.000983983 secs using 2426% CPU
+Identifying sites to remove: done in 0.00109589 secs using 3063% CPU
+Identifying sites to remove: done in 0.0010987 secs using 3055% CPU
+Identifying sites to remove: done in 0.00123106 secs using 2083% CPU
+Identifying sites to remove: done in 0.001235 secs using 2080% CPU
+Identifying sites to remove: done in 0.00125644 secs using 2051% CPU
+Identifying sites to remove: done in 0.00127322 secs using 2026% CPU
+Identifying sites to remove: done in 0.00130459 secs using 1982% CPU
+Identifying sites to remove: done in 0.000928182 secs using 653.9% CPU
+Identifying sites to remove: done in 0.000949781 secs using 348.4% CPU
+Identifying sites to remove: done in 0.00121795 secs using 3855% CPU
+Identifying sites to remove: done in 0.00117087 secs using 98.39% CPU
+Identifying sites to remove: done in 0.000977382 secs using 98.12% CPU
+Identifying sites to remove: done in 0.00093995 secs using 292.1% CPU
+Identifying sites to remove: done in 0.00127738 secs using 7960% CPU
+Identifying sites to remove: done in 0.000648692 secs using 619.2% CPU
+Identifying sites to remove: done in 0.000633292 secs using 666% CPU
+Identifying sites to remove: done in 0.000697438 secs using 656.8% CPU
+Identifying sites to remove: done in 0.000752661 secs using 635.9% CPU
+Identifying sites to remove: done in 0.000754252 secs using 634.5% CPU
+Identifying sites to remove: done in 0.000720937 secs using 644.4% CPU
+Identifying sites to remove: done in 0.000917356 secs using 551.9% CPU
+Identifying sites to remove: done in 0.000597648 secs using 511.7% CPU
+Identifying sites to remove: done in 0.000608709 secs using 343% CPU
+Identifying sites to remove: done in 0.000758797 secs using 119.8% CPU
+Identifying sites to remove: done in 0.000451401 secs using 98.14% CPU
+Identifying sites to remove: done in 0.000726193 secs using 1.144e+04% CPU
+Identifying sites to remove: done in 0.000612747 secs using 426.3% CPU
+Identifying sites to remove: done in 0.000588853 secs using 165.6% CPU
+Identifying sites to remove: done in 0.000382259 secs using 98.36% CPU
+Identifying sites to remove: done in 0.000426166 secs using 709.1% CPU
+Identifying sites to remove: done in 0.000418965 secs using 715.3% CPU
+Identifying sites to remove: done in 0.000419736 secs using 774.5% CPU
+Identifying sites to remove: done in 0.000432789 secs using 789.1% CPU
+Identifying sites to remove: done in 0.000432096 secs using 792.9% CPU
+Identifying sites to remove: done in 0.000546314 secs using 658.8% CPU
+Identifying sites to remove: done in 0.000583418 secs using 735.7% CPU
+Identifying sites to remove: done in 0.000583552 secs using 735.5% CPU
+Identifying sites to remove: done in 0.000351571 secs using 525.9% CPU
+Identifying sites to remove: done in 0.000381876 secs using 337.3% CPU
+Identifying sites to remove: done in 0.00038866 secs using 182.9% CPU
+Identifying sites to remove: done in 0.000377484 secs using 562.4% CPU
+Identifying sites to remove: done in 0.000410251 secs using 188.2% CPU
+Identifying sites to remove: done in 0.000360098 secs using 98.03% CPU
+Identifying sites to remove: done in 0.000434432 secs using 1.929e+04% CPU
+Identifying sites to remove: done in 0.000415001 secs using 626% CPU
+Identifying sites to remove: done in 0.000422589 secs using 702.1% CPU
+Identifying sites to remove: done in 0.000413503 secs using 679.3% CPU
+Identifying sites to remove: done in 0.000461392 secs using 660.6% CPU
+Identifying sites to remove: done in 0.000539247 secs using 630.9% CPU
+Identifying sites to remove: done in 0.000572275 secs using 605.8% CPU
+Identifying sites to remove: done in 0.000525266 secs using 618.9% CPU
+Identifying sites to remove: done in 0.000441354 secs using 365.7% CPU
+Identifying sites to remove: done in 0.000442192 secs using 195.6% CPU
+Identifying sites to remove: done in 0.000318453 secs using 409.2% CPU
+Identifying sites to remove: done in 0.00048466 secs using 407.7% CPU
+Identifying sites to remove: done in 0.00036576 secs using 684.3% CPU
+Identifying sites to remove: done in 0.000367176 secs using 179.8% CPU
+Identifying sites to remove: done in 0.000347294 secs using 196.1% CPU
+Identifying sites to remove: done in 0.00038537 secs using 211.7% CPU
+Identifying sites to remove: done in 0.000543676 secs using 8487% CPU
+Identifying sites to remove: done in 0.000624206 secs using 7476% CPU
+Identifying sites to remove: done in 0.000626303 secs using 7734% CPU
+Identifying sites to remove: done in 0.000627413 secs using 7443% CPU
+Identifying sites to remove: done in 0.000651922 secs using 7994% CPU
+Identifying sites to remove: done in 0.000662256 secs using 7069% CPU
+Identifying sites to remove: done in 0.000729129 secs using 6680% CPU
+Identifying sites to remove: done in 0.000443634 secs using 181.2% CPU
+Identifying sites to remove: done in 0.000530705 secs using 288.5% CPU
+Identifying sites to remove: done in 0.000601307 secs using 99.45% CPU
+Identifying sites to remove: done in 0.000440598 secs using 198.6% CPU
+Identifying sites to remove: done in 0.00053012 secs using 599.1% CPU
+Identifying sites to remove: done in 0.000453535 secs using 2.239e+04% CPU
+Identifying sites to remove: done in 0.000558786 secs using 98.79% CPU
+Identifying sites to remove: done in 0.00035106 secs using 783.3% CPU
+Identifying sites to remove: done in 0.000495866 secs using 737.9% CPU
+Identifying sites to remove: done in 0.000488244 secs using 738% CPU
+Identifying sites to remove: done in 0.000480115 secs using 757.1% CPU
+Identifying sites to remove: done in 0.000552006 secs using 752.3% CPU
+Identifying sites to remove: done in 0.000610322 secs using 697.5% CPU
+Identifying sites to remove: done in 0.000610702 secs using 720.5% CPU
+Identifying sites to remove: done in 0.000604611 secs using 724.1% CPU
+Identifying sites to remove: done in 0.000672627 secs using 771.9% CPU
+Identifying sites to remove: done in 0.000390749 secs using 204% CPU
+Identifying sites to remove: done in 0.000458803 secs using 360.7% CPU
+Identifying sites to remove: done in 0.000655029 secs using 6279% CPU
+Identifying sites to remove: done in 0.000422314 secs using 275.2% CPU
+Identifying sites to remove: done in 0.000514962 secs using 124.1% CPU
+Identifying sites to remove: done in 0.00050734 secs using 563.5% CPU
+Identifying sites to remove: done in 0.000489045 secs using 202.2% CPU
+Identifying sites to remove: done in 7.76462e-05 secs using 197% CPU
+Identifying sites to remove: done in 0.000111308 secs using 441.1% CPU
+Identifying sites to remove: done in 0.000119798 secs using 288.8% CPU
+Identifying sites to remove: done in 9.55798e-05 secs using 308.6% CPU
+Identifying sites to remove: done in 0.000109658 secs using 362% CPU
+Identifying sites to remove: done in 0.000112057 secs using 447.1% CPU
+Identifying sites to remove: done in 6.63921e-05 secs using 459.4% CPU
+Identifying sites to remove: done in 9.97521e-05 secs using 157.4% CPU
+Identifying sites to remove: done in 5.58272e-05 secs using 93.14% CPU
+Identifying sites to remove: done in 8.89972e-05 secs using 1037% CPU
+Identifying sites to remove: done in 5.54547e-05 secs using 1187% CPU
+Identifying sites to remove: done in 4.69983e-05 secs using 204.3% CPU
+Identifying sites to remove: done in 6.45369e-05 secs using 94.52% CPU
+Identifying sites to remove: done in 4.21964e-05 secs using 92.43% CPU
+Identifying sites to remove: done in 0.000716813 secs using 765.3% CPU
+Identifying sites to remove: done in 0.000717621 secs using 769.2% CPU
+Identifying sites to remove: done in 0.000747066 secs using 770.7% CPU
+Identifying sites to remove: done in 0.000747681 secs using 770.1% CPU
+Identifying sites to remove: done in 0.000693522 secs using 790.9% CPU
+Identifying sites to remove: done in 0.000748191 secs using 769.6% CPU
+Identifying sites to remove: done in 0.000693306 secs using 818.4% CPU
+Identifying sites to remove: done in 0.000779826 secs using 746.7% CPU
+Identifying sites to remove: done in 0.000657685 secs using 779.1% CPU
+Identifying sites to remove: done in 0.000760492 secs using 329% CPU
+Identifying sites to remove: done in 0.000813052 secs using 1.024e+04% CPU
+Identifying sites to remove: done in 0.000690721 secs using 372.7% CPU
+Identifying sites to remove: done in 0.000750955 secs using 122.1% CPU
+Identifying sites to remove: done in 0.000621084 secs using 648.4% CPU
+Identifying sites to remove: done in 0.000736386 secs using 1.437e+04% CPU
+Identifying sites to remove: done in 0.000417247 secs using 2584% CPU
+Identifying sites to remove: done in 0.000412241 secs using 2602% CPU
+Identifying sites to remove: done in 0.000454109 secs using 2440% CPU
+Identifying sites to remove: done in 0.000505172 secs using 2271% CPU
+Identifying sites to remove: done in 0.000491548 secs using 2340% CPU
+Identifying sites to remove: done in 0.000644062 secs using 1885% CPU
+Identifying sites to remove: done in 0.000654384 secs using 1866% CPU
+Identifying sites to remove: done in 0.000728875 secs using 1767% CPU
+Identifying sites to remove: done in 0.00032464 secs using 209.5% CPU
+Identifying sites to remove: done in 0.000457913 secs using 331.3% CPU
+Identifying sites to remove: done in 0.000494633 secs using 649.4% CPU
+Identifying sites to remove: done in 0.000385758 secs using 498.5% CPU
+Identifying sites to remove: done in 0.000373114 secs using 176.1% CPU
+Identifying sites to remove: done in 0.000389811 secs using 804.2% CPU
+Identifying sites to remove: done in 0.000429519 secs using 159.2% CPU
+Identifying sites to remove: done in 3.38927e-05 secs using 221.3% CPU
+Identifying sites to remove: done in 3.17246e-05 secs using 173.4% CPU
+Identifying sites to remove: done in 4.95575e-05 secs using 480.2% CPU
+Identifying sites to remove: done in 8.02539e-05 secs using 290.3% CPU
+Identifying sites to remove: done in 7.47219e-05 secs using 523.3% CPU
+Identifying sites to remove: done in 7.85515e-05 secs using 552.5% CPU
+Identifying sites to remove: done in 8.22172e-05 secs using 621.5% CPU
+Identifying sites to remove: done in 8.08463e-05 secs using 536.8% CPU
+Identifying sites to remove: done in 4.97401e-05 secs using 92.48% CPU
+Identifying sites to remove: done in 5.35883e-05 secs using 522.5% CPU
+Identifying sites to remove: done in 3.85344e-05 secs using 215.4% CPU
+Identifying sites to remove: done in 3.5651e-05 secs using 89.76% CPU
+Identifying sites to remove: done in 2.75671e-05 secs using 87.06% CPU
+Identifying sites to remove: done in 4.44241e-05 secs using 1.111e+04% CPU
+Identifying sites to remove: done in 3.63812e-05 secs using 153.9% CPU
+Identifying sites to remove: done in 0.000208806 secs using 796.4% CPU
+Identifying sites to remove: done in 0.000212204 secs using 803.9% CPU
+Identifying sites to remove: done in 0.000211157 secs using 957.6% CPU
+Identifying sites to remove: done in 0.000212647 secs using 802.3% CPU
+Identifying sites to remove: done in 0.000230711 secs using 910.2% CPU
+Identifying sites to remove: done in 0.000268206 secs using 643.9% CPU
+Identifying sites to remove: done in 0.000292804 secs using 802.6% CPU
+Identifying sites to remove: done in 0.000288218 secs using 618.3% CPU
+Identifying sites to remove: done in 0.000133134 secs using 485.2% CPU
+Identifying sites to remove: done in 0.000163231 secs using 175.8% CPU
+Identifying sites to remove: done in 0.000170339 secs using 96.87% CPU
+Identifying sites to remove: done in 0.000166692 secs using 508.7% CPU
+Identifying sites to remove: done in 0.000172552 secs using 131.6% CPU
+Identifying sites to remove: done in 0.000160649 secs using 1076% CPU
+Identifying sites to remove: done in 0.000181064 secs using 104.4% CPU
+Identifying sites to remove: done in 0.000263404 secs using 684.9% CPU
+Identifying sites to remove: done in 0.000299938 secs using 643.5% CPU
+Identifying sites to remove: done in 0.000324361 secs using 622.5% CPU
+Identifying sites to remove: done in 0.000323948 secs using 638.1% CPU
+Identifying sites to remove: done in 0.000345331 secs using 582.9% CPU
+Identifying sites to remove: done in 0.000349194 secs using 618.6% CPU
+Identifying sites to remove: done in 0.000371687 secs using 669.1% CPU
+Identifying sites to remove: done in 0.000284135 secs using 470.2% CPU
+Identifying sites to remove: done in 0.000261519 secs using 342.6% CPU
+Identifying sites to remove: done in 0.000324797 secs using 125.3% CPU
+Identifying sites to remove: done in 0.000235785 secs using 492% CPU
+Identifying sites to remove: done in 0.00027106 secs using 159.7% CPU
+Identifying sites to remove: done in 0.000236597 secs using 97.21% CPU
+Identifying sites to remove: done in 0.000261586 secs using 97.86% CPU
+Identifying sites to remove: done in 0.000217367 secs using 346% CPU
+Identifying sites to remove: done in 0.000747204 secs using 5851% CPU
+Identifying sites to remove: done in 0.000750232 secs using 6425% CPU
+Identifying sites to remove: done in 0.000751417 secs using 6420% CPU
+Identifying sites to remove: done in 0.00080448 secs using 6577% CPU
+Identifying sites to remove: done in 0.000799514 secs using 5885% CPU
+Identifying sites to remove: done in 0.000797693 secs using 5521% CPU
+Identifying sites to remove: done in 0.000798579 secs using 5522% CPU
+Identifying sites to remove: done in 0.000527412 secs using 347.2% CPU
+Identifying sites to remove: done in 0.00068257 secs using 304.1% CPU
+Identifying sites to remove: done in 0.000754785 secs using 117.5% CPU
+Identifying sites to remove: done in 0.000684928 secs using 539.2% CPU
+Identifying sites to remove: done in 0.000712775 secs using 187.3% CPU
+Identifying sites to remove: done in 0.000668574 secs using 289.4% CPU
+Identifying sites to remove: done in 0.000749934 secs using 106.5% CPU
+Identifying sites to remove: done in 0.000527728 secs using 98.54% CPU
+Identifying sites to remove: done in 0.000760484 secs using 734.8% CPU
+Identifying sites to remove: done in 0.000767834 secs using 734.7% CPU
+Identifying sites to remove: done in 0.000878766 secs using 743.9% CPU
+Identifying sites to remove: done in 0.000947148 secs using 723.2% CPU
+Identifying sites to remove: done in 0.000952788 secs using 708.8% CPU
+Identifying sites to remove: done in 0.00101463 secs using 703.2% CPU
+Identifying sites to remove: done in 0.00107842 secs using 667.9% CPU
+Identifying sites to remove: done in 0.00123139 secs using 602.5% CPU
+Identifying sites to remove: done in 0.000714138 secs using 547.5% CPU
+Identifying sites to remove: done in 0.000966758 secs using 311% CPU
+Identifying sites to remove: done in 0.000894509 secs using 7570% CPU
+Identifying sites to remove: done in 0.000839088 secs using 314.2% CPU
+Identifying sites to remove: done in 0.000826541 secs using 168.8% CPU
+Identifying sites to remove: done in 0.000893574 secs using 1.224e+04% CPU
+Identifying sites to remove: done in 0.000895333 secs using 1.179e+04% CPU
+Identifying sites to remove: done in 0.000205319 secs using 3442% CPU
+Identifying sites to remove: done in 0.000374444 secs using 2139% CPU
+Identifying sites to remove: done in 0.000396367 secs using 2018% CPU
+Identifying sites to remove: done in 0.000413567 secs using 2037% CPU
+Identifying sites to remove: done in 0.000242859 secs using 449.2% CPU
+Identifying sites to remove: done in 0.000358578 secs using 143.9% CPU
+Identifying sites to remove: done in 0.000254951 secs using 1164% CPU
+Identifying sites to remove: done in 0.000210397 secs using 1010% CPU
+Identifying sites to remove: done in 0.000280451 secs using 577.3% CPU
+Identifying sites to remove: done in 0.000244528 secs using 173.8% CPU
+Identifying sites to remove: done in 8.34018e-05 secs using 181.1% CPU
+Identifying sites to remove: done in 9.52147e-05 secs using 1.024e+04% CPU
+Identifying sites to remove: done in 8.36775e-05 secs using 180.5% CPU
+Identifying sites to remove: done in 9.36799e-05 secs using 1.035e+04% CPU
+Identifying sites to remove: done in 8.56034e-05 secs using 268.7% CPU
+Identifying sites to remove: done in 8.82596e-05 secs using 6677% CPU
+Identifying sites to remove: done in 9.01856e-05 secs using 6627% CPU
+Identifying sites to remove: done in 6.13704e-05 secs using 3428% CPU
+Identifying sites to remove: done in 6.29462e-05 secs using 182.7% CPU
+Identifying sites to remove: done in 6.4142e-05 secs using 3558% CPU
+Identifying sites to remove: done in 5.76116e-05 secs using 194.4% CPU
+Identifying sites to remove: done in 4.29153e-05 secs using 90.88% CPU
+Identifying sites to remove: done in 5.70938e-05 secs using 91.08% CPU
+Identifying sites to remove: done in 5.72428e-05 secs using 92.59% CPU
+Identifying sites to remove: done in 4.7192e-05 secs using 78.4% CPU
+Identifying sites to remove: done in 0.000210252 secs using 651.1% CPU
+Identifying sites to remove: done in 0.000213973 secs using 643.5% CPU
+Identifying sites to remove: done in 0.000245027 secs using 2.845e+04% CPU
+Identifying sites to remove: done in 0.00026172 secs using 2.665e+04% CPU
+Identifying sites to remove: done in 0.000246748 secs using 2.825e+04% CPU
+Identifying sites to remove: done in 0.000297379 secs using 2.916e+04% CPU
+Identifying sites to remove: done in 0.000333365 secs using 2.098e+04% CPU
+Identifying sites to remove: done in 0.000170704 secs using 275.3% CPU
+Identifying sites to remove: done in 0.000210147 secs using 310.3% CPU
+Identifying sites to remove: done in 0.000190634 secs using 157.9% CPU
+Identifying sites to remove: done in 0.000195589 secs using 493.9% CPU
+Identifying sites to remove: done in 0.000161074 secs using 214.2% CPU
+Identifying sites to remove: done in 0.000159517 secs using 97.17% CPU
+Identifying sites to remove: done in 0.000191089 secs using 97.34% CPU
+Identifying sites to remove: done in 0.000132851 secs using 2373% CPU
+Identifying sites to remove: done in 0.000543136 secs using 719.5% CPU
+Identifying sites to remove: done in 0.000570383 secs using 746.5% CPU
+Identifying sites to remove: done in 0.000572309 secs using 779.3% CPU
+Identifying sites to remove: done in 0.000609659 secs using 745.3% CPU
+Identifying sites to remove: done in 0.000656541 secs using 741.2% CPU
+Identifying sites to remove: done in 0.000649679 secs using 730.4% CPU
+Identifying sites to remove: done in 0.000698209 secs using 685.8% CPU
+Identifying sites to remove: done in 0.000726365 secs using 772.5% CPU
+Identifying sites to remove: done in 0.000388242 secs using 6200% CPU
+Identifying sites to remove: done in 0.000591278 secs using 4245% CPU
+Identifying sites to remove: done in 0.000565182 secs using 98.2% CPU
+Identifying sites to remove: done in 0.000562858 secs using 391.8% CPU
+Identifying sites to remove: done in 0.00056693 secs using 146.8% CPU
+Identifying sites to remove: done in 0.000585429 secs using 596.7% CPU
+Identifying sites to remove: done in 0.000600934 secs using 134.6% CPU
+Identifying sites to remove: done in 0.000396911 secs using 590.1% CPU
+Identifying sites to remove: done in 0.000366736 secs using 692.9% CPU
+Identifying sites to remove: done in 0.000391304 secs using 668.3% CPU
+Identifying sites to remove: done in 0.000402708 secs using 653.1% CPU
+Identifying sites to remove: done in 0.00042209 secs using 623.8% CPU
+Identifying sites to remove: done in 0.000431884 secs using 624.5% CPU
+Identifying sites to remove: done in 0.00048345 secs using 582.5% CPU
+Identifying sites to remove: done in 0.000349067 secs using 454.9% CPU
+Identifying sites to remove: done in 0.000351887 secs using 291% CPU
+Identifying sites to remove: done in 0.000378605 secs using 97.99% CPU
+Identifying sites to remove: done in 0.000332087 secs using 497.2% CPU
+Identifying sites to remove: done in 0.000346918 secs using 127.4% CPU
+Identifying sites to remove: done in 0.000329375 secs using 261.4% CPU
+Identifying sites to remove: done in 0.000358853 secs using 135.7% CPU
+Identifying sites to remove: done in 0.000284627 secs using 1143% CPU
+Identifying sites to remove: done in 0.000541948 secs using 664.3% CPU
+Identifying sites to remove: done in 0.000589598 secs using 664.7% CPU
+Identifying sites to remove: done in 0.000717659 secs using 652.3% CPU
+Identifying sites to remove: done in 0.000721831 secs using 652% CPU
+Identifying sites to remove: done in 0.000699326 secs using 648.5% CPU
+Identifying sites to remove: done in 0.000754736 secs using 635.6% CPU
+Identifying sites to remove: done in 0.00076396 secs using 616.3% CPU
+Identifying sites to remove: done in 0.000454906 secs using 569.1% CPU
+Identifying sites to remove: done in 0.000565503 secs using 330.9% CPU
+Identifying sites to remove: done in 0.0005631 secs using 221.5% CPU
+Identifying sites to remove: done in 0.000503935 secs using 1.343e+04% CPU
+Identifying sites to remove: done in 0.000607416 secs using 1.16e+04% CPU
+Identifying sites to remove: done in 0.000466298 secs using 489% CPU
+Identifying sites to remove: done in 0.000582404 secs using 139.1% CPU
+Identifying sites to remove: done in 0.000418197 secs using 263% CPU
+Identifying sites to remove: done in 5.78798e-05 secs using 1.053e+04% CPU
+Identifying sites to remove: done in 5.98133e-05 secs using 264.2% CPU
+Identifying sites to remove: done in 5.96382e-05 secs using 264.9% CPU
+Identifying sites to remove: done in 0.000107516 secs using 240% CPU
+Identifying sites to remove: done in 4.79929e-05 secs using 175% CPU
+Identifying sites to remove: done in 5.10029e-05 secs using 4386% CPU
+Identifying sites to remove: done in 4.82202e-05 secs using 91.25% CPU
+Identifying sites to remove: done in 3.53493e-05 secs using 6673% CPU
+Identifying sites to remove: done in 4.95575e-05 secs using 157.4% CPU
+Identifying sites to remove: done in 2.82079e-05 secs using 77.99% CPU
+Identifying sites to remove: done in 0.000335563 secs using 2250% CPU
+Identifying sites to remove: done in 0.000337884 secs using 2237% CPU
+Identifying sites to remove: done in 0.000356194 secs using 2194% CPU
+Identifying sites to remove: done in 0.000385698 secs using 626.9% CPU
+Identifying sites to remove: done in 0.000427969 secs using 579.7% CPU
+Identifying sites to remove: done in 0.000452384 secs using 572.3% CPU
+Identifying sites to remove: done in 0.000452504 secs using 593.6% CPU
+Identifying sites to remove: done in 0.000282276 secs using 195.6% CPU
+Identifying sites to remove: done in 0.000291575 secs using 984% CPU
+Identifying sites to remove: done in 0.000380751 secs using 1.598e+04% CPU
+Identifying sites to remove: done in 0.000291966 secs using 319.9% CPU
+Identifying sites to remove: done in 0.000289243 secs using 136.9% CPU
+Identifying sites to remove: done in 0.000281394 secs using 591% CPU
+Identifying sites to remove: done in 0.000310525 secs using 111.7% CPU
+Identifying sites to remove: done in 0.000251096 secs using 4.104e+04% CPU
+Identifying sites to remove: done in 0.000187792 secs using 2254% CPU
+Identifying sites to remove: done in 0.00018885 secs using 2259% CPU
+Identifying sites to remove: done in 0.000217918 secs using 3407% CPU
+Identifying sites to remove: done in 0.000189405 secs using 2253% CPU
+Identifying sites to remove: done in 0.000209682 secs using 632.4% CPU
+Identifying sites to remove: done in 0.000282589 secs using 535.1% CPU
+Identifying sites to remove: done in 0.000282891 secs using 534.5% CPU
+Identifying sites to remove: done in 0.000118442 secs using 1288% CPU
+Identifying sites to remove: done in 0.000152525 secs using 173.1% CPU
+Identifying sites to remove: done in 0.000213221 secs using 1.808e+04% CPU
+Identifying sites to remove: done in 0.000175003 secs using 150.9% CPU
+Identifying sites to remove: done in 0.000149302 secs using 97.12% CPU
+Identifying sites to remove: done in 0.000162449 secs using 431.5% CPU
+Identifying sites to remove: done in 0.000153743 secs using 108% CPU
+Identifying sites to remove: done in 0.000152409 secs using 1785% CPU
+Identifying sites to remove: done in 8.33906e-05 secs using 219.4% CPU
+Identifying sites to remove: done in 9.17576e-05 secs using 2496% CPU
+Identifying sites to remove: done in 9.24468e-05 secs using 2570% CPU
+Identifying sites to remove: done in 7.71694e-05 secs using 414.7% CPU
+Identifying sites to remove: done in 9.64776e-05 secs using 427% CPU
+Identifying sites to remove: done in 0.00013385 secs using 532.7% CPU
+Identifying sites to remove: done in 0.000154141 secs using 411.3% CPU
+Identifying sites to remove: done in 5.03138e-05 secs using 471% CPU
+Identifying sites to remove: done in 7.01919e-05 secs using 158.1% CPU
+Identifying sites to remove: done in 6.79865e-05 secs using 600.1% CPU
+Identifying sites to remove: done in 7.20099e-05 secs using 659.6% CPU
+Identifying sites to remove: done in 6.46338e-05 secs using 295.5% CPU
+Identifying sites to remove: done in 6.29574e-05 secs using 179.5% CPU
+Identifying sites to remove: done in 6.13257e-05 secs using 91.32% CPU
+Identifying sites to remove: done in 5.26085e-05 secs using 79.83% CPU
+Identifying sites to remove: done in 0.000390388 secs using 658.1% CPU
+Identifying sites to remove: done in 0.000398252 secs using 2056% CPU
+Identifying sites to remove: done in 0.000397909 secs using 2050% CPU
+Identifying sites to remove: done in 0.000433948 secs using 1916% CPU
+Identifying sites to remove: done in 0.000433389 secs using 631.3% CPU
+Identifying sites to remove: done in 0.000465252 secs using 625% CPU
+Identifying sites to remove: done in 0.000451356 secs using 631.4% CPU
+Identifying sites to remove: done in 0.000354104 secs using 1.486e+04% CPU
+Identifying sites to remove: done in 0.000374272 secs using 1.345e+04% CPU
+Identifying sites to remove: done in 0.000376876 secs using 138.5% CPU
+Identifying sites to remove: done in 0.00033877 secs using 476.1% CPU
+Identifying sites to remove: done in 0.00036104 secs using 148.2% CPU
+Identifying sites to remove: done in 0.000349268 secs using 706% CPU
+Identifying sites to remove: done in 0.000386041 secs using 132.6% CPU
+Identifying sites to remove: done in 0.000283249 secs using 97.79% CPU
+Identifying sites to remove: done in 0.000276748 secs using 605.6% CPU
+Identifying sites to remove: done in 0.000317279 secs using 1467% CPU
+Identifying sites to remove: done in 0.000319269 secs using 921.8% CPU
+Identifying sites to remove: done in 0.000349823 secs using 2106% CPU
+Identifying sites to remove: done in 0.000320297 secs using 922.9% CPU
+Identifying sites to remove: done in 0.000344466 secs using 642.2% CPU
+Identifying sites to remove: done in 0.000452783 secs using 1086% CPU
+Identifying sites to remove: done in 0.000238571 secs using 242.7% CPU
+Identifying sites to remove: done in 0.000244301 secs using 771.6% CPU
+Identifying sites to remove: done in 0.00028576 secs using 99.03% CPU
+Identifying sites to remove: done in 0.000227839 secs using 98.32% CPU
+Identifying sites to remove: done in 0.000280481 secs using 99.12% CPU
+Identifying sites to remove: done in 0.000232238 secs using 1350% CPU
+Identifying sites to remove: done in 0.00030544 secs using 122.4% CPU
+Identifying sites to remove: done in 0.000191342 secs using 642.8% CPU
+Identifying sites to remove: done in 0.000177741 secs using 339.8% CPU
+Identifying sites to remove: done in 0.000168595 secs using 657.2% CPU
+Identifying sites to remove: done in 0.000158597 secs using 690.4% CPU
+Identifying sites to remove: done in 0.000171304 secs using 657.3% CPU
+Identifying sites to remove: done in 0.000305794 secs using 438.2% CPU
+Identifying sites to remove: done in 0.000302676 secs using 576.5% CPU
+Identifying sites to remove: done in 0.000344098 secs using 577.7% CPU
+Identifying sites to remove: done in 0.000193451 secs using 558.8% CPU
+Identifying sites to remove: done in 0.000149574 secs using 179.8% CPU
+Identifying sites to remove: done in 0.000150882 secs using 603.8% CPU
+Identifying sites to remove: done in 0.000142459 secs using 151.6% CPU
+Identifying sites to remove: done in 0.000140309 secs using 97.64% CPU
+Identifying sites to remove: done in 0.000144754 secs using 1026% CPU
+Identifying sites to remove: done in 0.000146985 secs using 149% CPU
+Identifying sites to remove: done in 0.000128746 secs using 1011% CPU
+Identifying sites to remove: done in 0.00055505 secs using 666.8% CPU
+Identifying sites to remove: done in 0.000617418 secs using 675.6% CPU
+Identifying sites to remove: done in 0.000643093 secs using 800.8% CPU
+Identifying sites to remove: done in 0.000642873 secs using 801.1% CPU
+Identifying sites to remove: done in 0.000667892 secs using 658.2% CPU
+Identifying sites to remove: done in 0.000644282 secs using 799.3% CPU
+Identifying sites to remove: done in 0.000708263 secs using 629.1% CPU
+Identifying sites to remove: done in 0.000483595 secs using 570.3% CPU
+Identifying sites to remove: done in 0.000505131 secs using 349% CPU
+Identifying sites to remove: done in 0.0006226 secs using 141.5% CPU
+Identifying sites to remove: done in 0.000496749 secs using 558% CPU
+Identifying sites to remove: done in 0.000584669 secs using 173.4% CPU
+Identifying sites to remove: done in 0.000508018 secs using 196.4% CPU
+Identifying sites to remove: done in 0.000657894 secs using 285% CPU
+Identifying sites to remove: done in 0.000382472 secs using 939.4% CPU
+Identifying sites to remove: done in 0.000373077 secs using 559.1% CPU
+Identifying sites to remove: done in 0.000344571 secs using 641.4% CPU
+Identifying sites to remove: done in 0.000345569 secs using 663.5% CPU
+Identifying sites to remove: done in 0.000401251 secs using 628% CPU
+Identifying sites to remove: done in 0.000385787 secs using 660.7% CPU
+Identifying sites to remove: done in 0.000384413 secs using 655.3% CPU
+Identifying sites to remove: done in 0.000409052 secs using 673% CPU
+Identifying sites to remove: done in 0.00032191 secs using 342.6% CPU
+Identifying sites to remove: done in 0.000346713 secs using 190.6% CPU
+Identifying sites to remove: done in 0.000347294 secs using 99.05% CPU
+Identifying sites to remove: done in 0.000324603 secs using 515.7% CPU
+Identifying sites to remove: done in 0.000329752 secs using 140.7% CPU
+Identifying sites to remove: done in 0.000313461 secs using 249.5% CPU
+Identifying sites to remove: done in 0.000353977 secs using 125.7% CPU
+Identifying sites to remove: done in 0.000239715 secs using 1301% CPU
+Identifying sites to remove: done in 0.000284661 secs using 602.8% CPU
+Identifying sites to remove: done in 0.00023479 secs using 665.3% CPU
+Identifying sites to remove: done in 0.000309914 secs using 674.4% CPU
+Identifying sites to remove: done in 0.000307031 secs using 680.7% CPU
+Identifying sites to remove: done in 0.000333417 secs using 623.2% CPU
+Identifying sites to remove: done in 0.000279792 secs using 714.8% CPU
+Identifying sites to remove: done in 0.000309821 secs using 659.4% CPU
+Identifying sites to remove: done in 0.000222888 secs using 545.6% CPU
+Identifying sites to remove: done in 0.00024217 secs using 341.5% CPU
+Identifying sites to remove: done in 0.000268396 secs using 159.1% CPU
+Identifying sites to remove: done in 0.00020979 secs using 98.19% CPU
+Identifying sites to remove: done in 0.000250131 secs using 98.75% CPU
+Identifying sites to remove: done in 0.000213813 secs using 1055% CPU
+Identifying sites to remove: done in 0.000260655 secs using 129.3% CPU
+Identifying sites to remove: done in 0.000207152 secs using 97.03% CPU
+Identifying sites to remove: done in 0.0002167 secs using 389% CPU
+Identifying sites to remove: done in 0.000245973 secs using 664.3% CPU
+Identifying sites to remove: done in 0.00024331 secs using 607.5% CPU
+Identifying sites to remove: done in 0.000280805 secs using 552.7% CPU
+Identifying sites to remove: done in 0.000158966 secs using 266.1% CPU
+Identifying sites to remove: done in 0.000234887 secs using 340.6% CPU
+Identifying sites to remove: done in 0.000209887 secs using 519.3% CPU
+Identifying sites to remove: done in 0.00022186 secs using 189.3% CPU
+Identifying sites to remove: done in 0.000225183 secs using 97.25% CPU
+Identifying sites to remove: done in 0.000141233 secs using 6777% CPU
+Identifying sites to remove: done in 0.000687797 secs using 678.3% CPU
+Identifying sites to remove: done in 0.000664551 secs using 680.5% CPU
+Identifying sites to remove: done in 0.000719264 secs using 672.8% CPU
+Identifying sites to remove: done in 0.000689398 secs using 678.7% CPU
+Identifying sites to remove: done in 0.000750076 secs using 660.9% CPU
+Identifying sites to remove: done in 0.000797078 secs using 625.8% CPU
+Identifying sites to remove: done in 0.000835147 secs using 615.6% CPU
+Identifying sites to remove: done in 0.000598304 secs using 316.6% CPU
+Identifying sites to remove: done in 0.000604674 secs using 311.9% CPU
+Identifying sites to remove: done in 0.000651713 secs using 165.7% CPU
+Identifying sites to remove: done in 0.000628773 secs using 550.8% CPU
+Identifying sites to remove: done in 0.00067604 secs using 174.4% CPU
+Identifying sites to remove: done in 0.000635315 secs using 1.647e+04% CPU
+Identifying sites to remove: done in 0.000719577 secs using 277.8% CPU
+Identifying sites to remove: done in 0.000482097 secs using 640.7% CPU
+Identifying sites to remove: done in 0.000559475 secs using 633.3% CPU
+Identifying sites to remove: done in 0.000539076 secs using 650.7% CPU
+Identifying sites to remove: done in 0.000605024 secs using 644.4% CPU
+Identifying sites to remove: done in 0.000652511 secs using 655.8% CPU
+Identifying sites to remove: done in 0.000661723 secs using 654.7% CPU
+Identifying sites to remove: done in 0.000680182 secs using 645.6% CPU
+Identifying sites to remove: done in 0.000656009 secs using 650.8% CPU
+Identifying sites to remove: done in 0.000538442 secs using 501.1% CPU
+Identifying sites to remove: done in 0.000523943 secs using 355.2% CPU
+Identifying sites to remove: done in 0.000607237 secs using 126.3% CPU
+Identifying sites to remove: done in 0.000488993 secs using 535.4% CPU
+Identifying sites to remove: done in 0.000567377 secs using 171.8% CPU
+Identifying sites to remove: done in 0.000483744 secs using 199.3% CPU
+Identifying sites to remove: done in 0.000612095 secs using 107.3% CPU
+Identifying sites to remove: done in 0.000370789 secs using 97.09% CPU
+Identifying sites to remove: done in 0.000295527 secs using 692.7% CPU
+Identifying sites to remove: done in 0.00027724 secs using 734.7% CPU
+Identifying sites to remove: done in 0.000283051 secs using 728.5% CPU
+Identifying sites to remove: done in 0.000285335 secs using 734.9% CPU
+Identifying sites to remove: done in 0.000289705 secs using 734.9% CPU
+Identifying sites to remove: done in 0.000388246 secs using 643.1% CPU
+Identifying sites to remove: done in 0.000361856 secs using 685.9% CPU
+Identifying sites to remove: done in 0.0003713 secs using 696.7% CPU
+Identifying sites to remove: done in 0.000225168 secs using 373.9% CPU
+Identifying sites to remove: done in 0.00025066 secs using 184.7% CPU
+Identifying sites to remove: done in 0.000366885 secs using 8623% CPU
+Identifying sites to remove: done in 0.000230104 secs using 1.344e+04% CPU
+Identifying sites to remove: done in 0.000258096 secs using 1.154e+04% CPU
+Identifying sites to remove: done in 0.000212226 secs using 446.7% CPU
+Identifying sites to remove: done in 0.000219561 secs using 98.83% CPU
+Identifying sites to remove: done in 0.000101976 secs using 116.7% CPU
+Identifying sites to remove: done in 0.000106953 secs using 180.5% CPU
+Identifying sites to remove: done in 0.000346653 secs using 652.2% CPU
+Identifying sites to remove: done in 0.000351604 secs using 672.1% CPU
+Identifying sites to remove: done in 0.000372045 secs using 656.9% CPU
+Identifying sites to remove: done in 0.000387449 secs using 645.8% CPU
+Identifying sites to remove: done in 0.000411827 secs using 616.3% CPU
+Identifying sites to remove: done in 0.000427447 secs using 626.3% CPU
+Identifying sites to remove: done in 0.000429638 secs using 636.8% CPU
+Identifying sites to remove: done in 0.000340197 secs using 429.8% CPU
+Identifying sites to remove: done in 0.00036069 secs using 316.1% CPU
+Identifying sites to remove: done in 0.000302024 secs using 104.6% CPU
+Identifying sites to remove: done in 0.00030762 secs using 471% CPU
+Identifying sites to remove: done in 0.000308085 secs using 114.3% CPU
+Identifying sites to remove: done in 0.000322055 secs using 861.3% CPU
+Identifying sites to remove: done in 0.000342168 secs using 190% CPU
+Identifying sites to remove: done in 0.000229534 secs using 97.15% CPU
+Identifying sites to remove: done in 0.00035454 secs using 2457% CPU
+Identifying sites to remove: done in 0.000366941 secs using 646.4% CPU
+Identifying sites to remove: done in 0.000365634 secs using 660% CPU
+Identifying sites to remove: done in 0.000366256 secs using 658.8% CPU
+Identifying sites to remove: done in 0.000368204 secs using 665.4% CPU
+Identifying sites to remove: done in 0.000372536 secs using 666.8% CPU
+Identifying sites to remove: done in 0.00045402 secs using 571.3% CPU
+Identifying sites to remove: done in 0.000246242 secs using 817.5% CPU
+Identifying sites to remove: done in 0.000314627 secs using 176.1% CPU
+Identifying sites to remove: done in 0.000320617 secs using 98.87% CPU
+Identifying sites to remove: done in 0.000316218 secs using 556.9% CPU
+Identifying sites to remove: done in 0.000331461 secs using 119.5% CPU
+Identifying sites to remove: done in 0.000308957 secs using 1300% CPU
+Identifying sites to remove: done in 0.000370227 secs using 2.358e+04% CPU
+Identifying sites to remove: done in 0.0002684 secs using 713.1% CPU
+Identifying sites to remove: done in 4.97587e-05 secs using 317.5% CPU
+Identifying sites to remove: done in 4.30346e-05 secs using 251% CPU
+Identifying sites to remove: done in 6.12997e-05 secs using 435.6% CPU
+Identifying sites to remove: done in 5.51529e-05 secs using 253.8% CPU
+Identifying sites to remove: done in 5.72987e-05 secs using 324.6% CPU
+Identifying sites to remove: done in 0.000120252 secs using 307.7% CPU
+Identifying sites to remove: done in 0.000127111 secs using 365.8% CPU
+Identifying sites to remove: done in 5.32605e-05 secs using 493.8% CPU
+Identifying sites to remove: done in 0.000101868 secs using 298.4% CPU
+Identifying sites to remove: done in 4.87268e-05 secs using 90.3% CPU
+Identifying sites to remove: done in 5.49033e-05 secs using 877.9% CPU
+Identifying sites to remove: done in 4.87529e-05 secs using 192.8% CPU
+Identifying sites to remove: done in 4.58024e-05 secs using 91.7% CPU
+Identifying sites to remove: done in 0.000699278 secs using 681.8% CPU
+Identifying sites to remove: done in 0.00075363 secs using 674.1% CPU
+Identifying sites to remove: done in 0.000754163 secs using 673.6% CPU
+Identifying sites to remove: done in 0.000782203 secs using 783.4% CPU
+Identifying sites to remove: done in 0.000816405 secs using 755.6% CPU
+Identifying sites to remove: done in 0.000851892 secs using 641.2% CPU
+Identifying sites to remove: done in 0.000852283 secs using 640.9% CPU
+Identifying sites to remove: done in 0.000605546 secs using 672.6% CPU
+Identifying sites to remove: done in 0.000696577 secs using 344.8% CPU
+Identifying sites to remove: done in 0.000699751 secs using 197.5% CPU
+Identifying sites to remove: done in 0.000743311 secs using 267.3% CPU
+Identifying sites to remove: done in 0.000753932 secs using 190.6% CPU
+Identifying sites to remove: done in 0.000684187 secs using 543% CPU
+Identifying sites to remove: done in 0.000840306 secs using 502.9% CPU
+Identifying sites to remove: done in 0.000554424 secs using 98.84% CPU
+Identifying sites to remove: done in 0.000174079 secs
+Identifying sites to remove: done in 0.000188429 secs
+Identifying sites to remove: done in 0.000175726 secs
+Identifying sites to remove: done in 0.0002307 secs
+Identifying sites to remove: done in 0.000280984 secs
+Identifying sites to remove: done in 0.000322498 secs
+Identifying sites to remove: done in 0.00032191 secs
+Identifying sites to remove: done in 0.000278682 secs
+Identifying sites to remove: done in 0.000230797 secs
+Identifying sites to remove: done in 0.000169735 secs
+Identifying sites to remove: done in 0.000214212 secs
+Identifying sites to remove: done in 0.000136826 secs
+Identifying sites to remove: done in 0.000142355 secs
+Identifying sites to remove: done in 0.000124566 secs
+Identifying sites to remove: done in 0.000149652 secs
+Identifying sites to remove: done in 0.000283055 secs using 588.2% CPU
+Identifying sites to remove: done in 0.000295218 secs using 678.8% CPU
+Identifying sites to remove: done in 0.000300415 secs using 705.4% CPU
+Identifying sites to remove: done in 0.000298701 secs using 684% CPU
+Identifying sites to remove: done in 0.000330981 secs using 645.4% CPU
+Identifying sites to remove: done in 0.000292141 secs using 678.4% CPU
+Identifying sites to remove: done in 0.000412926 secs using 546.1% CPU
+Identifying sites to remove: done in 0.000264674 secs using 1516% CPU
+Identifying sites to remove: done in 0.000306081 secs using 535.5% CPU
+Identifying sites to remove: done in 0.000198498 secs using 444.8% CPU
+Identifying sites to remove: done in 0.000321418 secs using 1.557e+04% CPU
+Identifying sites to remove: done in 0.000212509 secs using 96.47% CPU
+Identifying sites to remove: done in 0.00027509 secs using 98.51% CPU
+Identifying sites to remove: done in 0.000220567 secs using 532.7% CPU
+Identifying sites to remove: done in 0.000267304 secs using 179.9% CPU
+Identifying sites to remove: done in 0.000414379 secs using 673.3% CPU
+Identifying sites to remove: done in 0.000438489 secs using 660.4% CPU
+Identifying sites to remove: done in 0.00043923 secs using 669.4% CPU
+Identifying sites to remove: done in 0.000442803 secs using 3067% CPU
+Identifying sites to remove: done in 0.000439722 secs using 678.8% CPU
+Identifying sites to remove: done in 0.000522714 secs using 607.4% CPU
+Identifying sites to remove: done in 0.000521064 secs using 609.3% CPU
+Identifying sites to remove: done in 0.000347964 secs using 863.6% CPU
+Identifying sites to remove: done in 0.000399858 secs using 1.305e+04% CPU
+Identifying sites to remove: done in 0.000380695 secs using 97.19% CPU
+Identifying sites to remove: done in 0.000368748 secs using 366.9% CPU
+Identifying sites to remove: done in 0.000381153 secs using 102.1% CPU
+Identifying sites to remove: done in 0.000369266 secs using 587.7% CPU
+Identifying sites to remove: done in 0.000390437 secs using 123.7% CPU
+Identifying sites to remove: done in 0.000322778 secs using 3.151e+04% CPU
+Identifying sites to remove: done in 0.000106651 secs using 310.4% CPU
+Identifying sites to remove: done in 0.000167992 secs using 634% CPU
+Identifying sites to remove: done in 0.000157982 secs using 669.7% CPU
+Identifying sites to remove: done in 0.000154831 secs using 658.8% CPU
+Identifying sites to remove: done in 0.000242215 secs using 502.4% CPU
+Identifying sites to remove: done in 0.000250399 secs using 535.5% CPU
+Identifying sites to remove: done in 0.000274736 secs using 543.8% CPU
+Identifying sites to remove: done in 0.000137132 secs using 410.6% CPU
+Identifying sites to remove: done in 0.000140872 secs using 184.6% CPU
+Identifying sites to remove: done in 8.65683e-05 secs using 447% CPU
+Identifying sites to remove: done in 7.93487e-05 secs using 200.4% CPU
+Identifying sites to remove: done in 8.05259e-05 secs using 1116% CPU
+Identifying sites to remove: done in 8.50298e-05 secs using 1161% CPU
+Identifying sites to remove: done in 8.33869e-05 secs using 191.9% CPU
+Identifying sites to remove: done in 7.32876e-05 secs using 1360% CPU
+Identifying sites to remove: done in 0.000208799 secs using 1582% CPU
+Identifying sites to remove: done in 0.000212476 secs using 1590% CPU
+Identifying sites to remove: done in 0.000208519 secs using 1603% CPU
+Identifying sites to remove: done in 0.000242669 secs using 703.8% CPU
+Identifying sites to remove: done in 0.000232175 secs using 711.1% CPU
+Identifying sites to remove: done in 0.000245668 secs using 701.8% CPU
+Identifying sites to remove: done in 0.000230949 secs using 1480% CPU
+Identifying sites to remove: done in 0.000298642 secs using 2987% CPU
+Identifying sites to remove: done in 0.000166681 secs using 1444% CPU
+Identifying sites to remove: done in 0.000188258 secs using 183.8% CPU
+Identifying sites to remove: done in 0.000203475 secs using 96.33% CPU
+Identifying sites to remove: done in 0.000183843 secs using 95.19% CPU
+Identifying sites to remove: done in 0.000172369 secs using 96.3% CPU
+Identifying sites to remove: done in 0.00017228 secs using 681.4% CPU
+Identifying sites to remove: done in 0.000193775 secs using 114.6% CPU
+Identifying sites to remove: done in 0.000230458 secs using 685.2% CPU
+Identifying sites to remove: done in 0.000228334 secs using 680.1% CPU
+Identifying sites to remove: done in 0.000222363 secs using 686.3% CPU
+Identifying sites to remove: done in 0.000230644 secs using 708.5% CPU
+Identifying sites to remove: done in 0.000220053 secs using 726.6% CPU
+Identifying sites to remove: done in 0.000279982 secs using 579.7% CPU
+Identifying sites to remove: done in 0.000266392 secs using 650.9% CPU
+Identifying sites to remove: done in 0.00018974 secs using 5795% CPU
+Identifying sites to remove: done in 0.000229351 secs using 4957% CPU
+Identifying sites to remove: done in 0.000222959 secs using 98.67% CPU
+Identifying sites to remove: done in 0.000174228 secs using 452.3% CPU
+Identifying sites to remove: done in 0.000183873 secs using 162.6% CPU
+Identifying sites to remove: done in 0.000164308 secs using 97.99% CPU
+Identifying sites to remove: done in 0.000199337 secs using 98.33% CPU
+Identifying sites to remove: done in 0.000159562 secs using 3648% CPU
+Identifying sites to remove: done in 0.000502732 secs using 737.6% CPU
+Identifying sites to remove: done in 0.000542901 secs using 761.8% CPU
+Identifying sites to remove: done in 0.000538398 secs using 758.2% CPU
+Identifying sites to remove: done in 0.000626028 secs using 2410% CPU
+Identifying sites to remove: done in 0.000612989 secs using 2456% CPU
+Identifying sites to remove: done in 0.000625357 secs using 2409% CPU
+Identifying sites to remove: done in 0.000605389 secs using 2482% CPU
+Identifying sites to remove: done in 0.000701204 secs using 2163% CPU
+Identifying sites to remove: done in 0.0004583 secs using 346.7% CPU
+Identifying sites to remove: done in 0.000459891 secs using 327% CPU
+Identifying sites to remove: done in 0.000578582 secs using 139.8% CPU
+Identifying sites to remove: done in 0.000465374 secs using 526.9% CPU
+Identifying sites to remove: done in 0.000568405 secs using 166.4% CPU
+Identifying sites to remove: done in 0.000468448 secs using 768.1% CPU
+Identifying sites to remove: done in 0.000583172 secs using 107.7% CPU
+Identifying sites to remove: done in 0.000243202 secs using 542.3% CPU
+Identifying sites to remove: done in 0.000234634 secs using 599.2% CPU
+Identifying sites to remove: done in 0.000234425 secs using 651% CPU
+Identifying sites to remove: done in 0.000284161 secs using 629.6% CPU
+Identifying sites to remove: done in 0.000345934 secs using 568.9% CPU
+Identifying sites to remove: done in 0.000318289 secs using 586.6% CPU
+Identifying sites to remove: done in 0.000385761 secs using 623.2% CPU
+Identifying sites to remove: done in 0.000225011 secs using 407.1% CPU
+Identifying sites to remove: done in 0.000219543 secs using 166.3% CPU
+Identifying sites to remove: done in 0.000265803 secs using 503.8% CPU
+Identifying sites to remove: done in 0.000206772 secs using 181.8% CPU
+Identifying sites to remove: done in 0.000227541 secs using 98.44% CPU
+Identifying sites to remove: done in 0.000222463 secs using 1.956e+04% CPU
+Identifying sites to remove: done in 0.000252467 secs using 120% CPU
+Identifying sites to remove: done in 0.000157859 secs using 93.75% CPU
+Identifying sites to remove: done in 8.59201e-05 secs using 273.5% CPU
+Identifying sites to remove: done in 8.60952e-05 secs using 334.5% CPU
+Identifying sites to remove: done in 6.31027e-05 secs using 575.3% CPU
+Identifying sites to remove: done in 6.52969e-05 secs using 591.1% CPU
+Identifying sites to remove: done in 6.72825e-05 secs using 665.8% CPU
+Identifying sites to remove: done in 7.04341e-05 secs using 536.7% CPU
+Identifying sites to remove: done in 0.000166673 secs using 1856% CPU
+Identifying sites to remove: done in 6.16163e-05 secs using 701.1% CPU
+Identifying sites to remove: done in 5.67399e-05 secs using 192.1% CPU
+Identifying sites to remove: done in 6.42836e-05 secs using 94.89% CPU
+Identifying sites to remove: done in 5.44488e-05 secs using 91.83% CPU
+Identifying sites to remove: done in 4.53666e-05 secs using 94.78% CPU
+Identifying sites to remove: done in 4.80376e-05 secs using 1307% CPU
+Identifying sites to remove: done in 6.11804e-05 secs using 165.1% CPU
+Identifying sites to remove: done in 4.69983e-05 secs using 80.85% CPU
+Identifying sites to remove: done in 0.000198964 secs using 5173% CPU
+Identifying sites to remove: done in 0.000220608 secs using 4739% CPU
+Identifying sites to remove: done in 0.000209969 secs using 751.5% CPU
+Identifying sites to remove: done in 0.000220448 secs using 4798% CPU
+Identifying sites to remove: done in 0.000209719 secs using 752.4% CPU
+Identifying sites to remove: done in 0.000220008 secs using 687.2% CPU
+Identifying sites to remove: done in 0.000224467 secs using 739.5% CPU
+Identifying sites to remove: done in 0.000323903 secs using 1247% CPU
+Identifying sites to remove: done in 0.0001381 secs using 3035% CPU
+Identifying sites to remove: done in 0.000207003 secs using 2.787e+04% CPU
+Identifying sites to remove: done in 0.000164006 secs using 96.34% CPU
+Identifying sites to remove: done in 0.000168968 secs using 417.8% CPU
+Identifying sites to remove: done in 0.000168778 secs using 133.9% CPU
+Identifying sites to remove: done in 0.000177838 secs using 704% CPU
+Identifying sites to remove: done in 0.000175241 secs using 196.9% CPU
+Identifying sites to remove: done in 9.20855e-05 secs using 6081% CPU
+Identifying sites to remove: done in 0.000111066 secs using 5089% CPU
+Identifying sites to remove: done in 0.000129528 secs using 433.9% CPU
+Identifying sites to remove: done in 0.000131093 secs using 3091% CPU
+Identifying sites to remove: done in 0.000128381 secs using 437.8% CPU
+Identifying sites to remove: done in 9.47788e-05 secs using 2186% CPU
+Identifying sites to remove: done in 0.00011728 secs using 173.1% CPU
+Identifying sites to remove: done in 0.000106566 secs using 355.6% CPU
+Identifying sites to remove: done in 0.000108752 secs using 2243% CPU
+Identifying sites to remove: done in 0.000109065 secs using 96.27% CPU
+Identifying sites to remove: done in 3.58857e-05 secs using 5133% CPU
+Identifying sites to remove: done in 3.62396e-05 secs using 347.7% CPU
+Identifying sites to remove: done in 3.53269e-05 secs using 5214% CPU
+Identifying sites to remove: done in 7.18199e-05 secs using 211.6% CPU
+Identifying sites to remove: done in 5.05336e-05 secs using 188% CPU
+Identifying sites to remove: done in 5.21988e-05 secs using 3736% CPU
+Identifying sites to remove: done in 3.22238e-05 secs using 90% CPU
+Identifying sites to remove: done in 3.65935e-05 secs using 1.035e+05% CPU
+Identifying sites to remove: done in 4.07323e-05 secs using 90.84% CPU
+Identifying sites to remove: done in 2.96719e-05 secs using 74.14% CPU
+Identifying sites to remove: done in 0.000320945 secs using 731.6% CPU
+Identifying sites to remove: done in 0.000321012 secs using 738.9% CPU
+Identifying sites to remove: done in 0.000340413 secs using 651.9% CPU
+Identifying sites to remove: done in 0.000342153 secs using 738.3% CPU
+Identifying sites to remove: done in 0.000340842 secs using 660.4% CPU
+Identifying sites to remove: done in 0.000399757 secs using 735.7% CPU
+Identifying sites to remove: done in 0.000395928 secs using 607.9% CPU
+Identifying sites to remove: done in 0.000214171 secs using 421.6% CPU
+Identifying sites to remove: done in 0.00028396 secs using 172.9% CPU
+Identifying sites to remove: done in 0.000301048 secs using 98.99% CPU
+Identifying sites to remove: done in 0.000279531 secs using 491.9% CPU
+Identifying sites to remove: done in 0.000276845 secs using 150.3% CPU
+Identifying sites to remove: done in 0.000285741 secs using 826.6% CPU
+Identifying sites to remove: done in 0.000291992 secs using 128.8% CPU
+Identifying sites to remove: done in 0.000251241 secs using 197% CPU
+Identifying sites to remove: done in 6.24172e-05 secs using 334.8% CPU
+Identifying sites to remove: done in 6.05471e-05 secs using 388.1% CPU
+Identifying sites to remove: done in 5.37261e-05 secs using 189.9% CPU
+Identifying sites to remove: done in 5.78128e-05 secs using 688.4% CPU
+Identifying sites to remove: done in 5.78053e-05 secs using 555.3% CPU
+Identifying sites to remove: done in 5.51604e-05 secs using 676.2% CPU
+Identifying sites to remove: done in 6.81654e-05 secs using 617.6% CPU
+Identifying sites to remove: done in 4.94495e-05 secs using 93.02% CPU
+Identifying sites to remove: done in 6.21192e-05 secs using 454% CPU
+Identifying sites to remove: done in 4.01884e-05 secs using 92.07% CPU
+Identifying sites to remove: done in 4.20436e-05 secs using 90.38% CPU
+Identifying sites to remove: done in 3.85009e-05 secs using 90.91% CPU
+Identifying sites to remove: done in 3.90522e-05 secs using 92.18% CPU
+Identifying sites to remove: done in 4.10862e-05 secs using 92.49% CPU
+Identifying sites to remove: done in 3.60459e-05 secs using 83.23% CPU
+Identifying sites to remove: done in 0.000220869 secs using 623.4% CPU
+Identifying sites to remove: done in 0.000220355 secs using 649.9% CPU
+Identifying sites to remove: done in 0.000221565 secs using 3059% CPU
+Identifying sites to remove: done in 0.000221111 secs using 631.4% CPU
+Identifying sites to remove: done in 0.000266809 secs using 568.2% CPU
+Identifying sites to remove: done in 0.000276264 secs using 578.1% CPU
+Identifying sites to remove: done in 0.000305366 secs using 553.1% CPU
+Identifying sites to remove: done in 0.000183571 secs using 1440% CPU
+Identifying sites to remove: done in 0.000180472 secs using 312.5% CPU
+Identifying sites to remove: done in 0.000146247 secs using 350.1% CPU
+Identifying sites to remove: done in 0.000199564 secs using 142.8% CPU
+Identifying sites to remove: done in 0.000176523 secs using 504.2% CPU
+Identifying sites to remove: done in 0.000181571 secs using 131.6% CPU
+Identifying sites to remove: done in 0.000186365 secs using 188.9% CPU
+Identifying sites to remove: done in 0.00020789 secs using 184.2% CPU
+Identifying sites to remove: done in 0.000181302 secs using 565.9% CPU
+Identifying sites to remove: done in 0.000176106 secs using 563.3% CPU
+Identifying sites to remove: done in 0.000188995 secs using 610.6% CPU
+Identifying sites to remove: done in 0.000190075 secs using 616.6% CPU
+Identifying sites to remove: done in 0.000247438 secs using 626% CPU
+Identifying sites to remove: done in 0.000208881 secs using 632.4% CPU
+Identifying sites to remove: done in 0.000274371 secs using 687.8% CPU
+Identifying sites to remove: done in 0.000257354 secs using 713.8% CPU
+Identifying sites to remove: done in 0.000162292 secs using 491.7% CPU
+Identifying sites to remove: done in 0.000163782 secs using 194.2% CPU
+Identifying sites to remove: done in 0.000173636 secs using 536.8% CPU
+Identifying sites to remove: done in 0.000153046 secs using 109.8% CPU
+Identifying sites to remove: done in 0.00015128 secs using 97.83% CPU
+Identifying sites to remove: done in 0.00016056 secs using 900.6% CPU
+Identifying sites to remove: done in 0.00017282 secs using 156.8% CPU
+Identifying sites to remove: done in 0.000115074 secs using 506.6% CPU
+Identifying sites to remove: done in 0.000116006 secs using 568.9% CPU
+Identifying sites to remove: done in 0.000192773 secs using 630.8% CPU
+Identifying sites to remove: done in 0.000102513 secs using 792.1% CPU
+Identifying sites to remove: done in 0.000167884 secs using 695.1% CPU
+Identifying sites to remove: done in 0.000227105 secs using 690.4% CPU
+Identifying sites to remove: done in 0.000154156 secs using 212.1% CPU
+Identifying sites to remove: done in 0.00024838 secs using 492.4% CPU
+Identifying sites to remove: done in 0.000122342 secs using 125.1% CPU
+Identifying sites to remove: done in 9.51253e-05 secs using 499.3% CPU
+Identifying sites to remove: done in 9.68389e-05 secs using 143.5% CPU
+Identifying sites to remove: done in 0.000138834 secs using 438.7% CPU
+Identifying sites to remove: done in 0.000130802 secs using 592.5% CPU
+Identifying sites to remove: done in 0.000130858 secs using 592.2% CPU
+Identifying sites to remove: done in 0.000125989 secs using 606.4% CPU
+Identifying sites to remove: done in 0.00013113 secs using 657.4% CPU
+Identifying sites to remove: done in 0.000126559 secs using 644% CPU
+Identifying sites to remove: done in 0.000217341 secs using 585.7% CPU
+Identifying sites to remove: done in 0.000101715 secs using 517.1% CPU
+Identifying sites to remove: done in 0.000114221 secs using 181.2% CPU
+Identifying sites to remove: done in 0.00010477 secs using 602.3% CPU
+Identifying sites to remove: done in 0.000108212 secs using 190.4% CPU
+Identifying sites to remove: done in 9.9577e-05 secs using 97.41% CPU
+Identifying sites to remove: done in 0.000101592 secs using 959.7% CPU
+Identifying sites to remove: done in 0.000108987 secs using 135.8% CPU
+Identifying sites to remove: done in 9.09194e-05 secs using 1423% CPU
+Identifying sites to remove: done in 0.000144035 secs using 2.955e+04% CPU
+Identifying sites to remove: done in 0.000148345 secs using 2.873e+04% CPU
+Identifying sites to remove: done in 0.000144232 secs using 2.951e+04% CPU
+Identifying sites to remove: done in 0.000162419 secs using 2.626e+04% CPU
+Identifying sites to remove: done in 0.000143655 secs using 2.962e+04% CPU
+Identifying sites to remove: done in 0.00014684 secs using 2.9e+04% CPU
+Identifying sites to remove: done in 0.000148691 secs using 2.867e+04% CPU
+Identifying sites to remove: done in 8.53837e-05 secs using 413.4% CPU
+Identifying sites to remove: done in 0.000109788 secs using 169.4% CPU
+Identifying sites to remove: done in 9.76399e-05 secs using 564.3% CPU
+Identifying sites to remove: done in 9.28342e-05 secs using 198.2% CPU
+Identifying sites to remove: done in 8.88146e-05 secs using 897.4% CPU
+Identifying sites to remove: done in 8.31857e-05 secs using 1023% CPU
+Identifying sites to remove: done in 9.18992e-05 secs using 182.8% CPU
+Identifying sites to remove: done in 7.36639e-05 secs using 3910% CPU
+Identifying sites to remove: done in 0.000262301 secs using 572.6% CPU
+Identifying sites to remove: done in 0.000303891 secs using 632.8% CPU
+Identifying sites to remove: done in 0.000306543 secs using 2308% CPU
+Identifying sites to remove: done in 0.00030404 secs using 674.6% CPU
+Identifying sites to remove: done in 0.000304822 secs using 2321% CPU
+Identifying sites to remove: done in 0.000306845 secs using 661.2% CPU
+Identifying sites to remove: done in 0.000306748 secs using 2306% CPU
+Identifying sites to remove: done in 0.00021537 secs using 1142% CPU
+Identifying sites to remove: done in 0.00021505 secs using 196.7% CPU
+Identifying sites to remove: done in 0.000253383 secs using 98.66% CPU
+Identifying sites to remove: done in 0.000214078 secs using 98.1% CPU
+Identifying sites to remove: done in 0.00025025 secs using 98.7% CPU
+Identifying sites to remove: done in 0.00020944 secs using 1748% CPU
+Identifying sites to remove: done in 0.00027224 secs using 104.7% CPU
+Identifying sites to remove: done in 0.000180073 secs using 1112% CPU
+Identifying sites to remove: done in 0.000190675 secs using 647.2% CPU
+Identifying sites to remove: done in 0.00019224 secs using 649.7% CPU
+Identifying sites to remove: done in 0.000220697 secs using 2245% CPU
+Identifying sites to remove: done in 0.000192653 secs using 656.6% CPU
+Identifying sites to remove: done in 0.000216529 secs using 617.5% CPU
+Identifying sites to remove: done in 0.000287089 secs using 1136% CPU
+Identifying sites to remove: done in 0.000286631 secs using 1138% CPU
+Identifying sites to remove: done in 0.000109971 secs using 340.1% CPU
+Identifying sites to remove: done in 0.000153065 secs using 863.7% CPU
+Identifying sites to remove: done in 0.000174079 secs using 869.1% CPU
+Identifying sites to remove: done in 0.000172243 secs using 197.4% CPU
+Identifying sites to remove: done in 0.000150401 secs using 97.74% CPU
+Identifying sites to remove: done in 0.000150762 secs using 1259% CPU
+Identifying sites to remove: done in 0.000169385 secs using 144.6% CPU
+Identifying sites to remove: done in 0.00013382 secs using 2120% CPU
+Identifying sites to remove: done in 0.000290949 secs using 659.2% CPU
+Identifying sites to remove: done in 0.000307992 secs using 662.7% CPU
+Identifying sites to remove: done in 0.000303306 secs using 670.9% CPU
+Identifying sites to remove: done in 0.00033712 secs using 839.2% CPU
+Identifying sites to remove: done in 0.000339933 secs using 878.7% CPU
+Identifying sites to remove: done in 0.000338979 secs using 860.5% CPU
+Identifying sites to remove: done in 0.000409115 secs using 765.1% CPU
+Identifying sites to remove: done in 0.000327416 secs using 5062% CPU
+Identifying sites to remove: done in 0.000361945 secs using 4716% CPU
+Identifying sites to remove: done in 0.000249732 secs using 6414% CPU
+Identifying sites to remove: done in 0.000310082 secs using 174.1% CPU
+Identifying sites to remove: done in 0.00026476 secs using 330.5% CPU
+Identifying sites to remove: done in 0.000297539 secs using 153.3% CPU
+Identifying sites to remove: done in 0.000269756 secs using 518.2% CPU
+Identifying sites to remove: done in 0.000295877 secs using 120.3% CPU
+Identifying sites to remove: done in 0.000144441 secs using 245.8% CPU
+Identifying sites to remove: done in 0.000172164 secs using 529.7% CPU
+Identifying sites to remove: done in 0.000168189 secs using 557.7% CPU
+Identifying sites to remove: done in 0.000149183 secs using 553% CPU
+Identifying sites to remove: done in 0.000200652 secs using 536.3% CPU
+Identifying sites to remove: done in 0.00024261 secs using 582.4% CPU
+Identifying sites to remove: done in 0.000198819 secs using 595.5% CPU
+Identifying sites to remove: done in 0.000108618 secs using 377.5% CPU
+Identifying sites to remove: done in 0.000117395 secs using 185.7% CPU
+Identifying sites to remove: done in 0.000143953 secs using 519.6% CPU
+Identifying sites to remove: done in 0.000108715 secs using 571.2% CPU
+Identifying sites to remove: done in 0.000104915 secs using 133.4% CPU
+Identifying sites to remove: done in 0.000107791 secs using 1035% CPU
+Identifying sites to remove: done in 0.000108752 secs using 132.4% CPU
+Identifying sites to remove: done in 9.0804e-05 secs using 96.91% CPU
+Identifying sites to remove: done in 0.000120506 secs using 175.1% CPU
+Identifying sites to remove: done in 0.000130456 secs using 175.5% CPU
+Identifying sites to remove: done in 0.00022845 secs using 634.7% CPU
+Identifying sites to remove: done in 0.000237156 secs using 5354% CPU
+Identifying sites to remove: done in 0.000280101 secs using 2427% CPU
+Identifying sites to remove: done in 0.000280481 secs using 641% CPU
+Identifying sites to remove: done in 0.000280511 secs using 641% CPU
+Identifying sites to remove: done in 0.000281747 secs using 2442% CPU
+Identifying sites to remove: done in 0.000281185 secs using 2432% CPU
+Identifying sites to remove: done in 0.000252411 secs using 1099% CPU
+Identifying sites to remove: done in 0.000289034 secs using 290.6% CPU
+Identifying sites to remove: done in 0.00027572 secs using 1030% CPU
+Identifying sites to remove: done in 0.000198122 secs using 436.1% CPU
+Identifying sites to remove: done in 0.00022909 secs using 1328% CPU
+Identifying sites to remove: done in 0.000220615 secs using 2.628e+04% CPU
+Identifying sites to remove: done in 0.000247352 secs using 2.227e+04% CPU
+Identifying sites to remove: done in 0.000187919 secs using 2511% CPU
+Identifying sites to remove: done in 0.000142042 secs using 507.6% CPU
+Identifying sites to remove: done in 0.000153221 secs using 526% CPU
+Identifying sites to remove: done in 0.000170343 secs using 622.3% CPU
+Identifying sites to remove: done in 0.000170097 secs using 603.8% CPU
+Identifying sites to remove: done in 0.000171594 secs using 614.8% CPU
+Identifying sites to remove: done in 0.000216015 secs using 707.8% CPU
+Identifying sites to remove: done in 0.000247996 secs using 809.7% CPU
+Identifying sites to remove: done in 0.000274178 secs using 760.1% CPU
+Identifying sites to remove: done in 0.000149287 secs using 598.2% CPU
+Identifying sites to remove: done in 0.000146933 secs using 355.3% CPU
+Identifying sites to remove: done in 0.000154827 secs using 496% CPU
+Identifying sites to remove: done in 0.000128746 secs using 444.3% CPU
+Identifying sites to remove: done in 0.000131 secs using 719.1% CPU
+Identifying sites to remove: done in 0.000131153 secs using 130.4% CPU
+Identifying sites to remove: done in 0.000132829 secs using 97.12% CPU
+Identifying sites to remove: done in 3.94471e-05 secs using 1.332e+04% CPU
+Identifying sites to remove: done in 3.9123e-05 secs using 4885% CPU
+Identifying sites to remove: done in 3.91118e-05 secs using 1.344e+04% CPU
+Identifying sites to remove: done in 3.90932e-05 secs using 4806% CPU
+Identifying sites to remove: done in 7.72029e-05 secs using 257.8% CPU
+Identifying sites to remove: done in 3.0078e-05 secs using 89.77% CPU
+Identifying sites to remove: done in 4.75869e-05 secs using 9.427e+04% CPU
+Identifying sites to remove: done in 3.0525e-05 secs using 5536% CPU
+Identifying sites to remove: done in 0.00035999 secs using 2.595e+04% CPU
+Identifying sites to remove: done in 0.000380874 secs using 2.047e+04% CPU
+Identifying sites to remove: done in 0.000382695 secs using 2.446e+04% CPU
+Identifying sites to remove: done in 0.000382464 secs using 2.042e+04% CPU
+Identifying sites to remove: done in 0.000382077 secs using 2.348e+04% CPU
+Identifying sites to remove: done in 0.000382069 secs using 2.044e+04% CPU
+Identifying sites to remove: done in 0.000455324 secs using 1.719e+04% CPU
+Identifying sites to remove: done in 0.000297833 secs using 315.9% CPU
+Identifying sites to remove: done in 0.000312537 secs using 190.7% CPU
+Identifying sites to remove: done in 0.000317764 secs using 97.87% CPU
+Identifying sites to remove: done in 0.000304721 secs using 536.6% CPU
+Identifying sites to remove: done in 0.000310823 secs using 170.8% CPU
+Identifying sites to remove: done in 0.000305127 secs using 874.7% CPU
+Identifying sites to remove: done in 0.000324644 secs using 117.1% CPU
+Identifying sites to remove: done in 0.000264384 secs using 291.6% CPU
+Identifying sites to remove: done in 5.63003e-05 secs using 156.3% CPU
+Identifying sites to remove: done in 0.000110332 secs using 91.54% CPU
+Identifying sites to remove: done in 5.75855e-05 secs using 1.281e+04% CPU
+Identifying sites to remove: done in 8.21352e-05 secs using 442% CPU
+Identifying sites to remove: done in 8.03582e-05 secs using 9454% CPU
+Identifying sites to remove: done in 7.6998e-05 secs using 539% CPU
+Identifying sites to remove: done in 8.17999e-05 secs using 443.8% CPU
+Identifying sites to remove: done in 8.09617e-05 secs using 448.4% CPU
+Identifying sites to remove: done in 7.50385e-05 secs using 3541% CPU
+Identifying sites to remove: done in 5.19343e-05 secs using 94.35% CPU
+Identifying sites to remove: done in 6.71446e-05 secs using 93.83% CPU
+Identifying sites to remove: done in 5.446e-05 secs using 5768% CPU
+Identifying sites to remove: done in 7.28555e-05 secs using 4008% CPU
+Identifying sites to remove: done in 7.19838e-05 secs using 261.2% CPU
+Identifying sites to remove: done in 4.74937e-05 secs using 86.33% CPU
+Identifying sites to remove: done in 3.9503e-05 secs using 197.5% CPU
+Identifying sites to remove: done in 3.675e-05 secs using 655.8% CPU
+Identifying sites to remove: done in 3.98271e-05 secs using 195.8% CPU
+Identifying sites to remove: done in 4.39659e-05 secs using 502.7% CPU
+Identifying sites to remove: done in 4.03821e-05 secs using 364% CPU
+Identifying sites to remove: done in 4.27812e-05 secs using 427.8% CPU
+Identifying sites to remove: done in 4.11794e-05 secs using 357% CPU
+Identifying sites to remove: done in 4.30569e-05 secs using 4696% CPU
+Identifying sites to remove: done in 3.58336e-05 secs using 198.1% CPU
+Identifying sites to remove: done in 2.98321e-05 secs using 87.15% CPU
+Identifying sites to remove: done in 3.0335e-05 secs using 89.01% CPU
+Identifying sites to remove: done in 2.63862e-05 secs using 90.96% CPU
+Identifying sites to remove: done in 2.9441e-05 secs using 1.189e+04% CPU
+Identifying sites to remove: done in 2.9806e-05 secs using 171.1% CPU
+Identifying sites to remove: done in 2.58163e-05 secs using 73.6% CPU
+Identifying sites to remove: done in 0.0003139 secs using 664.2% CPU
+Identifying sites to remove: done in 0.000317432 secs using 666.3% CPU
+Identifying sites to remove: done in 0.000347506 secs using 632.5% CPU
+Identifying sites to remove: done in 0.000341453 secs using 655.1% CPU
+Identifying sites to remove: done in 0.000349596 secs using 644.2% CPU
+Identifying sites to remove: done in 0.00035423 secs using 647.3% CPU
+Identifying sites to remove: done in 0.000425704 secs using 1.456e+04% CPU
+Identifying sites to remove: done in 0.000302978 secs using 1.841e+04% CPU
+Identifying sites to remove: done in 0.000310279 secs using 1.87e+04% CPU
+Identifying sites to remove: done in 0.000343859 secs using 98.88% CPU
+Identifying sites to remove: done in 0.000274468 secs using 425.9% CPU
+Identifying sites to remove: done in 0.000280499 secs using 162.6% CPU
+Identifying sites to remove: done in 0.000277516 secs using 615.1% CPU
+Identifying sites to remove: done in 0.000288665 secs using 143.8% CPU
+Identifying sites to remove: done in 0.000230312 secs using 3305% CPU
+Identifying sites to remove: done in 5.50561e-05 secs using 2897% CPU
+Identifying sites to remove: done in 7.54707e-05 secs using 155% CPU
+Identifying sites to remove: done in 0.000247773 secs using 652.6% CPU
+Identifying sites to remove: done in 0.000247907 secs using 657.5% CPU
+Identifying sites to remove: done in 0.000272222 secs using 635.9% CPU
+Identifying sites to remove: done in 0.000272289 secs using 635.7% CPU
+Identifying sites to remove: done in 0.000308406 secs using 574.9% CPU
+Identifying sites to remove: done in 0.00033053 secs using 593.6% CPU
+Identifying sites to remove: done in 0.00031234 secs using 598.1% CPU
+Identifying sites to remove: done in 0.000210065 secs using 191.4% CPU
+Identifying sites to remove: done in 0.000212196 secs using 195.6% CPU
+Identifying sites to remove: done in 0.000263732 secs using 2.862e+04% CPU
+Identifying sites to remove: done in 0.00020472 secs using 283.3% CPU
+Identifying sites to remove: done in 0.000207771 secs using 166.5% CPU
+Identifying sites to remove: done in 0.000200603 secs using 574.3% CPU
+Identifying sites to remove: done in 0.000217397 secs using 105.3% CPU
+Identifying sites to remove: done in 0.000181813 secs using 1802% CPU
+Identifying sites to remove: done in 0.000152446 secs using 392.3% CPU
+Identifying sites to remove: done in 0.000143174 secs using 632.8% CPU
+Identifying sites to remove: done in 0.000142448 secs using 648% CPU
+Identifying sites to remove: done in 0.000182871 secs using 533.2% CPU
+Identifying sites to remove: done in 0.00021635 secs using 656.8% CPU
+Identifying sites to remove: done in 0.000248466 secs using 646.4% CPU
+Identifying sites to remove: done in 0.000265319 secs using 614.7% CPU
+Identifying sites to remove: done in 0.000135243 secs using 454.7% CPU
+Identifying sites to remove: done in 0.000171449 secs using 4102% CPU
+Identifying sites to remove: done in 0.000129994 secs using 281.6% CPU
+Identifying sites to remove: done in 0.000132944 secs using 146.7% CPU
+Identifying sites to remove: done in 0.000141237 secs using 96.29% CPU
+Identifying sites to remove: done in 0.000128388 secs using 648% CPU
+Identifying sites to remove: done in 0.000147406 secs using 144.5% CPU
+Identifying sites to remove: done in 9.99309e-05 secs using 5274% CPU
+Identifying sites to remove: done in 0.000224806 secs using 2793% CPU
+Identifying sites to remove: done in 0.000225998 secs using 2788% CPU
+Identifying sites to remove: done in 0.000228539 secs using 2766% CPU
+Identifying sites to remove: done in 0.000248168 secs using 712% CPU
+Identifying sites to remove: done in 0.000247493 secs using 710.7% CPU
+Identifying sites to remove: done in 0.000230916 secs using 737.9% CPU
+Identifying sites to remove: done in 0.000267152 secs using 708.6% CPU
+Identifying sites to remove: done in 0.000355575 secs using 1628% CPU
+Identifying sites to remove: done in 0.000224978 secs using 1055% CPU
+Identifying sites to remove: done in 0.000219017 secs using 263.9% CPU
+Identifying sites to remove: done in 0.000206307 secs using 1223% CPU
+Identifying sites to remove: done in 0.000191197 secs using 153.2% CPU
+Identifying sites to remove: done in 0.000191148 secs using 97.31% CPU
+Identifying sites to remove: done in 0.000191946 secs using 1551% CPU
+Identifying sites to remove: done in 0.000224348 secs using 139.5% CPU
+Identifying sites to remove: done in 0.000164229 secs using 533.4% CPU
+Identifying sites to remove: done in 0.000152055 secs using 568.2% CPU
+Identifying sites to remove: done in 0.000162855 secs using 596.9% CPU
+Identifying sites to remove: done in 0.000163294 secs using 607.5% CPU
+Identifying sites to remove: done in 0.000192396 secs using 742.7% CPU
+Identifying sites to remove: done in 0.000225015 secs using 663.1% CPU
+Identifying sites to remove: done in 0.000226673 secs using 679.4% CPU
+Identifying sites to remove: done in 0.000133757 secs using 538.3% CPU
+Identifying sites to remove: done in 0.000128675 secs using 198.2% CPU
+Identifying sites to remove: done in 0.000149265 secs using 97.81% CPU
+Identifying sites to remove: done in 0.000123423 secs using 542.9% CPU
+Identifying sites to remove: done in 0.000141613 secs using 137.7% CPU
+Identifying sites to remove: done in 0.000124108 secs using 96.69% CPU
+Identifying sites to remove: done in 0.000142869 secs using 97.99% CPU
+Identifying sites to remove: done in 0.000117723 secs using 350.8% CPU
+Identifying sites to remove: done in 6.97412e-05 secs using 288.2% CPU
+Identifying sites to remove: done in 8.37445e-05 secs using 254.3% CPU
+Identifying sites to remove: done in 7.81268e-05 secs using 697.6% CPU
+Identifying sites to remove: done in 7.63647e-05 secs using 690.1% CPU
+Identifying sites to remove: done in 7.51205e-05 secs using 677.6% CPU
+Identifying sites to remove: done in 9.24356e-05 secs using 576.6% CPU
+Identifying sites to remove: done in 7.9833e-05 secs using 706.5% CPU
+Identifying sites to remove: done in 6.97635e-05 secs using 444.4% CPU
+Identifying sites to remove: done in 6.4902e-05 secs using 192.6% CPU
+Identifying sites to remove: done in 5.02989e-05 secs using 93.44% CPU
+Identifying sites to remove: done in 7.43754e-05 secs using 1.199e+04% CPU
+Identifying sites to remove: done in 5.39683e-05 secs using 535.5% CPU
+Identifying sites to remove: done in 5.46649e-05 secs using 616.5% CPU
+Identifying sites to remove: done in 5.3145e-05 secs using 267.2% CPU
+Identifying sites to remove: done in 4.81382e-05 secs using 151.6% CPU
+Identifying sites to remove: done in 9.70848e-05 secs using 298.7% CPU
+Identifying sites to remove: done in 9.6757e-05 secs using 299.7% CPU
+Identifying sites to remove: done in 0.000105213 secs using 461.9% CPU
+Identifying sites to remove: done in 9.71332e-05 secs using 298.6% CPU
+Identifying sites to remove: done in 0.000130545 secs using 452% CPU
+Identifying sites to remove: done in 0.000104815 secs using 370.2% CPU
+Identifying sites to remove: done in 0.000187024 secs using 421.9% CPU
+Identifying sites to remove: done in 6.67907e-05 secs using 1556% CPU
+Identifying sites to remove: done in 6.87428e-05 secs using 184.7% CPU
+Identifying sites to remove: done in 7.24569e-05 secs using 1733% CPU
+Identifying sites to remove: done in 7.74935e-05 secs using 643.9% CPU
+Identifying sites to remove: done in 6.51553e-05 secs using 207.2% CPU
+Identifying sites to remove: done in 6.56471e-05 secs using 2294% CPU
+Identifying sites to remove: done in 6.72303e-05 secs using 184.4% CPU
+Identifying sites to remove: done in 5.62072e-05 secs using 94.29% CPU
+Identifying sites to remove: done in 0.00012105 secs using 171% CPU
+Identifying sites to remove: done in 0.000132129 secs using 183.9% CPU
+
+Analysis results written to: 
+  IQ-TREE report:                insect5_p_search.iqtree
+  Maximum-likelihood tree:       insect5_p_search.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          insect5_p_search.splits.nex
+  Consensus tree:                insect5_p_search.contree
+  UFBoot trees:                  insect5_p_search.ufboot
+  Screen log file:               insect5_p_search.log
+
+Date and Time: Fri Jun 13 02:53:38 2025

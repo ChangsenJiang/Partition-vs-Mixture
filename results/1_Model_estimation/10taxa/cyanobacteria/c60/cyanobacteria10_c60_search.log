@@ -1,0 +1,236 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    dayhoff.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s 10_concated.nex -mdef cyanobacteria10_c60_F_parameter.nex -m LG_C60_F_R6 -t ../partition/Q/cyanobacteria10_Q_search.treefile -bb 1000 --wbtl -T 40 --mem 120G -pre cyanobacteria10_c60_search
+Seed:    696529 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri May  9 00:11:53 2025
+Kernel:  AVX+FMA - 40 threads (42 CPU cores detected)
+
+Reading alignment file 10_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+Alignment has 10 sequences with 120784 columns, 50804 distinct patterns
+37180 parsimony-informative, 27528 singleton sites, 56076 constant sites
+                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0178679 secs using 2752% CPU
+   1  Calothrix_rhizosoleniae_SC01                6.34%    failed      0.00%
+   2  Calothrix_sp_336_3                          0.34%    passed     73.98%
+   3  Calothrix_sp_NIES_3974                      3.72%    failed      0.00%
+   4  Calothrix_sp_PCC_6303                       1.04%    failed      0.00%
+   5  Chroococcidiopsis_thermalis_PCC_7203        9.40%    failed      0.00%
+   6  Cylindrospermopsis_raciborskii_CS_505_v2    0.76%    failed      0.00%
+   7  Dictyo3444.bin.3                            4.76%    failed      0.05%
+   8  Gloeocapsa_sp_PCC_7428                      8.91%    failed      0.00%
+   9  Rivularia_sp_PCC_7116                       2.04%    failed      0.00%
+  10  Synechocystis_sp_PCC_7509                  10.75%    failed      0.00%
+****  TOTAL                                       4.80%  9 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000827924 for long alignment
+Checking for duplicate sequences: done in 0.0118955 secs using 3788% CPU
+Reading model definition file cyanobacteria10_c60_F_parameter.nex ... 87 models and 215 frequency vectors loaded
+Reading input tree file ../partition/Q/cyanobacteria10_Q_search.treefile ...
+Generating 1000 samples for ultrafast bootstrap (seed: 696529)...
+Model LG_C60_F_R6 is alias for LG+R6{0.2936,0.0064,0.2100,0.1762,0.1365,0.4694,0.1823,1.1547,0.1456,2.9226,0.0320,8.1557}+FMIX{F:1.0000:0.2693,C60pi1:1.0000:0.0086,C60pi2:1.0000:0.00005,C60pi3:1.0000:0.00005,C60pi4:1.0000:0.00005,C60pi5:1.0000:0.0054,C60pi6:1.0000:0.0061,C60pi7:1.0000:0.00005,C60pi8:1.0000:0.0033,C60pi9:1.0000:0.00005,C60pi10:1.0000:0.00005,C60pi11:1.0000:0.0194,C60pi12:1.0000:0.0108,C60pi13:1.0000:0.0069,C60pi14:1.0000:0.0218,C60pi15:1.0000:0.00005,C60pi16:1.0000:0.00005,C60pi17:1.0000:0.0210,C60pi18:1.0000:0.0761,C60pi19:1.0000:0.00005,C60pi20:1.0000:0.0091,C60pi21:1.0000:0.0058,C60pi22:1.0000:0.0245,C60pi23:1.0000:0.0090,C60pi24:1.0000:0.00005,C60pi25:1.0000:0.0069,C60pi26:1.0000:0.0047,C60pi27:1.0000:0.0424,C60pi28:1.0000:0.0055,C60pi29:1.0000:0.00005,C60pi30:1.0000:0.00005,C60pi31:1.0000:0.0084,C60pi32:1.0000:0.0248,C60pi33:1.0000:0.0160,C60pi34:1.0000:0.0351,C60pi35:1.0000:0.0475,C60pi36:1.0000:0.0153,C60pi37:1.0000:0.0215,C60pi38:1.0000:0.0267,C60pi39:1.0000:0.0039,C60pi40:1.0000:0.0023,C60pi41:1.0000:0.0069,C60pi42:1.0000:0.0011,C60pi43:1.0000:0.0184,C60pi44:1.0000:0.0099,C60pi45:1.0000:0.0075,C60pi46:1.0000:0.0049,C60pi47:1.0000:0.0409,C60pi48:1.0000:0.0133,C60pi49:1.0000:0.0504,C60pi50:1.0000:0.00005,C60pi51:1.0000:0.0104,C60pi52:1.0000:0.0101,C60pi53:1.0000:0.0071,C60pi54:1.0000:0.0296,C60pi55:1.0000:0.0079,C60pi56:1.0000:0.0065,C60pi57:1.0000:0.0057,C60pi58:1.0000:0.0002,C60pi59:1.0000:0.0088,C60pi60:1.0000:0.0024}
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0002 is very small and may cause numerical issues
+
+NOTE: 28933 MB RAM (28 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1237297.505
+2. Current log-likelihood: -1235953.177
+3. Current log-likelihood: -1235830.344
+4. Current log-likelihood: -1235827.682
+Optimal log-likelihood: -1235827.624
+Mixture weights: 0.269 0.009 0.000 0.000 0.000 0.005 0.006 0.000 0.003 0.000 0.000 0.019 0.011 0.007 0.022 0.000 0.000 0.021 0.076 0.000 0.009 0.006 0.024 0.009 0.000 0.007 0.005 0.042 0.005 0.000 0.000 0.008 0.025 0.016 0.035 0.047 0.015 0.021 0.027 0.004 0.002 0.007 0.001 0.018 0.010 0.007 0.005 0.041 0.013 0.050 0.000 0.010 0.010 0.007 0.030 0.008 0.006 0.006 0.000 0.009 0.002
+Site proportion and rates:  (0.294,0.006) (0.210,0.176) (0.137,0.469) (0.182,1.155) (0.146,2.923) (0.032,8.156)
+Parameters optimization took 4 rounds (63.421 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+
+Do NNI search on 1 best initial trees
+Optimizing NNI: done in 57.7073 secs using 3728% CPU
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -1235795.802
+Finish initializing candidate tree set (2)
+Current best tree score: -1235795.802 / CPU time: 82.661
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 90.8091 secs using 3732% CPU
+Optimizing NNI: done in 45.1301 secs using 3725% CPU
+Optimizing NNI: done in 50.1273 secs using 3726% CPU
+Optimizing NNI: done in 118.129 secs using 3731% CPU
+Optimizing NNI: done in 61.4867 secs using 3735% CPU
+Optimizing NNI: done in 81.3215 secs using 3733% CPU
+Optimizing NNI: done in 89.2906 secs using 3746% CPU
+Optimizing NNI: done in 57.7155 secs using 3746% CPU
+Optimizing NNI: done in 99.373 secs using 3751% CPU
+Iteration 10 / LogL: -1235810.974 / Time: 12972h:35m:27s
+Optimizing NNI: done in 81.4529 secs using 3751% CPU
+Optimizing NNI: done in 80.729 secs using 3753% CPU
+Optimizing NNI: done in 50.1208 secs using 3750% CPU
+Optimizing NNI: done in 80.661 secs using 3752% CPU
+Optimizing NNI: done in 62.8024 secs using 3739% CPU
+Optimizing NNI: done in 84.593 secs using 3740% CPU
+Optimizing NNI: done in 91.8984 secs using 3751% CPU
+Optimizing NNI: done in 93.6181 secs using 3756% CPU
+Optimizing NNI: done in 52.7465 secs using 3753% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1235795.802
+Optimizing NNI: done in 96.4699 secs using 3748% CPU
+Iteration 20 / LogL: -1235797.133 / Time: 12972h:48m:34s
+Optimizing NNI: done in 100.598 secs using 3750% CPU
+Optimizing NNI: done in 57.0604 secs using 3733% CPU
+Optimizing NNI: done in 60.9498 secs using 3743% CPU
+Optimizing NNI: done in 92.3614 secs using 3747% CPU
+Optimizing NNI: done in 61.403 secs using 3748% CPU
+Optimizing NNI: done in 52.0222 secs using 3739% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1235795.802
+Optimizing NNI: done in 61.0682 secs using 3739% CPU
+Optimizing NNI: done in 118.173 secs using 3744% CPU
+Optimizing NNI: done in 103.13 secs using 3756% CPU
+Optimizing NNI: done in 63.2737 secs using 3751% CPU
+Iteration 30 / LogL: -1235811.112 / Time: 12973h:1m:36s (1h:38m:48s left)
+Optimizing NNI: done in 61.7949 secs using 3748% CPU
+Optimizing NNI: done in 191.989 secs using 3745% CPU
+Optimizing NNI: done in 58.1104 secs using 3746% CPU
+Optimizing NNI: done in 84.2548 secs using 3745% CPU
+Optimizing NNI: done in 60.4734 secs using 3749% CPU
+Optimizing NNI: done in 84.1438 secs using 3751% CPU
+Optimizing NNI: done in 80.6353 secs using 3751% CPU
+Optimizing NNI: done in 58.2929 secs using 3737% CPU
+Optimizing NNI: done in 81.6028 secs using 3747% CPU
+Optimizing NNI: done in 150.647 secs using 3741% CPU
+Iteration 40 / LogL: -1235796.003 / Time: 12973h:16m:59s (1h:27m:12s left)
+Optimizing NNI: done in 105.394 secs using 3731% CPU
+Optimizing NNI: done in 82.9559 secs using 3745% CPU
+Optimizing NNI: done in 127.978 secs using 3734% CPU
+Optimizing NNI: done in 55.2404 secs using 3730% CPU
+Optimizing NNI: done in 83.1288 secs using 3723% CPU
+Optimizing NNI: done in 59.162 secs using 3734% CPU
+Optimizing NNI: done in 111.716 secs using 3737% CPU
+Optimizing NNI: done in 84.3559 secs using 3734% CPU
+Optimizing NNI: done in 142.594 secs using 3745% CPU
+Optimizing NNI: done in 99.8353 secs using 3735% CPU
+Iteration 50 / LogL: -1235796.122 / Time: 12973h:33m:3s (1h:14m:45s left)
+Log-likelihood cutoff on original alignment: -1235866.778
+UFBoot trees printed to cyanobacteria10_c60_search.ufboot
+Optimizing NNI: done in 88.7777 secs using 3732% CPU
+Optimizing NNI: done in 58.9135 secs using 3744% CPU
+Optimizing NNI: done in 80.3513 secs using 3727% CPU
+Optimizing NNI: done in 51.1951 secs using 3723% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1235795.802
+Optimizing NNI: done in 55.2264 secs using 3724% CPU
+Optimizing NNI: done in 59.0683 secs using 3733% CPU
+Optimizing NNI: done in 55.8268 secs using 3725% CPU
+Optimizing NNI: done in 59.3561 secs using 3733% CPU
+Optimizing NNI: done in 51.787 secs using 3725% CPU
+Optimizing NNI: done in 59.5736 secs using 3725% CPU
+Iteration 60 / LogL: -1235795.813 / Time: 12973h:43m:35s (0h:57m:13s left)
+Optimizing NNI: done in 84.6655 secs using 3722% CPU
+Optimizing NNI: done in 142.078 secs using 3736% CPU
+Optimizing NNI: done in 90.499 secs using 3725% CPU
+Optimizing NNI: done in 147.124 secs using 3717% CPU
+Optimizing NNI: done in 150.919 secs using 3734% CPU
+Optimizing NNI: done in 56.1483 secs using 3718% CPU
+Optimizing NNI: done in 59.5426 secs using 3720% CPU
+Optimizing NNI: done in 55.8835 secs using 3737% CPU
+Optimizing NNI: done in 89.5337 secs using 3717% CPU
+Optimizing NNI: done in 113.134 secs using 3736% CPU
+Iteration 70 / LogL: -1235796.172 / Time: 12974h:0m:16s (0h:44m:29s left)
+Optimizing NNI: done in 124.021 secs using 3728% CPU
+Optimizing NNI: done in 80.6871 secs using 3733% CPU
+Optimizing NNI: done in 142.524 secs using 3739% CPU
+Optimizing NNI: done in 43.0114 secs using 3736% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1235795.802
+Optimizing NNI: done in 116.479 secs using 3739% CPU
+Optimizing NNI: done in 61.5055 secs using 3736% CPU
+Optimizing NNI: done in 86.4496 secs using 3739% CPU
+Optimizing NNI: done in 56.3119 secs using 3745% CPU
+Optimizing NNI: done in 90.3279 secs using 3746% CPU
+Optimizing NNI: done in 84.2632 secs using 3742% CPU
+Iteration 80 / LogL: -1235805.275 / Time: 12974h:15m:13s (0h:30m:18s left)
+Optimizing NNI: done in 61.0482 secs using 3733% CPU
+Optimizing NNI: done in 60.2015 secs using 3732% CPU
+Optimizing NNI: done in 55.3979 secs using 3721% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1235795.802
+Optimizing NNI: done in 112.033 secs using 3732% CPU
+Optimizing NNI: done in 121.057 secs using 3748% CPU
+Optimizing NNI: done in 90.8196 secs using 3742% CPU
+Optimizing NNI: done in 60.7855 secs using 3720% CPU
+Optimizing NNI: done in 98.0458 secs using 3720% CPU
+Optimizing NNI: done in 44.6058 secs using 3751% CPU
+Optimizing NNI: done in 83.1092 secs using 3735% CPU
+Iteration 90 / LogL: -1235795.915 / Time: 12974h:28m:32s (0h:15m:44s left)
+Optimizing NNI: done in 119.444 secs using 3742% CPU
+Optimizing NNI: done in 91.144 secs using 3736% CPU
+Optimizing NNI: done in 59.689 secs using 3732% CPU
+Optimizing NNI: done in 143.666 secs using 3733% CPU
+Optimizing NNI: done in 61.7418 secs using 3739% CPU
+Optimizing NNI: done in 90.1162 secs using 3730% CPU
+Optimizing NNI: done in 94.7896 secs using 3735% CPU
+Optimizing NNI: done in 43.2014 secs using 3741% CPU
+Optimizing NNI: done in 85.1669 secs using 3735% CPU
+Optimizing NNI: done in 144.091 secs using 3735% CPU
+Iteration 100 / LogL: -1235795.988 / Time: 12974h:44m:17s (0h:1m:26s left)
+Log-likelihood cutoff on original alignment: -1235866.778
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UFBoot trees printed to cyanobacteria10_c60_search.ufboot
+Optimizing NNI: done in 59.6867 secs using 3733% CPU
+Optimizing NNI: done in 85.3124 secs using 3744% CPU
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 12974h:46m:44s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1235795.802
+Optimal log-likelihood: -1235795.802
+Mixture weights: 0.269 0.009 0.000 0.000 0.000 0.005 0.006 0.000 0.003 0.000 0.000 0.019 0.011 0.007 0.022 0.000 0.000 0.021 0.076 0.000 0.009 0.006 0.024 0.009 0.000 0.007 0.005 0.042 0.005 0.000 0.000 0.008 0.025 0.016 0.035 0.047 0.015 0.021 0.027 0.004 0.002 0.007 0.001 0.018 0.010 0.007 0.005 0.041 0.013 0.050 0.000 0.010 0.010 0.007 0.030 0.008 0.006 0.006 0.000 0.009 0.002
+Site proportion and rates:  (0.294,0.006) (0.210,0.176) (0.137,0.469) (0.182,1.155) (0.146,2.923) (0.032,8.156)
+Parameters optimization took 1 rounds (10.682 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -1235795.802
+Creating bootstrap support values...
+Split supports printed to NEXUS file cyanobacteria10_c60_search.splits.nex
+Total tree length: 3.471
+
+Total number of iterations: 102
+CPU time used for tree search: 323826.740 sec (89h:57m:6s)
+Wall-clock time used for tree search: 8664.451 sec (2h:24m:24s)
+Total CPU time used: 326573.807 sec (90h:42m:53s)
+Total wall-clock time used: 46709215.413 sec (12974h:46m:55s)
+UFBoot trees printed to cyanobacteria10_c60_search.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file cyanobacteria10_c60_search.splits.nex...
+10 taxa and 20 splits.
+Consensus tree written to cyanobacteria10_c60_search.contree
+Reading input trees file cyanobacteria10_c60_search.contree
+Log-likelihood of consensus tree: -1235795.803
+
+Analysis results written to: 
+  IQ-TREE report:                cyanobacteria10_c60_search.iqtree
+  Maximum-likelihood tree:       cyanobacteria10_c60_search.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          cyanobacteria10_c60_search.splits.nex
+  Consensus tree:                cyanobacteria10_c60_search.contree
+  UFBoot trees:                  cyanobacteria10_c60_search.ufboot
+  Screen log file:               cyanobacteria10_c60_search.log
+
+Date and Time: Fri May  9 02:38:49 2025

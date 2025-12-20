@@ -1,0 +1,189 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    rona.rsb.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s 20_concated.nex -m MF -merit AIC -T 60 -mem 120G -pre 201kplant_c60_init
+Seed:    274042 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr 29 17:09:05 2025
+Kernel:  AVX+FMA - 60 threads (256 CPU cores detected)
+
+Reading alignment file 20_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: Sequence HKZW site 14010: {DN} treated as unknown character
+WARNING: Sequence OLES site 30027: {DN} treated as unknown character
+WARNING: Sequence OLES site 41119: {DN} treated as unknown character
+WARNING: Sequence OLES site 66486: {DN} treated as unknown character
+WARNING: Sequence CSUV site 77174: {DN} treated as unknown character
+WARNING: Sequence OLES site 99224: {EQ} treated as unknown character
+WARNING: Sequence OLES site 99257: {EQ} treated as unknown character
+WARNING: Sequence OLES site 99261: {DN} treated as unknown character
+WARNING: Sequence IYDF site 104435: {EQ} treated as unknown character
+WARNING: Sequence IYDF site 104461: {EQ} treated as unknown character
+WARNING: Sequence SKYV site 136109: {EQ} treated as unknown character
+WARNING: Sequence YPIC site 136710: {EQ} treated as unknown character
+WARNING: Sequence CMEQ site 154770: {DN} treated as unknown character
+WARNING: Sequence CMEQ site 154803: {EQ} treated as unknown character
+WARNING: 2246 sites contain only gaps or ambiguous characters.
+Alignment has 20 sequences with 155575 columns, 132774 distinct patterns
+83954 parsimony-informative, 39859 singleton sites, 31762 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0174186 secs using 4377% CPU
+   1  BFIK         44.27%    failed      0.00%
+   2  BNCU         28.16%    failed      0.00%
+   3  CMEQ         26.62%    failed      0.30%
+   4  CSUV         39.93%    failed      0.00%
+   5  Chlre_v5.5   28.03%    failed      0.00%
+   6  HKZW         40.02%    failed      0.00%
+   7  IYDF         29.94%    failed      0.00%
+   8  KNMB         29.34%    failed      0.00%
+   9  Klefl_v1.0   18.67%    failed      0.00%
+  10  MMKU         43.74%    failed      0.00%
+  11  Micpu_v3.0   36.34%    failed      0.00%
+  12  OLES         23.39%    failed      0.00%
+  13  QPDY         32.43%    failed      0.00%
+  14  WDCW         39.97%    failed      0.00%
+  15  XSZI         31.17%    failed      0.00%
+  16  YOXI         40.94%    failed      0.00%
+  17  YPIC         35.94%    failed      0.00%
+  18  ZFGK         37.06%    failed      0.00%
+  19  GTHK         32.48%    failed      0.00%
+  20  SKYV         43.76%    failed      0.00%
+****  TOTAL        34.11%  20 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000642777 for long alignment
+Checking for duplicate sequences: done in 0.0634302 secs using 1285% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.599 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 2.75027 secs using 5921% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -3073749.233
+Optimal log-likelihood: -3073748.723
+Proportion of invariable sites: 0.093
+Gamma shape alpha: 1.069
+Parameters optimization took 1 rounds (1.360 sec)
+Time for fast ML tree search: 12.599 seconds
+
+NOTE: ModelFinder requires 4103 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 155575 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            3226090.495  37  6452254.989  6452255.007  6452623.320
+  2  LG+I          3155664.559  38  6311405.118  6311405.137  6311783.403
+  3  LG+G4         3075522.224  38  6151120.448  6151120.467  6151498.733
+  4  LG+I+G4       3073748.369  39  6147574.739  6147574.759  6147962.979
+  5  LG+R2         3094164.157  39  6188406.313  6188406.333  6188794.554
+  6  LG+R3         3076114.207  41  6152310.414  6152310.436  6152718.564
+  7  LG+R4         3073506.866  43  6147099.732  6147099.756  6147527.792
+  8  LG+R5         3073153.666  45  6146397.333  6146397.359  6146845.303
+  9  LG+R6         3073139.084  47  6146372.168  6146372.197  6146840.047
+ 10  LG+R7         3073128.294  49  6146354.588  6146354.620  6146842.378
+ 11  LG+R8         3073121.283  51  6146344.566  6146344.600  6146852.265
+ 12  LG+R9         3073115.601  53  6146337.202  6146337.239  6146864.811
+ 13  LG+R10        3073102.149  55  6146314.297  6146314.337  6146861.816
+ 14  LG+I+R2       3082414.663  40  6164909.325  6164909.346  6165307.520
+ 15  LG+I+R3       3074250.072  42  6148584.144  6148584.167  6149002.249
+ 16  LG+I+R4       3073218.658  44  6146525.315  6146525.341  6146963.330
+ 17  LG+I+R5       3073139.832  46  6146371.664  6146371.692  6146829.589
+ 18  LG+I+R6       3073130.143  48  6146356.286  6146356.316  6146834.120
+ 19  LG+I+R7       3073122.942  50  6146345.883  6146345.916  6146843.628
+ 20  LG+I+R8       3073118.691  52  6146341.381  6146341.417  6146859.035
+ 21  LG+I+R9       3073113.801  54  6146335.603  6146335.641  6146873.166
+ 22  LG+I+R10      3073113.055  56  6146338.110  6146338.151  6146895.583
+ 35  LG+F+R10      3063874.440  74  6127896.881  6127896.952  6128633.542
+ 57  WAG+R10       3081334.419  55  6162778.839  6162778.879  6163326.358
+ 79  WAG+F+R10     3075516.106  74  6151180.213  6151180.284  6151916.874
+101  JTT+R10       3088056.328  55  6176222.657  6176222.696  6176770.175
+123  JTT+F+R10     3082120.783  74  6164389.565  6164389.637  6165126.227
+145  Q.PFAM+R10    3070268.364  55  6140646.728  6140646.768  6141194.247
+167  Q.PFAM+F+R10  3065778.975  74  6131705.950  6131706.022  6132442.612
+189  Q.BIRD+R10    3127029.474  55  6254168.948  6254168.987  6254716.466
+211  Q.BIRD+F+R10  3124176.625  74  6248501.250  6248501.322  6249237.912
+233  Q.MAMMAL+R10  3111518.673  55  6223147.345  6223147.385  6223694.864
+255  Q.MAMMAL+F+R10 3108898.703  74  6217945.405  6217945.476  6218682.066
+277  Q.INSECT+R10  3084987.643  55  6170085.286  6170085.326  6170632.805
+299  Q.INSECT+F+R10 3069776.657  74  6139701.314  6139701.386  6140437.976
+321  Q.PLANT+R10   3085166.324  55  6170442.647  6170442.687  6170990.166
+343  Q.PLANT+F+R10 3080808.341  74  6161764.681  6161764.753  6162501.343
+365  Q.YEAST+R10   3089235.832  55  6178581.665  6178581.705  6179129.184
+387  Q.YEAST+F+R10 3066237.617  74  6132623.233  6132623.305  6133359.895
+409  JTTDCMUT+R10  3087831.084  55  6175772.168  6175772.207  6176319.686
+431  JTTDCMUT+F+R10 3081883.652  74  6163915.304  6163915.375  6164651.965
+453  DCMUT+R10     3104174.958  55  6208459.915  6208459.955  6209007.434
+475  DCMUT+F+R10   3090619.316  74  6181386.633  6181386.704  6182123.294
+497  VT+R10        3090866.697  55  6181843.394  6181843.434  6182390.913
+519  VT+F+R10      3084753.526  74  6169655.053  6169655.124  6170391.714
+541  PMB+R10       3113832.103  55  6227774.206  6227774.245  6228321.724
+563  PMB+F+R10     3103671.343  74  6207490.686  6207490.757  6208227.347
+585  BLOSUM62+R10  3114488.635  55  6229087.271  6229087.310  6229634.789
+607  BLOSUM62+F+R10 3102194.958  74  6204537.916  6204537.987  6205274.577
+629  DAYHOFF+R10   3103998.803  55  6208107.605  6208107.645  6208655.124
+651  DAYHOFF+F+R10 3090475.404  74  6181098.807  6181098.878  6181835.468
+673  MTREV+R10     3270026.688  55  6540163.376  6540163.416  6540710.895
+695  MTREV+F+R10   3111981.209  74  6224110.418  6224110.489  6224847.079
+717  MTART+R10     3282126.238  55  6564362.475  6564362.515  6564909.994
+739  MTART+F+R10   3128175.552  74  6256499.104  6256499.176  6257235.766
+761  MTZOA+R10     3211031.636  55  6422173.272  6422173.312  6422720.791
+783  MTZOA+F+R10   3102317.414  74  6204782.827  6204782.899  6205519.489
+805  MTMET+R10     3278169.827  55  6556449.653  6556449.693  6556997.172
+827  MTMET+F+R10   3111012.984  74  6222173.968  6222174.039  6222910.629
+849  MTVER+R10     3293928.934  55  6587967.869  6587967.908  6588515.387
+871  MTVER+F+R10   3143149.025  74  6286446.051  6286446.122  6287182.712
+893  MTINV+R10     3300619.639  55  6601349.279  6601349.318  6601896.797
+915  MTINV+F+R10   3096272.747  74  6192693.495  6192693.566  6193430.156
+937  MTMAM+R10     3317627.326  55  6635364.653  6635364.692  6635912.171
+959  MTMAM+F+R10   3157369.050  74  6314886.099  6314886.171  6315622.761
+981  FLAVI+R10     3190660.683  55  6381431.366  6381431.405  6381978.884
+1003  FLAVI+F+R10   3167973.629  74  6336095.257  6336095.329  6336831.919
+1025  HIVB+R10      3152773.917  55  6305657.834  6305657.873  6306205.352
+1047  HIVB+F+R10    3124409.995  74  6248967.990  6248968.062  6249704.652
+1069  HIVW+R10      3288907.450  55  6577924.901  6577924.940  6578472.419
+1091  HIVW+F+R10    3205049.478  74  6410246.957  6410247.028  6410983.618
+1113  FLU+R10       3152670.930  55  6305451.860  6305451.900  6305999.379
+1135  FLU+F+R10     3112528.570  74  6225205.140  6225205.212  6225941.802
+1157  RTREV+R10     3110925.015  55  6221960.029  6221960.069  6222507.548
+1179  RTREV+F+R10   3076388.157  74  6152924.315  6152924.386  6153660.976
+1201  CPREV+R10     3105272.089  55  6210654.177  6210654.217  6211201.696
+1223  CPREV+F+R10   3088214.257  74  6176576.514  6176576.586  6177313.176
+Akaike Information Criterion:           LG+F+R10
+Corrected Akaike Information Criterion: LG+F+R10
+Bayesian Information Criterion:         LG+F+R10
+Best-fit model: LG+F+R10 chosen according to AIC
+
+All model information printed to 201kplant_c60_init.model.gz
+CPU time for ModelFinder: 509673.201 seconds (141h:34m:33s)
+Wall-clock time for ModelFinder: 8811.872 seconds (2h:26m:51s)
+
+NOTE: 4103 MB RAM (4 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3064074.857
+2. Current log-likelihood: -3063875.213
+3. Current log-likelihood: -3063873.253
+4. Current log-likelihood: -3063873.019
+5. Current log-likelihood: -3063872.973
+6. Current log-likelihood: -3063872.948
+7. Current log-likelihood: -3063872.927
+8. Current log-likelihood: -3063872.907
+9. Current log-likelihood: -3063872.889
+10. Current log-likelihood: -3063872.872
+Optimal log-likelihood: -3063872.863
+Site proportion and rates:  (0.138,0.019) (0.183,0.185) (0.250,0.541) (0.108,1.090) (0.092,1.091) (0.104,1.665) (0.031,2.391) (0.045,2.829) (0.035,3.102) (0.014,9.358)
+Parameters optimization took 10 rounds (64.806 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -3063872.863
+Total tree length: 12.595
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 513455.780 sec (142h:37m:35s)
+Total wall-clock time used: 8876.834 sec (2h:27m:56s)
+
+Analysis results written to: 
+  IQ-TREE report:                201kplant_c60_init.iqtree
+  Tree used for ModelFinder:     201kplant_c60_init.treefile
+  Screen log file:               201kplant_c60_init.log
+
+Date and Time: Tue Apr 29 19:37:03 2025

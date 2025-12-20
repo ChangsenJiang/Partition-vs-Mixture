@@ -1,0 +1,62 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    fisher.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s ./5_concated.nex -m LG+C60+I+R4 -te ../partition/Q/butterfly5_Q_search.treefile -mwopt -T 30 -mem 120G -safe -pre butterfly5_c60_opt
+Seed:    944124 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 13 07:06:15 2025
+Kernel:  Safe AVX+FMA - 30 threads (31 CPU cores detected)
+
+Reading alignment file ./5_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 4836 sites contain only gaps or ambiguous characters.
+Alignment has 5 sequences with 146199 columns, 30545 distinct patterns
+5766 parsimony-informative, 57883 singleton sites, 82550 constant sites
+                                                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00229396 secs using 1214% CPU
+   1  Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST               7.15%    failed      0.00%
+   2  Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2   47.25%    failed      2.04%
+   3  Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2               55.36%    failed      0.01%
+   4  Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida                    27.70%    failed      0.00%
+   5  Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster                   39.52%    failed      0.00%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                         35.40%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000683999 for long alignment
+Checking for duplicate sequences: done in 0.00522161 secs using 1769% CPU
+Reading input tree file ../partition/Q/butterfly5_Q_search.treefile ...
+Model LG+C60+I+R4 is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+I+R4
+WARNING: Your input class weight 0.000415008 is very small and may cause numerical issues
+WARNING: Both Gamma and FreeRate models were specified, continue with FreeRate model
+
+NOTE: 5667 MB RAM (5 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -857350.178
+2. Current log-likelihood: -846757.838
+3. Current log-likelihood: -845913.205
+4. Current log-likelihood: -845765.480
+5. Current log-likelihood: -845704.217
+6. Current log-likelihood: -845693.834
+7. Current log-likelihood: -845670.521
+Optimal log-likelihood: -845698.549
+Mixture weights: 0.040 0.010 0.008 0.010 0.018 0.028 0.000 0.011 0.000 0.072 0.046 0.014 0.000 0.003 0.000 0.006 0.050 0.050 0.024 0.000 0.005 0.065 0.000 0.004 0.000 0.023 0.052 0.017 0.003 0.039 0.014 0.016 0.023 0.010 0.041 0.000 0.016 0.060 0.001 0.000 0.000 0.010 0.033 0.000 0.007 0.000 0.000 0.014 0.000 0.000 0.018 0.045 0.000 0.027 0.030 0.001 0.003 0.027 0.002 0.002
+Proportion of invariable sites: 0.259
+Site proportion and rates:  (0.233,0.152) (0.195,0.288) (0.157,0.822) (0.156,5.009)
+Parameters optimization took 7 rounds (369.032 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+BEST SCORE FOUND : -845698.549
+Total tree length: 5.302
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 4974.553 sec (1h:22m:54s)
+Total wall-clock time used: 20634402.582 sec (5731h:46m:42s)
+
+Analysis results written to: 
+  IQ-TREE report:                butterfly5_c60_opt.iqtree
+  Maximum-likelihood tree:       butterfly5_c60_opt.treefile
+  Screen log file:               butterfly5_c60_opt.log
+
+Date and Time: Fri Jun 13 07:12:26 2025

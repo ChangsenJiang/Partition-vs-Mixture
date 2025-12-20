@@ -1,0 +1,11 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,BIC,RunT,Command
+Sacfungi10_c60_F,109,NA,NA,8204879.319,-4102330.66,8204879.319,8206024.625,9.56 h,../../iqtree2 -s ./10_concated.nex -m LG+C60+F+I+R7 -te ../partition/Q/Sacfungi10_Q_search.treefile -T 40 -mem 120G -safe -pre Sacfungi10_c60_F
+Sacfungi10_c60_search,17,NA,NA,8204702.381,-4102334.19,8204702.381,8204881.006,52.38 h,../../iqtree2 -s 10_concated.nex -mdef Sacfungi10_c60_F_parameter.nex -m LG_C60_F_I_R7 -t ../partition/Q/Sacfungi10_Q_search.treefile -bb 1000 --wbtl -T 40 --mem 120G -pre Sacfungi10_c60_search
+Sacfungi10_c60_opt,89,NA,NA,8237249.068,-4118535.534,8237249.068,8238184.226,100.46 h,../../iqtree2 -s ./10_concated.nex -m LG+C60+I+R7 -te ../partition/Q/Sacfungi10_Q_search.treefile -mwopt -T 40 -mem 120G -safe -pre Sacfungi10_c60_opt
+Sacfungi10_c60_unopt,30,NA,NA,8302205.725,-4151072.863,8302205.725,8302520.947,52.97 h,../../iqtree2 -s ./10_concated.nex -m LG+C60+I+R7 -te ../partition/Q/Sacfungi10_Q_search.treefile -T 40 -mem 120G -safe -pre Sacfungi10_c60_unopt
+10Sacfungi_c60_init,49,NA,NA,8237368.316,-4118635.158,8237368.316,8237883.178,18.34 h,../../iqtree2 -s 10_concated.nex -m MF -merit AIC -T 40 -mem 120G -pre 10Sacfungi_c60_init
+Sacfungi10_p_search,3338,187,-4118162.548,8243001.097,-4078244.559,8163165.119,8198238.791,0.56 h,../../../iqtree2 -s 10_concated.nex -p Sacfungi10_p_mf.best_model.nex -t Sacfungi10_p_mf.treefile -bb 1000 --wbtl -T 40 -pre Sacfungi10_p_search
+Sacfungi10_p_mf,3957,187,-4118162.065,8244238.131,-4078244.555,8164403.11,8205980.857,8.00 h,../../../iqtree2 -s 10_concated.nex -p 10_concated.nex -m MF+MERGE -merit AIC -T 10 -pre Sacfungi10_p_mf
+Sacfungi10_q_mf,3931,233,-4141079.705,8290021.411,-4090490.599,8188843.198,8230147.753,2.31 h,"../../../iqtree2 -s 10_concated.nex -q 10_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 10 -pre Sacfungi10_q_mf"
+Sacfungi10_Q_mf,9308,278,-4123091.037,8264798.073,-4059303.633,8137223.267,8235026.065,5.95 h,../../../iqtree2 -s 10_concated.nex -Q 10_concated.nex -m MF+MERGE -merit AIC -T 10 -pre Sacfungi10_Q_mf
+Sacfungi10_Q_search,8461,278,-4123091.521,8263105.043,-4059303.626,8135529.252,8224432.29,0.30 h,../../../iqtree2 -s 10_concated.nex -Q Sacfungi10_Q_mf.best_model.nex -t Sacfungi10_Q_mf.treefile -bb 1000 --wbtl -T 40 -pre Sacfungi10_Q_search

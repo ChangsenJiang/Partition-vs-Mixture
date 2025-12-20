@@ -1,0 +1,195 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    dayhoff.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s ./5_concated.nex -m LG+C60+R3 -te ../partition/Q/cyanobacteria5_Q_search.treefile -mwopt -T 30 -mem 120G -safe -pre cyanobacteria5_c60_opt
+Seed:    738782 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri May  9 14:47:49 2025
+Kernel:  Safe AVX+FMA - 30 threads (32 CPU cores detected)
+
+Reading alignment file ./5_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+Alignment has 5 sequences with 120784 columns, 26790 distinct patterns
+12515 parsimony-informative, 43332 singleton sites, 64937 constant sites
+                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00603724 secs using 1881% CPU
+   1  Calothrix_sp_NIES_3974                      3.72%    failed      0.00%
+   2  Chroococcidiopsis_thermalis_PCC_7203        9.40%    failed      0.00%
+   3  Cylindrospermopsis_raciborskii_CS_505_v2    0.76%    failed      0.00%
+   4  Rivularia_sp_PCC_7116                       2.04%    failed      0.00%
+   5  Synechocystis_sp_PCC_7509                  10.75%    failed      0.00%
+****  TOTAL                                       5.33%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000827924 for long alignment
+Checking for duplicate sequences: done in 0.0118971 secs using 2370% CPU
+Reading input tree file ../partition/Q/cyanobacteria5_Q_search.treefile ...
+Model LG+C60+R3 is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+R3
+WARNING: Your input class weight 0.000415008 is very small and may cause numerical issues
+WARNING: Both Gamma and FreeRate models were specified, continue with FreeRate model
+
+NOTE: 3728 MB RAM (3 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -835769.605
+2. Current log-likelihood: -822611.890
+3. Current log-likelihood: -821679.288
+4. Current log-likelihood: -821387.594
+5. Current log-likelihood: -821308.797
+6. Current log-likelihood: -821264.901
+7. Current log-likelihood: -821223.008
+8. Current log-likelihood: -821184.767
+9. Current log-likelihood: -821149.326
+10. Current log-likelihood: -821117.389
+11. Current log-likelihood: -821089.039
+12. Current log-likelihood: -821064.033
+13. Current log-likelihood: -821042.328
+14. Current log-likelihood: -821024.029
+15. Current log-likelihood: -821008.084
+16. Current log-likelihood: -820994.673
+17. Current log-likelihood: -820983.179
+18. Current log-likelihood: -820973.771
+19. Current log-likelihood: -820965.353
+20. Current log-likelihood: -820958.525
+21. Current log-likelihood: -820952.177
+22. Current log-likelihood: -820947.104
+23. Current log-likelihood: -820942.115
+24. Current log-likelihood: -820938.221
+25. Current log-likelihood: -820934.102
+26. Current log-likelihood: -820930.986
+27. Current log-likelihood: -820927.462
+28. Current log-likelihood: -820924.874
+29. Current log-likelihood: -820921.704
+30. Current log-likelihood: -820919.521
+31. Current log-likelihood: -820916.646
+32. Current log-likelihood: -820914.737
+33. Current log-likelihood: -820912.050
+34. Current log-likelihood: -820910.337
+35. Current log-likelihood: -820907.800
+36. Current log-likelihood: -820906.247
+37. Current log-likelihood: -820903.830
+38. Current log-likelihood: -820902.414
+39. Current log-likelihood: -820900.098
+40. Current log-likelihood: -820898.802
+41. Current log-likelihood: -820896.582
+42. Current log-likelihood: -820895.395
+43. Current log-likelihood: -820893.260
+44. Current log-likelihood: -820892.173
+45. Current log-likelihood: -820890.117
+46. Current log-likelihood: -820889.122
+47. Current log-likelihood: -820887.151
+48. Current log-likelihood: -820886.229
+49. Current log-likelihood: -820884.350
+50. Current log-likelihood: -820883.507
+51. Current log-likelihood: -820881.704
+52. Current log-likelihood: -820880.939
+53. Current log-likelihood: -820879.210
+54. Current log-likelihood: -820878.518
+55. Current log-likelihood: -820876.876
+56. Current log-likelihood: -820876.310
+57. Current log-likelihood: -820874.759
+58. Current log-likelihood: -820874.246
+59. Current log-likelihood: -820872.792
+60. Current log-likelihood: -820872.362
+61. Current log-likelihood: -820870.971
+62. Current log-likelihood: -820869.227
+63. Current log-likelihood: -820862.754
+64. Current log-likelihood: -820861.057
+65. Current log-likelihood: -820856.399
+66. Current log-likelihood: -820855.169
+67. Current log-likelihood: -820854.523
+68. Current log-likelihood: -820854.002
+69. Current log-likelihood: -820853.379
+70. Current log-likelihood: -820852.904
+71. Current log-likelihood: -820852.377
+72. Current log-likelihood: -820851.937
+73. Current log-likelihood: -820851.433
+74. Current log-likelihood: -820851.053
+75. Current log-likelihood: -820850.568
+76. Current log-likelihood: -820850.223
+77. Current log-likelihood: -820849.762
+78. Current log-likelihood: -820849.450
+79. Current log-likelihood: -820849.019
+80. Current log-likelihood: -820848.750
+81. Current log-likelihood: -820848.342
+82. Current log-likelihood: -820848.096
+83. Current log-likelihood: -820847.718
+84. Current log-likelihood: -820847.505
+85. Current log-likelihood: -820847.144
+86. Current log-likelihood: -820846.944
+87. Current log-likelihood: -820846.614
+88. Current log-likelihood: -820846.426
+89. Current log-likelihood: -820846.118
+90. Current log-likelihood: -820845.939
+91. Current log-likelihood: -820845.634
+92. Current log-likelihood: -820845.473
+93. Current log-likelihood: -820845.173
+94. Current log-likelihood: -820845.019
+95. Current log-likelihood: -820844.729
+96. Current log-likelihood: -820844.590
+97. Current log-likelihood: -820844.304
+98. Current log-likelihood: -820844.176
+99. Current log-likelihood: -820843.900
+100. Current log-likelihood: -820843.780
+101. Current log-likelihood: -820843.513
+102. Current log-likelihood: -820843.408
+103. Current log-likelihood: -820843.154
+104. Current log-likelihood: -820843.055
+105. Current log-likelihood: -820842.805
+106. Current log-likelihood: -820842.712
+107. Current log-likelihood: -820842.467
+108. Current log-likelihood: -820842.380
+109. Current log-likelihood: -820842.133
+110. Current log-likelihood: -820842.053
+111. Current log-likelihood: -820841.816
+112. Current log-likelihood: -820841.744
+113. Current log-likelihood: -820841.511
+114. Current log-likelihood: -820841.441
+115. Current log-likelihood: -820841.212
+116. Current log-likelihood: -820841.151
+117. Current log-likelihood: -820840.926
+118. Current log-likelihood: -820840.866
+119. Current log-likelihood: -820840.644
+120. Current log-likelihood: -820840.592
+121. Current log-likelihood: -820840.372
+122. Current log-likelihood: -820840.322
+123. Current log-likelihood: -820840.105
+124. Current log-likelihood: -820840.060
+125. Current log-likelihood: -820839.844
+126. Current log-likelihood: -820839.805
+127. Current log-likelihood: -820839.594
+128. Current log-likelihood: -820839.556
+129. Current log-likelihood: -820839.347
+130. Current log-likelihood: -820839.315
+131. Current log-likelihood: -820839.108
+132. Current log-likelihood: -820839.078
+133. Current log-likelihood: -820838.873
+134. Current log-likelihood: -820838.849
+135. Current log-likelihood: -820838.646
+136. Current log-likelihood: -820838.623
+137. Current log-likelihood: -820838.422
+138. Current log-likelihood: -820838.406
+139. Current log-likelihood: -820838.206
+140. Current log-likelihood: -820838.190
+141. Current log-likelihood: -820837.993
+142. Current log-likelihood: -820837.982
+143. Current log-likelihood: -820837.787
+Optimal log-likelihood: -820837.776
+Mixture weights: 0.029 0.000 0.007 0.000 0.001 0.013 0.000 0.002 0.001 0.084 0.011 0.001 0.000 0.014 0.000 0.000 0.050 0.088 0.000 0.013 0.008 0.021 0.001 0.000 0.000 0.002 0.033 0.040 0.000 0.000 0.000 0.025 0.038 0.028 0.043 0.003 0.033 0.048 0.000 0.000 0.000 0.005 0.007 0.023 0.007 0.005 0.019 0.007 0.031 0.012 0.015 0.040 0.000 0.040 0.098 0.012 0.021 0.016 0.006 0.002
+Site proportion and rates:  (0.558,0.068) (0.340,0.898) (0.103,6.393)
+Parameters optimization took 143 rounds (2220.425 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+BEST SCORE FOUND : -820837.776
+Total tree length: 2.720
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 30798.128 sec (8h:33m:18s)
+Total wall-clock time used: 46755250.952 sec (12987h:34m:10s)
+
+Analysis results written to: 
+  IQ-TREE report:                cyanobacteria5_c60_opt.iqtree
+  Maximum-likelihood tree:       cyanobacteria5_c60_opt.treefile
+  Screen log file:               cyanobacteria5_c60_opt.log
+
+Date and Time: Fri May  9 15:24:50 2025

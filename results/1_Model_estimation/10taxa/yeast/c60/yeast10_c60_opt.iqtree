@@ -1,0 +1,157 @@
+IQ-TREE 2.4.0 built Mar 21 2025
+
+Input file name: ./10_concated.nex
+User tree file name: ../partition/Q/yeast10_Q_search.treefile
+Type of analysis: tree reconstruction
+Random seed number: 405224
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 10 sequences with 189743 amino-acid sites
+Number of constant sites: 34751 (= 18.3148% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 34751 (= 18.3148% of all sites)
+Number of parsimony informative sites: 88615
+Number of distinct site patterns: 147273
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{LG+FC60pi1,LG+FC60pi2,LG+FC60pi3,LG+FC60pi4,LG+FC60pi5,LG+FC60pi6,LG+FC60pi7,LG+FC60pi8,LG+FC60pi9,LG+FC60pi10,LG+FC60pi11,LG+FC60pi12,LG+FC60pi13,LG+FC60pi14,LG+FC60pi15,LG+FC60pi16,LG+FC60pi17,LG+FC60pi18,LG+FC60pi19,LG+FC60pi20,LG+FC60pi21,LG+FC60pi22,LG+FC60pi23,LG+FC60pi24,LG+FC60pi25,LG+FC60pi26,LG+FC60pi27,LG+FC60pi28,LG+FC60pi29,LG+FC60pi30,LG+FC60pi31,LG+FC60pi32,LG+FC60pi33,LG+FC60pi34,LG+FC60pi35,LG+FC60pi36,LG+FC60pi37,LG+FC60pi38,LG+FC60pi39,LG+FC60pi40,LG+FC60pi41,LG+FC60pi42,LG+FC60pi43,LG+FC60pi44,LG+FC60pi45,LG+FC60pi46,LG+FC60pi47,LG+FC60pi48,LG+FC60pi49,LG+FC60pi50,LG+FC60pi51,LG+FC60pi52,LG+FC60pi53,LG+FC60pi54,LG+FC60pi55,LG+FC60pi56,LG+FC60pi57,LG+FC60pi58,LG+FC60pi59,LG+FC60pi60}+I+R4
+
+  No  Component      Rate    Weight   Parameters
+   1  LG+FC60pi1    1.0000   0.0317   LG+FC60pi1
+   2  LG+FC60pi2    1.0000   0.0004   LG+FC60pi2
+   3  LG+FC60pi3    1.0000   0.0034   LG+FC60pi3
+   4  LG+FC60pi4    1.0000   0.0117   LG+FC60pi4
+   5  LG+FC60pi5    1.0000   0.0382   LG+FC60pi5
+   6  LG+FC60pi6    1.0000   0.0244   LG+FC60pi6
+   7  LG+FC60pi7    1.0000   0.0000   LG+FC60pi7
+   8  LG+FC60pi8    1.0000   0.0026   LG+FC60pi8
+   9  LG+FC60pi9    1.0000   0.0056   LG+FC60pi9
+  10  LG+FC60pi10   1.0000   0.1537   LG+FC60pi10
+  11  LG+FC60pi11   1.0000   0.0092   LG+FC60pi11
+  12  LG+FC60pi12   1.0000   0.0062   LG+FC60pi12
+  13  LG+FC60pi13   1.0000   0.0000   LG+FC60pi13
+  14  LG+FC60pi14   1.0000   0.0039   LG+FC60pi14
+  15  LG+FC60pi15   1.0000   0.0000   LG+FC60pi15
+  16  LG+FC60pi16   1.0000   0.0090   LG+FC60pi16
+  17  LG+FC60pi17   1.0000   0.0318   LG+FC60pi17
+  18  LG+FC60pi18   1.0000   0.0548   LG+FC60pi18
+  19  LG+FC60pi19   1.0000   0.0262   LG+FC60pi19
+  20  LG+FC60pi20   1.0000   0.0038   LG+FC60pi20
+  21  LG+FC60pi21   1.0000   0.0045   LG+FC60pi21
+  22  LG+FC60pi22   1.0000   0.0307   LG+FC60pi22
+  23  LG+FC60pi23   1.0000   0.0025   LG+FC60pi23
+  24  LG+FC60pi24   1.0000   0.0000   LG+FC60pi24
+  25  LG+FC60pi25   1.0000   0.0039   LG+FC60pi25
+  26  LG+FC60pi26   1.0000   0.0064   LG+FC60pi26
+  27  LG+FC60pi27   1.0000   0.0538   LG+FC60pi27
+  28  LG+FC60pi28   1.0000   0.0393   LG+FC60pi28
+  29  LG+FC60pi29   1.0000   0.0244   LG+FC60pi29
+  30  LG+FC60pi30   1.0000   0.0179   LG+FC60pi30
+  31  LG+FC60pi31   1.0000   0.0029   LG+FC60pi31
+  32  LG+FC60pi32   1.0000   0.0115   LG+FC60pi32
+  33  LG+FC60pi33   1.0000   0.0106   LG+FC60pi33
+  34  LG+FC60pi34   1.0000   0.0167   LG+FC60pi34
+  35  LG+FC60pi35   1.0000   0.0234   LG+FC60pi35
+  36  LG+FC60pi36   1.0000   0.0087   LG+FC60pi36
+  37  LG+FC60pi37   1.0000   0.0092   LG+FC60pi37
+  38  LG+FC60pi38   1.0000   0.1060   LG+FC60pi38
+  39  LG+FC60pi39   1.0000   0.0000   LG+FC60pi39
+  40  LG+FC60pi40   1.0000   0.0038   LG+FC60pi40
+  41  LG+FC60pi41   1.0000   0.0000   LG+FC60pi41
+  42  LG+FC60pi42   1.0000   0.0051   LG+FC60pi42
+  43  LG+FC60pi43   1.0000   0.0143   LG+FC60pi43
+  44  LG+FC60pi44   1.0000   0.0010   LG+FC60pi44
+  45  LG+FC60pi45   1.0000   0.0048   LG+FC60pi45
+  46  LG+FC60pi46   1.0000   0.0000   LG+FC60pi46
+  47  LG+FC60pi47   1.0000   0.0110   LG+FC60pi47
+  48  LG+FC60pi48   1.0000   0.0106   LG+FC60pi48
+  49  LG+FC60pi49   1.0000   0.0000   LG+FC60pi49
+  50  LG+FC60pi50   1.0000   0.0000   LG+FC60pi50
+  51  LG+FC60pi51   1.0000   0.0089   LG+FC60pi51
+  52  LG+FC60pi52   1.0000   0.0253   LG+FC60pi52
+  53  LG+FC60pi53   1.0000   0.0003   LG+FC60pi53
+  54  LG+FC60pi54   1.0000   0.0177   LG+FC60pi54
+  55  LG+FC60pi55   1.0000   0.0485   LG+FC60pi55
+  56  LG+FC60pi56   1.0000   0.0050   LG+FC60pi56
+  57  LG+FC60pi57   1.0000   0.0000   LG+FC60pi57
+  58  LG+FC60pi58   1.0000   0.0499   LG+FC60pi58
+  59  LG+FC60pi59   1.0000   0.0045   LG+FC60pi59
+  60  LG+FC60pi60   1.0000   0.0002   LG+FC60pi60
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.0828
+Site proportion and rates:  (0.1871,0.0211) (0.2206,0.0926) (0.2252,0.2775) (0.2843,3.2118)
+
+ Category  Relative_rate  Proportion
+  0         0              0.0828
+  1         0.0211         0.1871
+  2         0.0926         0.2206
+  3         0.2775         0.2252
+  4         3.2118         0.2843
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -2993651.4189 (s.e. 3421.9285)
+Unconstrained log-likelihood (without tree): -2115226.1756
+Number of free parameters (#branches + #model parameters): 83
+Akaike information criterion (AIC) score: 5987468.8378
+Corrected Akaike information criterion (AICc) score: 5987468.9113
+Bayesian information criterion (BIC) score: 5988311.5721
+
+Total tree length (sum of branch lengths): 61.2305
+Sum of internal branch lengths: 6.3425 (10.3584% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Candida_apicola' is drawn at root
+
++--------------------------------------------------Candida_apicola
+|
+|                   +----------------------------------yHMPu5000034614_Saturnispora_silvae
+|                +--| (100)
+|                |  +----------------------Metschnikowia_bowlesiae
+|  +-------------| (100)
+|  |             |     +------------------------------Nakaseomyces_castellii
+|  |             |  +--| (100)
+|  |             |  |  +------------yHMPu5000035671_Phaffomyces_antillensis
+|  |             +--| (100)
+|  |                +---------------------Ascoidea_asiatica
++--| (100)
+|  |           +-------------------------------------------Schizosaccharomyces_pombe
+|  |   +-------| (100)
+|  |   |       +-----------------------------------Fusarium_graminearum
+|  +---| (100)
+|      +--------------------------------yHMPu5000035654_Tortispora_ganteri
+|
++----------------------yHMPu5000035633_Candida_hispaniensis
+
+Tree in newick format:
+
+(Candida_apicola:8.9354599325,(((yHMPu5000034614_Saturnispora_silvae:6.1392317384,Metschnikowia_bowlesiae:4.1474079186)100:0.3711853892,((Nakaseomyces_castellii:5.4859944121,yHMPu5000035671_Phaffomyces_antillensis:2.3152145682)100:0.4963463063,Ascoidea_asiatica:3.9584585135)100:0.3030634966)100:2.4775655369,((Schizosaccharomyces_pombe:7.7125458410,Fusarium_graminearum:6.2658129139)100:1.4376933832,yHMPu5000035654_Tortispora_ganteri:5.8654142693)100:0.8292958088)100:0.4273330833,yHMPu5000035633_Candida_hispaniensis:4.0624733043);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun 13 15:39:15 2025
+Total CPU time used: 914273.73 seconds (253h:57m:53s)
+Total wall-clock time used: 49780116 seconds (13827h:48m:36s)
+

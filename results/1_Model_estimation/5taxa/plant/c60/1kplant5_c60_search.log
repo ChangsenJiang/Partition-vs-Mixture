@@ -1,0 +1,245 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    wright.uds.anu.edu.au (AVX512, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s 5_concated.nex -mdef 1kplant5_c60_F_parameter.nex -m LG_C60_F_I_R3 -t ../partition/Q/1kplant5_Q_search.treefile -bb 1000 --wbtl -T 30 --mem 120G -pre 1kplant5_c60_search
+Seed:    663310 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun 17 18:52:04 2025
+Kernel:  AVX+FMA - 30 threads (31 CPU cores detected)
+
+Reading alignment file 5_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: Sequence CSUV site 76069: {DN} treated as unknown character
+WARNING: Sequence SKYV site 133958: {EQ} treated as unknown character
+WARNING: 13072 sites contain only gaps or ambiguous characters.
+Alignment has 5 sequences with 152928 columns, 48986 distinct patterns
+8687 parsimony-informative, 78103 singleton sites, 66138 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0274827 secs using 2802% CPU
+   1  Chlre_v5.5   28.05%    failed      0.00%
+   2  CSUV         39.93%    failed      0.00%
+   3  Micpu_v3.0   36.42%    failed      0.00%
+   4  MMKU         43.67%    failed      0.00%
+   5  SKYV         43.76%    failed      0.00%
+****  TOTAL        38.37%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000653902 for long alignment
+Checking for duplicate sequences: done in 0.027898 secs using 2905% CPU
+Reading model definition file 1kplant5_c60_F_parameter.nex ... 87 models and 215 frequency vectors loaded
+Reading input tree file ../partition/Q/1kplant5_Q_search.treefile ...
+Generating 1000 samples for ultrafast bootstrap (seed: 663310)...
+Model LG_C60_F_I_R3 is alias for LG+I{0.1197}+R3{0.3918,0.3386,0.2854,1.2313,0.2030,2.5409}+FMIX{F:1.0000:0.6173,C60pi1:1.0000:0.0004,C60pi2:1.0000:0.00005,C60pi3:1.0000:0.00005,C60pi4:1.0000:0.0142,C60pi5:1.0000:0.00005,C60pi6:1.0000:0.00005,C60pi7:1.0000:0.0014,C60pi8:1.0000:0.0017,C60pi9:1.0000:0.00005,C60pi10:1.0000:0.00005,C60pi11:1.0000:0.0038,C60pi12:1.0000:0.0059,C60pi13:1.0000:0.00005,C60pi14:1.0000:0.0033,C60pi15:1.0000:0.0125,C60pi16:1.0000:0.00005,C60pi17:1.0000:0.0080,C60pi18:1.0000:0.0205,C60pi19:1.0000:0.00005,C60pi20:1.0000:0.00005,C60pi21:1.0000:0.0033,C60pi22:1.0000:0.00005,C60pi23:1.0000:0.0049,C60pi24:1.0000:0.00005,C60pi25:1.0000:0.0035,C60pi26:1.0000:0.00005,C60pi27:1.0000:0.0035,C60pi28:1.0000:0.0368,C60pi29:1.0000:0.0354,C60pi30:1.0000:0.00005,C60pi31:1.0000:0.0034,C60pi32:1.0000:0.0045,C60pi33:1.0000:0.00005,C60pi34:1.0000:0.0064,C60pi35:1.0000:0.0068,C60pi36:1.0000:0.00005,C60pi37:1.0000:0.0088,C60pi38:1.0000:0.00005,C60pi39:1.0000:0.0006,C60pi40:1.0000:0.0066,C60pi41:1.0000:0.0014,C60pi42:1.0000:0.0043,C60pi43:1.0000:0.0028,C60pi44:1.0000:0.00005,C60pi45:1.0000:0.00005,C60pi46:1.0000:0.00005,C60pi47:1.0000:0.0046,C60pi48:1.0000:0.0097,C60pi49:1.0000:0.00005,C60pi50:1.0000:0.1036,C60pi51:1.0000:0.0066,C60pi52:1.0000:0.0050,C60pi53:1.0000:0.00005,C60pi54:1.0000:0.00005,C60pi55:1.0000:0.0171,C60pi56:1.0000:0.00005,C60pi57:1.0000:0.00005,C60pi58:1.0000:0.0305,C60pi59:1.0000:0.00005,C60pi60:1.0000:0.0010}
+WARNING: Your input class weight 0.0004 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0006 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Normalizing State frequencies so that sum of them equals to 1
+WARNING: Normalizing category proportions so that sum of them equals to 1
+
+NOTE: 7115 MB RAM (6 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1013798.999
+2. Current log-likelihood: -1012906.368
+3. Current log-likelihood: -1012903.548
+Optimal log-likelihood: -1012903.546
+Mixture weights: 0.616 0.000 0.000 0.000 0.014 0.000 0.000 0.001 0.002 0.000 0.000 0.004 0.006 0.000 0.003 0.012 0.000 0.008 0.020 0.000 0.000 0.003 0.000 0.005 0.000 0.003 0.000 0.003 0.037 0.035 0.000 0.003 0.004 0.000 0.006 0.007 0.000 0.009 0.000 0.001 0.007 0.001 0.004 0.003 0.000 0.000 0.000 0.005 0.010 0.000 0.103 0.007 0.005 0.000 0.000 0.017 0.000 0.000 0.030 0.000 0.001
+Proportion of invariable sites: 0.120
+Site proportion and rates:  (0.392,0.339) (0.285,1.231) (0.203,2.541)
+Parameters optimization took 3 rounds (12.455 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+
+Do NNI search on 1 best initial trees
+Optimizing NNI: done in 6.22831 secs using 2900% CPU
+Finish initializing candidate tree set (1)
+Current best tree score: -1012903.546 / CPU time: 6.905
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 44.8752 secs using 1001% CPU
+Optimizing NNI: done in 14.6631 secs using 2922% CPU
+Optimizing NNI: done in 43.4514 secs using 1039% CPU
+Optimizing NNI: done in 14.6626 secs using 2867% CPU
+Optimizing NNI: done in 42.2578 secs using 972.9% CPU
+Optimizing NNI: done in 14.677 secs using 2879% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1012903.546
+Optimizing NNI: done in 43.9305 secs using 1030% CPU
+Optimizing NNI: done in 15.2642 secs using 2934% CPU
+Optimizing NNI: done in 42.8322 secs using 1015% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1012903.546
+Iteration 10 / LogL: -1012903.546 / Time: 10332h:3m:28s
+Optimizing NNI: done in 15.1882 secs using 2924% CPU
+Optimizing NNI: done in 42.5375 secs using 1000% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1012903.546
+Optimizing NNI: done in 14.478 secs using 2910% CPU
+Optimizing NNI: done in 14.8004 secs using 2918% CPU
+Optimizing NNI: done in 42.4762 secs using 993.5% CPU
+Optimizing NNI: done in 15.2316 secs using 2931% CPU
+Optimizing NNI: done in 43.0259 secs using 1021% CPU
+Optimizing NNI: done in 14.8432 secs using 2933% CPU
+Optimizing NNI: done in 42.9089 secs using 1017% CPU
+Optimizing NNI: done in 14.9923 secs using 2930% CPU
+Iteration 20 / LogL: -1012903.546 / Time: 10332h:7m:52s
+Optimizing NNI: done in 42.1815 secs using 981.3% CPU
+Optimizing NNI: done in 14.9315 secs using 2920% CPU
+Optimizing NNI: done in 43.8007 secs using 1061% CPU
+Optimizing NNI: done in 16.0211 secs using 2935% CPU
+Optimizing NNI: done in 42.367 secs using 989.2% CPU
+Optimizing NNI: done in 14.8405 secs using 2910% CPU
+Optimizing NNI: done in 42.6573 secs using 993.2% CPU
+Optimizing NNI: done in 15.0723 secs using 2905% CPU
+Optimizing NNI: done in 44.1241 secs using 1063% CPU
+Optimizing NNI: done in 14.9181 secs using 2898% CPU
+Iteration 30 / LogL: -1012903.546 / Time: 10332h:12m:46s (0h:34m:35s left)
+Optimizing NNI: done in 42.3975 secs using 976.5% CPU
+Optimizing NNI: done in 14.0272 secs using 2915% CPU
+Optimizing NNI: done in 42.8483 secs using 1012% CPU
+Optimizing NNI: done in 16.1899 secs using 2906% CPU
+Optimizing NNI: done in 42.8083 secs using 1009% CPU
+Optimizing NNI: done in 14.5318 secs using 2924% CPU
+Optimizing NNI: done in 14.8742 secs using 2907% CPU
+Optimizing NNI: done in 43.5614 secs using 1043% CPU
+Optimizing NNI: done in 14.711 secs using 2921% CPU
+Optimizing NNI: done in 41.9005 secs using 962.5% CPU
+Iteration 40 / LogL: -1012903.546 / Time: 10332h:17m:37s (0h:29m:30s left)
+Optimizing NNI: done in 15.3249 secs using 2934% CPU
+Optimizing NNI: done in 42.1031 secs using 973.4% CPU
+Optimizing NNI: done in 14.3944 secs using 2931% CPU
+Optimizing NNI: done in 41.7197 secs using 962.1% CPU
+Optimizing NNI: done in 14.9666 secs using 2903% CPU
+Optimizing NNI: done in 42.4899 secs using 988.9% CPU
+Optimizing NNI: done in 14.414 secs using 2907% CPU
+Optimizing NNI: done in 42.4985 secs using 997.4% CPU
+Optimizing NNI: done in 14.4321 secs using 2889% CPU
+Optimizing NNI: done in 42.6391 secs using 1001% CPU
+Iteration 50 / LogL: -1012903.593 / Time: 10332h:22m:26s (0h:24m:29s left)
+Log-likelihood cutoff on original alignment: -1012931.279
+UFBoot trees printed to 1kplant5_c60_search.ufboot
+Optimizing NNI: done in 16.0891 secs using 2898% CPU
+Optimizing NNI: done in 43.394 secs using 1038% CPU
+Optimizing NNI: done in 15.5031 secs using 2839% CPU
+Optimizing NNI: done in 13.6301 secs using 2898% CPU
+Optimizing NNI: done in 74.0226 secs using 610.5% CPU
+Optimizing NNI: done in 15.1905 secs using 2829% CPU
+Optimizing NNI: done in 74.0332 secs using 608.7% CPU
+Optimizing NNI: done in 74.3321 secs using 618.4% CPU
+Optimizing NNI: done in 14.2941 secs using 2828% CPU
+Optimizing NNI: done in 14.1665 secs using 2865% CPU
+Iteration 60 / LogL: -1012903.546 / Time: 10332h:28m:24s (0h:20m:19s left)
+Optimizing NNI: done in 73.7684 secs using 615.7% CPU
+Optimizing NNI: done in 15.2321 secs using 2938% CPU
+Optimizing NNI: done in 72.7977 secs using 578.5% CPU
+Optimizing NNI: done in 14.7845 secs using 2862% CPU
+Optimizing NNI: done in 72.884 secs using 582.1% CPU
+Optimizing NNI: done in 15.9022 secs using 2839% CPU
+Optimizing NNI: done in 73.5754 secs using 593.4% CPU
+Optimizing NNI: done in 14.0844 secs using 2936% CPU
+Optimizing NNI: done in 73.9137 secs using 604.3% CPU
+Optimizing NNI: done in 14.4113 secs using 2944% CPU
+Iteration 70 / LogL: -1012903.593 / Time: 10332h:35m:49s (0h:16m:15s left)
+Optimizing NNI: done in 74.697 secs using 623.3% CPU
+Optimizing NNI: done in 14.8879 secs using 2947% CPU
+Optimizing NNI: done in 71.7231 secs using 559.2% CPU
+Optimizing NNI: done in 14.688 secs using 2878% CPU
+Optimizing NNI: done in 72.1158 secs using 575.5% CPU
+Optimizing NNI: done in 15.1612 secs using 2853% CPU
+Optimizing NNI: done in 72.8757 secs using 590.7% CPU
+Optimizing NNI: done in 14.8872 secs using 2860% CPU
+Optimizing NNI: done in 72.9362 secs using 583% CPU
+Optimizing NNI: done in 14.5892 secs using 2917% CPU
+Iteration 80 / LogL: -1012903.546 / Time: 10332h:43m:11s (0h:11m:19s left)
+Optimizing NNI: done in 14.3849 secs using 2932% CPU
+Optimizing NNI: done in 73.2632 secs using 605.1% CPU
+Optimizing NNI: done in 14.1377 secs using 2935% CPU
+Optimizing NNI: done in 71.5237 secs using 553.3% CPU
+Optimizing NNI: done in 15.5376 secs using 2908% CPU
+Optimizing NNI: done in 72.3636 secs using 581.3% CPU
+Optimizing NNI: done in 15.0013 secs using 2813% CPU
+Optimizing NNI: done in 73.6113 secs using 614.7% CPU
+Optimizing NNI: done in 13.4757 secs using 2932% CPU
+Optimizing NNI: done in 72.2443 secs using 575.6% CPU
+Iteration 90 / LogL: -1012903.593 / Time: 10332h:50m:30s (0h:5m:50s left)
+Optimizing NNI: done in 14.0212 secs using 2948% CPU
+Optimizing NNI: done in 72.3557 secs using 574.5% CPU
+Optimizing NNI: done in 14.8063 secs using 2949% CPU
+Optimizing NNI: done in 13.7115 secs using 2947% CPU
+Optimizing NNI: done in 73.3522 secs using 611.2% CPU
+Optimizing NNI: done in 13.9464 secs using 2936% CPU
+Optimizing NNI: done in 72.1137 secs using 566.3% CPU
+Optimizing NNI: done in 15.3024 secs using 2937% CPU
+Optimizing NNI: done in 73.0512 secs using 593.9% CPU
+Optimizing NNI: done in 13.9933 secs using 2929% CPU
+Iteration 100 / LogL: -1012903.546 / Time: 10332h:56m:50s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1012931.279
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UFBoot trees printed to 1kplant5_c60_search.ufboot
+Optimizing NNI: done in 72.1245 secs using 567.5% CPU
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 10332h:58m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1012903.546
+Optimal log-likelihood: -1012903.546
+Mixture weights: 0.616 0.000 0.000 0.000 0.014 0.000 0.000 0.001 0.002 0.000 0.000 0.004 0.006 0.000 0.003 0.012 0.000 0.008 0.020 0.000 0.000 0.003 0.000 0.005 0.000 0.003 0.000 0.003 0.037 0.035 0.000 0.003 0.004 0.000 0.006 0.007 0.000 0.009 0.000 0.001 0.007 0.001 0.004 0.003 0.000 0.000 0.000 0.005 0.010 0.000 0.103 0.007 0.005 0.000 0.000 0.017 0.000 0.000 0.030 0.000 0.001
+Proportion of invariable sites: 0.120
+Site proportion and rates:  (0.392,0.339) (0.285,1.231) (0.203,2.541)
+Parameters optimization took 1 rounds (3.068 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -1012903.546
+Creating bootstrap support values...
+Split supports printed to NEXUS file 1kplant5_c60_search.splits.nex
+Total tree length: 4.553
+
+Total number of iterations: 101
+CPU time used for tree search: 44205.365 sec (12h:16m:45s)
+Wall-clock time used for tree search: 3560.977 sec (0h:59m:20s)
+Total CPU time used: 44643.310 sec (12h:24m:3s)
+Total wall-clock time used: 37198685.757 sec (10332h:58m:5s)
+UFBoot trees printed to 1kplant5_c60_search.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file 1kplant5_c60_search.splits.nex...
+5 taxa and 8 splits.
+Consensus tree written to 1kplant5_c60_search.contree
+Reading input trees file 1kplant5_c60_search.contree
+Log-likelihood of consensus tree: -1012903.546
+
+Analysis results written to: 
+  IQ-TREE report:                1kplant5_c60_search.iqtree
+  Maximum-likelihood tree:       1kplant5_c60_search.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          1kplant5_c60_search.splits.nex
+  Consensus tree:                1kplant5_c60_search.contree
+  UFBoot trees:                  1kplant5_c60_search.ufboot
+  Screen log file:               1kplant5_c60_search.log
+
+Date and Time: Tue Jun 17 19:51:56 2025

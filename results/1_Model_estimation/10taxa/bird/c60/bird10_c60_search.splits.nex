@@ -1,0 +1,45 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=10;
+TAXLABELS
+[1] 'ANAPLA'
+[2] 'CALSQU'
+[3] 'CAMPRO'
+[4] 'CORBRA'
+[5] 'HALALB'
+[6] 'JUNHYE'
+[7] 'NANAUR'
+[8] 'NOTORN'
+[9] 'URILOM'
+[10] 'ZOSLAT'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=10 nsplits=20;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 4,
+	100	 6,
+	100	 10,
+	100	 6 10,
+	100	 4 6 10,
+	100	 3 4 6 10,
+	100	 5,
+	100	 7,
+	98	 5 7,
+	100	 9,
+	100	 5 7 9,
+	100	 1 2 8,
+	100	 8,
+	100	 1 2,
+	100	 1,
+	2	 7 9,
+	0	 1 2 5 7 8,
+	0	 5 9,
+;
+END; [Splits]
+

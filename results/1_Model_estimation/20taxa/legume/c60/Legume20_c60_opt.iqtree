@@ -1,0 +1,176 @@
+IQ-TREE 2.4.0 built Mar 21 2025
+
+Input file name: ./20_concated.nex
+User tree file name: ../partition/Q/Legume20_Q_search.treefile
+Type of analysis: tree reconstruction
+Random seed number: 878078
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 116731 amino-acid sites
+Number of constant sites: 52281 (= 44.7876% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 52281 (= 44.7876% of all sites)
+Number of parsimony informative sites: 40231
+Number of distinct site patterns: 70806
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{Q.PLANT+FC60pi1,Q.PLANT+FC60pi2,Q.PLANT+FC60pi3,Q.PLANT+FC60pi4,Q.PLANT+FC60pi5,Q.PLANT+FC60pi6,Q.PLANT+FC60pi7,Q.PLANT+FC60pi8,Q.PLANT+FC60pi9,Q.PLANT+FC60pi10,Q.PLANT+FC60pi11,Q.PLANT+FC60pi12,Q.PLANT+FC60pi13,Q.PLANT+FC60pi14,Q.PLANT+FC60pi15,Q.PLANT+FC60pi16,Q.PLANT+FC60pi17,Q.PLANT+FC60pi18,Q.PLANT+FC60pi19,Q.PLANT+FC60pi20,Q.PLANT+FC60pi21,Q.PLANT+FC60pi22,Q.PLANT+FC60pi23,Q.PLANT+FC60pi24,Q.PLANT+FC60pi25,Q.PLANT+FC60pi26,Q.PLANT+FC60pi27,Q.PLANT+FC60pi28,Q.PLANT+FC60pi29,Q.PLANT+FC60pi30,Q.PLANT+FC60pi31,Q.PLANT+FC60pi32,Q.PLANT+FC60pi33,Q.PLANT+FC60pi34,Q.PLANT+FC60pi35,Q.PLANT+FC60pi36,Q.PLANT+FC60pi37,Q.PLANT+FC60pi38,Q.PLANT+FC60pi39,Q.PLANT+FC60pi40,Q.PLANT+FC60pi41,Q.PLANT+FC60pi42,Q.PLANT+FC60pi43,Q.PLANT+FC60pi44,Q.PLANT+FC60pi45,Q.PLANT+FC60pi46,Q.PLANT+FC60pi47,Q.PLANT+FC60pi48,Q.PLANT+FC60pi49,Q.PLANT+FC60pi50,Q.PLANT+FC60pi51,Q.PLANT+FC60pi52,Q.PLANT+FC60pi53,Q.PLANT+FC60pi54,Q.PLANT+FC60pi55,Q.PLANT+FC60pi56,Q.PLANT+FC60pi57,Q.PLANT+FC60pi58,Q.PLANT+FC60pi59,Q.PLANT+FC60pi60}+R5
+
+  No  Component      Rate    Weight   Parameters
+   1  Q.PLANT+FC60pi1  1.0000   0.0058   Q.PLANT+FC60pi1
+   2  Q.PLANT+FC60pi2  1.0000   0.0110   Q.PLANT+FC60pi2
+   3  Q.PLANT+FC60pi3  1.0000   0.0071   Q.PLANT+FC60pi3
+   4  Q.PLANT+FC60pi4  1.0000   0.0037   Q.PLANT+FC60pi4
+   5  Q.PLANT+FC60pi5  1.0000   0.0229   Q.PLANT+FC60pi5
+   6  Q.PLANT+FC60pi6  1.0000   0.0060   Q.PLANT+FC60pi6
+   7  Q.PLANT+FC60pi7  1.0000   0.0000   Q.PLANT+FC60pi7
+   8  Q.PLANT+FC60pi8  1.0000   0.0070   Q.PLANT+FC60pi8
+   9  Q.PLANT+FC60pi9  1.0000   0.0197   Q.PLANT+FC60pi9
+  10  Q.PLANT+FC60pi10  1.0000   0.0990   Q.PLANT+FC60pi10
+  11  Q.PLANT+FC60pi11  1.0000   0.0360   Q.PLANT+FC60pi11
+  12  Q.PLANT+FC60pi12  1.0000   0.0225   Q.PLANT+FC60pi12
+  13  Q.PLANT+FC60pi13  1.0000   0.0000   Q.PLANT+FC60pi13
+  14  Q.PLANT+FC60pi14  1.0000   0.0170   Q.PLANT+FC60pi14
+  15  Q.PLANT+FC60pi15  1.0000   0.0000   Q.PLANT+FC60pi15
+  16  Q.PLANT+FC60pi16  1.0000   0.0056   Q.PLANT+FC60pi16
+  17  Q.PLANT+FC60pi17  1.0000   0.0535   Q.PLANT+FC60pi17
+  18  Q.PLANT+FC60pi18  1.0000   0.0461   Q.PLANT+FC60pi18
+  19  Q.PLANT+FC60pi19  1.0000   0.0194   Q.PLANT+FC60pi19
+  20  Q.PLANT+FC60pi20  1.0000   0.0054   Q.PLANT+FC60pi20
+  21  Q.PLANT+FC60pi21  1.0000   0.0011   Q.PLANT+FC60pi21
+  22  Q.PLANT+FC60pi22  1.0000   0.0583   Q.PLANT+FC60pi22
+  23  Q.PLANT+FC60pi23  1.0000   0.0050   Q.PLANT+FC60pi23
+  24  Q.PLANT+FC60pi24  1.0000   0.0000   Q.PLANT+FC60pi24
+  25  Q.PLANT+FC60pi25  1.0000   0.0148   Q.PLANT+FC60pi25
+  26  Q.PLANT+FC60pi26  1.0000   0.0025   Q.PLANT+FC60pi26
+  27  Q.PLANT+FC60pi27  1.0000   0.0335   Q.PLANT+FC60pi27
+  28  Q.PLANT+FC60pi28  1.0000   0.0136   Q.PLANT+FC60pi28
+  29  Q.PLANT+FC60pi29  1.0000   0.0000   Q.PLANT+FC60pi29
+  30  Q.PLANT+FC60pi30  1.0000   0.0280   Q.PLANT+FC60pi30
+  31  Q.PLANT+FC60pi31  1.0000   0.0103   Q.PLANT+FC60pi31
+  32  Q.PLANT+FC60pi32  1.0000   0.0211   Q.PLANT+FC60pi32
+  33  Q.PLANT+FC60pi33  1.0000   0.0030   Q.PLANT+FC60pi33
+  34  Q.PLANT+FC60pi34  1.0000   0.0257   Q.PLANT+FC60pi34
+  35  Q.PLANT+FC60pi35  1.0000   0.0307   Q.PLANT+FC60pi35
+  36  Q.PLANT+FC60pi36  1.0000   0.0182   Q.PLANT+FC60pi36
+  37  Q.PLANT+FC60pi37  1.0000   0.0158   Q.PLANT+FC60pi37
+  38  Q.PLANT+FC60pi38  1.0000   0.0473   Q.PLANT+FC60pi38
+  39  Q.PLANT+FC60pi39  1.0000   0.0039   Q.PLANT+FC60pi39
+  40  Q.PLANT+FC60pi40  1.0000   0.0074   Q.PLANT+FC60pi40
+  41  Q.PLANT+FC60pi41  1.0000   0.0067   Q.PLANT+FC60pi41
+  42  Q.PLANT+FC60pi42  1.0000   0.0032   Q.PLANT+FC60pi42
+  43  Q.PLANT+FC60pi43  1.0000   0.0341   Q.PLANT+FC60pi43
+  44  Q.PLANT+FC60pi44  1.0000   0.0103   Q.PLANT+FC60pi44
+  45  Q.PLANT+FC60pi45  1.0000   0.0301   Q.PLANT+FC60pi45
+  46  Q.PLANT+FC60pi46  1.0000   0.0026   Q.PLANT+FC60pi46
+  47  Q.PLANT+FC60pi47  1.0000   0.0026   Q.PLANT+FC60pi47
+  48  Q.PLANT+FC60pi48  1.0000   0.0164   Q.PLANT+FC60pi48
+  49  Q.PLANT+FC60pi49  1.0000   0.0000   Q.PLANT+FC60pi49
+  50  Q.PLANT+FC60pi50  1.0000   0.0323   Q.PLANT+FC60pi50
+  51  Q.PLANT+FC60pi51  1.0000   0.0140   Q.PLANT+FC60pi51
+  52  Q.PLANT+FC60pi52  1.0000   0.0310   Q.PLANT+FC60pi52
+  53  Q.PLANT+FC60pi53  1.0000   0.0010   Q.PLANT+FC60pi53
+  54  Q.PLANT+FC60pi54  1.0000   0.0086   Q.PLANT+FC60pi54
+  55  Q.PLANT+FC60pi55  1.0000   0.0340   Q.PLANT+FC60pi55
+  56  Q.PLANT+FC60pi56  1.0000   0.0162   Q.PLANT+FC60pi56
+  57  Q.PLANT+FC60pi57  1.0000   0.0044   Q.PLANT+FC60pi57
+  58  Q.PLANT+FC60pi58  1.0000   0.0185   Q.PLANT+FC60pi58
+  59  Q.PLANT+FC60pi59  1.0000   0.0024   Q.PLANT+FC60pi59
+  60  Q.PLANT+FC60pi60  1.0000   0.0036   Q.PLANT+FC60pi60
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.4180,0.0360) (0.2696,0.4406) (0.1972,1.5200) (0.0968,3.8560) (0.0185,10.4649)
+
+ Category  Relative_rate  Proportion
+  1         0.0360         0.4180
+  2         0.4406         0.2696
+  3         1.5200         0.1972
+  4         3.8560         0.0968
+  5         10.4649        0.0185
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -1481445.9303 (s.e. 3809.4090)
+Unconstrained log-likelihood (without tree): -1211219.5499
+Number of free parameters (#branches + #model parameters): 104
+Akaike information criterion (AIC) score: 2963099.8606
+Corrected Akaike information criterion (AICc) score: 2963100.0479
+Bayesian information criterion (BIC) score: 2964105.2939
+
+Total tree length (sum of branch lengths): 4.1971
+Sum of internal branch lengths: 0.4479 (10.6720% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Lathyrus_sativus' is drawn at root
+
++----------------Lathyrus_sativus
+|
+|                              +------------------------------Linum_usitatissimum
+|                          +---|
+|                          |   +----------------Salix_purpurea
+|                       +--|
+|                       |  |     +------------------Gossypium_raimondii
+|                       |  |  +--|
+|                       |  |  |  +------------------Carica_papaya
+|                       |  +--|
+|                       |     +------------------Citrus_sinensis
+|                    +--|
+|                    |  +------------------------Eucalyptus_grandis
+|                 +--|
+|                 |  |           +---------------Nelumbo_nucifera
+|                 |  |     +-----|
+|                 |  |     |     |   +---------------------------Papaver_somniferum
+|                 |  |     |     +---|
+|                 |  |     |         +---------------------Aquilegia_coerulea
+|                 |  |  +--|
+|                 |  |  |  |        +---------------------------Mimulus_guttatus
+|                 |  |  |  |    +---|
+|                 |  |  |  |    |   +----------------------Solanum_tuberosum
+|                 |  |  |  +----|
+|                 |  |  |       +-------------------------------Lactuca_sativa
+|                 |  +--|
+|                 |     +--------------Vitis_vinifera
+|              +--|
+|              |  |     +-----------------------Fragaria_vesca
+|              |  |  +--|
+|              |  |  |  +---------------------Cannabis_sativa
+|              |  +--|
+|              |     +--------------------------Cucumis_sativus
+|     +--------|
+|     |        +---------------Juglans_regia
++-----|
+|     +--------------Acacia_koa
+|
++--------------Vigna_radiata
+
+Tree in newick format:
+
+(Lathyrus_sativus:0.1528203749,(((((((Linum_usitatissimum:0.2655991159,Salix_purpurea:0.1529648269):0.0363860742,((Gossypium_raimondii:0.1663032702,Carica_papaya:0.1643088028):0.0099159879,Citrus_sinensis:0.1636588971):0.0070524470):0.0093458384,Eucalyptus_grandis:0.2148252252):0.0039140830,(((Nelumbo_nucifera:0.1431896934,(Papaver_somniferum:0.2402497834,Aquilegia_coerulea:0.1930758217):0.0371376425):0.0534534702,((Mimulus_guttatus:0.2410728682,Solanum_tuberosum:0.2040866505):0.0399411118,Lactuca_sativa:0.2739729880):0.0457512101):0.0069627722,Vitis_vinifera:0.1331680920):0.0215436787):0.0104813608,((Fragaria_vesca:0.2085022224,Cannabis_sativa:0.1893618172):0.0191579982,Cucumis_sativus:0.2324860837):0.0046896672):0.0057350212,Juglans_regia:0.1409973529):0.0830451997,Acacia_koa:0.1364054806):0.0534004921,Vigna_radiata:0.1321367795);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 25 22:24:16 2025
+Total CPU time used: 1007935.4 seconds (279h:58m:55s)
+Total wall-clock time used: 45570817 seconds (12658h:33m:36s)
+

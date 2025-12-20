@@ -1,0 +1,236 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    wright.uds.anu.edu.au (AVX512, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s 10_concated.nex -mdef butterfly10_c60_F_parameter.nex -m Q_YEAST_C60_F_R5 -t ../partition/Q/butterfly10_Q_search.treefile -bb 1000 --wbtl -T 45 --mem 120G -pre butterfly10_c60_search
+Seed:    64364 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Jun 14 11:42:12 2025
+Kernel:  AVX+FMA - 45 threads (46 CPU cores detected)
+
+Reading alignment file 10_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 3616 sites contain only gaps or ambiguous characters.
+Alignment has 10 sequences with 146199 columns, 78505 distinct patterns
+31147 parsimony-informative, 48366 singleton sites, 66686 constant sites
+                                                                                      Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0307951 secs using 2838% CPU
+   1  Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2            47.25%    failed      3.23%
+   2  Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST                        7.15%    failed      0.00%
+   3  Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2                        55.36%    failed      0.00%
+   4  Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida                             27.70%    failed      0.02%
+   5  Trichoptera_Leptoceridae_Leptocerinae_Nectopsyche_candida                              32.97%    failed      0.27%
+   6  Tischerioidea_Tischeriidae_Tischeria_quercitella_Ts2                                   33.19%    failed      0.00%
+   7  Neopseustoidea_Neopseustidae_Neopseustinae_Neopseustis_meyricki_RINSinlTEERAAPEI__79   50.38%    failed      1.88%
+   8  Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster                            39.52%    failed      0.00%
+   9  Siphonaptera_Pulicidae_Archaeopsyllini_Ctenocephalides_felis                           35.50%    failed      0.00%
+  10  Diptera_Culicidae_Anophelinae_Anopheles_gambiae                                        37.81%    failed      0.00%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                  36.68%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000683999 for long alignment
+Checking for duplicate sequences: done in 0.0346261 secs using 2864% CPU
+Reading model definition file butterfly10_c60_F_parameter.nex ... 87 models and 215 frequency vectors loaded
+Reading input tree file ../partition/Q/butterfly10_Q_search.treefile ...
+Generating 1000 samples for ultrafast bootstrap (seed: 64364)...
+Model Q_YEAST_C60_F_R5 is alias for Q.YEAST+R5{0.3062,0.0312,0.2311,0.3081,0.1796,0.8251,0.2018,1.9043,0.0813,4.7583}+FMIX{F:1.0000:0.4474,C60pi1:1.0000:0.0121,C60pi2:1.0000:0.00005,C60pi3:1.0000:0.0048,C60pi4:1.0000:0.00005,C60pi5:1.0000:0.0077,C60pi6:1.0000:0.0073,C60pi7:1.0000:0.0009,C60pi8:1.0000:0.0083,C60pi9:1.0000:0.00005,C60pi10:1.0000:0.0170,C60pi11:1.0000:0.0338,C60pi12:1.0000:0.0187,C60pi13:1.0000:0.00005,C60pi14:1.0000:0.0072,C60pi15:1.0000:0.00005,C60pi16:1.0000:0.00005,C60pi17:1.0000:0.0262,C60pi18:1.0000:0.0391,C60pi19:1.0000:0.0162,C60pi20:1.0000:0.00005,C60pi21:1.0000:0.0034,C60pi22:1.0000:0.0254,C60pi23:1.0000:0.0024,C60pi24:1.0000:0.00005,C60pi25:1.0000:0.0074,C60pi26:1.0000:0.0027,C60pi27:1.0000:0.0326,C60pi28:1.0000:0.00005,C60pi29:1.0000:0.00005,C60pi30:1.0000:0.0163,C60pi31:1.0000:0.0160,C60pi32:1.0000:0.0104,C60pi33:1.0000:0.0157,C60pi34:1.0000:0.0128,C60pi35:1.0000:0.0232,C60pi36:1.0000:0.0090,C60pi37:1.0000:0.0133,C60pi38:1.0000:0.0377,C60pi39:1.0000:0.0055,C60pi40:1.0000:0.0015,C60pi41:1.0000:0.0016,C60pi42:1.0000:0.0082,C60pi43:1.0000:0.0244,C60pi44:1.0000:0.00005,C60pi45:1.0000:0.00005,C60pi46:1.0000:0.0004,C60pi47:1.0000:0.00005,C60pi48:1.0000:0.0076,C60pi49:1.0000:0.00005,C60pi50:1.0000:0.00005,C60pi51:1.0000:0.0148,C60pi52:1.0000:0.0063,C60pi53:1.0000:0.0002,C60pi54:1.0000:0.0143,C60pi55:1.0000:0.0290,C60pi56:1.0000:0.00005,C60pi57:1.0000:0.00005,C60pi58:1.0000:0.0084,C60pi59:1.0000:0.0023,C60pi60:1.0000:0.0004}
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0009 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0004 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0002 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0004 is very small and may cause numerical issues
+
+NOTE: 37303 MB RAM (36 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1277085.312
+2. Current log-likelihood: -1276459.459
+3. Current log-likelihood: -1276451.014
+Optimal log-likelihood: -1276451.002
+Mixture weights: 0.447 0.012 0.000 0.005 0.000 0.008 0.007 0.001 0.008 0.000 0.017 0.034 0.019 0.000 0.007 0.000 0.000 0.026 0.039 0.016 0.000 0.003 0.025 0.002 0.000 0.007 0.003 0.033 0.000 0.000 0.016 0.016 0.010 0.016 0.013 0.023 0.009 0.013 0.038 0.005 0.001 0.002 0.008 0.024 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.015 0.006 0.000 0.014 0.029 0.000 0.000 0.008 0.002 0.000
+Site proportion and rates:  (0.306,0.031) (0.231,0.308) (0.180,0.825) (0.202,1.904) (0.081,4.758)
+Parameters optimization took 3 rounds (74.717 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+
+Do NNI search on 1 best initial trees
+Optimizing NNI: done in 46.2669 secs using 3953% CPU
+Finish initializing candidate tree set (1)
+Current best tree score: -1276451.002 / CPU time: 49.090
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 97.3008 secs using 4147% CPU
+Optimizing NNI: done in 96.5071 secs using 4130% CPU
+Optimizing NNI: done in 175.853 secs using 4143% CPU
+Optimizing NNI: done in 89.8682 secs using 4138% CPU
+Optimizing NNI: done in 94.8204 secs using 4178% CPU
+Optimizing NNI: done in 194.523 secs using 4203% CPU
+Optimizing NNI: done in 96.6951 secs using 4158% CPU
+Optimizing NNI: done in 95.2203 secs using 4148% CPU
+Optimizing NNI: done in 145.24 secs using 4115% CPU
+Iteration 10 / LogL: -1276467.767 / Time: 10253h:9m:0s
+Optimizing NNI: done in 143.429 secs using 4129% CPU
+Optimizing NNI: done in 156.059 secs using 4141% CPU
+Optimizing NNI: done in 94.8312 secs using 4144% CPU
+Optimizing NNI: done in 125.651 secs using 4139% CPU
+Optimizing NNI: done in 82.791 secs using 4105% CPU
+Optimizing NNI: done in 95.4746 secs using 4136% CPU
+Optimizing NNI: done in 157.713 secs using 4134% CPU
+Optimizing NNI: done in 143.598 secs using 4133% CPU
+Optimizing NNI: done in 79.7299 secs using 4312% CPU
+Optimizing NNI: done in 136.744 secs using 4137% CPU
+Iteration 20 / LogL: -1276664.943 / Time: 10253h:29m:30s
+Optimizing NNI: done in 135.803 secs using 4171% CPU
+Optimizing NNI: done in 91.4653 secs using 4211% CPU
+Optimizing NNI: done in 95.694 secs using 4141% CPU
+Optimizing NNI: done in 82.747 secs using 4139% CPU
+Optimizing NNI: done in 95.5666 secs using 4143% CPU
+Optimizing NNI: done in 178.992 secs using 4135% CPU
+Optimizing NNI: done in 199.089 secs using 4141% CPU
+Optimizing NNI: done in 130.315 secs using 4137% CPU
+Optimizing NNI: done in 95.0653 secs using 4155% CPU
+Optimizing NNI: done in 134.67 secs using 4129% CPU
+Iteration 30 / LogL: -1276451.131 / Time: 10253h:50m:24s (2h:29m:16s left)
+Optimizing NNI: done in 89.316 secs using 4123% CPU
+Optimizing NNI: done in 94.6088 secs using 4145% CPU
+Optimizing NNI: done in 175.458 secs using 4111% CPU
+Optimizing NNI: done in 96.0129 secs using 4129% CPU
+Optimizing NNI: done in 143.507 secs using 4148% CPU
+Optimizing NNI: done in 95.585 secs using 4164% CPU
+Optimizing NNI: done in 107.693 secs using 4128% CPU
+Optimizing NNI: done in 94.7785 secs using 4135% CPU
+Optimizing NNI: done in 95.4095 secs using 4147% CPU
+Optimizing NNI: done in 179.684 secs using 4122% CPU
+Iteration 40 / LogL: -1276467.256 / Time: 10254h:10m:10s (2h:5m:33s left)
+Optimizing NNI: done in 88.1387 secs using 4136% CPU
+Optimizing NNI: done in 143.844 secs using 4145% CPU
+Optimizing NNI: done in 80.54 secs using 4172% CPU
+Optimizing NNI: done in 128.979 secs using 4136% CPU
+Optimizing NNI: done in 133.514 secs using 4145% CPU
+Optimizing NNI: done in 134.647 secs using 4115% CPU
+Optimizing NNI: done in 96.1339 secs using 4156% CPU
+Optimizing NNI: done in 144.078 secs using 4152% CPU
+Optimizing NNI: done in 130.471 secs using 4202% CPU
+Optimizing NNI: done in 142.403 secs using 4139% CPU
+Iteration 50 / LogL: -1276461.268 / Time: 10254h:30m:47s (1h:44m:18s left)
+Log-likelihood cutoff on original alignment: -1276453.597
+UFBoot trees printed to butterfly10_c60_search.ufboot
+Optimizing NNI: done in 96.2453 secs using 4132% CPU
+Optimizing NNI: done in 77.6137 secs using 4190% CPU
+UPDATE BEST LOG-LIKELIHOOD: -1276451.002
+Optimizing NNI: done in 113.94 secs using 4149% CPU
+Optimizing NNI: done in 143.854 secs using 4156% CPU
+Optimizing NNI: done in 140.613 secs using 4140% CPU
+Optimizing NNI: done in 96.6239 secs using 4138% CPU
+Optimizing NNI: done in 144.838 secs using 4133% CPU
+Optimizing NNI: done in 131.722 secs using 4146% CPU
+Optimizing NNI: done in 134.466 secs using 4167% CPU
+Optimizing NNI: done in 193.884 secs using 4126% CPU
+Iteration 60 / LogL: -1276456.822 / Time: 10254h:52m:16s (1h:23m:51s left)
+Optimizing NNI: done in 88.6979 secs using 4155% CPU
+Optimizing NNI: done in 94.6616 secs using 4138% CPU
+Optimizing NNI: done in 69.2638 secs using 4177% CPU
+Optimizing NNI: done in 95.3912 secs using 4133% CPU
+Optimizing NNI: done in 125.04 secs using 4126% CPU
+Optimizing NNI: done in 81.3539 secs using 4149% CPU
+Optimizing NNI: done in 95.8994 secs using 4154% CPU
+Optimizing NNI: done in 160.888 secs using 4151% CPU
+Optimizing NNI: done in 145.759 secs using 4145% CPU
+Optimizing NNI: done in 131.419 secs using 4129% CPU
+Iteration 70 / LogL: -1276454.045 / Time: 10255h:10m:38s (1h:1m:46s left)
+Optimizing NNI: done in 110.747 secs using 4146% CPU
+Optimizing NNI: done in 184.608 secs using 4137% CPU
+Optimizing NNI: done in 97.3513 secs using 4135% CPU
+Optimizing NNI: done in 187.993 secs using 4126% CPU
+Optimizing NNI: done in 142.781 secs using 4164% CPU
+Optimizing NNI: done in 125.784 secs using 4117% CPU
+Optimizing NNI: done in 90.5622 secs using 4270% CPU
+Optimizing NNI: done in 170.094 secs using 4204% CPU
+Optimizing NNI: done in 81.3733 secs using 4160% CPU
+Optimizing NNI: done in 130.029 secs using 4153% CPU
+Iteration 80 / LogL: -1276451.146 / Time: 10255h:32m:53s (0h:41m:36s left)
+Optimizing NNI: done in 95.6599 secs using 4157% CPU
+Optimizing NNI: done in 121.589 secs using 4135% CPU
+Optimizing NNI: done in 121.043 secs using 4168% CPU
+Optimizing NNI: done in 95.7642 secs using 4182% CPU
+Optimizing NNI: done in 88.4442 secs using 4117% CPU
+Optimizing NNI: done in 81.0969 secs using 4135% CPU
+Optimizing NNI: done in 90.136 secs using 4113% CPU
+Optimizing NNI: done in 137.236 secs using 4125% CPU
+Optimizing NNI: done in 133.672 secs using 4140% CPU
+Optimizing NNI: done in 148.203 secs using 4138% CPU
+Iteration 90 / LogL: -1276465.381 / Time: 10255h:51m:40s (0h:20m:34s left)
+Optimizing NNI: done in 121.679 secs using 4128% CPU
+Optimizing NNI: done in 143.676 secs using 4124% CPU
+Optimizing NNI: done in 144.968 secs using 4133% CPU
+Optimizing NNI: done in 137.237 secs using 4131% CPU
+Optimizing NNI: done in 81.9213 secs using 4139% CPU
+Optimizing NNI: done in 127.515 secs using 4189% CPU
+Optimizing NNI: done in 135.023 secs using 4158% CPU
+Optimizing NNI: done in 148.106 secs using 4154% CPU
+Optimizing NNI: done in 94.3921 secs using 4144% CPU
+Optimizing NNI: done in 94.0332 secs using 4129% CPU
+Iteration 100 / LogL: -1276461.174 / Time: 10256h:12m:23s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1276454.509
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UFBoot trees printed to butterfly10_c60_search.ufboot
+Optimizing NNI: done in 143.869 secs using 4123% CPU
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 10256h:14m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1276451.002
+Optimal log-likelihood: -1276451.002
+Mixture weights: 0.447 0.012 0.000 0.005 0.000 0.008 0.007 0.001 0.008 0.000 0.017 0.034 0.019 0.000 0.007 0.000 0.000 0.026 0.039 0.016 0.000 0.003 0.025 0.002 0.000 0.007 0.003 0.033 0.000 0.000 0.016 0.016 0.010 0.016 0.013 0.023 0.009 0.013 0.038 0.005 0.001 0.002 0.008 0.024 0.000 0.000 0.000 0.000 0.008 0.000 0.000 0.015 0.006 0.000 0.014 0.029 0.000 0.000 0.008 0.002 0.000
+Site proportion and rates:  (0.306,0.031) (0.231,0.308) (0.180,0.825) (0.202,1.904) (0.081,4.758)
+Parameters optimization took 1 rounds (15.250 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -1276451.002
+Creating bootstrap support values...
+Split supports printed to NEXUS file butterfly10_c60_search.splits.nex
+Total tree length: 4.296
+
+Total number of iterations: 101
+CPU time used for tree search: 509501.953 sec (141h:31m:41s)
+Wall-clock time used for tree search: 12297.259 sec (3h:24m:57s)
+Total CPU time used: 512681.057 sec (142h:24m:41s)
+Total wall-clock time used: 36922504.453 sec (10256h:15m:4s)
+UFBoot trees printed to butterfly10_c60_search.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file butterfly10_c60_search.splits.nex...
+10 taxa and 17 splits.
+Consensus tree written to butterfly10_c60_search.contree
+Reading input trees file butterfly10_c60_search.contree
+Log-likelihood of consensus tree: -1276451.002
+
+Analysis results written to: 
+  IQ-TREE report:                butterfly10_c60_search.iqtree
+  Maximum-likelihood tree:       butterfly10_c60_search.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          butterfly10_c60_search.splits.nex
+  Consensus tree:                butterfly10_c60_search.contree
+  UFBoot trees:                  butterfly10_c60_search.ufboot
+  Screen log file:               butterfly10_c60_search.log
+
+Date and Time: Sat Jun 14 15:09:56 2025

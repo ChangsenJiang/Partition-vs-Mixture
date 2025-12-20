@@ -1,0 +1,203 @@
+IQ-TREE 2.4.0 built Mar 21 2025
+
+Input file name: ./20_concated.nex
+User tree file name: ../partition/Q/insect20_Q_search.treefile
+Type of analysis: tree reconstruction
+Random seed number: 394612
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 76398 amino-acid sites
+Number of constant sites: 17210 (= 22.5268% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 17210 (= 22.5268% of all sites)
+Number of parsimony informative sites: 38571
+Number of distinct site patterns: 66382
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{Q.INSECT+F+F,Q.INSECT+FC60pi1,Q.INSECT+FC60pi2,Q.INSECT+FC60pi3,Q.INSECT+FC60pi4,Q.INSECT+FC60pi5,Q.INSECT+FC60pi6,Q.INSECT+FC60pi7,Q.INSECT+FC60pi8,Q.INSECT+FC60pi9,Q.INSECT+FC60pi10,Q.INSECT+FC60pi11,Q.INSECT+FC60pi12,Q.INSECT+FC60pi13,Q.INSECT+FC60pi14,Q.INSECT+FC60pi15,Q.INSECT+FC60pi16,Q.INSECT+FC60pi17,Q.INSECT+FC60pi18,Q.INSECT+FC60pi19,Q.INSECT+FC60pi20,Q.INSECT+FC60pi21,Q.INSECT+FC60pi22,Q.INSECT+FC60pi23,Q.INSECT+FC60pi24,Q.INSECT+FC60pi25,Q.INSECT+FC60pi26,Q.INSECT+FC60pi27,Q.INSECT+FC60pi28,Q.INSECT+FC60pi29,Q.INSECT+FC60pi30,Q.INSECT+FC60pi31,Q.INSECT+FC60pi32,Q.INSECT+FC60pi33,Q.INSECT+FC60pi34,Q.INSECT+FC60pi35,Q.INSECT+FC60pi36,Q.INSECT+FC60pi37,Q.INSECT+FC60pi38,Q.INSECT+FC60pi39,Q.INSECT+FC60pi40,Q.INSECT+FC60pi41,Q.INSECT+FC60pi42,Q.INSECT+FC60pi43,Q.INSECT+FC60pi44,Q.INSECT+FC60pi45,Q.INSECT+FC60pi46,Q.INSECT+FC60pi47,Q.INSECT+FC60pi48,Q.INSECT+FC60pi49,Q.INSECT+FC60pi50,Q.INSECT+FC60pi51,Q.INSECT+FC60pi52,Q.INSECT+FC60pi53,Q.INSECT+FC60pi54,Q.INSECT+FC60pi55,Q.INSECT+FC60pi56,Q.INSECT+FC60pi57,Q.INSECT+FC60pi58,Q.INSECT+FC60pi59,Q.INSECT+FC60pi60}+R6
+
+  No  Component      Rate    Weight   Parameters
+   1  Q.INSECT+F    1.0000   0.3062   Q.INSECT+F+F
+   2  Q.INSECT+FC60pi1  1.0000   0.0062   Q.INSECT+FC60pi1
+   3  Q.INSECT+FC60pi2  1.0000   0.0025   Q.INSECT+FC60pi2
+   4  Q.INSECT+FC60pi3  1.0000   0.0078   Q.INSECT+FC60pi3
+   5  Q.INSECT+FC60pi4  1.0000   0.0125   Q.INSECT+FC60pi4
+   6  Q.INSECT+FC60pi5  1.0000   0.0214   Q.INSECT+FC60pi5
+   7  Q.INSECT+FC60pi6  1.0000   0.0084   Q.INSECT+FC60pi6
+   8  Q.INSECT+FC60pi7  1.0000   0.0020   Q.INSECT+FC60pi7
+   9  Q.INSECT+FC60pi8  1.0000   0.0060   Q.INSECT+FC60pi8
+  10  Q.INSECT+FC60pi9  1.0000   0.0031   Q.INSECT+FC60pi9
+  11  Q.INSECT+FC60pi10  1.0000   0.0213   Q.INSECT+FC60pi10
+  12  Q.INSECT+FC60pi11  1.0000   0.0166   Q.INSECT+FC60pi11
+  13  Q.INSECT+FC60pi12  1.0000   0.0159   Q.INSECT+FC60pi12
+  14  Q.INSECT+FC60pi13  1.0000   0.0000   Q.INSECT+FC60pi13
+  15  Q.INSECT+FC60pi14  1.0000   0.0054   Q.INSECT+FC60pi14
+  16  Q.INSECT+FC60pi15  1.0000   0.0000   Q.INSECT+FC60pi15
+  17  Q.INSECT+FC60pi16  1.0000   0.0021   Q.INSECT+FC60pi16
+  18  Q.INSECT+FC60pi17  1.0000   0.0194   Q.INSECT+FC60pi17
+  19  Q.INSECT+FC60pi18  1.0000   0.0391   Q.INSECT+FC60pi18
+  20  Q.INSECT+FC60pi19  1.0000   0.0231   Q.INSECT+FC60pi19
+  21  Q.INSECT+FC60pi20  1.0000   0.0001   Q.INSECT+FC60pi20
+  22  Q.INSECT+FC60pi21  1.0000   0.0031   Q.INSECT+FC60pi21
+  23  Q.INSECT+FC60pi22  1.0000   0.0367   Q.INSECT+FC60pi22
+  24  Q.INSECT+FC60pi23  1.0000   0.0058   Q.INSECT+FC60pi23
+  25  Q.INSECT+FC60pi24  1.0000   0.0000   Q.INSECT+FC60pi24
+  26  Q.INSECT+FC60pi25  1.0000   0.0094   Q.INSECT+FC60pi25
+  27  Q.INSECT+FC60pi26  1.0000   0.0174   Q.INSECT+FC60pi26
+  28  Q.INSECT+FC60pi27  1.0000   0.0478   Q.INSECT+FC60pi27
+  29  Q.INSECT+FC60pi28  1.0000   0.0133   Q.INSECT+FC60pi28
+  30  Q.INSECT+FC60pi29  1.0000   0.0145   Q.INSECT+FC60pi29
+  31  Q.INSECT+FC60pi30  1.0000   0.0236   Q.INSECT+FC60pi30
+  32  Q.INSECT+FC60pi31  1.0000   0.0104   Q.INSECT+FC60pi31
+  33  Q.INSECT+FC60pi32  1.0000   0.0104   Q.INSECT+FC60pi32
+  34  Q.INSECT+FC60pi33  1.0000   0.0180   Q.INSECT+FC60pi33
+  35  Q.INSECT+FC60pi34  1.0000   0.0137   Q.INSECT+FC60pi34
+  36  Q.INSECT+FC60pi35  1.0000   0.0229   Q.INSECT+FC60pi35
+  37  Q.INSECT+FC60pi36  1.0000   0.0096   Q.INSECT+FC60pi36
+  38  Q.INSECT+FC60pi37  1.0000   0.0094   Q.INSECT+FC60pi37
+  39  Q.INSECT+FC60pi38  1.0000   0.0346   Q.INSECT+FC60pi38
+  40  Q.INSECT+FC60pi39  1.0000   0.0027   Q.INSECT+FC60pi39
+  41  Q.INSECT+FC60pi40  1.0000   0.0080   Q.INSECT+FC60pi40
+  42  Q.INSECT+FC60pi41  1.0000   0.0074   Q.INSECT+FC60pi41
+  43  Q.INSECT+FC60pi42  1.0000   0.0026   Q.INSECT+FC60pi42
+  44  Q.INSECT+FC60pi43  1.0000   0.0188   Q.INSECT+FC60pi43
+  45  Q.INSECT+FC60pi44  1.0000   0.0011   Q.INSECT+FC60pi44
+  46  Q.INSECT+FC60pi45  1.0000   0.0039   Q.INSECT+FC60pi45
+  47  Q.INSECT+FC60pi46  1.0000   0.0005   Q.INSECT+FC60pi46
+  48  Q.INSECT+FC60pi47  1.0000   0.0123   Q.INSECT+FC60pi47
+  49  Q.INSECT+FC60pi48  1.0000   0.0090   Q.INSECT+FC60pi48
+  50  Q.INSECT+FC60pi49  1.0000   0.0013   Q.INSECT+FC60pi49
+  51  Q.INSECT+FC60pi50  1.0000   0.0000   Q.INSECT+FC60pi50
+  52  Q.INSECT+FC60pi51  1.0000   0.0078   Q.INSECT+FC60pi51
+  53  Q.INSECT+FC60pi52  1.0000   0.0182   Q.INSECT+FC60pi52
+  54  Q.INSECT+FC60pi53  1.0000   0.0049   Q.INSECT+FC60pi53
+  55  Q.INSECT+FC60pi54  1.0000   0.0133   Q.INSECT+FC60pi54
+  56  Q.INSECT+FC60pi55  1.0000   0.0406   Q.INSECT+FC60pi55
+  57  Q.INSECT+FC60pi56  1.0000   0.0038   Q.INSECT+FC60pi56
+  58  Q.INSECT+FC60pi57  1.0000   0.0025   Q.INSECT+FC60pi57
+  59  Q.INSECT+FC60pi58  1.0000   0.0171   Q.INSECT+FC60pi58
+  60  Q.INSECT+FC60pi59  1.0000   0.0040   Q.INSECT+FC60pi59
+  61  Q.INSECT+FC60pi60  1.0000   0.0003   Q.INSECT+FC60pi60
+
+Model for mixture component 1: Q.INSECT+F
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0625
+  pi(R) = 0.0571
+  pi(N) = 0.0454
+  pi(D) = 0.0577
+  pi(C) = 0.0207
+  pi(Q) = 0.0394
+  pi(E) = 0.0709
+  pi(G) = 0.0545
+  pi(H) = 0.0250
+  pi(I) = 0.0586
+  pi(L) = 0.1022
+  pi(K) = 0.0689
+  pi(M) = 0.0234
+  pi(F) = 0.0418
+  pi(P) = 0.0441
+  pi(S) = 0.0669
+  pi(T) = 0.0501
+  pi(W) = 0.0128
+  pi(Y) = 0.0328
+  pi(V) = 0.0649
+
+
+Model of rate heterogeneity: FreeRate with 6 categories
+Site proportion and rates:  (0.1870,0.0152) (0.1967,0.1426) (0.1782,0.4001) (0.1799,0.8919) (0.1699,1.9270) (0.0884,4.6416)
+
+ Category  Relative_rate  Proportion
+  1         0.0152         0.1870
+  2         0.1426         0.1967
+  3         0.4001         0.1782
+  4         0.8919         0.1799
+  5         1.9270         0.1699
+  6         4.6416         0.0884
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -1446775.9229 (s.e. 3546.3398)
+Unconstrained log-likelihood (without tree): -830607.8556
+Number of free parameters (#branches + #model parameters): 126
+Akaike information criterion (AIC) score: 2893803.8458
+Corrected Akaike information criterion (AICc) score: 2893804.2654
+Bayesian information criterion (BIC) score: 2894968.5535
+
+Total tree length (sum of branch lengths): 16.1766
+Sum of internal branch lengths: 1.3737 (8.4921% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Lepeophtheirus_salmonis' is drawn at root
+
++-------------------------------------------------Lepeophtheirus_salmonis
+|
+|                           +-------------------------------------------Stylops_melittae
+|                        +--|
+|                        |  +----------------Aleochara_curtula
+|                     +--|
+|                     |  +----------------------Conwentzia_psociformis
+|                  +--|
+|                  |  |  +------------------------------DROSOPHILA_MELANOGASTER
+|                  |  +--|
+|                  |     +-----------------------Polyommatus_icarus
+|               +--|
+|               |  +-------------------Cotesia_vestalis
+|            +--|
+|            |  |           +---------------------------Essigella_californica
+|            |  |        +--|
+|            |  |        |  +----------------------Planococcus_citri
+|            |  |     +--|
+|            |  |     |  +-------------------------Acanthocasuarina_muellerianae
+|            |  |  +--|
+|            |  |  |  +----------------------Velia_caprai
+|            |  +--|
+|            |     +---------------------Gynaikothrips_ficorum
+|         +--|
+|         |  |  +-----------------------Ectopsocus_briggsi
+|         |  +--|
+|         |     +------------------Forficula_auricularia
+|     +---|
+|     |   +--------------------Baetis_pumilus
+|  +--|
+|  |  |                         +-----------------Anurida_maritima
+|  |  |  +----------------------|
+|  |  |  |                      +------------------Folsomia_candida
+|  |  +--|
+|  |     +---------------------------Acerentomon_sp
++--|
+|  +-------------------------------------------IXODES_SCAPULARIS
+|
++----------------------------DAPHNIA_PULEX
+
+Tree in newick format:
+
+(Lepeophtheirus_salmonis:1.3854148112,(((((((((Stylops_melittae:1.2174267851,Aleochara_curtula:0.4838111307):0.0392482503,Conwentzia_psociformis:0.6486799172):0.0490939989,(DROSOPHILA_MELANOGASTER:0.8506588672,Polyommatus_icarus:0.6591469616):0.0588102425):0.0540546611,Cotesia_vestalis:0.5482612510):0.0409240842,((((Essigella_californica:0.7668168580,Planococcus_citri:0.6294110581):0.0758551225,Acanthocasuarina_muellerianae:0.7196025981):0.0369289925,Velia_caprai:0.6546120649):0.0685525842,Gynaikothrips_ficorum:0.6054175172):0.0182381710):0.0065874670,(Ectopsocus_briggsi:0.6725234734,Forficula_auricularia:0.5420511299):0.0232239217):0.0433041180,Baetis_pumilus:0.6011080707):0.1160919552,((Anurida_maritima:0.4963388060,Folsomia_candida:0.5203877070):0.6337064419,Acerentomon_sp:0.7749593828):0.0350169846):0.0313220072,IXODES_SCAPULARIS:1.2302954057):0.0427660577,DAPHNIA_PULEX:0.7959472499);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Apr 28 08:15:47 2025
+Total CPU time used: 1.65604e+06 seconds (460h:0m:38s)
+Total wall-clock time used: 3.28369e+07 seconds (9121h:22m:8s)
+

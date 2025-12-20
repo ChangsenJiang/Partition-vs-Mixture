@@ -1,0 +1,372 @@
+IQ-TREE 2.4.0 built Mar 21 2025
+
+Partition file name: Legume20_Q_mf.best_model.nex
+Input file name: 20_concated.nex
+User tree file name: Legume20_Q_mf.treefile
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 195834
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 taxa with 116 partitions and 116731 total sites (1.90301% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	AA	20	1431	878	383	705	705	GENE_cluster1132_2rr_1.nex_GENE_cluster1181_1rr_1.nex_GENE_cluster3928_1rr_1.nex_GENE_cluster4852_1rr_1.nex_GENE_cluster5186_1rr_1.nex_GENE_cluster5378_1rr_1.nex
+   2	AA	15	164	59	21	124	124	GENE_cluster115_5rr_1.nex
+   3	AA	20	2127	1178	583	1174	1174	GENE_cluster1224_3rr_1.nex_GENE_cluster2080_2rr_1.nex_GENE_cluster3738_1rr_1.nex_GENE_cluster5095_1rr_1.nex_GENE_cluster5212_1rr_1.nex_GENE_cluster5685_1rr_1.nex_GENE_cluster5898_1rr_1.nex_GENE_cluster6573_1rr_1.nex
+   4	AA	14	124	99	55	40	40	GENE_cluster1247_1rr_1.nex
+   5	AA	20	2382	1608	827	1044	1044	GENE_cluster1248_2rr_1.nex_GENE_cluster3567_1rr_1.nex_GENE_cluster4356_1rr_1.nex_GENE_cluster4622_1rr_1.nex_GENE_cluster5362_1rr_1.nex_GENE_cluster5516_1rr_1.nex_GENE_cluster6152_1rr_1.nex_GENE_cluster6421_1rr_1.nex
+   6	AA	17	539	338	198	238	238	GENE_cluster1309_1rr_1.nex
+   7	AA	20	2982	1229	545	2004	2004	GENE_cluster1438_1rr_1.nex_GENE_cluster2674_1rr_1.nex_GENE_cluster3482_1rr_1.nex_GENE_cluster4570_1rr_1.nex_GENE_cluster4706_1rr_1.nex_GENE_cluster5579_1rr_1.nex_GENE_cluster6020_1rr_1.nex
+   8	AA	10	106	63	24	62	62	GENE_cluster1450_1rr_1.nex
+   9	AA	20	975	723	403	378	378	GENE_cluster1453_2rr_1.nex_GENE_cluster5603_1rr_1.nex_GENE_cluster5631_1rr_1.nex_GENE_cluster6336_1rr_1.nex
+  10	AA	20	627	302	163	376	376	GENE_cluster1523_2rr_1.nex_GENE_cluster3404_1rr_1.nex
+  11	AA	20	241	193	121	72	72	GENE_cluster1539_2rr_1.nex
+  12	AA	20	2504	1690	957	1015	1015	GENE_cluster1603_1rr_1.nex_GENE_cluster4250_1rr_1.nex_GENE_cluster4268_1rr_1.nex_GENE_cluster4364_1rr_1.nex_GENE_cluster4851_1rr_1.nex_GENE_cluster5702_1rr_1.nex_GENE_cluster5879_1rr_1.nex_GENE_cluster5956_1rr_1.nex
+  13	AA	20	4469	2670	1343	2169	2169	GENE_cluster1629_1rr_1.nex_GENE_cluster2504_2rr_1.nex_GENE_cluster4594_1rr_1.nex_GENE_cluster4846_1rr_1.nex_GENE_cluster5019_1rr_1.nex_GENE_cluster5216_1rr_1.nex_GENE_cluster5437_1rr_1.nex_GENE_cluster5808_1rr_1.nex_GENE_cluster5961_1rr_1.nex_GENE_cluster6281_1rr_1.nex_GENE_cluster6297_1rr_1.nex_GENE_cluster6342_1rr_1.nex_GENE_cluster6516_1rr_1.nex_GENE_cluster719_2rr_1.nex
+  14	AA	20	1578	950	500	723	723	GENE_cluster1668_1rr_1.nex_GENE_cluster4508_1rr_1.nex_GENE_cluster6151_1rr_1.nex_GENE_cluster6424_1rr_1.nex_GENE_cluster6474_1rr_1.nex_GENE_cluster6478_1rr_1.nex
+  15	AA	19	760	256	77	569	569	GENE_cluster1678_1rr_1.nex_GENE_cluster5602_1rr_1.nex
+  16	AA	20	1500	647	276	970	970	GENE_cluster168_5rr_1.nex_GENE_cluster4300_1rr_1.nex_GENE_cluster5732_1rr_1.nex
+  17	AA	20	1608	976	560	733	733	GENE_cluster1698_1rr_1.nex_GENE_cluster2180_1rr_1.nex_GENE_cluster3301_1rr_1.nex_GENE_cluster6176_1rr_1.nex
+  18	AA	20	885	525	271	450	450	GENE_cluster1721_1rr_1.nex_GENE_cluster4138_1rr_1.nex_GENE_cluster5297_1rr_1.nex_GENE_cluster5537_1rr_1.nex
+  19	AA	19	789	571	307	287	287	GENE_cluster1794_1rr_1.nex_GENE_cluster3707_1rr_1.nex_GENE_cluster5984_1rr_1.nex
+  20	AA	20	2247	1492	748	943	943	GENE_cluster1794_2rr_1.nex_GENE_cluster2128_2rr_1.nex_GENE_cluster4208_1rr_1.nex_GENE_cluster4345_1rr_1.nex_GENE_cluster5250_1rr_1.nex_GENE_cluster5279_1rr_1.nex_GENE_cluster5350_1rr_1.nex_GENE_cluster6227_1rr_1.nex
+  21	AA	20	664	576	361	141	141	GENE_cluster1810_1rr_1.nex_GENE_cluster5050_1rr_1.nex
+  22	AA	20	952	768	464	284	284	GENE_cluster1848_1rr_1.nex_GENE_cluster2216_1rr_2.nex_GENE_cluster327_2rr_1.nex_GENE_cluster6201_1rr_1.nex
+  23	AA	20	1066	682	364	457	457	GENE_cluster1860_1rr_1.nex_GENE_cluster3941_1rr_1.nex
+  24	AA	20	716	592	393	164	164	GENE_cluster1979_1rr_1.nex_GENE_cluster6597_1rr_1.nex
+  25	AA	20	2828	1842	1066	1231	1231	GENE_cluster2035_1rr_1.nex_GENE_cluster3932_1rr_1.nex_GENE_cluster4269_1rr_1.nex_GENE_cluster4543_1rr_1.nex_GENE_cluster5133_1rr_1.nex_GENE_cluster5220_1rr_1.nex_GENE_cluster5600_1rr_1.nex_GENE_cluster6305_1rr_1.nex
+  26	AA	20	2068	1309	723	878	878	GENE_cluster2061_1rr_1.nex_GENE_cluster4277_1rr_1.nex_GENE_cluster4618_1rr_1.nex_GENE_cluster4664_1rr_1.nex_GENE_cluster4933_1rr_1.nex_GENE_cluster6508_1rr_1.nex_GENE_cluster6514_1rr_1.nex
+  27	AA	20	1257	770	428	613	613	GENE_cluster2066_1rr_1.nex_GENE_cluster4649_1rr_1.nex_GENE_cluster5636_1rr_1.nex_GENE_cluster6120_1rr_1.nex
+  28	AA	20	1962	1432	785	760	760	GENE_cluster2068_1rr_1.nex_GENE_cluster3522_1rr_1.nex_GENE_cluster4853_1rr_1.nex_GENE_cluster4854_1rr_1.nex_GENE_cluster5179_1rr_1.nex_GENE_cluster5637_1rr_1.nex_GENE_cluster5938_1rr_1.nex_GENE_cluster5967_1rr_1.nex_GENE_cluster6472_1rr_1.nex
+  29	AA	20	1687	829	419	1037	1037	GENE_cluster2113_2rr_1.nex_GENE_cluster2748_2rr_1.nex_GENE_cluster4168_1rr_1.nex_GENE_cluster6210_1rr_1.nex
+  30	AA	20	1402	1186	726	338	338	GENE_cluster2146_1rr_1.nex_GENE_cluster3448_1rr_1.nex_GENE_cluster5038_1rr_1.nex_GENE_cluster5059_1rr_1.nex_GENE_cluster5062_1rr_1.nex_GENE_cluster5193_1rr_1.nex_GENE_cluster5787_1rr_1.nex
+  31	AA	20	1810	861	445	1047	1047	GENE_cluster2199_1rr_1.nex_GENE_cluster2199_2rr_1.nex_GENE_cluster692_1rr_1.nex
+  32	AA	20	1119	881	523	362	362	GENE_cluster226_2rr_1.nex_GENE_cluster4588_1rr_1.nex_GENE_cluster4921_1rr_1.nex_GENE_cluster5515_1rr_1.nex_GENE_cluster5818_1rr_1.nex
+  33	AA	20	1103	794	421	435	435	GENE_cluster2336_1rr_1.nex_GENE_cluster4965_1rr_1.nex_GENE_cluster5206_1rr_1.nex_GENE_cluster6195_1rr_1.nex
+  34	AA	20	732	560	318	248	248	GENE_cluster2426_2rr_1.nex_GENE_cluster5099_1rr_1.nex_GENE_cluster5999_1rr_1.nex
+  35	AA	20	1471	897	473	693	693	GENE_cluster252_1rr_1.nex_GENE_cluster4937_1rr_1.nex_GENE_cluster4990_1rr_1.nex_GENE_cluster6591_1rr_1.nex
+  36	AA	20	527	330	138	267	267	GENE_cluster2648_1rr_1.nex_GENE_cluster5319_1rr_1.nex
+  37	AA	17	286	220	139	89	89	GENE_cluster2747_1rr_1.nex
+  38	AA	20	678	410	250	313	313	GENE_cluster274_4rr_1.nex_GENE_cluster4821_1rr_1.nex
+  39	AA	20	3220	1587	819	1807	1807	GENE_cluster281_1rr_1.nex_GENE_cluster4414_1rr_1.nex_GENE_cluster5219_1rr_1.nex_GENE_cluster5976_1rr_1.nex_GENE_cluster6310_1rr_1.nex_GENE_cluster6536_1rr_1.nex
+  40	AA	12	267	148	75	136	136	GENE_cluster3050_1rr_1.nex
+  41	AA	20	1128	667	313	578	578	GENE_cluster3127_1rr_1.nex_GENE_cluster4271_1rr_1.nex_GENE_cluster4895_1rr_1.nex
+  42	AA	11	178	116	54	89	89	GENE_cluster3296_1rr_1.nex
+  43	AA	20	644	524	323	174	174	GENE_cluster3309_1rr_1.nex_GENE_cluster5113_1rr_1.nex_GENE_cluster5207_1rr_1.nex
+  44	AA	17	399	234	129	192	192	GENE_cluster3363_1rr_1.nex
+  45	AA	20	976	707	403	373	373	GENE_cluster349_2rr_1.nex_GENE_cluster4792_1rr_1.nex_GENE_cluster4935_1rr_1.nex_GENE_cluster5020_1rr_1.nex
+  46	AA	20	256	168	85	123	123	GENE_cluster3529_1rr_1.nex_GENE_cluster5659_1rr_1.nex
+  47	AA	20	1463	836	453	733	733	GENE_cluster3635_1rr_1.nex_GENE_cluster4680_1rr_1.nex_GENE_cluster4886_1rr_1.nex_GENE_cluster5560_1rr_1.nex_GENE_cluster6130_1rr_1.nex
+  48	AA	20	434	351	183	140	140	GENE_cluster3749_1rr_1.nex_GENE_cluster6455_1rr_1.nex
+  49	AA	20	755	457	268	353	353	GENE_cluster3755_1rr_1.nex_GENE_cluster51_3rr_1.nex
+  50	AA	20	1625	964	474	826	826	GENE_cluster3779_1rr_1.nex_GENE_cluster4411_1rr_1.nex_GENE_cluster4484_1rr_1.nex_GENE_cluster5553_1rr_1.nex_GENE_cluster5652_1rr_1.nex_GENE_cluster5656_1rr_1.nex
+  51	AA	18	671	238	112	485	485	GENE_cluster3797_1rr_1.nex_GENE_cluster4312_1rr_1.nex
+  52	AA	20	1631	1019	571	702	702	GENE_cluster3842_1rr_1.nex_GENE_cluster6136_1rr_1.nex_GENE_cluster6320_1rr_1.nex_GENE_cluster779_1rr_1.nex
+  53	AA	20	429	341	201	132	132	GENE_cluster3869_1rr_1.nex_GENE_cluster5477_1rr_1.nex
+  54	AA	20	1570	1175	630	579	579	GENE_cluster3894_1rr_1.nex_GENE_cluster5055_1rr_1.nex_GENE_cluster5269_1rr_1.nex_GENE_cluster5312_1rr_1.nex_GENE_cluster5359_1rr_1.nex_GENE_cluster5830_1rr_1.nex_GENE_cluster5869_1rr_1.nex_GENE_cluster6266_1rr_1.nex
+  55	AA	20	841	684	403	248	248	GENE_cluster3907_1rr_1.nex_GENE_cluster3908_1rr_1.nex_GENE_cluster4542_1rr_1.nex_GENE_cluster6400_1rr_1.nex
+  56	AA	20	1728	1088	601	799	799	GENE_cluster3912_1rr_1.nex_GENE_cluster4883_1rr_1.nex_GENE_cluster5165_1rr_1.nex_GENE_cluster5393_1rr_1.nex_GENE_cluster5569_1rr_1.nex_GENE_cluster6440_1rr_1.nex
+  57	AA	20	1385	851	410	718	718	GENE_cluster3934_1rr_1.nex_GENE_cluster4560_1rr_1.nex_GENE_cluster5857_1rr_1.nex_GENE_cluster5926_1rr_1.nex
+  58	AA	19	545	445	262	159	159	GENE_cluster3976_1rr_1.nex_GENE_cluster4889_1rr_1.nex_GENE_cluster5194_1rr_1.nex
+  59	AA	20	484	356	219	171	171	GENE_cluster397_1rr_1.nex_GENE_cluster4982_1rr_1.nex
+  60	AA	12	251	102	29	166	166	GENE_cluster4032_1rr_1.nex
+  61	AA	20	667	490	256	242	242	GENE_cluster4114_1rr_1.nex_GENE_cluster5222_1rr_1.nex_GENE_cluster5412_1rr_1.nex_GENE_cluster6170_1rr_1.nex
+  62	AA	20	1414	957	522	630	630	GENE_cluster4142_1rr_1.nex_GENE_cluster4611_1rr_1.nex_GENE_cluster4700_1rr_1.nex_GENE_cluster5243_1rr_1.nex_GENE_cluster5370_1rr_1.nex_GENE_cluster5422_1rr_1.nex_GENE_cluster6108_1rr_1.nex
+  63	AA	20	843	430	181	501	501	GENE_cluster4153_1rr_1.nex_GENE_cluster5209_1rr_1.nex_GENE_cluster6447_1rr_1.nex_GENE_cluster682_1rr_1.nex
+  64	AA	20	704	508	237	279	279	GENE_cluster4240_1rr_1.nex_GENE_cluster4331_1rr_1.nex_GENE_cluster4718_1rr_1.nex_GENE_cluster5147_1rr_1.nex
+  65	AA	20	1158	547	249	739	739	GENE_cluster4241_1rr_1.nex_GENE_cluster5372_1rr_1.nex_GENE_cluster5452_1rr_1.nex_GENE_cluster5571_1rr_1.nex
+  66	AA	20	1168	686	353	601	601	GENE_cluster4267_1rr_1.nex_GENE_cluster5410_1rr_1.nex_GENE_cluster5831_1rr_1.nex_GENE_cluster6378_1rr_1.nex
+  67	AA	20	973	608	274	498	498	GENE_cluster4303_1rr_1.nex_GENE_cluster4695_1rr_1.nex_GENE_cluster5730_1rr_1.nex_GENE_cluster6026_1rr_1.nex
+  68	AA	20	2166	1392	719	976	976	GENE_cluster4330_1rr_1.nex_GENE_cluster5024_1rr_1.nex_GENE_cluster5184_1rr_1.nex_GENE_cluster5535_1rr_1.nex_GENE_cluster5550_1rr_1.nex_GENE_cluster5552_1rr_1.nex_GENE_cluster5811_1rr_1.nex_GENE_cluster6404_1rr_1.nex
+  69	AA	20	1409	987	575	569	569	GENE_cluster4335_1rr_1.nex_GENE_cluster4497_1rr_1.nex_GENE_cluster4725_1rr_1.nex_GENE_cluster5509_1rr_1.nex_GENE_cluster5734_1rr_1.nex_GENE_cluster6234_1rr_1.nex
+  70	AA	20	1839	1371	785	626	626	GENE_cluster4419_1rr_1.nex_GENE_cluster4751_1rr_1.nex_GENE_cluster5181_1rr_1.nex_GENE_cluster5436_1rr_1.nex_GENE_cluster5860_1rr_1.nex_GENE_cluster5885_1rr_1.nex_GENE_cluster6021_1rr_1.nex_GENE_cluster757_2rr_1.nex
+  71	AA	20	1701	1104	633	719	719	GENE_cluster4437_1rr_1.nex_GENE_cluster5593_1rr_1.nex_GENE_cluster5919_1rr_1.nex_GENE_cluster6302_1rr_1.nex_GENE_cluster6390_1rr_1.nex
+  72	AA	20	560	396	239	195	195	GENE_cluster4490_1rr_1.nex_GENE_cluster5725_1rr_1.nex
+  73	AA	20	1761	1063	584	858	858	GENE_cluster4562_1rr_1.nex_GENE_cluster5177_1rr_1.nex_GENE_cluster5218_1rr_1.nex_GENE_cluster5936_1rr_1.nex_GENE_cluster6039_1rr_1.nex_GENE_cluster6063_1rr_1.nex
+  74	AA	20	852	646	385	294	294	GENE_cluster4579_1rr_1.nex_GENE_cluster5400_1rr_1.nex_GENE_cluster5627_1rr_1.nex_GENE_cluster5815_1rr_1.nex
+  75	AA	19	605	357	199	284	284	GENE_cluster4590_1rr_1.nex_GENE_cluster5540_1rr_1.nex
+  76	AA	20	3202	1765	834	1694	1694	GENE_cluster4602_1rr_1.nex_GENE_cluster4736_1rr_1.nex_GENE_cluster5166_1rr_1.nex_GENE_cluster5610_1rr_1.nex_GENE_cluster5743_1rr_1.nex_GENE_cluster5972_1rr_1.nex_GENE_cluster6487_1rr_1.nex_GENE_cluster6532_1rr_1.nex
+  77	AA	11	140	90	50	63	63	GENE_cluster4648_1rr_1.nex
+  78	AA	20	1372	955	560	521	521	GENE_cluster4673_1rr_1.nex_GENE_cluster5604_1rr_1.nex_GENE_cluster5889_1rr_1.nex_GENE_cluster6112_1rr_1.nex
+  79	AA	20	566	395	208	215	215	GENE_cluster4699_1rr_1.nex_GENE_cluster5145_1rr_1.nex
+  80	AA	20	1347	889	492	569	569	GENE_cluster4713_1rr_1.nex_GENE_cluster5052_1rr_1.nex_GENE_cluster6308_1rr_1.nex_GENE_cluster751_2rr_1.nex
+  81	AA	20	971	755	421	349	349	GENE_cluster4733_1rr_1.nex_GENE_cluster4833_1rr_1.nex_GENE_cluster5635_1rr_1.nex_GENE_cluster5681_1rr_1.nex
+  82	AA	20	1736	1439	873	438	438	GENE_cluster4750_1rr_1.nex_GENE_cluster5530_1rr_1.nex_GENE_cluster5720_1rr_1.nex_GENE_cluster5862_1rr_1.nex_GENE_cluster5951_1rr_1.nex_GENE_cluster6272_1rr_1.nex
+  83	AA	20	1276	799	479	570	570	GENE_cluster4758_1rr_1.nex_GENE_cluster5132_1rr_1.nex_GENE_cluster5239_1rr_1.nex_GENE_cluster6235_1rr_1.nex
+  84	AA	19	632	544	304	148	148	GENE_cluster4791_1rr_1.nex_GENE_cluster6111_1rr_1.nex
+  85	AA	20	698	378	179	379	379	GENE_cluster4827_1rr_1.nex_GENE_cluster5086_1rr_1.nex
+  86	AA	13	537	382	181	190	190	GENE_cluster4850_1rr_1.nex_GENE_cluster5622_1rr_1.nex
+  87	AA	20	461	386	209	128	128	GENE_cluster4877_1rr_1.nex_GENE_cluster4991_1rr_1.nex_GENE_cluster5268_1rr_1.nex
+  88	AA	20	598	479	268	186	186	GENE_cluster4924_1rr_1.nex_GENE_cluster4992_1rr_1.nex_GENE_cluster5435_1rr_1.nex
+  89	AA	20	1014	582	356	496	496	GENE_cluster4943_1rr_1.nex_GENE_cluster5718_1rr_1.nex_GENE_cluster6166_1rr_1.nex
+  90	AA	20	716	560	341	209	209	GENE_cluster4950_1rr_1.nex_GENE_cluster5155_1rr_1.nex_GENE_cluster6045_1rr_1.nex
+  91	AA	20	687	515	279	241	241	GENE_cluster4954_1rr_1.nex_GENE_cluster6104_1rr_1.nex
+  92	AA	19	748	434	199	363	363	GENE_cluster5036_1rr_1.nex_GENE_cluster6612_1rr_1.nex
+  93	AA	18	382	269	128	169	169	GENE_cluster5083_1rr_1.nex_GENE_cluster6326_1rr_1.nex
+  94	AA	19	582	448	269	168	168	GENE_cluster5085_1rr_1.nex_GENE_cluster6348_1rr_1.nex
+  95	AA	20	796	477	286	355	355	GENE_cluster518_2rr_1.nex_GENE_cluster6121_1rr_1.nex
+  96	AA	19	845	395	173	507	507	GENE_cluster5214_1rr_1.nex_GENE_cluster5963_1rr_1.nex
+  97	AA	18	146	108	56	58	58	GENE_cluster5247_1rr_1.nex
+  98	AA	15	249	152	75	113	113	GENE_cluster5348_1rr_1.nex
+  99	AA	20	960	803	464	276	276	GENE_cluster5449_1rr_1.nex_GENE_cluster5950_1rr_1.nex_GENE_cluster6049_1rr_1.nex_GENE_cluster6078_1rr_1.nex_GENE_cluster6248_1rr_1.nex
+ 100	AA	19	285	210	91	99	99	GENE_cluster5529_1rr_1.nex
+ 101	AA	20	504	343	172	221	221	GENE_cluster5556_1rr_1.nex_GENE_cluster5699_1rr_1.nex
+ 102	AA	20	1066	771	405	363	363	GENE_cluster5599_1rr_1.nex_GENE_cluster5686_1rr_1.nex_GENE_cluster6425_1rr_1.nex
+ 103	AA	9	153	110	44	58	58	GENE_cluster5611_1rr_1.nex
+ 104	AA	18	299	226	127	95	95	GENE_cluster5678_1rr_1.nex
+ 105	AA	17	157	121	71	51	51	GENE_cluster5736_1rr_1.nex
+ 106	AA	12	201	180	88	44	44	GENE_cluster5754_1rr_1.nex
+ 107	AA	17	468	337	199	143	143	GENE_cluster5858_1rr_1.nex
+ 108	AA	12	229	142	85	104	104	GENE_cluster5886_1rr_1.nex
+ 109	AA	9	138	97	51	59	59	GENE_cluster6015_1rr_1.nex
+ 110	AA	16	403	303	146	140	140	GENE_cluster6033_1rr_1.nex
+ 111	AA	17	875	633	357	297	297	GENE_cluster6051_1rr_1.nex_GENE_cluster6546_1rr_1.nex
+ 112	AA	11	139	131	60	26	26	GENE_cluster6296_1rr_1.nex
+ 113	AA	17	531	403	242	161	161	GENE_cluster6609_1rr_1.nex
+ 114	AA	19	490	338	200	190	190	GENE_cluster663_1rr_1.nex
+ 115	AA	17	416	168	68	280	280	GENE_cluster716_1rr_1.nex
+ 116	AA	20	650	275	135	418	418	GENE_cluster895_2rr_1.nex
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-unlinked partition model with separate substitution models and separate rates across sites
+
+  ID  Model         TreeLen  Parameters
+   1  Q.PLANT+I+R3   2.4544  Q.PLANT+I{0.211827}+R3{0.507727,0.359025,0.232401,2.19975,0.0480452,6.3792}
+   2  Q.PLANT+R2     0.6259  Q.PLANT+R2{0.860205,0.236106,0.139795,5.70049}
+   3  Q.PLANT+I+R4   2.2672  Q.PLANT+I{0.404648}+R4{0.287155,0.392588,0.160944,1.54968,0.125164,3.58903,0.0220893,8.53977}
+   4  Q.PFAM+G4      2.6968  Q.PFAM+G4{0.872451}
+   5  Q.PLANT+I+R4   3.0839  Q.PLANT+I{0.272426}+R4{0.335218,0.319334,0.207971,1.18617,0.147714,2.89488,0.0366714,5.96243}
+   6  Q.PLANT+F+R3   2.6410  Q.PLANT+F+R3{0.564147,0.113571,0.351982,1.53726,0.0838711,4.70771}
+   7  Q.PLANT+F+I+R3 1.4170  Q.PLANT+F+I{0.499208}+R3{0.300977,0.513239,0.146464,2.7444,0.0533508,8.31422}
+   8  Q.PLANT+I      0.9859  Q.PLANT+I{0.506791}
+   9  Q.PLANT+I+R3   4.3350  Q.PLANT+I{0.23008}+R3{0.358495,0.237139,0.294161,1.37254,0.117265,4.3597}
+  10  Q.PLANT+F+I+R3 2.2383  Q.PLANT+F+I{0.461101}+R3{0.292069,0.38801,0.199153,2.48111,0.047677,8.2336}
+  11  Q.PLANT+F+G4   3.5545  Q.PLANT+F+G4{0.695822}
+  12  Q.PLANT+F+R4   3.4810  Q.PLANT+F+R4{0.400461,0.0437748,0.337088,0.676241,0.197584,2.18611,0.0648665,4.97294}
+  13  Q.PLANT+R4     2.5811  Q.PLANT+R4{0.522452,0.0867154,0.265209,0.852367,0.179019,2.82385,0.0333197,6.69623}
+  14  Q.PLANT+I+R3   2.7471  Q.PLANT+I{0.303027}+R3{0.422577,0.478553,0.23574,2.3417,0.0386556,6.35722}
+  15  Q.PLANT+I+R3   0.8303  Q.PLANT+I{0.583639}+R3{0.324058,1.00397,0.0890042,6.7268,0.00329896,23.0196}
+  16  Q.PLANT+I+R4   1.2257  Q.PLANT+I{0.346325}+R4{0.384244,0.302413,0.165118,1.74961,0.0981676,5.20235,0.00614576,13.7013}
+  17  Q.PLANT+I+R4   2.9858  Q.PLANT+I{0.257982}+R4{0.350084,0.238613,0.24197,1.32313,0.135725,3.40027,0.0142388,9.46744}
+  18  Q.YEAST+F+R3   2.8919  Q.YEAST+F+R3{0.605719,0.103574,0.321758,1.74253,0.0725225,5.19275}
+  19  Q.PLANT+F+I+G4 3.7964  Q.PLANT+F+I{0.157435}+G4{0.993087}
+  20  Q.PLANT+I+R3   2.8414  Q.PLANT+I{0.212267}+R3{0.445485,0.363551,0.269896,1.74889,0.0723519,5.05896}
+  21  Q.PLANT+I+R4   5.4845  Q.PLANT+I{0.106131}+R4{0.275216,0.237461,0.319272,0.809215,0.269715,1.8512,0.0296661,5.96609}
+  22  Q.PLANT+I+G4   5.4280  Q.PLANT+I{0.181072}+G4{1.15183}
+  23  Q.PLANT+F+I+R3 2.6194  Q.PLANT+F+I{0.199569}+R3{0.417902,0.2813,0.25983,1.51082,0.122699,3.9926}
+  24  Q.PLANT+F+I+R3 4.5337  Q.PLANT+F+I{0.132994}+R3{0.444814,0.442631,0.346945,1.46761,0.0752465,3.90624}
+  25  Q.PLANT+I+R4   3.6390  Q.PLANT+I{0.27947}+R4{0.308924,0.261858,0.251429,1.15179,0.139573,3.36903,0.0206046,7.73074}
+  26  Q.PLANT+R4     3.0015  Q.PLANT+R4{0.465427,0.0786289,0.326309,0.820874,0.179687,2.74627,0.0285771,7.07125}
+  27  Q.PLANT+I+R4   2.7316  Q.PLANT+I{0.344054}+R4{0.307716,0.396254,0.182996,1.42931,0.146455,3.18763,0.0187786,7.96984}
+  28  Q.PLANT+R5     4.0251  Q.PLANT+R5{0.302312,0.0406184,0.226141,0.245996,0.272653,1.11655,0.168976,2.71929,0.0299172,5.62103}
+  29  Q.PLANT+R4     2.0215  Q.PLANT+R4{0.613236,0.0424263,0.236853,1.1721,0.1365,3.93878,0.0134105,11.8357}
+  30  Q.PLANT+F+R4   5.4707  Q.PLANT+F+R4{0.321283,0.0875248,0.36375,0.665149,0.254032,1.90934,0.0609344,4.01906}
+  31  Q.PLANT+F+R4   1.9271  Q.PLANT+F+R4{0.603956,0.0785724,0.230742,1.07466,0.130411,3.39797,0.0348922,7.4929}
+  32  Q.PLANT+I+G4   4.3883  Q.PLANT+I{0.189283}+G4{1.1391}
+  33  Q.PLANT+R4     3.3938  Q.PLANT+R4{0.434259,0.0814814,0.321224,0.783259,0.227176,2.49713,0.0173416,8.4033}
+  34  Q.PLANT+I+G4   4.1821  Q.PLANT+I{0.0928384}+G4{0.716665}
+  35  Q.PLANT+F+I+R3 2.8773  Q.PLANT+F+I{0.328017}+R3{0.378758,0.43663,0.23709,2.07774,0.0561351,6.09266}
+  36  Q.PLANT+R4     2.4915  Q.PLANT+R4{0.651718,0.152256,0.228324,1.42066,0.114001,4.1572,0.00595816,17.1995}
+  37  Q.PLANT+R3     3.7600  Q.PLANT+R3{0.334723,0.0573535,0.498914,0.853861,0.166363,3.33487}
+  38  Q.PLANT+F+R3   3.8578  Q.PLANT+F+R3{0.55507,0.0771195,0.263981,1.11654,0.180949,3.66096}
+  39  Q.PLANT+R4     1.9501  Q.PLANT+R4{0.61271,0.0871519,0.23354,1.23959,0.142646,3.67349,0.011104,11.9866}
+  40  Q.PLANT+G4     1.3150  Q.PLANT+G4{0.56704}
+  41  Q.PLANT+F+I+R3 2.4899  Q.PLANT+F+I{0.370887}+R3{0.352196,0.47286,0.219425,2.13613,0.0574922,6.34418}
+  42  Q.PLANT+G4     2.3798  Q.PLANT+G4{0.340336}
+  43  Q.PLANT+F+R4   4.2378  Q.PLANT+F+R4{0.317281,0.0797402,0.447448,0.782412,0.186602,2.05136,0.0486684,4.96879}
+  44  Q.PLANT+I+G4   2.8648  Q.PLANT+I{0.322229}+G4{0.798973}
+  45  Q.PLANT+R3     3.4921  Q.PLANT+R3{0.453636,0.0912295,0.372421,1.11528,0.173943,3.12322}
+  46  Q.PLANT+F+I+G4 2.5797  Q.PLANT+F+I{0.265932}+G4{0.855098}
+  47  Q.PLANT+I+R4   2.6786  Q.PLANT+I{0.3432}+R4{0.307078,0.319968,0.223496,1.34296,0.119194,4.12929,0.00703154,15.56}
+  48  Q.PLANT+R4     4.1763  Q.PLANT+R4{0.394509,0.0987557,0.294735,0.627887,0.285771,2.19654,0.0249849,5.93449}
+  49  Q.PLANT+F+R4   2.7967  Q.PLANT+F+R4{0.525833,0.0701278,0.303275,1.04461,0.148656,3.03986,0.0222357,8.74388}
+  50  Q.PLANT+I+R3   2.2344  Q.PLANT+I{0.327853}+R3{0.381875,0.426129,0.209775,1.95406,0.0804974,5.30899}
+  51  Q.PLANT+I+G4   1.1484  Q.PLANT+I{0.498451}+G4{0.501356}
+  52  Q.PLANT+I+R4   2.8324  Q.PLANT+I{0.249667}+R4{0.339163,0.29494,0.23897,1.29606,0.154591,2.97531,0.0176085,7.3993}
+  53  Q.PLANT+I+R4   4.7406  Q.PLANT+I{0.18261}+R4{0.424333,0.33466,0.266006,1.50883,0.117209,3.01937,0.00984175,10.4389}
+  54  Q.PLANT+I+R3   4.2986  Q.PLANT+I{0.225125}+R3{0.415216,0.345179,0.284053,1.75507,0.0756055,4.737}
+  55  Q.PLANT+F+I+R3 4.6650  Q.PLANT+F+I{0.159975}+R3{0.298353,0.231111,0.381267,1.11769,0.160406,3.14771}
+  56  Q.PLANT+R4     3.2153  Q.PLANT+R4{0.501862,0.0559397,0.318354,0.912517,0.146609,2.86367,0.033175,7.88495}
+  57  Q.PLANT+I+R4   2.3951  Q.PLANT+I{0.312033}+R4{0.360625,0.285014,0.227242,1.78487,0.0898,4.17596,0.0103002,11.322}
+  58  Q.PLANT+R3     4.5669  Q.PLANT+R3{0.432544,0.123803,0.400666,1.05892,0.16679,3.13074}
+  59  Q.PLANT+R3     3.8876  Q.PLANT+R3{0.459476,0.0983892,0.403536,1.06262,0.136988,3.83965}
+  60  Q.PLANT+F+I+R3 0.7893  Q.PLANT+F+I{0.146834}+R3{0.555892,0.255481,0.293043,2.5436,0.00423116,26.6112}
+  61  Q.PLANT+I+R4   5.4254  Q.PLANT+I{0.202475}+R4{0.312576,0.231229,0.294172,0.927138,0.175704,2.92336,0.0150722,9.37744}
+  62  Q.PLANT+F+I+R3 3.5266  Q.PLANT+F+I{0.315907}+R3{0.332607,0.35284,0.25321,1.74974,0.0982759,4.47304}
+  63  Q.PLANT+R4     1.6145  Q.PLANT+R4{0.638793,0.114168,0.265566,1.67027,0.090865,4.44718,0.00477554,16.6287}
+  64  Q.PLANT+F+R3   2.8364  Q.PLANT+F+R3{0.499685,0.15981,0.355925,1.11144,0.14439,3.63291}
+  65  Q.PLANT+I+R3   1.5006  Q.PLANT+I{0.482559}+R3{0.324596,0.671069,0.107517,2.39559,0.0853277,6.14814}
+  66  Q.PLANT+F+I+R3 2.3574  Q.PLANT+F+I{0.360256}+R3{0.409943,0.547296,0.205098,2.86217,0.0247035,7.63515}
+  67  Q.PLANT+I+R3   2.0853  Q.PLANT+I{0.330166}+R3{0.390227,0.472747,0.240798,2.45037,0.0388084,5.80997}
+  68  Q.PLANT+I+R4   3.1800  Q.PLANT+I{0.245602}+R4{0.415973,0.296901,0.242942,1.73381,0.092744,4.3255,0.00273905,19.7576}
+  69  Q.PLANT+F+I+R4 3.6472  Q.PLANT+F+I{0.247458}+R4{0.33632,0.296965,0.182957,1.08471,0.197315,2.50845,0.0359505,5.75002}
+  70  Q.PLANT+I+R4   4.2984  Q.PLANT+I{0.158623}+R4{0.256451,0.193528,0.332226,0.752926,0.205743,2.33976,0.0469574,4.66039}
+  71  Q.PLANT+F+R4   3.0640  Q.PLANT+F+R4{0.423329,0.0554795,0.264069,0.602816,0.246517,1.99904,0.0660857,4.91078}
+  72  Q.PLANT+F+I+R3 4.1596  Q.PLANT+F+I{0.242536}+R3{0.440335,0.436367,0.231126,1.78374,0.0860029,4.59966}
+  73  Q.PLANT+R4     3.4169  Q.PLANT+R4{0.523856,0.0501223,0.291395,0.865817,0.156504,3.28701,0.0282458,7.32918}
+  74  Q.PLANT+F+I+R4 4.9697  Q.PLANT+F+I{0.194691}+R4{0.286496,0.196547,0.261856,0.733038,0.206948,2.31421,0.0500093,5.45536}
+  75  Q.PLANT+I+R3   3.1295  Q.PLANT+I{0.291024}+R3{0.367407,0.299967,0.25896,1.88279,0.0826096,4.86897}
+  76  Q.PLANT+I+R4   2.1959  Q.PLANT+I{0.363524}+R4{0.385292,0.479511,0.167033,2.13332,0.075039,4.64911,0.00911243,12.0768}
+  77  Q.INSECT+F+I+G4 2.0259  Q.INSECT+F+I{0.307449}+G4{1.70969}
+  78  Q.PLANT+R4     3.9647  Q.PLANT+R4{0.475527,0.0781183,0.311413,0.884614,0.183991,2.73047,0.0290698,6.36368}
+  79  Q.PLANT+I+R3   3.3033  Q.PLANT+I{0.185469}+R3{0.421859,0.289056,0.293969,1.57442,0.0987032,4.20685}
+  80  Q.PLANT+R4     3.3774  Q.PLANT+R4{0.478681,0.0821581,0.264622,0.690286,0.180069,2.15133,0.0766278,5.09762}
+  81  Q.PLANT+I+G4   3.7641  Q.PLANT+I{0.242282}+G4{1.43598}
+  82  Q.PLANT+I+R4   5.1184  Q.PLANT+I{0.140592}+R4{0.309051,0.284725,0.274765,0.876352,0.246526,2.14923,0.0290665,4.86381}
+  83  Q.PLANT+R4     3.6052  Q.PLANT+R4{0.513808,0.0651728,0.245395,0.920551,0.198421,2.38826,0.0423765,6.2944}
+  84  Q.PLANT+G4     4.6184  Q.PLANT+G4{0.929997}
+  85  Q.PLANT+I+R3   1.8674  Q.PLANT+I{0.326504}+R3{0.438929,0.419389,0.190964,2.54626,0.0436032,7.56079}
+  86  Q.PLANT+R3     3.5870  Q.PLANT+R3{0.484352,0.149652,0.418572,1.29112,0.0970762,3.98747}
+  87  Q.PLANT+I+R3   4.3026  Q.PLANT+I{0.149312}+R3{0.417427,0.359301,0.40686,1.72221,0.0264008,5.65583}
+  88  Q.PLANT+I+G4   4.4437  Q.PLANT+I{0.133069}+G4{0.932691}
+  89  Q.PLANT+I+G4   3.1926  Q.PLANT+I{0.316382}+G4{0.795829}
+  90  Q.PLANT+F+I+R3 4.4408  Q.PLANT+F+I{0.150618}+R3{0.428398,0.333122,0.317554,1.45446,0.10343,3.82308}
+  91  Q.PLANT+R3     3.6276  Q.PLANT+R3{0.505703,0.165917,0.401875,1.39607,0.0924213,3.84164}
+  92  Q.PLANT+I+R3   3.0151  Q.PLANT+I{0.313639}+R3{0.429677,0.464039,0.228482,2.44532,0.0282019,8.57748}
+  93  Q.PLANT+I+R3   2.9714  Q.PLANT+I{0.33704}+R3{0.409697,0.592461,0.231641,2.58214,0.0216223,7.36003}
+  94  Q.PLANT+F+R4   4.1028  Q.PLANT+F+R4{0.389393,0.105539,0.388693,0.958348,0.214523,2.4217,0.00739017,9.05128}
+  95  Q.PLANT+I+R3   3.1502  Q.PLANT+I{0.20528}+R3{0.402892,0.21063,0.270388,1.42923,0.12144,4.35354}
+  96  Q.PLANT+R4     1.7998  Q.PLANT+R4{0.657484,0.100096,0.195303,1.13,0.121875,3.55509,0.0253387,11.059}
+  97  Q.PLANT+G4     2.8321  Q.PLANT+G4{0.439878}
+  98  Q.INSECT+F+R3  2.2308  Q.INSECT+F+R3{0.61196,0.144823,0.316099,1.72067,0.0719409,5.10798}
+  99  Q.PLANT+I+R3   5.4198  Q.PLANT+I{0.15804}+R3{0.344842,0.245233,0.35445,1.17911,0.142668,3.4871}
+ 100  Q.MAMMAL+G4    2.2252  Q.MAMMAL+G4{0.813605}
+ 101  Q.PLANT+I+R3   3.7932  Q.PLANT+I{0.240635}+R3{0.363384,0.221363,0.31108,1.55369,0.0849002,5.13825}
+ 102  Q.PLANT+F+I+R3 3.5437  Q.PLANT+F+I{0.20001}+R3{0.426521,0.410521,0.303327,1.71626,0.0701421,4.33858}
+ 103  Q.MAMMAL+G4    1.9015  Q.MAMMAL+G4{0.768959}
+ 104  Q.PLANT+I+G4   3.0529  Q.PLANT+I{0.136226}+G4{1.07586}
+ 105  LG+F+G4        3.0803  LG+F+G4{0.684489}
+ 106  Q.MAMMAL+R2    3.0198  Q.MAMMAL+R2{0.463937,0.293325,0.536063,1.61159}
+ 107  Q.PLANT+F+R4   3.6655  Q.PLANT+F+R4{0.406298,0.104686,0.419391,0.868681,0.15592,2.59364,0.0183912,10.263}
+ 108  Q.PLANT+I+G4   2.4569  Q.PLANT+I{0.288087}+G4{0.972189}
+ 109  Q.PLANT+I+G4   2.0721  Q.PLANT+I{0.341991}+G4{4.04862}
+ 110  Q.PLANT+I+R3   2.7986  Q.PLANT+I{0.214053}+R3{0.463381,0.527275,0.27252,1.84426,0.0500458,5.05684}
+ 111  Q.PLANT+R3     3.1974  Q.PLANT+R3{0.481007,0.157756,0.435905,1.37654,0.0830878,3.90041}
+ 112  Q.PLANT+G4     3.7639  Q.PLANT+G4{1.3089}
+ 113  Q.PLANT+R4     4.3616  Q.PLANT+R4{0.402636,0.0907162,0.377903,0.784206,0.201448,2.56644,0.0180123,8.33408}
+ 114  Q.PLANT+F+R4   3.5404  Q.PLANT+F+R4{0.434297,0.0594183,0.32042,0.777609,0.187501,2.26645,0.0577813,5.19322}
+ 115  Q.PLANT+F+R3   1.1070  Q.PLANT+F+R3{0.77352,0.153657,0.171913,2.58164,0.0545662,8.01458}
+ 116  Q.PLANT+R3     1.1767  Q.PLANT+R3{0.731164,0.139081,0.235627,2.60588,0.0332093,8.56067}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1490798.8096 (s.e. 3854.0328)
+Unconstrained log-likelihood (without tree): -729530.1236
+Number of free parameters (#branches + #model parameters): 4637
+Akaike information criterion (AIC) score: 2990871.6192
+Corrected Akaike information criterion (AICc) score: 2991255.3436
+Bayesian information criterion (BIC) score: 3035700.4076
+
+Marginal log-likelihood of the tree: -1507331.9176
+Marginal Akaike information criterion (mAIC) score: 3023937.8352
+
+Total tree length (sum of branch lengths): 3.1612
+Sum of internal branch lengths: 0.4087 (12.9290% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Lathyrus_sativus' is drawn at root
+NOTE: Branch lengths are weighted average over all partitions
+      (weighted by the number of sites in the partitions)
+
++----------------Lathyrus_sativus
+|
+|                               +---------------------------Linum_usitatissimum
+|                          +----|
+|                          |    +---------------Salix_purpurea
+|                       +--|
+|                       |  |     +-----------------Gossypium_raimondii
+|                       |  |  +--|
+|                       |  |  |  +-----------------Carica_papaya
+|                       |  +--|
+|                       |     +-----------------Citrus_sinensis
+|                    +--|
+|                    |  +-----------------------Eucalyptus_grandis
+|                 +--|
+|                 |  |           +---------------Nelumbo_nucifera
+|                 |  |     +-----|
+|                 |  |     |     |    +------------------------Papaver_somniferum
+|                 |  |     |     +----|
+|                 |  |     |          +-------------------Aquilegia_coerulea
+|                 |  |  +--|
+|                 |  |  |  |          +-----------------------Mimulus_guttatus
+|                 |  |  |  |     +----|
+|                 |  |  |  |     |    +--------------------Solanum_tuberosum
+|                 |  |  |  +-----|
+|                 |  |  |        +---------------------------Lactuca_sativa
+|                 |  +--|
+|                 |     +--------------Vitis_vinifera
+|              +--|
+|              |  |     +---------------------Fragaria_vesca
+|              |  |  +--|
+|              |  |  |  +-------------------Cannabis_sativa
+|              |  +--|
+|              |     +------------------------Cucumis_sativus
+|     +--------|
+|     |        +---------------Juglans_regia
++-----|
+|     +--------------Acacia_koa
+|
++---------------Vigna_radiata
+
+Tree in newick format:
+
+(Lathyrus_sativus:0.1170870935,(((((((Linum_usitatissimum:0.1912068252,Salix_purpurea:0.1116717951):0.0339732359,((Gossypium_raimondii:0.1212575018,Carica_papaya:0.1221821350):0.0145829566,Citrus_sinensis:0.1260063297):0.0091680744):0.0099378357,Eucalyptus_grandis:0.1628448538):0.0057114454,(((Nelumbo_nucifera:0.1071923164,(Papaver_somniferum:0.1686971695,Aquilegia_coerulea:0.1357832761):0.0343984183):0.0423413307,((Mimulus_guttatus:0.1654669061,Solanum_tuberosum:0.1455603265):0.0337908866,Lactuca_sativa:0.1910425513):0.0406549460):0.0095892546,Vitis_vinifera:0.1044211688):0.0202384638):0.0110330196,((Fragaria_vesca:0.1499024524,Cannabis_sativa:0.1371159019):0.0209379288,Cucumis_sativus:0.1721191419):0.0085497793):0.0078981622,Juglans_regia:0.1089435178):0.0624574798,Acacia_koa:0.1053950915):0.0434550635,Vigna_radiata:0.1086300289);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Legume20_Q_search.parttrees -Q Legume20_Q_search.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s 20_concated.nex --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s 20_concated.nex --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 25 07:01:05 2025
+Total CPU time used: 13832.1 seconds (3h:50m:32s)
+Total wall-clock time used: 4.55154e+07 seconds (12643h:10m:25s)
+

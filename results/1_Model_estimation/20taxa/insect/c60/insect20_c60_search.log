@@ -1,0 +1,221 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    wright.uds.anu.edu.au (AVX512, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s 20_concated.nex -mdef insect20_c60_F_parameter.nex -m Q_INSECT_C60_F_R6 -t ../partition/Q/insect20_Q_search.treefile -T 40 --mem 120G -pre insect20_c60_search
+Seed:    211526 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May  1 15:31:56 2025
+Kernel:  AVX+FMA - 40 threads (41 CPU cores detected)
+
+Reading alignment file 20_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 516 sites contain only gaps or ambiguous characters.
+Alignment has 20 sequences with 76398 columns, 66382 distinct patterns
+38571 parsimony-informative, 20617 singleton sites, 17210 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0351911 secs using 2865% CPU
+   1  Lepeophtheirus_salmonis         44.77%    failed      0.00%
+   2  Stylops_melittae                40.37%    failed      0.00%
+   3  Anurida_maritima                41.36%    failed      0.00%
+   4  DROSOPHILA_MELANOGASTER          3.40%    failed      0.00%
+   5  Essigella_californica           16.92%    failed      0.00%
+   6  IXODES_SCAPULARIS               18.50%    failed      0.00%
+   7  Polyommatus_icarus              30.67%    failed      0.00%
+   8  Conwentzia_psociformis          25.74%    failed      0.00%
+   9  Velia_caprai                    45.32%    failed      1.15%
+  10  Ectopsocus_briggsi              31.03%    failed      0.00%
+  11  Acerentomon_sp                  35.58%    failed      0.00%
+  12  DAPHNIA_PULEX                    7.82%    failed      0.00%
+  13  Baetis_pumilus                  27.55%    failed      0.00%
+  14  Cotesia_vestalis                21.79%    failed      0.01%
+  15  Acanthocasuarina_muellerianae   43.71%    passed      5.15%
+  16  Forficula_auricularia           33.53%    failed      0.00%
+  17  Planococcus_citri               28.64%    failed      0.00%
+  18  Gynaikothrips_ficorum           39.21%    failed      0.00%
+  19  Aleochara_curtula               27.19%    failed      0.00%
+  20  Folsomia_candida                45.41%    failed      0.00%
+****  TOTAL                           30.43%  19 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.0381854 secs using 2592% CPU
+Reading model definition file insect20_c60_F_parameter.nex ... 87 models and 215 frequency vectors loaded
+Reading input tree file ../partition/Q/insect20_Q_search.treefile ...
+Model Q_INSECT_C60_F_R6 is alias for Q.INSECT+R6{0.1870,0.0152,0.1967,0.1426,0.1782,0.4001,0.1799,0.8919,0.1699,1.9270,0.0884,4.6416}+FMIX{F:1.0000:0.3062,C60pi1:1.0000:0.0062,C60pi2:1.0000:0.0025,C60pi3:1.0000:0.0078,C60pi4:1.0000:0.0125,C60pi5:1.0000:0.0214,C60pi6:1.0000:0.0084,C60pi7:1.0000:0.0020,C60pi8:1.0000:0.0060,C60pi9:1.0000:0.0031,C60pi10:1.0000:0.0213,C60pi11:1.0000:0.0166,C60pi12:1.0000:0.0159,C60pi13:1.0000:0.00005,C60pi14:1.0000:0.0054,C60pi15:1.0000:0.00005,C60pi16:1.0000:0.0021,C60pi17:1.0000:0.0194,C60pi18:1.0000:0.0391,C60pi19:1.0000:0.0231,C60pi20:1.0000:0.0001,C60pi21:1.0000:0.0031,C60pi22:1.0000:0.0367,C60pi23:1.0000:0.0058,C60pi24:1.0000:0.00005,C60pi25:1.0000:0.0094,C60pi26:1.0000:0.0174,C60pi27:1.0000:0.0478,C60pi28:1.0000:0.0133,C60pi29:1.0000:0.0145,C60pi30:1.0000:0.0236,C60pi31:1.0000:0.0104,C60pi32:1.0000:0.0104,C60pi33:1.0000:0.0180,C60pi34:1.0000:0.0137,C60pi35:1.0000:0.0229,C60pi36:1.0000:0.0096,C60pi37:1.0000:0.0094,C60pi38:1.0000:0.0346,C60pi39:1.0000:0.0027,C60pi40:1.0000:0.0080,C60pi41:1.0000:0.0074,C60pi42:1.0000:0.0026,C60pi43:1.0000:0.0188,C60pi44:1.0000:0.0011,C60pi45:1.0000:0.0039,C60pi46:1.0000:0.0005,C60pi47:1.0000:0.0123,C60pi48:1.0000:0.0090,C60pi49:1.0000:0.0013,C60pi50:1.0000:0.00005,C60pi51:1.0000:0.0078,C60pi52:1.0000:0.0182,C60pi53:1.0000:0.0049,C60pi54:1.0000:0.0133,C60pi55:1.0000:0.0406,C60pi56:1.0000:0.0038,C60pi57:1.0000:0.0025,C60pi58:1.0000:0.0171,C60pi59:1.0000:0.0040,C60pi60:1.0000:0.0003}
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0001 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0005 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0003 is very small and may cause numerical issues
+WARNING: Normalizing State frequencies so that sum of them equals to 1
+WARNING: Normalizing category proportions so that sum of them equals to 1
+
+NOTE: 75097 MB RAM (73 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1448456.205
+2. Current log-likelihood: -1447022.164
+3. Current log-likelihood: -1446799.737
+4. Current log-likelihood: -1446777.299
+5. Current log-likelihood: -1446774.838
+6. Current log-likelihood: -1446774.598
+Optimal log-likelihood: -1446774.542
+Mixture weights: 0.306 0.006 0.003 0.008 0.013 0.021 0.008 0.002 0.006 0.003 0.021 0.017 0.016 0.000 0.005 0.000 0.002 0.019 0.039 0.023 0.000 0.003 0.037 0.006 0.000 0.009 0.017 0.048 0.013 0.015 0.024 0.010 0.010 0.018 0.014 0.023 0.010 0.009 0.035 0.003 0.008 0.007 0.003 0.019 0.001 0.004 0.001 0.012 0.009 0.001 0.000 0.008 0.018 0.005 0.013 0.041 0.004 0.003 0.017 0.004 0.000
+Site proportion and rates:  (0.187,0.015) (0.197,0.143) (0.178,0.400) (0.180,0.892) (0.170,1.927) (0.088,4.640)
+Parameters optimization took 6 rounds (1441.296 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+
+Do NNI search on 1 best initial trees
+Optimizing NNI: done in 1064.01 secs using 899.8% CPU
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BETTER TREE FOUND at iteration 1: -1446755.573
+Finish initializing candidate tree set (2)
+Current best tree score: -1446755.573 / CPU time: 1421.107
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 3974.31 secs using 952.7% CPU
+Optimizing NNI: done in 2044.17 secs using 955.9% CPU
+Optimizing NNI: done in 1822.44 secs using 979% CPU
+Optimizing NNI: done in 1922.04 secs using 951.4% CPU
+Estimate model parameters (epsilon = 0.100)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+UPDATE BEST LOG-LIKELIHOOD: -1446754.453
+Optimizing NNI: done in 2760.31 secs using 940.1% CPU
+Optimizing NNI: done in 3579.89 secs using 933% CPU
+Optimizing NNI: done in 1461.44 secs using 985.1% CPU
+Optimizing NNI: done in 1921.16 secs using 952.6% CPU
+Optimizing NNI: done in 1340.36 secs using 993.4% CPU
+Iteration 10 / LogL: -1446754.702 / Time: 9207h:22m:29s
+Optimizing NNI: done in 1653.03 secs using 899.2% CPU
+Optimizing NNI: done in 2398.42 secs using 948.4% CPU
+Optimizing NNI: done in 1568.67 secs using 962.5% CPU
+Optimizing NNI: done in 2983.73 secs using 934.5% CPU
+Optimizing NNI: done in 1456.69 secs using 987.7% CPU
+Optimizing NNI: done in 2518.11 secs using 951.2% CPU
+Optimizing NNI: done in 2382.41 secs using 928.4% CPU
+Optimizing NNI: done in 2166.14 secs using 961% CPU
+Optimizing NNI: done in 1797.04 secs using 944.7% CPU
+Optimizing NNI: done in 2381.18 secs using 926.9% CPU
+Iteration 20 / LogL: -1446754.992 / Time: 9213h:18m:8s
+Optimizing NNI: done in 2774.48 secs using 957% CPU
+Optimizing NNI: done in 2265.81 secs using 931.8% CPU
+Optimizing NNI: done in 1806.43 secs using 958.4% CPU
+Optimizing NNI: done in 2044.65 secs using 948.4% CPU
+Optimizing NNI: done in 2641.54 secs using 947.5% CPU
+Optimizing NNI: done in 1816.39 secs using 974.5% CPU
+Optimizing NNI: done in 1898.13 secs using 914.1% CPU
+Optimizing NNI: done in 1917.7 secs using 949.9% CPU
+Optimizing NNI: done in 1573.65 secs using 972.9% CPU
+Optimizing NNI: done in 1568.56 secs using 962.7% CPU
+Iteration 30 / LogL: -1446763.334 / Time: 9218h:58m:39s (44h:53m:56s left)
+Optimizing NNI: done in 2409.42 secs using 1055% CPU
+Optimizing NNI: done in 1981.79 secs using 1268% CPU
+Optimizing NNI: done in 1869.22 secs using 1227% CPU
+Optimizing NNI: done in 2080.18 secs using 1267% CPU
+Optimizing NNI: done in 1811.26 secs using 1239% CPU
+Optimizing NNI: done in 1888.09 secs using 1245% CPU
+Optimizing NNI: done in 1010.23 secs using 1281% CPU
+Optimizing NNI: done in 1065.8 secs using 1218% CPU
+Optimizing NNI: done in 1635.09 secs using 1268% CPU
+Optimizing NNI: done in 2069.83 secs using 1248% CPU
+Iteration 40 / LogL: -1446762.024 / Time: 9223h:59m:42s (36h:31m:55s left)
+Optimizing NNI: done in 1795.29 secs using 1252% CPU
+Optimizing NNI: done in 2260.06 secs using 974.2% CPU
+Optimizing NNI: done in 2880.21 secs using 951.5% CPU
+Optimizing NNI: done in 2646.16 secs using 965.1% CPU
+Optimizing NNI: done in 2984.71 secs using 943.3% CPU
+Optimizing NNI: done in 2392.08 secs using 971.3% CPU
+Optimizing NNI: done in 2169.32 secs using 976.4% CPU
+Optimizing NNI: done in 2869.04 secs using 926.9% CPU
+Optimizing NNI: done in 2146.59 secs using 920.1% CPU
+Optimizing NNI: done in 2874.46 secs using 924.2% CPU
+Iteration 50 / LogL: -1446756.326 / Time: 9230h:57m:13s (31h:33m:9s left)
+Optimizing NNI: done in 3119.12 secs using 943.1% CPU
+Optimizing NNI: done in 1800.18 secs using 958.1% CPU
+Optimizing NNI: done in 2172.14 secs using 969.9% CPU
+Optimizing NNI: done in 2980.81 secs using 935.7% CPU
+Optimizing NNI: done in 2415.53 secs using 950.5% CPU
+Optimizing NNI: done in 2037.68 secs using 928.9% CPU
+Optimizing NNI: done in 2250.72 secs using 915.9% CPU
+Optimizing NNI: done in 2185.42 secs using 984.8% CPU
+Optimizing NNI: done in 2279.27 secs using 948.8% CPU
+Optimizing NNI: done in 1826.17 secs using 989.2% CPU
+Iteration 60 / LogL: -1446754.952 / Time: 9237h:23m:44s (25h:32m:35s left)
+Optimizing NNI: done in 1812.2 secs using 969.8% CPU
+Optimizing NNI: done in 1786.46 secs using 926.4% CPU
+Optimizing NNI: done in 2060.37 secs using 976.7% CPU
+Optimizing NNI: done in 2282.38 secs using 949.9% CPU
+Optimizing NNI: done in 2276.99 secs using 944% CPU
+Optimizing NNI: done in 2415.15 secs using 959.4% CPU
+Optimizing NNI: done in 2042.91 secs using 953% CPU
+Optimizing NNI: done in 1889.11 secs using 904.4% CPU
+Optimizing NNI: done in 2052.6 secs using 961.9% CPU
+Optimizing NNI: done in 2873.94 secs using 942.5% CPU
+Iteration 70 / LogL: -1446755.529 / Time: 9243h:25m:28s (19h:13m:21s left)
+Optimizing NNI: done in 1668.44 secs using 936.3% CPU
+Optimizing NNI: done in 2293 secs using 947.1% CPU
+Optimizing NNI: done in 1277.21 secs using 1087% CPU
+Optimizing NNI: done in 2255.6 secs using 1222% CPU
+Optimizing NNI: done in 1520.76 secs using 1210% CPU
+Optimizing NNI: done in 1162.33 secs using 1202% CPU
+Optimizing NNI: done in 1358.86 secs using 1236% CPU
+Optimizing NNI: done in 1698.27 secs using 1205% CPU
+Optimizing NNI: done in 1440 secs using 1233% CPU
+Optimizing NNI: done in 1700.59 secs using 1206% CPU
+Iteration 80 / LogL: -1446757.245 / Time: 9247h:58m:57s (12h:35m:6s left)
+Optimizing NNI: done in 1261.93 secs using 1225% CPU
+Optimizing NNI: done in 1270.98 secs using 1240% CPU
+Optimizing NNI: done in 1377.56 secs using 1272% CPU
+Optimizing NNI: done in 1372.87 secs using 1253% CPU
+Optimizing NNI: done in 2002.4 secs using 1256% CPU
+Optimizing NNI: done in 1607.93 secs using 1201% CPU
+Optimizing NNI: done in 1338.27 secs using 1205% CPU
+Optimizing NNI: done in 1613.67 secs using 1214% CPU
+Optimizing NNI: done in 1092.82 secs using 1243% CPU
+Optimizing NNI: done in 2166.66 secs using 1232% CPU
+Iteration 90 / LogL: -1446755.950 / Time: 9252h:14m:16s (6h:22m:38s left)
+Optimizing NNI: done in 1291.04 secs using 1256% CPU
+Optimizing NNI: done in 2530.64 secs using 1232% CPU
+Optimizing NNI: done in 1514 secs using 1202% CPU
+Optimizing NNI: done in 2163.46 secs using 1222% CPU
+Optimizing NNI: done in 1351.39 secs using 1216% CPU
+Optimizing NNI: done in 727.423 secs using 1249% CPU
+Optimizing NNI: done in 1699.93 secs using 1194% CPU
+Optimizing NNI: done in 1449.59 secs using 1243% CPU
+Optimizing NNI: done in 1353.22 secs using 1223% CPU
+Optimizing NNI: done in 1169.97 secs using 1214% CPU
+Iteration 100 / LogL: -1446754.764 / Time: 9256h:31m:59s (0h:33m:52s left)
+Optimizing NNI: done in 1725.13 secs using 1246% CPU
+Optimizing NNI: done in 1295.29 secs using 1361% CPU
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 9257h:23m:25s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1446754.453
+2. Current log-likelihood: -1446754.437
+Optimal log-likelihood: -1446754.433
+Mixture weights: 0.306 0.006 0.003 0.008 0.013 0.021 0.008 0.002 0.006 0.003 0.021 0.017 0.016 0.000 0.005 0.000 0.002 0.019 0.039 0.023 0.000 0.003 0.037 0.006 0.000 0.009 0.017 0.048 0.013 0.015 0.024 0.010 0.010 0.018 0.014 0.023 0.010 0.009 0.035 0.003 0.008 0.007 0.003 0.019 0.001 0.004 0.001 0.012 0.009 0.001 0.000 0.008 0.018 0.005 0.013 0.041 0.004 0.003 0.017 0.004 0.000
+Site proportion and rates:  (0.187,0.015) (0.197,0.143) (0.178,0.400) (0.180,0.892) (0.170,1.927) (0.088,4.640)
+Parameters optimization took 2 rounds (141.595 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -1446754.433
+Total tree length: 16.198
+
+Total number of iterations: 102
+CPU time used for tree search: 2104511.197 sec (584h:35m:11s)
+Wall-clock time used for tree search: 202865.761 sec (56h:21m:5s)
+Total CPU time used: 2120287.848 sec (588h:58m:7s)
+Total wall-clock time used: 33326747.344 sec (9257h:25m:47s)
+
+Analysis results written to: 
+  IQ-TREE report:                insect20_c60_search.iqtree
+  Maximum-likelihood tree:       insect20_c60_search.treefile
+  Screen log file:               insect20_c60_search.log
+
+Date and Time: Sun May  4 00:19:58 2025

@@ -1,0 +1,1619 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    wright.uds.anu.edu.au (AVX512, FMA3, 1007 GB RAM)
+Command: ../../../iqtree2 -s 10_concated.nex -p 10_concated.nex -m MF+MERGE -merit AIC -T 3 -pre archaea10_p_mf
+Seed:    193586 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May 19 17:12:04 2025
+Kernel:  AVX+FMA - 3 threads (16 CPU cores detected)
+
+Reading partition model file 10_concated.nex ...
+Skipping unknown block (data)...
+Reading alignment file 10_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+Alignment has 10 sequences with 17191 columns, 15945 distinct patterns
+9425 parsimony-informative, 5952 singleton sites, 1814 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000658043 secs using 85.86% CPU
+   1  GCA_002790315   22.36%    failed      0.00%
+   2  GCA_002779075   15.51%    failed      0.00%
+   3  GCA_001629205   17.96%    failed      0.00%
+   4  GCA_000806055   26.48%    failed      0.00%
+   5  GCA_001896515    7.99%    failed      0.00%
+   6  GCA_001564035   20.34%    failed      0.00%
+   7  GCA_001315925   36.95%    failed      0.00%
+   8  GCA_000200715    3.97%    failed      0.00%
+   9  GCA_000387965   16.04%    failed      0.00%
+  10  GCA_002412085   22.88%    failed      0.00%
+****  TOTAL           19.05%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 84 partitions...
+Identifying sites to remove: done in 0.000183836 secs using 85.95% CPU
+Identifying sites to remove: done in 0.000119008 secs using 84.87% CPU
+Identifying sites to remove: done in 8.95932e-05 secs using 84.83% CPU
+Identifying sites to remove: done in 8.18446e-05 secs using 84.31% CPU
+Identifying sites to remove: done in 9.42722e-05 secs using 84.86% CPU
+Identifying sites to remove: done in 8.09878e-05 secs using 85.2% CPU
+Identifying sites to remove: done in 8.03173e-05 secs using 98.36% CPU
+Identifying sites to remove: done in 5.55962e-05 secs using 97.13% CPU
+Identifying sites to remove: done in 9.15751e-05 secs using 98.28% CPU
+Identifying sites to remove: done in 4.60148e-05 secs using 97.79% CPU
+Identifying sites to remove: done in 9.35718e-05 secs using 99.39% CPU
+Identifying sites to remove: done in 8.93325e-05 secs using 98.51% CPU
+Identifying sites to remove: done in 3.99947e-05 secs using 97.51% CPU
+Identifying sites to remove: done in 7.33286e-05 secs using 98.19% CPU
+Identifying sites to remove: done in 6.06701e-05 secs using 97.25% CPU
+Identifying sites to remove: done in 3.26335e-05 secs using 98.06% CPU
+Identifying sites to remove: done in 0.000112996 secs using 99.12% CPU
+Identifying sites to remove: done in 8.08164e-05 secs using 97.75% CPU
+Identifying sites to remove: done in 6.90296e-05 secs using 98.51% CPU
+Identifying sites to remove: done in 6.1132e-05 secs using 98.15% CPU
+Identifying sites to remove: done in 0.000142634 secs using 98.85% CPU
+Identifying sites to remove: done in 0.000146106 secs using 99.24% CPU
+Identifying sites to remove: done in 0.000202745 secs using 99.63% CPU
+Identifying sites to remove: done in 7.65249e-05 secs using 99.31% CPU
+Identifying sites to remove: done in 4.38914e-05 secs using 97.97% CPU
+Identifying sites to remove: done in 5.46724e-05 secs using 98.77% CPU
+Identifying sites to remove: done in 0.000135347 secs using 99.74% CPU
+Identifying sites to remove: done in 8.2463e-05 secs using 98.23% CPU
+Identifying sites to remove: done in 0.00011044 secs using 98.7% CPU
+Identifying sites to remove: done in 6.46114e-05 secs using 1.247e+04% CPU
+Identifying sites to remove: done in 6.91488e-05 secs using 98.34% CPU
+Identifying sites to remove: done in 0.000115097 secs using 99.05% CPU
+Identifying sites to remove: done in 9.31919e-05 secs using 98.72% CPU
+Identifying sites to remove: done in 0.000170939 secs using 99.45% CPU
+Identifying sites to remove: done in 9.87351e-05 secs using 98.24% CPU
+Identifying sites to remove: done in 0.000157148 secs using 98.63% CPU
+Identifying sites to remove: done in 6.59227e-05 secs using 98.6% CPU
+Identifying sites to remove: done in 8.91685e-05 secs using 98.69% CPU
+Identifying sites to remove: done in 0.000192352 secs using 99.3% CPU
+Identifying sites to remove: done in 0.00011272 secs using 99.36% CPU
+Identifying sites to remove: done in 0.000166498 secs using 99.1% CPU
+Identifying sites to remove: done in 5.36516e-05 secs using 96.92% CPU
+Identifying sites to remove: done in 0.000144951 secs using 98.65% CPU
+Identifying sites to remove: done in 5.503e-05 secs using 98.13% CPU
+Identifying sites to remove: done in 0.000146322 secs using 99.1% CPU
+Identifying sites to remove: done in 0.000392675 secs using 2137% CPU
+Identifying sites to remove: done in 0.000112087 secs using 98.14% CPU
+Identifying sites to remove: done in 5.47394e-05 secs using 96.82% CPU
+Identifying sites to remove: done in 5.68107e-05 secs using 98.57% CPU
+Identifying sites to remove: done in 4.40329e-05 secs using 97.65% CPU
+Identifying sites to remove: done in 0.000114955 secs using 98.3% CPU
+Identifying sites to remove: done in 9.46373e-05 secs using 99.33% CPU
+Identifying sites to remove: done in 0.000172399 secs using 4739% CPU
+Identifying sites to remove: done in 0.000174046 secs using 99.4% CPU
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		8	395	218	45	MF+MERGE	GENE_arCOG01228.nex
+2		9	236	148	30	MF+MERGE	GENE_arCOG01574.nex
+3		10	129	90	7	MF+MERGE	GENE_gtdb_PF00410.14.nex
+4		10	252	201	8	MF+MERGE	GENE_gtdb_PF00466.15.nex
+5		9	184	126	10	MF+MERGE	GENE_gtdb_PF00687.16.nex
+6		9	156	86	14	MF+MERGE	GENE_gtdb_PF00827.12.nex
+7		9	200	144	3	MF+MERGE	GENE_gtdb_PF00900.15.nex
+8		10	157	113	7	MF+MERGE	GENE_gtdb_PF01000.21.nex
+9		9	150	95	0	MF+MERGE	GENE_gtdb_PF01015.13.nex
+10		6	128	40	19	MF+MERGE	GENE_gtdb_PF01090.14.nex
+11		9	98	60	11	MF+MERGE	GENE_gtdb_PF01092.14.nex
+12		10	84	58	5	MF+MERGE	GENE_gtdb_PF01157.13.nex
+13		10	62	40	4	MF+MERGE	GENE_gtdb_PF01200.13.nex
+14		8	177	84	22	MF+MERGE	GENE_gtdb_PF01269.12.nex
+15		10	126	90	5	MF+MERGE	GENE_gtdb_PF01280.15.nex
+16		9	98	64	4	MF+MERGE	GENE_gtdb_PF01655.13.nex
+17		9	199	121	11	MF+MERGE	GENE_gtdb_PF01798.13.nex
+18		9	181	117	9	MF+MERGE	GENE_gtdb_PF01866.12.nex
+19		7	85	32	9	MF+MERGE	GENE_gtdb_PF01984.15.nex
+20		3	232	0	155	MF+MERGE	GENE_gtdb_PF02006.11.nex
+WARNING: No parsimony-informative sites in partition GENE_gtdb_PF02006.11.nex
+21		10	76	66	1	MF+MERGE	GENE_gtdb_PF03874.11.nex
+22		8	129	77	4	MF+MERGE	GENE_gtdb_PF04104.9.nex
+23		10	150	102	6	MF+MERGE	GENE_gtdb_PF04919.7.nex
+24		10	207	149	5	MF+MERGE	GENE_gtdb_PF07541.7.nex
+25		9	63	43	1	MF+MERGE	GENE_gtdb_PF13656.1.nex
+26		5	183	31	20	MF+MERGE	GENE_OG5172.nex
+27		9	144	76	9	MF+MERGE	GENE_OG7638.nex
+28		10	145	92	12	MF+MERGE	GENE_OG8696.nex
+29		8	131	68	11	MF+MERGE	GENE_OG9906.nex
+30		9	112	82	10	MF+MERGE	GENE_TIGR00037.nex
+31		8	275	106	42	MF+MERGE	GENE_TIGR00064.nex
+32		9	281	188	7	MF+MERGE	GENE_TIGR00111.nex
+33		8	519	131	86	MF+MERGE	GENE_TIGR00134.nex
+34		9	136	86	14	MF+MERGE	GENE_TIGR00279.nex
+35		10	220	169	5	MF+MERGE	GENE_TIGR00291.nex
+36		8	99	53	1	MF+MERGE	GENE_TIGR00293.nex
+37		9	101	61	5	MF+MERGE	GENE_TIGR00307.nex
+38		8	269	130	24	MF+MERGE	GENE_TIGR00308.nex
+39		8	187	100	6	MF+MERGE	GENE_TIGR00323.nex
+40		6	179	33	17	MF+MERGE	GENE_TIGR00335.nex
+41		7	128	61	6	MF+MERGE	GENE_TIGR00373.nex
+42		9	121	88	2	MF+MERGE	GENE_TIGR00405.nex
+43		7	247	82	28	MF+MERGE	GENE_TIGR00425.nex
+44		9	150	106	14	MF+MERGE	GENE_TIGR00448.nex
+45		9	382	183	81	MF+MERGE	GENE_TIGR00483.nex
+46		10	529	330	62	MF+MERGE	GENE_TIGR00491.nex
+47		8	220	122	24	MF+MERGE	GENE_TIGR00522.nex
+48		8	361	208	30	MF+MERGE	GENE_TIGR00967.nex
+49		10	139	81	14	MF+MERGE	GENE_TIGR00982.nex
+50		10	173	132	5	MF+MERGE	GENE_TIGR01008.nex
+51		10	178	134	4	MF+MERGE	GENE_TIGR01012.nex
+52		9	133	95	15	MF+MERGE	GENE_TIGR01018.nex
+53		9	179	95	24	MF+MERGE	GENE_TIGR01020.nex
+54		10	106	69	10	MF+MERGE	GENE_TIGR01025.nex
+55		10	181	125	13	MF+MERGE	GENE_TIGR01028.nex
+56		10	111	88	5	MF+MERGE	GENE_TIGR01038.nex
+57		10	95	71	5	MF+MERGE	GENE_TIGR01046.nex
+58		8	396	173	48	MF+MERGE	GENE_TIGR01052.nex
+59		10	86	49	11	MF+MERGE	GENE_TIGR01158.nex
+60		9	209	117	22	MF+MERGE	GENE_TIGR01171.nex
+61		4	322	7	66	MF+MERGE	GENE_TIGR01213.nex
+62		5	123	25	8	MF+MERGE	GENE_TIGR01952.nex
+63		10	211	132	32	MF+MERGE	GENE_TIGR02065.nex
+64		9	289	147	57	MF+MERGE	GENE_TIGR02236.nex
+65		9	102	82	1	MF+MERGE	GENE_TIGR02338.nex
+66		7	317	134	36	MF+MERGE	GENE_TIGR02389.nex
+67		9	752	356	111	MF+MERGE	GENE_TIGR02390.nex
+68		10	265	161	28	MF+MERGE	GENE_TIGR02397.nex
+69		10	320	213	24	MF+MERGE	GENE_TIGR02928.nex
+70		8	255	122	27	MF+MERGE	GENE_TIGR03626.nex
+71		9	111	57	10	MF+MERGE	GENE_TIGR03627.nex
+72		8	126	63	8	MF+MERGE	GENE_TIGR03628.nex
+73		10	135	88	10	MF+MERGE	GENE_TIGR03629.nex
+74		9	80	51	6	MF+MERGE	GENE_TIGR03636.nex
+75		10	141	102	8	MF+MERGE	GENE_TIGR03653.nex
+76		10	149	110	6	MF+MERGE	GENE_TIGR03665.nex
+77		10	570	361	68	MF+MERGE	GENE_TIGR03670.nex
+78		9	251	147	23	MF+MERGE	GENE_TIGR03671.nex
+79		8	219	110	17	MF+MERGE	GENE_TIGR03672.nex
+80		10	123	87	13	MF+MERGE	GENE_TIGR03673.nex
+81		8	302	156	40	MF+MERGE	GENE_TIGR03674.nex
+82		10	338	217	31	MF+MERGE	GENE_TIGR03676.nex
+83		10	354	206	50	MF+MERGE	GENE_TIGR03680.nex
+84		9	277	112	47	MF+MERGE	GENE_TIGR03722.nex
+Degree of missing data: 0.129
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.028 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -296305.565
+Current log-likelihood at step 1: -291203.266
+Current log-likelihood at step 2: -291069.861
+Current log-likelihood at step 3: -291035.904
+Current log-likelihood at step 4: -291029.185
+Current log-likelihood at step 5: -291027.290
+Parameters optimization took 4 rounds (6.164 sec)
+
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 1.74746 secs using 293.4% CPU
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -291012.949
+Current log-likelihood at step 1: -291010.391
+Current log-likelihood at step 2: -291009.748
+Partition-specific rates:  0.839 0.996 1.018 1.330 1.047 0.815 1.190 1.088 1.251 0.836 0.944 0.975 0.629 1.013 0.862 1.202 1.222 1.413 1.028 0.892 1.472 1.341 1.019 1.409 1.567 1.324 0.986 0.816 0.936 1.025 0.815 1.405 1.211 1.038 1.038 1.638 0.995 1.185 1.310 1.149 1.991 0.971 0.913 0.963 0.547 0.924 1.303 0.936 0.647 1.179 0.945 0.885 0.805 0.786 0.876 1.211 0.761 0.831 0.831 0.942 1.145 1.004 0.732 0.571 1.108 1.086 0.806 0.849 1.145 1.014 0.993 0.714 1.116 1.097 0.943 1.185 0.809 1.285 1.036 0.754 0.817 1.002 0.789 0.827
+Parameters optimization took 1 rounds (1.596 sec)
+
+Time for fast ML tree search: 9.594 seconds
+
+NOTE: ModelFinder requires 26 MB RAM!
+
+PartitionFinder's parameters:
+Fast Relaxed Algorithm
+Percentage: 10.000
+Maximum pairs: 840
+
+Selecting individual models for 84 charsets using AIC...
+ No. Model        Score       TreeLen     Charset
+In ModelFinder: parallelization over partitions
+   1 LG+F+I+G4    19765.365   7.442       GENE_TIGR03670.nex
+   2 LG+F+I+G4    23390.849   6.585       GENE_TIGR02390.nex
+   3 LG+F+I+G4    18300.264   9.375       GENE_TIGR00491.nex
+   4 LG+F+I+G4    12474.445   10.163      GENE_TIGR00134.nex
+   5 LG+F+I+G4    11920.929   8.000       GENE_TIGR03680.nex
+   6 LG+F+I+G4    12722.878   9.654       GENE_TIGR03676.nex
+   7 LG+F+I+G4    12667.384   11.744      GENE_TIGR02928.nex
+   8 LG+F+I+G4    10982.146   6.276       GENE_TIGR01052.nex
+   9 LG+F+I+G4    10639.049   4.731       GENE_TIGR00483.nex
+  10 LG+F+I+G4    12055.222   6.600       GENE_arCOG01228.nex	0h:0m:0s (0h:1m:2s left)
+  11 LG+F+I+G4    11308.966   8.782       GENE_TIGR00967.nex	0h:0m:0s (0h:1m:2s left)
+  12 LG+F+I+G4    9550.598    8.614       GENE_TIGR02397.nex	0h:0m:0s (0h:0m:58s left)
+  13 LG+F+I+G4    11080.142   12.855      GENE_TIGR00111.nex	0h:0m:0s (0h:0m:57s left)
+  14 LG+I+G4      7577.967    6.833       GENE_TIGR03722.nex	0h:0m:0s (0h:0m:54s left)
+  15 LG+F+I+G4    11447.312   13.558      GENE_gtdb_PF00466.15.nex	0h:0m:1s (0h:0m:54s left)
+  16 LG+I+G4      8329.720    4.768       GENE_TIGR02236.nex	0h:0m:1s (0h:0m:53s left)
+  17 LG+F+I+G4    9236.667    6.256       GENE_TIGR03674.nex	0h:0m:1s (0h:0m:51s left)
+  18 LG+F+I+G4    9067.742    11.417      GENE_TIGR03671.nex	0h:0m:1s (0h:0m:51s left)
+  19 LG+F+I+G4    9384.020    10.822      GENE_TIGR00291.nex	0h:0m:1s (0h:0m:50s left)
+  20 LG+F+I+G4    8685.501    9.105       GENE_TIGR00308.nex	0h:0m:1s (0h:0m:48s left)
+  21 LG+F+I+G4    9171.230    14.853      GENE_gtdb_PF07541.7.nex	0h:0m:1s (0h:0m:47s left)
+  22 LG+F+I+G4    7272.041    6.576       GENE_TIGR00064.nex	0h:0m:1s (0h:0m:47s left)
+  23 LG+F+I+G4    9117.544    8.215       GENE_TIGR02389.nex	0h:0m:1s (0h:0m:45s left)
+  24 LG+I+G4      8256.282    8.219       GENE_arCOG01574.nex	0h:0m:1s (0h:0m:45s left)
+  25 LG+F+I+G4    8162.577    8.049       GENE_TIGR03626.nex	0h:0m:1s (0h:0m:45s left)
+  26 LG+I+G4      7436.522    6.690       GENE_TIGR02065.nex	0h:0m:1s (0h:0m:43s left)
+  27 LG+F+I+G4    7920.105    11.730      GENE_gtdb_PF00900.15.nex	0h:0m:1s (0h:0m:43s left)
+  28 LG+F+I+G4    7582.251    7.827       GENE_TIGR01171.nex	0h:0m:1s (0h:0m:42s left)
+  29 LG+F+I+G4    7504.439    10.968      GENE_gtdb_PF01798.13.nex	0h:0m:1s (0h:0m:42s left)
+  30 LG+F+I+G4    7451.610    9.087       GENE_TIGR01012.nex	0h:0m:1s (0h:0m:42s left)
+  31 LG+I+G4      7113.834    8.006       GENE_TIGR01028.nex	0h:0m:1s (0h:0m:41s left)
+  32 LG+F+I+G4    7412.977    10.129      GENE_TIGR00522.nex	0h:0m:1s (0h:0m:40s left)
+  33 LG+F+I+G4    7321.050    8.445       GENE_TIGR03672.nex	0h:0m:1s (0h:0m:40s left)
+  34 LG+F+I+G4    7683.305    12.122      GENE_TIGR01008.nex	0h:0m:1s (0h:0m:39s left)
+  35 LG+I+G4      6588.130    5.929       GENE_TIGR00425.nex	0h:0m:1s (0h:0m:39s left)
+  36 LG+F+I+G4    7130.170    9.828       GENE_gtdb_PF00687.16.nex	0h:0m:1s (0h:0m:39s left)
+  37 LG+F+I+G4    7258.561    12.901      GENE_gtdb_PF01866.12.nex	0h:0m:1s (0h:0m:38s left)
+  38 LG+F+I+G4    6263.153    10.807      GENE_gtdb_PF01000.21.nex	0h:0m:1s (0h:0m:37s left)
+  39 LG+F+I+G4    6269.207    9.989       GENE_gtdb_PF04919.7.nex	0h:0m:2s (0h:0m:38s left)
+  40 LG+I+G4      6108.814    6.660       GENE_TIGR01020.nex	0h:0m:2s (0h:0m:37s left)
+  41 LG+F+I+G4    6588.923    11.328      GENE_TIGR00323.nex	0h:0m:2s (0h:0m:36s left)
+  42 LG+F+I+G4    6508.136    12.327      GENE_TIGR03665.nex	0h:0m:2s (0h:0m:37s left)
+  43 LG+F+I+G4    5327.301    7.960       GENE_OG8696.nex	0h:0m:2s (0h:0m:36s left)
+  44 LG+F+I+G4    5811.195    10.780      GENE_TIGR03653.nex	0h:0m:2s (0h:0m:36s left)
+  45 LG+F+I+G4    5298.639    7.323       GENE_gtdb_PF00827.12.nex	0h:0m:2s (0h:0m:36s left)
+  46 LG+I+G4      5662.850    7.517       GENE_gtdb_PF01269.12.nex	0h:0m:2s (0h:0m:35s left)
+  47 LG+F+I+G4    4789.789    6.520       GENE_TIGR00982.nex	0h:0m:2s (0h:0m:35s left)
+  48 LG+F+G4      5709.033    12.450      GENE_gtdb_PF01015.13.nex	0h:0m:2s (0h:0m:35s left)
+  49 LG+I+G4      5361.070    10.196      GENE_TIGR03629.nex	0h:0m:2s (0h:0m:34s left)
+  50 LG+F+I+G4    5260.161    9.433       GENE_TIGR00448.nex	0h:0m:2s (0h:0m:34s left)
+  51 LG+F+I+G4    5252.599    9.020       GENE_OG7638.nex	0h:0m:2s (0h:0m:34s left)
+  52 LG+F+I+G4    5068.645    4.041       GENE_TIGR01213.nex	0h:0m:2s (0h:0m:33s left)
+  53 LG+F+I+G4    5133.801    9.959       GENE_gtdb_PF00410.14.nex	0h:0m:2s (0h:0m:33s left)
+  54 LG+F+I+G4    5077.262    9.873       GENE_gtdb_PF01280.15.nex	0h:0m:2s (0h:0m:32s left)
+  55 LG+I+G4      5208.516    8.687       GENE_TIGR00279.nex	0h:0m:2s (0h:0m:33s left)
+  56 LG+I+G4      4718.456    7.305       GENE_TIGR01018.nex	0h:0m:2s (0h:0m:32s left)
+  57 LG+F+I+G4    4665.007    8.151       GENE_TIGR03673.nex	0h:0m:2s (0h:0m:32s left)
+  58 LG+F+I+G4    4390.717    6.473       GENE_TIGR00335.nex	0h:0m:2s (0h:0m:32s left)
+  59 LG+F+I+G4    4990.460    12.194      GENE_TIGR01038.nex	0h:0m:2s (0h:0m:31s left)
+  60 LG+F+I+G4    4715.121    9.944       GENE_TIGR00405.nex	0h:0m:2s (0h:0m:31s left)
+  61 LG+I+G4      4033.067    7.183       GENE_TIGR01025.nex	0h:0m:2s (0h:0m:30s left)
+  62 LG+I+G4      4940.952    9.635       GENE_gtdb_PF04104.9.nex	0h:0m:2s (0h:0m:30s left)
+  63 LG+F+I+G4    4386.815    7.550       GENE_OG9906.nex	0h:0m:2s (0h:0m:30s left)
+  64 LG+I+G4      3832.471    5.326       GENE_TIGR03628.nex	0h:0m:2s (0h:0m:30s left)
+  65 LG+F+I+G4    4246.713    9.546       GENE_TIGR00037.nex	0h:0m:2s (0h:0m:29s left)
+  66 LG+I+G4      4038.608    8.286       GENE_TIGR03627.nex	0h:0m:2s (0h:0m:29s left)
+  67 LG+I+G4      3670.454    6.954       GENE_TIGR01046.nex	0h:0m:2s (0h:0m:29s left)
+  68 LG+F+I+G4    3628.047    10.587      GENE_TIGR00307.nex	0h:0m:2s (0h:0m:29s left)
+  69 LG+F+I+G4    4130.043    11.733      GENE_TIGR02338.nex	0h:0m:2s (0h:0m:29s left)
+  70 LG+F+I+G4    4399.931    14.412      GENE_TIGR00373.nex	0h:0m:2s (0h:0m:28s left)
+  71 LG+F+I+G4    4227.263    6.980       GENE_OG5172.nex	0h:0m:2s (0h:0m:28s left)
+  72 LG+F+I+G4    3398.300    8.770       GENE_gtdb_PF01092.14.nex	0h:0m:2s (0h:0m:28s left)
+  73 LG+F+I+G4    3804.646    12.113      GENE_gtdb_PF01655.13.nex	0h:0m:2s (0h:0m:28s left)
+  74 LG+F+I+G4    3395.472    10.631      GENE_gtdb_PF01157.13.nex	0h:0m:2s (0h:0m:28s left)
+  75 LG+I+G4      3145.215    7.589       GENE_TIGR01158.nex	0h:0m:2s (0h:0m:27s left)
+  76 LG+I+G4      3156.093    4.564       GENE_gtdb_PF01090.14.nex	0h:0m:2s (0h:0m:27s left)
+  77 LG+F+I+G4    3743.282    14.669      GENE_TIGR00293.nex	0h:0m:3s (0h:0m:27s left)
+  78 LG+F+I+G4    3590.351    17.387      GENE_gtdb_PF03874.11.nex	0h:0m:3s (0h:0m:27s left)
+  79 LG+F+I+G4    2837.909    5.544       GENE_TIGR01952.nex	0h:0m:3s (0h:0m:27s left)
+  80 LG+I+G4      3088.080    9.138       GENE_TIGR03636.nex	0h:0m:3s (0h:0m:26s left)
+  81 LG+F+I+G4    2174.691    7.047       GENE_gtdb_PF01200.13.nex	0h:0m:3s (0h:0m:26s left)
+  82 LG+F+I+G4    1834.691    2.722       GENE_gtdb_PF02006.11.nex	0h:0m:3s (0h:0m:26s left)
+  83 LG+I+G4      2693.654    12.520      GENE_gtdb_PF13656.1.nex	0h:0m:3s (0h:0m:26s left)
+  84 LG+F+I+G4    2417.648    8.607       GENE_gtdb_PF01984.15.nex	0h:0m:3s (0h:0m:25s left)
+Full partition model AIC score: 579995.047 (LnL: -288514.524  df:1483)
+Merging models to increase model fit (about 781 total partition schemes)...
+  85 LG+F+I+G4    579960.609  6.731       GENE_TIGR01052.nex+GENE_TIGR02390.nex	0h:0m:3s (0h:0m:30s left)
+  86 LG+F+I+G4    580002.953  7.571       GENE_TIGR02390.nex+GENE_TIGR03722.nex	0h:0m:3s (0h:0m:30s left)
+  87 LG+F+I+G4    579980.249  7.731       GENE_arCOG01228.nex+GENE_TIGR02390.nex	0h:0m:3s (0h:0m:31s left)
+  88 LG+F+I+G4    579966.661  7.573       GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:0m:4s (0h:0m:34s left)
+  89 LG+F+I+G4    579964.061  9.477       GENE_TIGR00491.nex+GENE_TIGR03676.nex	0h:0m:4s (0h:0m:34s left)
+  90 LG+F+I+G4    579967.147  7.678       GENE_TIGR00064.nex+GENE_TIGR02390.nex	0h:0m:4s (0h:0m:37s left)
+  91 LG+F+I+G4    579991.230  7.403       GENE_TIGR02065.nex+GENE_TIGR02390.nex	0h:0m:5s (0h:0m:39s left)
+  92 LG+F+I+G4    579984.512  7.573       GENE_TIGR01020.nex+GENE_TIGR02390.nex	0h:0m:5s (0h:0m:38s left)
+  93 LG+F+I+G4    580016.797  7.690       GENE_TIGR01171.nex+GENE_TIGR03670.nex	0h:0m:5s (0h:0m:40s left)
+  94 LG+F+I+G4    580020.355  7.286       GENE_TIGR00982.nex+GENE_TIGR02390.nex	0h:0m:5s (0h:0m:40s left)
+  95 LG+F+I+G4    579987.061  10.643      GENE_TIGR00134.nex+GENE_TIGR03676.nex	0h:0m:5s (0h:0m:42s left)
+  96 LG+F+I+G4    580024.715  9.965       GENE_TIGR00308.nex+GENE_TIGR00491.nex	0h:0m:5s (0h:0m:42s left)
+  97 LG+F+I+G4    579991.636  7.995       GENE_TIGR00335.nex+GENE_TIGR02390.nex	0h:0m:5s (0h:0m:42s left)
+  98 LG+F+I+G4    579979.826  7.535       GENE_TIGR01046.nex+GENE_TIGR02390.nex	0h:0m:6s (0h:0m:45s left)
+  99 LG+F+I+G4    580000.650  7.239       GENE_OG5172.nex+GENE_TIGR02390.nex	0h:0m:6s (0h:0m:44s left)
+ 100 LG+F+I+G4    579991.765  9.264       GENE_TIGR00491.nex+GENE_TIGR01012.nex	0h:0m:6s (0h:0m:44s left)
+ 101 LG+F+I+G4    580004.807  7.478       GENE_gtdb_PF00827.12.nex+GENE_TIGR03670.nex	0h:0m:6s (0h:0m:45s left)
+ 102 LG+F+I+G4    579980.169  7.955       GENE_gtdb_PF01269.12.nex+GENE_TIGR03670.nex	0h:0m:6s (0h:0m:46s left)
+ 103 LG+F+I+G4    579990.597  7.452       GENE_gtdb_PF01200.13.nex+GENE_TIGR02390.nex	0h:0m:7s (0h:0m:47s left)
+ 104 LG+F+I+G4    579974.133  7.644       GENE_TIGR01018.nex+GENE_TIGR03670.nex	0h:0m:7s (0h:0m:47s left)
+ 105 LG+F+I+G4    579967.947  9.766       GENE_gtdb_PF00687.16.nex+GENE_TIGR00491.nex	0h:0m:7s (0h:0m:47s left)
+ 106 LG+F+I+G4    579990.780  7.437       GENE_TIGR01025.nex+GENE_TIGR03670.nex	0h:0m:7s (0h:0m:47s left)
+ 107 LG+F+I+G4    580006.068  7.737       GENE_OG9906.nex+GENE_TIGR03670.nex	0h:0m:7s (0h:0m:48s left)
+ 108 LG+F+I+G4    579991.050  7.449       GENE_TIGR01046.nex+GENE_TIGR03670.nex	0h:0m:7s (0h:0m:47s left)
+ 109 LG+F+I+G4    579970.972  9.574       GENE_TIGR00448.nex+GENE_TIGR00491.nex	0h:0m:7s (0h:0m:49s left)
+ 110 LG+F+I+G4    580001.477  8.251       GENE_OG5172.nex+GENE_TIGR03670.nex	0h:0m:8s (0h:0m:49s left)
+ 111 LG+F+I+G4    579975.409  9.443       GENE_OG7638.nex+GENE_TIGR00491.nex	0h:0m:8s (0h:0m:49s left)
+ 112 LG+F+I+G4    579993.881  7.549       GENE_TIGR01158.nex+GENE_TIGR03670.nex	0h:0m:8s (0h:0m:49s left)
+ 113 LG+F+I+G4    580041.795  9.202       GENE_gtdb_PF01280.15.nex+GENE_TIGR00491.nex	0h:0m:8s (0h:0m:50s left)
+ 114 LG+F+I+G4    580000.284  9.978       GENE_gtdb_PF04104.9.nex+GENE_TIGR00491.nex	0h:0m:8s (0h:0m:51s left)
+ 115 LG+F+I+G4    579994.013  7.359       GENE_gtdb_PF01200.13.nex+GENE_TIGR03670.nex	0h:0m:8s (0h:0m:51s left)
+ 116 LG+F+I+G4    579957.561  8.051       GENE_arCOG01228.nex+GENE_TIGR01052.nex	0h:0m:8s (0h:0m:51s left)
+ 117 LG+F+I+G4    579965.954  9.577       GENE_TIGR00037.nex+GENE_TIGR00491.nex	0h:0m:9s (0h:0m:53s left)
+ 118 LG+F+I+G4    579954.923  9.786       GENE_TIGR00491.nex+GENE_TIGR03636.nex	0h:0m:9s (0h:0m:52s left)
+ 119 LG+F+I+G4    579991.253  12.472      GENE_TIGR00134.nex+GENE_TIGR00522.nex	0h:0m:9s (0h:0m:53s left)
+ 120 LG+F+I+G4    580091.904  9.320       GENE_TIGR00967.nex+GENE_TIGR02397.nex	0h:0m:9s (0h:0m:54s left)
+ 121 LG+F+I+G4    580006.927  10.480      GENE_gtdb_PF00687.16.nex+GENE_TIGR00134.nex	0h:0m:9s (0h:0m:54s left)
+ 122 LG+F+I+G4    579986.837  11.002      GENE_gtdb_PF04919.7.nex+GENE_TIGR00134.nex	0h:0m:10s (0h:0m:55s left)
+ 123 LG+F+I+G4    579982.930  5.260       GENE_TIGR00483.nex+GENE_TIGR02236.nex	0h:0m:10s (0h:0m:55s left)
+ 124 LG+F+I+G4    579991.301  9.456       GENE_TIGR02389.nex+GENE_TIGR03680.nex	0h:0m:10s (0h:0m:55s left)
+ 125 LG+F+I+G4    579994.790  8.752       GENE_arCOG01574.nex+GENE_TIGR03680.nex	0h:0m:10s (0h:0m:56s left)
+ 126 LG+F+I+G4    580000.273  7.977       GENE_arCOG01228.nex+GENE_TIGR03722.nex	0h:0m:10s (0h:0m:56s left)
+ 127 LG+F+I+G4    579973.599  12.097      GENE_TIGR02928.nex+GENE_TIGR03671.nex	0h:0m:11s (0h:0m:56s left)
+ 128 LG+F+I+G4    579962.479  8.676       GENE_TIGR03626.nex+GENE_TIGR03680.nex	0h:0m:11s (0h:0m:58s left)
+ 129 LG+F+I+G4    579961.305  7.841       GENE_TIGR01052.nex+GENE_TIGR03674.nex	0h:0m:11s (0h:0m:57s left)
+ 130 LG+F+I+G4    579967.189  7.956       GENE_arCOG01228.nex+GENE_TIGR03674.nex	0h:0m:11s (0h:0m:58s left)
+ 131 LG+F+I+G4    579994.088  11.892      GENE_TIGR00134.nex+GENE_TIGR03629.nex	0h:0m:12s (0h:1m:0s left)
+ 132 LG+F+I+G4    580048.371  10.941      GENE_gtdb_PF01280.15.nex+GENE_TIGR00134.nex	0h:0m:12s (0h:0m:59s left)
+ 133 LG+F+I+G4    579998.349  11.345      GENE_gtdb_PF00410.14.nex+GENE_TIGR00134.nex	0h:0m:12s (0h:0m:59s left)
+ 134 LG+F+I+G4    580006.536  8.144       GENE_TIGR01171.nex+GENE_TIGR03680.nex	0h:0m:12s (0h:1m:0s left)
+ 135 LG+F+I+G4    579963.337  8.049       GENE_TIGR00064.nex+GENE_TIGR01052.nex	0h:0m:12s (0h:1m:1s left)
+ 136 LG+F+I+G4    579998.977  8.229       GENE_TIGR01028.nex+GENE_TIGR03680.nex	0h:0m:12s (0h:1m:0s left)
+ 137 LG+F+I+G4    579969.103  6.562       GENE_arCOG01228.nex+GENE_TIGR00064.nex	0h:0m:13s (0h:1m:1s left)
+ 138 LG+F+I+G4    580013.082  13.863      GENE_gtdb_PF00466.15.nex+GENE_TIGR00111.nex	0h:0m:13s (0h:1m:1s left)
+ 139 LG+F+I+G4    579988.062  8.756       GENE_TIGR03672.nex+GENE_TIGR03680.nex	0h:0m:13s (0h:1m:1s left)
+ 140 LG+F+I+G4    580000.620  7.627       GENE_TIGR01052.nex+GENE_TIGR02065.nex	0h:0m:13s (0h:1m:2s left)
+ 141 LG+F+I+G4    579985.846  10.863      GENE_TIGR00522.nex+GENE_TIGR03676.nex	0h:0m:13s (0h:1m:2s left)
+ 142 LG+F+I+G4    580023.969  10.401      GENE_TIGR00134.nex+GENE_TIGR00405.nex	0h:0m:13s (0h:1m:1s left)
+ 143 LG+F+I+G4    580004.308  7.712       GENE_arCOG01228.nex+GENE_TIGR02065.nex	0h:0m:14s (0h:1m:3s left)
+ 144 LG+F+I+G4    579975.699  10.026      GENE_gtdb_PF00687.16.nex+GENE_TIGR03676.nex	0h:0m:14s (0h:1m:2s left)
+ 145 LG+F+I+G4    580014.111  12.136      GENE_gtdb_PF00900.15.nex+GENE_TIGR02928.nex	0h:0m:14s (0h:1m:2s left)
+ 146 LG+F+I+G4    580002.852  12.017      GENE_gtdb_PF04104.9.nex+GENE_TIGR00134.nex	0h:0m:14s (0h:1m:4s left)
+ 147 LG+F+I+G4    579990.304  11.820      GENE_TIGR01008.nex+GENE_TIGR02928.nex	0h:0m:14s (0h:1m:3s left)
+ 148 LG+F+I+G4    580047.938  9.713       GENE_TIGR00308.nex+GENE_TIGR00967.nex	0h:0m:14s (0h:1m:3s left)
+ 149 LG+F+I+G4    579957.008  9.755       GENE_gtdb_PF04919.7.nex+GENE_TIGR03676.nex	0h:0m:15s (0h:1m:4s left)
+ 150 LG+F+I+G4    579965.071  7.917       GENE_OG8696.nex+GENE_TIGR03680.nex	0h:0m:15s (0h:1m:4s left)
+ 151 LG+F+I+G4    580027.591  11.983      GENE_TIGR00134.nex+GENE_TIGR00307.nex	0h:0m:15s (0h:1m:4s left)
+ 152 LG+F+I+G4    579999.433  8.605       GENE_gtdb_PF01269.12.nex+GENE_TIGR03680.nex	0h:0m:15s (0h:1m:4s left)
+ 153 LG+F+I+G4    579966.568  8.409       GENE_TIGR00425.nex+GENE_TIGR01052.nex	0h:0m:15s (0h:1m:4s left)
+ 154 LG+F+I+G4    580004.317  11.693      GENE_gtdb_PF01157.13.nex+GENE_TIGR00134.nex	0h:0m:15s (0h:1m:5s left)
+ 155 LG+F+I+G4    580010.204  9.841       GENE_TIGR00308.nex+GENE_TIGR02397.nex	0h:0m:16s (0h:1m:5s left)
+ 156 LG+F+I+G4    579966.676  10.067      GENE_TIGR03629.nex+GENE_TIGR03676.nex	0h:0m:16s (0h:1m:4s left)
+ 157 LG+F+I+G4    579993.872  10.022      GENE_TIGR02389.nex+GENE_TIGR02397.nex	0h:0m:16s (0h:1m:5s left)
+ 158 LG+F+I+G4    579976.921  9.801       GENE_TIGR00448.nex+GENE_TIGR03676.nex	0h:0m:16s (0h:1m:5s left)
+ 159 LG+F+I+G4    579969.376  12.408      GENE_TIGR00323.nex+GENE_TIGR02928.nex	0h:0m:16s (0h:1m:5s left)
+ 160 LG+F+I+G4    579989.237  9.235       GENE_arCOG01574.nex+GENE_TIGR02397.nex	0h:0m:16s (0h:1m:5s left)
+ 161 LG+F+I+G4    579980.555  11.947      GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:0m:17s (0h:1m:5s left)
+ 162 LG+F+I+G4    580008.521  9.443       GENE_gtdb_PF01280.15.nex+GENE_TIGR03676.nex	0h:0m:17s (0h:1m:5s left)
+ 163 LG+F+I+G4    580040.268  9.802       GENE_TIGR00967.nex+GENE_TIGR01012.nex	0h:0m:17s (0h:1m:5s left)
+ 164 LG+F+I+G4    579968.540  9.717       GENE_gtdb_PF00410.14.nex+GENE_TIGR03676.nex	0h:0m:17s (0h:1m:6s left)
+ 165 LG+F+I+G4    579985.649  7.944       GENE_TIGR01020.nex+GENE_TIGR01052.nex	0h:0m:17s (0h:1m:6s left)
+ 166 LG+F+I+G4    580049.865  10.070      GENE_TIGR00967.nex+GENE_TIGR03672.nex	0h:0m:17s (0h:1m:6s left)
+ 167 LG+F+I+G4    579986.411  7.980       GENE_TIGR03673.nex+GENE_TIGR03680.nex	0h:0m:17s (0h:1m:6s left)
+ 168 LG+F+I+G4    579983.792  8.001       GENE_arCOG01228.nex+GENE_TIGR01020.nex	0h:0m:18s (0h:1m:6s left)
+ 169 LG+F+I+G4    579980.302  7.932       GENE_TIGR00064.nex+GENE_TIGR03722.nex	0h:0m:18s (0h:1m:6s left)
+ 170 LG+F+I+G4    579982.444  11.551      GENE_TIGR00291.nex+GENE_TIGR03671.nex	0h:0m:18s (0h:1m:6s left)
+ 171 LG+F+I+G4    580000.888  7.449       GENE_TIGR00982.nex+GENE_TIGR01052.nex	0h:0m:18s (0h:1m:6s left)
+ 172 LG+F+I+G4    579979.504  9.900       GENE_TIGR00405.nex+GENE_TIGR03676.nex	0h:0m:18s (0h:1m:6s left)
+ 173 LG+F+I+G4    580005.105  8.820       GENE_TIGR01012.nex+GENE_TIGR02397.nex	0h:0m:18s (0h:1m:6s left)
+ 174 LG+F+I+G4    579991.725  8.299       GENE_OG9906.nex+GENE_TIGR03680.nex	0h:0m:19s (0h:1m:6s left)
+ 175 LG+I+G4      579993.726  7.115       GENE_TIGR02065.nex+GENE_TIGR03722.nex	0h:0m:19s (0h:1m:6s left)
+ 176 LG+F+I+G4    579988.589  7.561       GENE_arCOG01228.nex+GENE_TIGR00982.nex	0h:0m:19s (0h:1m:6s left)
+ 177 LG+F+I+G4    579995.577  10.358      GENE_gtdb_PF04104.9.nex+GENE_TIGR03676.nex	0h:0m:19s (0h:1m:6s left)
+ 178 LG+F+I+G4    580002.903  8.431       GENE_TIGR03627.nex+GENE_TIGR03680.nex	0h:0m:19s (0h:1m:6s left)
+ 179 LG+F+I+G4    579974.168  7.869       GENE_TIGR00064.nex+GENE_TIGR03674.nex	0h:0m:19s (0h:1m:6s left)
+ 180 LG+F+I+G4    580008.433  9.299       GENE_TIGR02397.nex+GENE_TIGR03672.nex	0h:0m:19s (0h:1m:6s left)
+ 181 LG+F+I+G4    579968.265  9.830       GENE_TIGR00037.nex+GENE_TIGR03676.nex	0h:0m:20s (0h:1m:6s left)
+ 182 LG+F+I+G4    580000.389  7.402       GENE_TIGR02065.nex+GENE_TIGR03674.nex	0h:0m:20s (0h:1m:6s left)
+ 183 LG+F+I+G4    580019.018  11.753      GENE_TIGR01038.nex+GENE_TIGR02928.nex	0h:0m:20s (0h:1m:6s left)
+ 184 LG+F+I+G4    579987.958  14.041      GENE_gtdb_PF01866.12.nex+GENE_TIGR00111.nex	0h:0m:20s (0h:1m:6s left)
+ 185 LG+F+I+G4    579974.083  8.023       GENE_TIGR01158.nex+GENE_TIGR03680.nex	0h:0m:20s (0h:1m:6s left)
+ 186 LG+F+I+G4    579971.830  13.682      GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01866.12.nex	0h:0m:20s (0h:1m:6s left)
+ 187 LG+F+I+G4    579984.202  7.812       GENE_TIGR00335.nex+GENE_TIGR01052.nex	0h:0m:20s (0h:1m:6s left)
+ 188 LG+F+I+G4    580049.609  9.028       GENE_OG7638.nex+GENE_TIGR00967.nex	0h:0m:21s (0h:1m:6s left)
+ 189 LG+F+I+G4    579999.197  10.861      GENE_arCOG01574.nex+GENE_TIGR02389.nex	0h:0m:21s (0h:1m:6s left)
+ 190 LG+F+I+G4    580002.725  11.791      GENE_TIGR02338.nex+GENE_TIGR02928.nex	0h:0m:21s (0h:1m:6s left)
+ 191 LG+F+I+G4    580004.647  7.544       GENE_TIGR00064.nex+GENE_TIGR02065.nex	0h:0m:21s (0h:1m:6s left)
+ 192 LG+F+I+G4    580005.671  7.024       GENE_arCOG01228.nex+GENE_TIGR00335.nex	0h:0m:21s (0h:1m:6s left)
+ 193 LG+F+I+G4    579986.657  12.524      GENE_gtdb_PF00900.15.nex+GENE_TIGR03671.nex	0h:0m:21s (0h:1m:6s left)
+ 194 LG+F+I+G4    579978.441  10.700      GENE_TIGR02389.nex+GENE_TIGR03626.nex	0h:0m:21s (0h:1m:6s left)
+ 195 LG+F+I+G4    579992.778  12.300      GENE_gtdb_PF01798.13.nex+GENE_TIGR03671.nex	0h:0m:21s (0h:1m:6s left)
+ 196 LG+F+I+G4    580010.689  11.261      GENE_gtdb_PF01798.13.nex+GENE_TIGR00291.nex	0h:0m:22s (0h:1m:6s left)
+ 197 LG+F+I+G4    579951.162  10.110      GENE_TIGR03636.nex+GENE_TIGR03676.nex	0h:0m:22s (0h:1m:6s left)
+ 198 LG+F+I+G4    580019.601  11.805      GENE_gtdb_PF01655.13.nex+GENE_TIGR02928.nex	0h:0m:22s (0h:1m:5s left)
+ 199 LG+F+I+G4    579992.427  8.844       GENE_arCOG01574.nex+GENE_TIGR03626.nex	0h:0m:22s (0h:1m:6s left)
+ 200 LG+F+I+G4    579983.250  13.554      GENE_TIGR00111.nex+GENE_TIGR03665.nex	0h:0m:22s (0h:1m:6s left)
+ 201 LG+F+I+G4    580027.403  10.190      GENE_TIGR00279.nex+GENE_TIGR00967.nex	0h:0m:22s (0h:1m:5s left)
+ 202 LG+F+I+G4    579982.264  6.676       GENE_TIGR00425.nex+GENE_TIGR03674.nex	0h:0m:23s (0h:1m:6s left)
+ 203 LG+F+I+G4    579985.531  10.191      GENE_TIGR00308.nex+GENE_TIGR01012.nex	0h:0m:23s (0h:1m:6s left)
+ 204 LG+F+I+G4    579986.234  7.998       GENE_arCOG01228.nex+GENE_TIGR01046.nex	0h:0m:23s (0h:1m:5s left)
+ 205 LG+F+I+G4    579983.566  7.762       GENE_TIGR01020.nex+GENE_TIGR03722.nex	0h:0m:23s (0h:1m:6s left)
+ 206 LG+F+I+G4    580006.189  8.327       GENE_arCOG01228.nex+GENE_OG5172.nex	0h:0m:23s (0h:1m:6s left)
+ 207 LG+F+I+G4    579979.957  13.937      GENE_gtdb_PF01015.13.nex+GENE_TIGR00111.nex	0h:0m:23s (0h:1m:6s left)
+ 208 LG+F+I+G4    579983.842  9.016       GENE_OG7638.nex+GENE_TIGR02397.nex	0h:0m:23s (0h:1m:5s left)
+ 209 LG+F+I+G4    580023.027  9.945       GENE_TIGR01171.nex+GENE_TIGR02389.nex	0h:0m:24s (0h:1m:6s left)
+ 210 LG+F+I+G4    580012.031  9.068       GENE_arCOG01574.nex+GENE_TIGR01171.nex	0h:0m:24s (0h:1m:5s left)
+ 211 LG+F+I+G4    579996.931  10.305      GENE_TIGR01028.nex+GENE_TIGR02389.nex	0h:0m:24s (0h:1m:5s left)
+ 212 LG+I+G4      579998.068  8.633       GENE_arCOG01574.nex+GENE_TIGR01028.nex	0h:0m:24s (0h:1m:5s left)
+ 213 LG+F+I+G4    579973.260  10.852      GENE_gtdb_PF01000.21.nex+GENE_TIGR00291.nex	0h:0m:24s (0h:1m:5s left)
+ 214 LG+F+I+G4    579976.878  11.861      GENE_gtdb_PF01000.21.nex+GENE_TIGR03671.nex	0h:0m:24s (0h:1m:5s left)
+ 215 LG+F+I+G4    580035.435  8.305       GENE_TIGR02397.nex+GENE_TIGR03673.nex	0h:0m:24s (0h:1m:5s left)
+ 216 LG+F+I+G4    580045.309  8.947       GENE_TIGR00279.nex+GENE_TIGR02397.nex	0h:0m:24s (0h:1m:5s left)
+ 217 LG+F+I+G4    579980.249  6.959       GENE_TIGR01020.nex+GENE_TIGR03674.nex	0h:0m:24s (0h:1m:4s left)
+ 218 LG+F+I+G4    579961.516  8.398       GENE_TIGR01171.nex+GENE_TIGR03626.nex	0h:0m:25s (0h:1m:5s left)
+ 219 LG+F+I+G4    579987.615  10.991      GENE_TIGR02389.nex+GENE_TIGR03672.nex	0h:0m:25s (0h:1m:4s left)
+ 220 LG+F+I+G4    579988.344  9.367       GENE_TIGR01028.nex+GENE_TIGR03626.nex	0h:0m:25s (0h:1m:4s left)
+ 221 LG+F+I+G4    579993.909  8.985       GENE_arCOG01574.nex+GENE_TIGR03672.nex	0h:0m:25s (0h:1m:4s left)
+ 222 LG+F+I+G4    580000.437  5.699       GENE_gtdb_PF01090.14.nex+GENE_TIGR00483.nex	0h:0m:25s (0h:1m:4s left)
+ 223 LG+F+I+G4    580002.006  7.130       GENE_TIGR00982.nex+GENE_TIGR03722.nex	0h:0m:25s (0h:1m:4s left)
+ 224 LG+F+I+G4    579966.416  12.927      GENE_TIGR00323.nex+GENE_TIGR03671.nex	0h:0m:25s (0h:1m:4s left)
+ 225 LG+F+I+G4    579955.003  8.225       GENE_TIGR03626.nex+GENE_TIGR03672.nex	0h:0m:26s (0h:1m:4s left)
+ 226 LG+F+I+G4    579983.083  11.879      GENE_TIGR00291.nex+GENE_TIGR00323.nex	0h:0m:26s (0h:1m:3s left)
+ 227 LG+F+I+G4    580013.681  13.436      GENE_TIGR00111.nex+GENE_TIGR01038.nex	0h:0m:26s (0h:1m:4s left)
+ 228 LG+F+I+G4    580005.338  7.176       GENE_TIGR00982.nex+GENE_TIGR03674.nex	0h:0m:26s (0h:1m:4s left)
+ 229 LG+F+I+G4    579984.351  9.253       GENE_gtdb_PF01092.14.nex+GENE_TIGR00967.nex	0h:0m:26s (0h:1m:3s left)
+ 230 LG+F+I+G4    579965.719  10.745      GENE_TIGR00291.nex+GENE_TIGR03653.nex	0h:0m:26s (0h:1m:4s left)
+ 231 LG+F+I+G4    580000.823  7.907       GENE_arCOG01228.nex+GENE_gtdb_PF01200.13.nex	0h:0m:26s (0h:1m:3s left)
+ 232 LG+F+I+G4    579976.834  7.967       GENE_TIGR00064.nex+GENE_TIGR01020.nex	0h:0m:26s (0h:1m:3s left)
+ 233 LG+F+I+G4    579997.843  8.660       GENE_TIGR01028.nex+GENE_TIGR01171.nex	0h:0m:27s (0h:1m:3s left)
+ 234 LG+F+I+G4    580005.825  9.079       GENE_TIGR02397.nex+GENE_TIGR03627.nex	0h:0m:27s (0h:1m:3s left)
+ 235 LG+F+I+G4    579981.173  12.388      GENE_gtdb_PF00900.15.nex+GENE_TIGR01008.nex	0h:0m:27s (0h:1m:3s left)
+ 236 LG+F+I+G4    579987.996  7.254       GENE_TIGR01018.nex+GENE_TIGR03722.nex	0h:0m:27s (0h:1m:3s left)
+ 237 LG+F+I+G4    579979.438  9.553       GENE_TIGR01028.nex+GENE_TIGR03672.nex	0h:0m:27s (0h:1m:3s left)
+ 238 LG+F+I+G4    580017.650  10.808      GENE_TIGR00967.nex+GENE_TIGR03636.nex	0h:0m:27s (0h:1m:3s left)
+ 239 LG+F+I+G4    579985.600  10.143      GENE_OG8696.nex+GENE_TIGR02389.nex	0h:0m:27s (0h:1m:3s left)
+ 240 LG+I+G4      579991.009  6.988       GENE_TIGR01020.nex+GENE_TIGR02065.nex	0h:0m:27s (0h:1m:3s left)
+ 241 LG+F+I+G4    579988.916  9.072       GENE_arCOG01574.nex+GENE_OG8696.nex	0h:0m:28s (0h:1m:2s left)
+ 242 LG+F+I+G4    580012.542  9.808       GENE_TIGR00308.nex+GENE_TIGR00448.nex	0h:0m:28s (0h:1m:2s left)
+ 243 LG+F+I+G4    580006.128  7.281       GENE_TIGR00064.nex+GENE_TIGR00982.nex	0h:0m:28s (0h:1m:2s left)
+ 244 LG+F+I+G4    579986.365  8.896       GENE_gtdb_PF01092.14.nex+GENE_TIGR02397.nex	0h:0m:28s (0h:1m:2s left)
+ 245 LG+F+I+G4    580002.172  8.669       GENE_TIGR00335.nex+GENE_TIGR03722.nex	0h:0m:28s (0h:1m:2s left)
+ 246 LG+I+G4      579990.073  7.410       GENE_TIGR01025.nex+GENE_TIGR03722.nex	0h:0m:28s (0h:1m:2s left)
+ 247 LG+F+I+G4    579990.900  10.691      GENE_OG7638.nex+GENE_TIGR00308.nex	0h:0m:28s (0h:1m:2s left)
+ 248 LG+F+I+G4    580040.604  8.610       GENE_gtdb_PF01984.15.nex+GENE_TIGR00967.nex	0h:0m:28s (0h:1m:1s left)
+ 249 LG+F+I+G4    579971.741  9.051       GENE_OG8696.nex+GENE_TIGR03626.nex	0h:0m:28s (0h:1m:1s left)
+ 250 LG+F+I+G4    580004.765  11.492      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01798.13.nex	0h:0m:29s (0h:1m:1s left)
+ 251 LG+F+I+G4    579988.474  11.925      GENE_gtdb_PF00687.16.nex+GENE_TIGR00522.nex	0h:0m:29s (0h:1m:1s left)
+ 252 LG+F+I+G4    580017.971  6.698       GENE_TIGR00982.nex+GENE_TIGR02065.nex	0h:0m:29s (0h:1m:1s left)
+ 253 LG+F+I+G4    579986.074  8.518       GENE_TIGR00335.nex+GENE_TIGR03674.nex	0h:0m:29s (0h:1m:1s left)
+ 254 LG+I+G4      579999.107  7.326       GENE_TIGR01046.nex+GENE_TIGR03722.nex	0h:0m:29s (0h:1m:1s left)
+ 255 LG+F+I+G4    579975.533  13.160      GENE_gtdb_PF00900.15.nex+GENE_TIGR00323.nex	0h:0m:29s (0h:1m:0s left)
+ 256 LG+F+I+G4    580003.599  10.623      GENE_TIGR00279.nex+GENE_TIGR00308.nex	0h:0m:29s (0h:1m:0s left)
+ 257 LG+F+I+G4    579987.933  11.530      GENE_gtdb_PF01798.13.nex+GENE_TIGR00323.nex	0h:0m:29s (0h:1m:0s left)
+ 258 LG+F+I+G4    580007.765  12.614      GENE_gtdb_PF00900.15.nex+GENE_TIGR03665.nex	0h:0m:29s (0h:1m:0s left)
+ 259 LG+F+I+G4    580012.499  9.356       GENE_OG5172.nex+GENE_TIGR03722.nex	0h:0m:30s (0h:1m:0s left)
+ 260 LG+F+I+G4    580008.151  10.435      GENE_TIGR02389.nex+GENE_TIGR03673.nex	0h:0m:30s (0h:1m:0s left)
+ 261 LG+F+I+G4    579997.435  10.872      GENE_TIGR00279.nex+GENE_TIGR02389.nex	0h:0m:30s (0h:1m:0s left)
+ 262 LG+I+G4      580004.464  8.321       GENE_arCOG01574.nex+GENE_TIGR03673.nex	0h:0m:30s (0h:1m:0s left)
+ 263 LG+F+I+G4    579983.739  8.198       GENE_OG8696.nex+GENE_TIGR01171.nex	0h:0m:30s (0h:1m:0s left)
+ 264 LG+F+I+G4    579965.499  11.544      GENE_gtdb_PF04919.7.nex+GENE_TIGR00522.nex	0h:0m:30s (0h:0m:59s left)
+ 265 LG+I+G4      579990.963  9.229       GENE_arCOG01574.nex+GENE_TIGR00279.nex	0h:0m:30s (0h:0m:59s left)
+ 266 LG+I+G4      580002.318  7.764       GENE_OG8696.nex+GENE_TIGR01028.nex	0h:0m:30s (0h:0m:59s left)
+ 267 LG+F+I+G4    580014.258  11.393      GENE_gtdb_PF01798.13.nex+GENE_TIGR03653.nex	0h:0m:30s (0h:0m:59s left)
+ 268 LG+F+I+G4    580009.759  9.321       GENE_gtdb_PF01984.15.nex+GENE_TIGR02397.nex	0h:0m:30s (0h:0m:59s left)
+ 269 LG+F+I+G4    580002.209  9.061       GENE_gtdb_PF01269.12.nex+GENE_TIGR01171.nex	0h:0m:31s (0h:0m:59s left)
+ 270 LG+F+I+G4    579993.457  9.341       GENE_gtdb_PF01269.12.nex+GENE_TIGR01028.nex	0h:0m:31s (0h:0m:59s left)
+ 271 LG+F+I+G4    579969.102  12.185      GENE_TIGR01008.nex+GENE_TIGR03665.nex	0h:0m:31s (0h:0m:58s left)
+ 272 LG+F+I+G4    579974.315  10.368      GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF04919.7.nex	0h:0m:31s (0h:0m:58s left)
+ 273 LG+F+I+G4    579969.368  9.299       GENE_TIGR03626.nex+GENE_TIGR03673.nex	0h:0m:31s (0h:0m:58s left)
+ 274 LG+F+I+G4    580025.566  12.255      GENE_TIGR02338.nex+GENE_TIGR03671.nex	0h:0m:31s (0h:0m:58s left)
+ 275 LG+F+I+G4    579964.005  9.201       GENE_OG8696.nex+GENE_TIGR03672.nex	0h:0m:31s (0h:0m:58s left)
+ 276 LG+F+I+G4    579992.108  7.245       GENE_TIGR00064.nex+GENE_TIGR00335.nex	0h:0m:31s (0h:0m:58s left)
+ 277 LG+F+I+G4    580010.607  10.752      GENE_TIGR00291.nex+GENE_TIGR00307.nex	0h:0m:31s (0h:0m:58s left)
+ 278 LG+F+I+G4    579991.448  9.573       GENE_TIGR00448.nex+GENE_TIGR01012.nex	0h:0m:32s (0h:0m:57s left)
+ 279 LG+F+I+G4    579973.318  14.459      GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex	0h:0m:32s (0h:0m:57s left)
+ 280 LG+F+I+G4    580001.843  10.970      GENE_TIGR00037.nex+GENE_TIGR00308.nex	0h:0m:32s (0h:0m:57s left)
+ 281 LG+F+I+G4    580002.102  13.212      GENE_gtdb_PF01866.12.nex+GENE_TIGR03665.nex	0h:0m:32s (0h:0m:57s left)
+ 282 LG+F+I+G4    579972.247  12.356      GENE_gtdb_PF01000.21.nex+GENE_TIGR00323.nex	0h:0m:32s (0h:0m:57s left)
+ 283 LG+F+I+G4    579974.952  9.415       GENE_OG7638.nex+GENE_TIGR01012.nex	0h:0m:32s (0h:0m:57s left)
+ 284 LG+I+G4      580002.391  5.868       GENE_gtdb_PF01090.14.nex+GENE_TIGR02236.nex	0h:0m:32s (0h:0m:57s left)
+ 285 LG+F+I+G4    579956.995  12.740      GENE_gtdb_PF01015.13.nex+GENE_TIGR01008.nex	0h:0m:32s (0h:0m:56s left)
+ 286 LG+F+I+G4    579978.573  10.607      GENE_gtdb_PF01157.13.nex+GENE_TIGR00291.nex	0h:0m:32s (0h:0m:56s left)
+ 287 LG+I+G4      580010.068  8.035       GENE_TIGR00335.nex+GENE_TIGR02065.nex	0h:0m:33s (0h:0m:56s left)
+ 288 LG+F+I+G4    579999.227  12.302      GENE_TIGR00522.nex+GENE_TIGR03629.nex	0h:0m:33s (0h:0m:56s left)
+ 289 LG+F+I+G4    579985.437  11.221      GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:0m:33s (0h:0m:56s left)
+ 290 LG+I+G4      579997.229  9.139       GENE_arCOG01574.nex+GENE_TIGR03627.nex	0h:0m:33s (0h:0m:56s left)
+ 291 LG+F+I+G4    579982.362  7.897       GENE_TIGR00064.nex+GENE_TIGR01046.nex	0h:0m:33s (0h:0m:56s left)
+ 292 LG+I+G4      580003.336  7.075       GENE_gtdb_PF01200.13.nex+GENE_TIGR03722.nex	0h:0m:33s (0h:0m:56s left)
+ 293 LG+F+I+G4    579989.672  11.055      GENE_gtdb_PF00687.16.nex+GENE_TIGR03629.nex	0h:0m:33s (0h:0m:55s left)
+ 294 LG+F+I+G4    579978.712  12.551      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01866.12.nex	0h:0m:33s (0h:0m:55s left)
+ 295 LG+F+I+G4    579960.509  16.185      GENE_gtdb_PF07541.7.nex+GENE_TIGR00373.nex	0h:0m:33s (0h:0m:55s left)
+ 296 LG+F+I+G4    580040.250  11.323      GENE_gtdb_PF01280.15.nex+GENE_TIGR00522.nex	0h:0m:33s (0h:0m:55s left)
+ 297 LG+F+I+G4    579962.896  8.402       GENE_TIGR01171.nex+GENE_TIGR03673.nex	0h:0m:34s (0h:0m:55s left)
+ 298 LG+F+I+G4    579981.003  10.534      GENE_gtdb_PF00687.16.nex+GENE_TIGR00448.nex	0h:0m:34s (0h:0m:55s left)
+ 299 LG+F+I+G4    579962.992  10.804      GENE_gtdb_PF01000.21.nex+GENE_TIGR03653.nex	0h:0m:34s (0h:0m:55s left)
+ 300 LG+F+I+G4    579990.540  9.432       GENE_TIGR00279.nex+GENE_TIGR01012.nex	0h:0m:34s (0h:0m:54s left)
+ 301 LG+F+I+G4    580000.829  8.443       GENE_TIGR01028.nex+GENE_TIGR03673.nex	0h:0m:34s (0h:0m:54s left)
+ 302 LG+F+I+G4    579979.765  11.701      GENE_gtdb_PF00410.14.nex+GENE_TIGR00522.nex	0h:0m:34s (0h:0m:54s left)
+ 303 LG+F+I+G4    580002.302  10.784      GENE_gtdb_PF01092.14.nex+GENE_TIGR00308.nex	0h:0m:34s (0h:0m:54s left)
+ 304 LG+F+I+G4    580003.919  8.788       GENE_OG5172.nex+GENE_TIGR00064.nex	0h:0m:34s (0h:0m:54s left)
+ 305 LG+F+I+G4    579990.433  9.147       GENE_TIGR03626.nex+GENE_TIGR03627.nex	0h:0m:34s (0h:0m:54s left)
+ 306 LG+I+G4      579999.567  6.769       GENE_TIGR01046.nex+GENE_TIGR02065.nex	0h:0m:34s (0h:0m:54s left)
+ 307 LG+F+I+G4    580009.761  12.480      GENE_gtdb_PF00900.15.nex+GENE_TIGR01038.nex	0h:0m:34s (0h:0m:53s left)
+ 308 LG+F+I+G4    580007.546  10.161      GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01280.15.nex	0h:0m:35s (0h:0m:53s left)
+ 309 LG+F+I+G4    579973.633  10.385      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF00687.16.nex	0h:0m:35s (0h:0m:53s left)
+ 310 LG+F+I+G4    579980.936  12.371      GENE_TIGR00323.nex+GENE_TIGR03653.nex	0h:0m:35s (0h:0m:53s left)
+ 311 LG+F+I+G4    579973.081  9.438       GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:0m:35s (0h:0m:53s left)
+ 312 LG+F+I+G4    579983.257  10.139      GENE_TIGR00279.nex+GENE_TIGR03672.nex	0h:0m:35s (0h:0m:53s left)
+ 313 LG+F+I+G4    579990.596  15.799      GENE_gtdb_PF07541.7.nex+GENE_TIGR00293.nex	0h:0m:35s (0h:0m:53s left)
+ 314 LG+F+I+G4    579989.732  7.141       GENE_TIGR00982.nex+GENE_TIGR01020.nex	0h:0m:35s (0h:0m:53s left)
+ 315 LG+F+I+G4    579981.894  10.415      GENE_gtdb_PF04919.7.nex+GENE_TIGR03629.nex	0h:0m:35s (0h:0m:52s left)
+ 316 LG+F+I+G4    580026.895  8.912       GENE_OG5172.nex+GENE_TIGR02065.nex	0h:0m:35s (0h:0m:52s left)
+ 317 LG+F+I+G4    580000.926  8.026       GENE_OG9906.nex+GENE_TIGR01171.nex	0h:0m:36s (0h:0m:52s left)
+ 318 LG+F+I+G4    579978.378  9.024       GENE_gtdb_PF01269.12.nex+GENE_OG8696.nex	0h:0m:36s (0h:0m:52s left)
+ 319 LG+F+I+G4    579984.866  12.923      GENE_gtdb_PF01015.13.nex+GENE_TIGR03665.nex	0h:0m:36s (0h:0m:52s left)
+ 320 LG+F+I+G4    579985.264  9.105       GENE_OG9906.nex+GENE_TIGR01028.nex	0h:0m:36s (0h:0m:52s left)
+ 321 LG+F+I+G4    579981.705  12.114      GENE_TIGR01008.nex+GENE_TIGR01038.nex	0h:0m:36s (0h:0m:52s left)
+ 322 LG+F+I+G4    579982.059  11.565      GENE_TIGR00308.nex+GENE_TIGR03636.nex	0h:0m:36s (0h:0m:51s left)
+ 323 LG+F+I+G4    579998.280  12.121      GENE_TIGR00405.nex+GENE_TIGR00522.nex	0h:0m:36s (0h:0m:51s left)
+ 324 LG+F+I+G4    579990.757  9.384       GENE_TIGR01158.nex+GENE_TIGR03626.nex	0h:0m:36s (0h:0m:51s left)
+ 325 LG+F+I+G4    580011.156  9.551       GENE_gtdb_PF01280.15.nex+GENE_gtdb_PF04919.7.nex	0h:0m:36s (0h:0m:51s left)
+ 326 LG+F+I+G4    579999.914  8.920       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01269.12.nex	0h:0m:36s (0h:0m:51s left)
+ 327 LG+F+I+G4    579981.737  9.597       GENE_TIGR00037.nex+GENE_TIGR01012.nex	0h:0m:36s (0h:0m:51s left)
+ 328 LG+F+I+G4    579950.874  9.980       GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF04919.7.nex	0h:0m:37s (0h:0m:51s left)
+ 329 LG+F+I+G4    579998.198  8.206       GENE_TIGR01171.nex+GENE_TIGR03627.nex	0h:0m:37s (0h:0m:50s left)
+ 330 LG+I+G4      579991.913  8.341       GENE_TIGR01028.nex+GENE_TIGR03627.nex	0h:0m:37s (0h:0m:50s left)
+ 331 LG+F+I+G4    579972.834  11.146      GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex	0h:0m:37s (0h:0m:50s left)
+ 332 LG+F+I+G4    580007.337  10.898      GENE_TIGR03629.nex+GENE_TIGR03653.nex	0h:0m:37s (0h:0m:50s left)
+ 333 LG+F+I+G4    579964.619  9.788       GENE_gtdb_PF00687.16.nex+GENE_TIGR00405.nex	0h:0m:37s (0h:0m:50s left)
+ 334 LG+F+I+G4    580001.859  13.094      GENE_gtdb_PF01866.12.nex+GENE_TIGR01038.nex	0h:0m:37s (0h:0m:50s left)
+ 335 LG+F+I+G4    580060.397  12.406      GENE_gtdb_PF00900.15.nex+GENE_TIGR02338.nex	0h:0m:37s (0h:0m:50s left)
+ 336 LG+F+I+G4    580034.192  11.635      GENE_gtdb_PF01798.13.nex+GENE_TIGR00307.nex	0h:0m:37s (0h:0m:49s left)
+ 337 LG+F+I+G4    580031.166  10.024      GENE_gtdb_PF01984.15.nex+GENE_TIGR00308.nex	0h:0m:37s (0h:0m:49s left)
+ 338 LG+F+I+G4    580000.167  7.774       GENE_gtdb_PF01200.13.nex+GENE_TIGR00064.nex	0h:0m:37s (0h:0m:49s left)
+ 339 LG+F+I+G4    579992.608  9.491       GENE_TIGR03627.nex+GENE_TIGR03672.nex	0h:0m:38s (0h:0m:49s left)
+ 340 LG+F+I+G4    579989.675  12.780      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01655.13.nex	0h:0m:38s (0h:0m:49s left)
+ 341 LG+F+I+G4    579994.551  11.386      GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF04104.9.nex	0h:0m:38s (0h:0m:49s left)
+ 342 LG+F+I+G4    579977.904  9.246       GENE_gtdb_PF01092.14.nex+GENE_TIGR01012.nex	0h:0m:38s (0h:0m:49s left)
+ 343 LG+F+I+G4    580008.541  9.326       GENE_gtdb_PF01984.15.nex+GENE_TIGR02389.nex	0h:0m:38s (0h:0m:49s left)
+ 344 LG+F+I+G4    579975.805  10.663      GENE_gtdb_PF00687.16.nex+GENE_TIGR00037.nex	0h:0m:38s (0h:0m:48s left)
+ 345 LG+F+I+G4    580003.526  8.374       GENE_TIGR01158.nex+GENE_TIGR01171.nex	0h:0m:38s (0h:0m:48s left)
+ 346 LG+F+I+G4    580028.189  12.406      GENE_TIGR00307.nex+GENE_TIGR00522.nex	0h:0m:38s (0h:0m:48s left)
+ 347 LG+F+I+G4    580023.070  12.197      GENE_TIGR01008.nex+GENE_TIGR02338.nex	0h:0m:38s (0h:0m:48s left)
+ 348 LG+F+I+G4    579997.953  11.388      GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF01798.13.nex	0h:0m:38s (0h:0m:48s left)
+ 349 LG+I+G4      579990.524  7.871       GENE_TIGR01028.nex+GENE_TIGR01158.nex	0h:0m:38s (0h:0m:48s left)
+ 350 LG+F+I+G4    579967.986  8.006       GENE_OG8696.nex+GENE_TIGR03673.nex	0h:0m:38s (0h:0m:48s left)
+ 351 LG+I+G4      580014.333  9.295       GENE_arCOG01574.nex+GENE_gtdb_PF01984.15.nex	0h:0m:39s (0h:0m:48s left)
+ 352 LG+F+I+G4    579976.096  9.951       GENE_OG7638.nex+GENE_TIGR00448.nex	0h:0m:39s (0h:0m:47s left)
+ 353 LG+F+I+G4    580004.711  10.560      GENE_gtdb_PF01280.15.nex+GENE_TIGR03629.nex	0h:0m:39s (0h:0m:47s left)
+ 354 LG+F+I+G4    579973.599  10.349      GENE_gtdb_PF04919.7.nex+GENE_TIGR00405.nex	0h:0m:39s (0h:0m:47s left)
+ 355 LG+F+I+G4    580016.679  9.451       GENE_gtdb_PF01280.15.nex+GENE_TIGR00448.nex	0h:0m:39s (0h:0m:47s left)
+ 356 LG+F+I+G4    579988.143  10.563      GENE_gtdb_PF00410.14.nex+GENE_TIGR03629.nex	0h:0m:39s (0h:0m:47s left)
+ 357 LG+I+G4      579999.849  6.470       GENE_gtdb_PF01200.13.nex+GENE_TIGR02065.nex	0h:0m:39s (0h:0m:47s left)
+ 358 LG+F+I+G4    579966.080  10.080      GENE_gtdb_PF00410.14.nex+GENE_TIGR00448.nex	0h:0m:39s (0h:0m:47s left)
+ 359 LG+F+I+G4    579962.464  12.346      GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex	0h:0m:39s (0h:0m:46s left)
+ 360 LG+F+I+G4    580004.420  12.189      GENE_TIGR01038.nex+GENE_TIGR03665.nex	0h:0m:39s (0h:0m:46s left)
+ 361 LG+F+I+G4    579994.180  8.906       GENE_TIGR00335.nex+GENE_TIGR01020.nex	0h:0m:39s (0h:0m:46s left)
+ 362 LG+F+I+G4    579972.689  10.157      GENE_gtdb_PF01092.14.nex+GENE_TIGR03672.nex	0h:0m:40s (0h:0m:46s left)
+ 363 LG+F+I+G4    579997.982  12.088      GENE_gtdb_PF01157.13.nex+GENE_TIGR00522.nex	0h:0m:40s (0h:0m:46s left)
+ 364 LG+F+I+G4    579973.962  10.969      GENE_gtdb_PF04104.9.nex+GENE_gtdb_PF04919.7.nex	0h:0m:40s (0h:0m:46s left)
+ 365 LG+F+I+G4    579993.305  9.649       GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01280.15.nex	0h:0m:40s (0h:0m:46s left)
+ 366 LG+F+I+G4    579978.816  8.401       GENE_gtdb_PF00827.12.nex+GENE_TIGR01018.nex	0h:0m:40s (0h:0m:45s left)
+ 367 LG+F+I+G4    579989.372  9.527       GENE_gtdb_PF01269.12.nex+GENE_TIGR01018.nex	0h:0m:40s (0h:0m:45s left)
+ 368 LG+F+I+G4    579971.682  10.129      GENE_gtdb_PF04919.7.nex+GENE_TIGR00037.nex	0h:0m:40s (0h:0m:45s left)
+ 369 LG+F+I+G4    579969.408  10.031      GENE_TIGR01012.nex+GENE_TIGR03636.nex	0h:0m:40s (0h:0m:45s left)
+ 370 LG+F+I+G4    579979.677  10.773      GENE_gtdb_PF01000.21.nex+GENE_TIGR00307.nex	0h:0m:40s (0h:0m:45s left)
+ 371 LG+F+I+G4    580006.867  9.976       GENE_OG7638.nex+GENE_TIGR00279.nex	0h:0m:40s (0h:0m:45s left)
+ 372 LG+F+I+G4    579974.390  8.442       GENE_OG8696.nex+GENE_OG9906.nex	0h:0m:40s (0h:0m:45s left)
+ 373 LG+F+I+G4    579994.103  12.787      GENE_gtdb_PF01015.13.nex+GENE_TIGR01038.nex	0h:0m:41s (0h:0m:44s left)
+ 374 LG+I+G4      579995.173  7.192       GENE_TIGR01020.nex+GENE_TIGR01046.nex	0h:0m:41s (0h:0m:44s left)
+ 375 LG+F+I+G4    579999.039  10.804      GENE_TIGR00405.nex+GENE_TIGR03629.nex	0h:0m:41s (0h:0m:44s left)
+ 376 LG+F+I+G4    579980.723  10.643      GENE_TIGR00405.nex+GENE_TIGR00448.nex	0h:0m:41s (0h:0m:44s left)
+ 377 LG+F+I+G4    579990.906  7.772       GENE_gtdb_PF00827.12.nex+GENE_TIGR01025.nex	0h:0m:41s (0h:0m:44s left)
+ 378 LG+F+I+G4    580017.242  8.143       GENE_TIGR00335.nex+GENE_TIGR00982.nex	0h:0m:41s (0h:0m:44s left)
+ 379 LG+I+G4      579994.987  8.388       GENE_gtdb_PF01269.12.nex+GENE_TIGR01025.nex	0h:0m:41s (0h:0m:44s left)
+ 380 LG+F+I+G4    579981.470  8.611       GENE_gtdb_PF00827.12.nex+GENE_OG9906.nex	0h:0m:41s (0h:0m:43s left)
+ 381 LG+F+I+G4    580026.723  12.747      GENE_TIGR00323.nex+GENE_TIGR02338.nex	0h:0m:41s (0h:0m:43s left)
+ 382 LG+F+I+G4    580012.142  8.846       GENE_gtdb_PF01269.12.nex+GENE_OG9906.nex	0h:0m:41s (0h:0m:43s left)
+ 383 LG+F+I+G4    579999.354  8.816       GENE_OG8696.nex+GENE_TIGR03627.nex	0h:0m:41s (0h:0m:43s left)
+ 384 LG+F+I+G4    579982.124  10.595      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01157.13.nex	0h:0m:41s (0h:0m:43s left)
+ 385 LG+F+I+G4    580005.640  9.845       GENE_OG5172.nex+GENE_TIGR01020.nex	0h:0m:42s (0h:0m:43s left)
+ 386 LG+F+I+G4    580016.259  9.491       GENE_gtdb_PF01984.15.nex+GENE_TIGR01012.nex	0h:0m:42s (0h:0m:43s left)
+ 387 LG+F+I+G4    580005.760  12.468      GENE_TIGR02338.nex+GENE_TIGR03665.nex	0h:0m:42s (0h:0m:42s left)
+ 388 LG+F+I+G4    580014.237  9.765       GENE_gtdb_PF01280.15.nex+GENE_TIGR00405.nex	0h:0m:42s (0h:0m:42s left)
+ 389 LG+F+I+G4    579994.467  11.315      GENE_gtdb_PF04104.9.nex+GENE_TIGR00448.nex	0h:0m:42s (0h:0m:42s left)
+ 390 LG+F+I+G4    579974.050  10.249      GENE_gtdb_PF00410.14.nex+GENE_TIGR00405.nex	0h:0m:42s (0h:0m:42s left)
+ 391 LG+F+I+G4    579977.707  12.480      GENE_gtdb_PF01655.13.nex+GENE_TIGR03665.nex	0h:0m:42s (0h:0m:42s left)
+ 392 LG+F+I+G4    579998.759  7.838       GENE_gtdb_PF00827.12.nex+GENE_TIGR01046.nex	0h:0m:42s (0h:0m:42s left)
+ 393 LG+F+I+G4    579954.809  10.420      GENE_TIGR00037.nex+GENE_TIGR00448.nex	0h:0m:42s (0h:0m:42s left)
+ 394 LG+F+I+G4    579993.574  6.907       GENE_TIGR00982.nex+GENE_TIGR01046.nex	0h:0m:42s (0h:0m:42s left)
+ 395 LG+F+I+G4    579992.055  10.681      GENE_TIGR00307.nex+GENE_TIGR03653.nex	0h:0m:42s (0h:0m:41s left)
+ 396 LG+F+I+G4    580012.528  10.730      GENE_gtdb_PF01280.15.nex+GENE_gtdb_PF04104.9.nex	0h:0m:42s (0h:0m:41s left)
+ 397 LG+I+G4      580016.120  9.555       GENE_gtdb_PF01984.15.nex+GENE_TIGR03672.nex	0h:0m:43s (0h:0m:41s left)
+ 398 LG+F+I+G4    580003.160  6.960       GENE_TIGR00425.nex+GENE_TIGR01952.nex	0h:0m:43s (0h:0m:41s left)
+ 399 LG+F+I+G4    579973.950  11.167      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF04104.9.nex	0h:0m:43s (0h:0m:41s left)
+ 400 LG+F+I+G4    579974.380  8.023       GENE_OG8696.nex+GENE_TIGR01158.nex	0h:0m:43s (0h:0m:41s left)
+ 401 LG+F+I+G4    579983.564  12.986      GENE_gtdb_PF13656.1.nex+GENE_TIGR01008.nex	0h:0m:43s (0h:0m:41s left)
+ 402 LG+F+I+G4    579983.831  10.071      GENE_gtdb_PF00827.12.nex+GENE_OG5172.nex	0h:0m:43s (0h:0m:41s left)
+ 403 LG+F+I+G4    580000.797  9.798       GENE_gtdb_PF01280.15.nex+GENE_TIGR00037.nex	0h:0m:43s (0h:0m:40s left)
+ 404 LG+F+I+G4    580008.895  9.266       GENE_OG5172.nex+GENE_TIGR00982.nex	0h:0m:43s (0h:0m:40s left)
+ 405 LG+F+I+G4    580017.179  11.346      GENE_TIGR00307.nex+GENE_TIGR03629.nex	0h:0m:43s (0h:0m:40s left)
+ 406 LG+F+I+G4    579972.211  10.153      GENE_gtdb_PF00410.14.nex+GENE_TIGR00037.nex	0h:0m:43s (0h:0m:40s left)
+ 407 LG+F+I+G4    579983.669  10.509      GENE_gtdb_PF01157.13.nex+GENE_TIGR03653.nex	0h:0m:43s (0h:0m:40s left)
+ 408 LG+I+G4      580016.556  7.519       GENE_gtdb_PF00827.12.nex+GENE_TIGR01158.nex	0h:0m:44s (0h:0m:40s left)
+ 409 LG+F+I+G4    579989.451  13.346      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex	0h:0m:44s (0h:0m:40s left)
+ 410 LG+F+I+G4    579984.696  9.472       GENE_gtdb_PF01269.12.nex+GENE_TIGR01158.nex	0h:0m:44s (0h:0m:40s left)
+ 411 LG+F+I+G4    579978.672  14.455      GENE_gtdb_PF01866.12.nex+GENE_gtdb_PF13656.1.nex	0h:0m:44s (0h:0m:39s left)
+ 412 LG+I+G4      579993.340  9.683       GENE_gtdb_PF01157.13.nex+GENE_TIGR03629.nex	0h:0m:44s (0h:0m:39s left)
+ 413 LG+F+I+G4    579986.096  8.178       GENE_TIGR01018.nex+GENE_TIGR01025.nex	0h:0m:44s (0h:0m:39s left)
+ 414 LG+F+I+G4    579995.546  9.026       GENE_TIGR03627.nex+GENE_TIGR03673.nex	0h:0m:44s (0h:0m:39s left)
+ 415 LG+I+G4      580000.738  9.306       GENE_TIGR00279.nex+GENE_TIGR03627.nex	0h:0m:44s (0h:0m:39s left)
+ 416 LG+F+I+G4    579974.604  8.936       GENE_gtdb_PF01092.14.nex+GENE_OG7638.nex	0h:0m:44s (0h:0m:39s left)
+ 417 LG+F+I+G4    579963.134  9.274       GENE_OG9906.nex+GENE_TIGR01018.nex	0h:0m:44s (0h:0m:39s left)
+ 418 LG+I+G4      579999.539  6.873       GENE_gtdb_PF01200.13.nex+GENE_TIGR01020.nex	0h:0m:44s (0h:0m:38s left)
+ 419 LG+F+I+G4    579986.251  11.467      GENE_gtdb_PF04104.9.nex+GENE_TIGR00405.nex	0h:0m:44s (0h:0m:38s left)
+ 420 LG+F+I+G4    579972.383  10.590      GENE_TIGR00037.nex+GENE_TIGR00405.nex	0h:0m:44s (0h:0m:38s left)
+ 421 LG+F+I+G4    579988.353  8.386       GENE_TIGR01018.nex+GENE_TIGR01046.nex	0h:0m:45s (0h:0m:38s left)
+ 422 LG+F+I+G4    579992.844  8.550       GENE_OG9906.nex+GENE_TIGR01025.nex	0h:0m:45s (0h:0m:38s left)
+ 423 LG+F+I+G4    579989.101  9.889       GENE_gtdb_PF01092.14.nex+GENE_TIGR00279.nex	0h:0m:45s (0h:0m:38s left)
+ 424 LG+F+I+G4    580075.114  11.963      GENE_TIGR01038.nex+GENE_TIGR02338.nex	0h:0m:45s (0h:0m:38s left)
+ 425 LG+F+I+G4    579982.445  13.356      GENE_gtdb_PF13656.1.nex+GENE_TIGR03665.nex	0h:0m:45s (0h:0m:37s left)
+ 426 LG+F+I+G4    579952.627  11.060      GENE_TIGR00448.nex+GENE_TIGR03636.nex	0h:0m:45s (0h:0m:37s left)
+ 427 LG+F+I+G4    580003.978  11.498      GENE_gtdb_PF04104.9.nex+GENE_TIGR00037.nex	0h:0m:45s (0h:0m:37s left)
+ 428 LG+F+I+G4    579985.555  11.043      GENE_OG5172.nex+GENE_TIGR01018.nex	0h:0m:45s (0h:0m:37s left)
+ 429 LG+F+I+G4    579971.686  7.669       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex	0h:0m:45s (0h:0m:37s left)
+ 430 LG+F+I+G4    579990.615  9.210       GENE_gtdb_PF01200.13.nex+GENE_gtdb_PF01269.12.nex	0h:0m:45s (0h:0m:37s left)
+ 431 LG+F+I+G4    579981.975  9.047       GENE_TIGR00335.nex+GENE_TIGR01046.nex	0h:0m:45s (0h:0m:37s left)
+ 432 LG+F+I+G4    579976.492  12.617      GENE_gtdb_PF01655.13.nex+GENE_TIGR01038.nex	0h:0m:45s (0h:0m:37s left)
+ 433 LG+I+G4      579993.189  7.094       GENE_TIGR01025.nex+GENE_TIGR01046.nex	0h:0m:45s (0h:0m:36s left)
+ 434 LG+F+I+G4    579954.318  10.919      GENE_OG7638.nex+GENE_TIGR03636.nex	0h:0m:46s (0h:0m:36s left)
+ 435 LG+I+G4      579989.328  7.885       GENE_TIGR01018.nex+GENE_TIGR01158.nex	0h:0m:46s (0h:0m:36s left)
+ 436 LG+F+I+G4    579983.212  10.942      GENE_TIGR00279.nex+GENE_TIGR03636.nex	0h:0m:46s (0h:0m:36s left)
+ 437 LG+F+I+G4    579980.274  14.146      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF13656.1.nex	0h:0m:46s (0h:0m:36s left)
+ 438 LG+F+I+G4    580004.931  10.192      GENE_OG5172.nex+GENE_TIGR01025.nex	0h:0m:46s (0h:0m:36s left)
+ 439 LG+I+G4      579990.072  7.361       GENE_TIGR01025.nex+GENE_TIGR01158.nex	0h:0m:46s (0h:0m:36s left)
+ 440 LG+F+I+G4    580000.145  8.780       GENE_OG9906.nex+GENE_TIGR01158.nex	0h:0m:46s (0h:0m:36s left)
+ 441 LG+F+I+G4    580007.996  9.520       GENE_gtdb_PF01984.15.nex+GENE_OG7638.nex	0h:0m:46s (0h:0m:35s left)
+ 442 LG+I+G4      579995.887  8.890       GENE_gtdb_PF01092.14.nex+GENE_TIGR03627.nex	0h:0m:46s (0h:0m:35s left)
+ 443 LG+I+G4      580027.719  7.860       GENE_gtdb_PF01984.15.nex+GENE_TIGR03673.nex	0h:0m:46s (0h:0m:35s left)
+ 444 LG+F+I+G4    579982.627  10.569      GENE_OG5172.nex+GENE_TIGR01046.nex	0h:0m:46s (0h:0m:35s left)
+ 445 LG+F+I+G4    580073.470  11.251      GENE_gtdb_PF01655.13.nex+GENE_TIGR02338.nex	0h:0m:46s (0h:0m:35s left)
+ 446 LG+F+I+G4    579981.887  8.214       GENE_gtdb_PF01200.13.nex+GENE_TIGR01018.nex	0h:0m:46s (0h:0m:35s left)
+ 447 LG+I+G4      580010.334  9.587       GENE_gtdb_PF01984.15.nex+GENE_TIGR00279.nex	0h:0m:47s (0h:0m:35s left)
+ 448 LG+F+I+G4    579980.123  10.863      GENE_gtdb_PF01157.13.nex+GENE_TIGR00307.nex	0h:0m:47s (0h:0m:34s left)
+ 449 LG+F+I+G4    579973.028  12.594      GENE_gtdb_PF04104.9.nex+GENE_TIGR03636.nex	0h:0m:47s (0h:0m:34s left)
+ 450 LG+F+I+G4    579956.896  11.433      GENE_TIGR00037.nex+GENE_TIGR03636.nex	0h:0m:47s (0h:0m:34s left)
+ 451 LG+F+I+G4    579998.981  13.005      GENE_gtdb_PF13656.1.nex+GENE_TIGR01038.nex	0h:0m:47s (0h:0m:34s left)
+ 452 LG+F+I+G4    579977.132  15.165      GENE_TIGR00293.nex+GENE_TIGR00373.nex	0h:0m:47s (0h:0m:34s left)
+ 453 LG+I+G4      579998.769  6.651       GENE_gtdb_PF01200.13.nex+GENE_TIGR01025.nex	0h:0m:47s (0h:0m:34s left)
+ 454 LG+F+I+G4    580006.052  7.147       GENE_TIGR01952.nex+GENE_TIGR03628.nex	0h:0m:47s (0h:0m:34s left)
+ 455 LG+I+G4      580021.882  9.590       GENE_gtdb_PF01984.15.nex+GENE_TIGR03627.nex	0h:0m:47s (0h:0m:34s left)
+ 456 LG+F+I+G4    579994.832  7.378       GENE_gtdb_PF01200.13.nex+GENE_TIGR01046.nex	0h:0m:47s (0h:0m:33s left)
+ 457 LG+F+I+G4    579947.349  11.083      GENE_gtdb_PF01092.14.nex+GENE_TIGR03636.nex	0h:0m:47s (0h:0m:33s left)
+ 458 LG+F+I+G4    579992.258  12.273      GENE_gtdb_PF01655.13.nex+GENE_gtdb_PF13656.1.nex	0h:0m:47s (0h:0m:33s left)
+ 459 LG+F+I+G4    579996.006  10.986      GENE_gtdb_PF01200.13.nex+GENE_OG5172.nex	0h:0m:47s (0h:0m:33s left)
+ 460 LG+F+I+G4    580021.102  9.605       GENE_gtdb_PF01092.14.nex+GENE_gtdb_PF01984.15.nex	0h:0m:47s (0h:0m:33s left)
+32 compatible better partition pairs found
+Merging GENE_gtdb_PF01092.14.nex+GENE_TIGR03636.nex with AIC score: 579947.349 (LnL: -288493.675  df: 1480)
+Merging GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF04919.7.nex with AIC score: 579903.176 (LnL: -288493.588  df: 1458)
+Merging GENE_TIGR00037.nex+GENE_TIGR00448.nex with AIC score: 579862.938 (LnL: -288495.469  df: 1436)
+Merging GENE_TIGR03626.nex+GENE_TIGR03672.nex with AIC score: 579822.893 (LnL: -288497.447  df: 1414)
+Merging GENE_gtdb_PF01015.13.nex+GENE_TIGR01008.nex with AIC score: 579784.841 (LnL: -288499.421  df: 1393)
+Merging GENE_arCOG01228.nex+GENE_TIGR01052.nex with AIC score: 579747.354 (LnL: -288502.677  df: 1371)
+Merging GENE_gtdb_PF07541.7.nex+GENE_TIGR00373.nex with AIC score: 579712.815 (LnL: -288507.408  df: 1349)
+Merging GENE_TIGR01171.nex+GENE_TIGR03673.nex with AIC score: 579680.664 (LnL: -288513.332  df: 1327)
+Merging GENE_gtdb_PF01000.21.nex+GENE_TIGR03653.nex with AIC score: 579648.608 (LnL: -288519.304  df: 1305)
+Merging GENE_OG9906.nex+GENE_TIGR01018.nex with AIC score: 579616.695 (LnL: -288506.347  df: 1302)
+Merging GENE_TIGR00491.nex+GENE_TIGR03676.nex with AIC score: 579585.708 (LnL: -288512.854  df: 1280)
+Merging GENE_gtdb_PF00687.16.nex+GENE_TIGR00405.nex with AIC score: 579555.279 (LnL: -288519.640  df: 1258)
+Merging GENE_OG8696.nex+GENE_TIGR03680.nex with AIC score: 579525.303 (LnL: -288526.651  df: 1236)
+Merging GENE_TIGR00323.nex+GENE_TIGR03671.nex with AIC score: 579496.672 (LnL: -288534.336  df: 1214)
+Merging GENE_TIGR02390.nex+GENE_TIGR03674.nex with AIC score: 579468.285 (LnL: -288542.142  df: 1192)
+Merging GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex with AIC score: 579444.923 (LnL: -288552.461  df: 1170)
+Merging GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01866.12.nex with AIC score: 579421.705 (LnL: -288562.853  df: 1148)
+Merging GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex with AIC score: 579399.492 (LnL: -288554.746  df: 1145)
+Merging GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex with AIC score: 579377.762 (LnL: -288546.881  df: 1142)
+Merging GENE_OG7638.nex+GENE_TIGR01012.nex with AIC score: 579357.666 (LnL: -288558.833  df: 1120)
+Merging GENE_gtdb_PF01655.13.nex+GENE_TIGR01038.nex with AIC score: 579339.111 (LnL: -288571.555  df: 1098)
+Merging GENE_TIGR00064.nex+GENE_TIGR01020.nex with AIC score: 579320.897 (LnL: -288565.449  df: 1095)
+Merging GENE_gtdb_PF01157.13.nex+GENE_TIGR00291.nex with AIC score: 579304.423 (LnL: -288579.211  df: 1073)
+Merging GENE_gtdb_PF01269.12.nex+GENE_TIGR03670.nex with AIC score: 579289.544 (LnL: -288574.772  df: 1070)
+Merging GENE_TIGR02928.nex+GENE_TIGR03665.nex with AIC score: 579275.052 (LnL: -288589.526  df: 1048)
+Merging GENE_TIGR00335.nex+GENE_TIGR01046.nex with AIC score: 579261.980 (LnL: -288585.990  df: 1045)
+Merging GENE_TIGR00483.nex+GENE_TIGR02236.nex with AIC score: 579249.862 (LnL: -288582.931  df: 1042)
+Merging GENE_TIGR02389.nex+GENE_TIGR03627.nex with AIC score: 579240.252 (LnL: -288581.126  df: 1039)
+Merging GENE_arCOG01574.nex+GENE_TIGR02397.nex with AIC score: 579234.441 (LnL: -288581.221  df: 1036)
+Merging GENE_TIGR01025.nex+GENE_TIGR01158.nex with AIC score: 579229.466 (LnL: -288581.733  df: 1033)
+Merging GENE_TIGR02065.nex+GENE_TIGR03722.nex with AIC score: 579228.144 (LnL: -288584.072  df: 1030)
+Merging GENE_TIGR00134.nex+GENE_TIGR03629.nex with AIC score: 579227.185 (LnL: -288586.592  df: 1027)
+ 461 LG+F+I+G4    12.406      GENE_gtdb_PF00900.15.nex+GENE_TIGR02338.nex
+ 462 LG+I+G4      9.587       GENE_gtdb_PF01984.15.nex+GENE_TIGR00279.nex
+ 463 LG+F+I+G4    10.190      GENE_TIGR00279.nex+GENE_TIGR00967.nex
+ 464 LG+F+I+G4    8.610       GENE_gtdb_PF01984.15.nex+GENE_TIGR00967.nex
+ 465 LG+F+I+G4    7.147       GENE_TIGR01952.nex+GENE_TIGR03628.nex
+ 466 LG+F+I+G4    9.713       GENE_TIGR00308.nex+GENE_TIGR00967.nex
+ 467 LG+F+I+G4    11.635      GENE_gtdb_PF01798.13.nex+GENE_TIGR00307.nex
+ 468 LG+F+I+G4    6.960       GENE_TIGR00425.nex+GENE_TIGR01952.nex
+ 469 LG+F+I+G4    10.623      GENE_TIGR00279.nex+GENE_TIGR00308.nex
+ 470 LG+F+I+G4    9.266       GENE_OG5172.nex+GENE_TIGR00982.nex
+ 471 LG+F+I+G4    10.024      GENE_gtdb_PF01984.15.nex+GENE_TIGR00308.nex
+ 472 LG+F+I+G4    579257.547  8.382       GENE_OG5172.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex	0h:0m:48s (0h:0m:31s left)
+ 473 LG+F+I+G4    579260.583  7.344       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex	0h:0m:48s (0h:0m:31s left)
+ 474 LG+F+I+G4    579239.207  10.127      GENE_TIGR00308.nex+GENE_TIGR00335.nex+GENE_TIGR01046.nex	0h:0m:48s (0h:0m:31s left)
+ 475 LG+F+I+G4    579234.578  7.494       GENE_TIGR02065.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03722.nex	0h:0m:48s (0h:0m:31s left)
+ 476 LG+F+I+G4    579271.905  9.850       GENE_TIGR00308.nex+GENE_TIGR00491.nex+GENE_TIGR03676.nex	0h:0m:49s (0h:0m:31s left)
+ 477 LG+F+I+G4    579223.609  10.101      GENE_OG7638.nex+GENE_TIGR00308.nex+GENE_TIGR01012.nex	0h:0m:49s (0h:0m:31s left)
+ 478 LG+F+I+G4    579233.406  9.872       GENE_arCOG01574.nex+GENE_TIGR00308.nex+GENE_TIGR02397.nex	0h:0m:49s (0h:0m:31s left)
+ 479 LG+I+G4      579222.708  7.179       GENE_TIGR01025.nex+GENE_TIGR01158.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex	0h:0m:49s (0h:0m:31s left)
+ 480 LG+F+I+G4    579224.363  11.223      GENE_TIGR00307.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:0m:49s (0h:0m:31s left)
+ 481 LG+F+I+G4    579234.253  8.303       GENE_arCOG01228.nex+GENE_gtdb_PF01984.15.nex+GENE_TIGR01052.nex	0h:0m:50s (0h:0m:31s left)
+ 482 LG+F+I+G4    579270.056  10.053      GENE_OG9906.nex+GENE_TIGR00308.nex+GENE_TIGR01018.nex	0h:0m:50s (0h:0m:31s left)
+ 483 LG+F+I+G4    579224.822  8.734       GENE_arCOG01228.nex+GENE_TIGR01052.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex	0h:0m:50s (0h:0m:31s left)
+ 484 LG+F+I+G4    579258.598  11.763      GENE_gtdb_PF00900.15.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:0m:51s (0h:0m:31s left)
+ 485 LG+F+I+G4    579281.992  11.420      GENE_TIGR02338.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:0m:51s (0h:0m:31s left)
+ 486 LG+F+I+G4    579279.225  8.076       GENE_arCOG01228.nex+GENE_TIGR01052.nex+GENE_TIGR01171.nex+GENE_TIGR03673.nex	0h:0m:51s (0h:0m:31s left)
+ 487 LG+F+I+G4    579212.179  10.977      GENE_gtdb_PF01000.21.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03653.nex	0h:0m:51s (0h:0m:31s left)
+ 488 LG+F+I+G4    579204.370  8.005       GENE_arCOG01228.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01052.nex	0h:0m:52s (0h:0m:31s left)
+ 489 LG+F+I+G4    579243.056  7.901       GENE_arCOG01228.nex+GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR01052.nex	0h:0m:52s (0h:0m:31s left)
+ 490 LG+F+I+G4    579204.143  9.234       GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex	0h:0m:52s (0h:0m:31s left)
+ 491 LG+F+I+G4    579225.038  9.418       GENE_TIGR00335.nex+GENE_TIGR00491.nex+GENE_TIGR01046.nex+GENE_TIGR03676.nex	0h:0m:53s (0h:0m:31s left)
+ 492 LG+F+I+G4    579231.975  9.211       GENE_arCOG01574.nex+GENE_TIGR00335.nex+GENE_TIGR01046.nex+GENE_TIGR02397.nex	0h:0m:53s (0h:0m:31s left)
+ 493 LG+F+I+G4    579208.873  7.771       GENE_arCOG01228.nex+GENE_TIGR01052.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:0m:53s (0h:0m:31s left)
+ 494 LG+F+I+G4    579229.596  9.274       GENE_arCOG01574.nex+GENE_OG7638.nex+GENE_TIGR01012.nex+GENE_TIGR02397.nex	0h:0m:54s (0h:0m:31s left)
+ 495 LG+F+I+G4    579222.428  9.441       GENE_OG7638.nex+GENE_TIGR00491.nex+GENE_TIGR01012.nex+GENE_TIGR03676.nex	0h:0m:54s (0h:0m:31s left)
+ 496 LG+F+I+G4    579206.053  9.393       GENE_arCOG01574.nex+GENE_TIGR00491.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:0m:54s (0h:0m:31s left)
+ 497 LG+F+I+G4    579221.917  10.718      GENE_gtdb_PF01000.21.nex+GENE_TIGR00307.nex+GENE_TIGR03653.nex	0h:0m:54s (0h:0m:31s left)
+ 498 LG+F+I+G4    579264.013  9.548       GENE_gtdb_PF01984.15.nex+GENE_TIGR00335.nex+GENE_TIGR01046.nex	0h:0m:54s (0h:0m:31s left)
+ 499 LG+F+I+G4    579219.190  8.194       GENE_arCOG01228.nex+GENE_TIGR01028.nex+GENE_TIGR01052.nex	0h:0m:55s (0h:0m:31s left)
+ 500 LG+F+I+G4    579268.283  5.847       GENE_TIGR00483.nex+GENE_TIGR01952.nex+GENE_TIGR02236.nex	0h:0m:55s (0h:0m:31s left)
+ 501 LG+F+I+G4    579233.309  10.397      GENE_TIGR00037.nex+GENE_TIGR00307.nex+GENE_TIGR00448.nex	0h:0m:55s (0h:0m:31s left)
+ 502 LG+F+I+G4    579220.856  9.983       GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00307.nex	0h:0m:55s (0h:0m:30s left)
+ 503 LG+F+I+G4    579243.882  11.547      GENE_TIGR00134.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03629.nex	0h:0m:56s (0h:0m:30s left)
+ 504 LG+F+I+G4    579213.703  10.015      GENE_gtdb_PF00687.16.nex+GENE_OG7638.nex+GENE_TIGR00405.nex+GENE_TIGR01012.nex	0h:0m:56s (0h:0m:30s left)
+ 505 LG+F+I+G4    579217.670  9.797       GENE_gtdb_PF00687.16.nex+GENE_TIGR00405.nex+GENE_TIGR00491.nex+GENE_TIGR03676.nex	0h:0m:56s (0h:0m:30s left)
+ 506 LG+F+I+G4    579301.621  9.679       GENE_TIGR00335.nex+GENE_TIGR00967.nex+GENE_TIGR01046.nex	0h:0m:56s (0h:0m:30s left)
+ 507 LG+F+I+G4    579205.405  13.278      GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01866.12.nex+GENE_TIGR00323.nex+GENE_TIGR03671.nex	0h:0m:57s (0h:0m:30s left)
+ 508 LG+F+I+G4    579233.219  11.485      GENE_gtdb_PF01798.13.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:0m:57s (0h:0m:30s left)
+ 509 LG+F+I+G4    579252.923  9.773       GENE_arCOG01574.nex+GENE_gtdb_PF00687.16.nex+GENE_TIGR00405.nex+GENE_TIGR02397.nex	0h:0m:57s (0h:0m:30s left)
+ 510 LG+F+I+G4    579199.747  11.222      GENE_gtdb_PF01092.14.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03636.nex	0h:0m:57s (0h:0m:30s left)
+ 511 LG+F+I+G4    579228.706  10.958      GENE_gtdb_PF01157.13.nex+GENE_TIGR00291.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:0m:57s (0h:0m:30s left)
+ 512 LG+F+I+G4    579262.016  10.254      GENE_gtdb_PF01984.15.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex	0h:0m:58s (0h:0m:30s left)
+ 513 LG+F+I+G4    579236.873  7.999       GENE_arCOG01228.nex+GENE_gtdb_PF01269.12.nex+GENE_TIGR01052.nex+GENE_TIGR03670.nex	0h:0m:58s (0h:0m:30s left)
+ 514 LG+F+I+G4    579242.130  13.994      GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01866.12.nex+GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex	0h:0m:58s (0h:0m:30s left)
+ 515 LG+F+I+G4    579222.053  7.971       GENE_arCOG01228.nex+GENE_OG8696.nex+GENE_TIGR01052.nex+GENE_TIGR03680.nex	0h:0m:58s (0h:0m:30s left)
+ 516 LG+F+I+G4    579252.211  12.202      GENE_gtdb_PF00900.15.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:0m:59s (0h:0m:30s left)
+ 517 LG+F+I+G4    579335.742  9.416       GENE_arCOG01574.nex+GENE_TIGR00967.nex+GENE_TIGR02397.nex	0h:0m:59s (0h:0m:30s left)
+ 518 LG+F+I+G4    579297.596  8.750       GENE_gtdb_PF01984.15.nex+GENE_TIGR01171.nex+GENE_TIGR03673.nex	0h:0m:59s (0h:0m:30s left)
+ 519 LG+F+I+G4    579267.971  9.357       GENE_gtdb_PF01280.15.nex+GENE_TIGR00491.nex+GENE_TIGR03676.nex	0h:0m:59s (0h:0m:30s left)
+ 520 LG+F+I+G4    579238.473  9.365       GENE_gtdb_PF01280.15.nex+GENE_OG7638.nex+GENE_TIGR01012.nex	0h:0m:59s (0h:0m:30s left)
+ 521 LG+F+I+G4    579215.492  11.161      GENE_gtdb_PF01092.14.nex+GENE_TIGR00307.nex+GENE_TIGR03636.nex	0h:1m:0s (0h:0m:30s left)
+ 522 LG+F+I+G4    579238.239  11.964      GENE_TIGR02338.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:1m:0s (0h:0m:30s left)
+ 523 LG+F+I+G4    579208.666  9.303       GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:0s (0h:0m:29s left)
+ 524 LG+F+I+G4    579237.548  10.629      GENE_gtdb_PF01157.13.nex+GENE_TIGR00291.nex+GENE_TIGR00307.nex	0h:1m:0s (0h:0m:29s left)
+ 525 LG+F+I+G4    579199.771  9.657       GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF04919.7.nex+GENE_OG7638.nex+GENE_TIGR01012.nex	0h:1m:1s (0h:0m:29s left)
+ 526 LG+F+I+G4    579200.799  9.574       GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00491.nex+GENE_TIGR03676.nex	0h:1m:1s (0h:0m:29s left)
+ 527 LG+F+I+G4    579230.359  9.423       GENE_TIGR00279.nex+GENE_TIGR00335.nex+GENE_TIGR01046.nex	0h:1m:1s (0h:0m:29s left)
+ 528 LG+F+I+G4    579299.762  9.903       GENE_TIGR00967.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex	0h:1m:1s (0h:0m:29s left)
+ 529 LG+F+I+G4    579212.477  8.997       GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex	0h:1m:1s (0h:0m:29s left)
+ 530 LG+F+I+G4    579299.465  9.062       GENE_TIGR00967.nex+GENE_TIGR01171.nex+GENE_TIGR03673.nex	0h:1m:2s (0h:0m:29s left)
+ 531 LG+F+I+G4    579235.379  9.280       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex	0h:1m:2s (0h:0m:29s left)
+ 532 LG+F+I+G4    579243.993  8.107       GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01171.nex+GENE_TIGR03673.nex	0h:1m:2s (0h:0m:29s left)
+ 533 LG+F+I+G4    579235.169  9.136       GENE_OG9906.nex+GENE_TIGR00335.nex+GENE_TIGR01018.nex+GENE_TIGR01046.nex	0h:1m:2s (0h:0m:29s left)
+ 534 LG+F+I+G4    579239.474  15.204      GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex+GENE_TIGR00293.nex	0h:1m:2s (0h:0m:29s left)
+ 535 LG+F+I+G4    579254.409  10.152      GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01280.15.nex+GENE_TIGR00405.nex	0h:1m:3s (0h:0m:29s left)
+ 536 LG+F+I+G4    579239.195  11.983      GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:1m:3s (0h:0m:29s left)
+ 537 LG+F+I+G4    579259.344  9.274       GENE_arCOG01574.nex+GENE_TIGR00279.nex+GENE_TIGR02397.nex	0h:1m:3s (0h:0m:28s left)
+ 538 LG+F+I+G4    579212.932  9.294       GENE_OG7638.nex+GENE_OG9906.nex+GENE_TIGR01012.nex+GENE_TIGR01018.nex	0h:1m:4s (0h:0m:28s left)
+ 539 LG+F+I+G4    579270.953  11.953      GENE_gtdb_PF01655.13.nex+GENE_TIGR01038.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:1m:4s (0h:0m:28s left)
+ 540 LG+F+I+G4    579206.621  9.396       GENE_OG9906.nex+GENE_TIGR00491.nex+GENE_TIGR01018.nex+GENE_TIGR03676.nex	0h:1m:4s (0h:0m:28s left)
+ 541 LG+F+I+G4    579219.834  10.324      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00405.nex	0h:1m:4s (0h:0m:28s left)
+ 542 LG+F+I+G4    579238.772  9.198       GENE_arCOG01574.nex+GENE_OG9906.nex+GENE_TIGR01018.nex+GENE_TIGR02397.nex	0h:1m:4s (0h:0m:28s left)
+ 543 LG+F+I+G4    579221.678  9.667       GENE_TIGR01028.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex	0h:1m:4s (0h:0m:28s left)
+ 544 LG+F+I+G4    579209.926  10.637      GENE_gtdb_PF01000.21.nex+GENE_TIGR00037.nex+GENE_TIGR00448.nex+GENE_TIGR03653.nex	0h:1m:5s (0h:0m:28s left)
+ 545 LG+F+I+G4    579246.847  7.778       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex	0h:1m:5s (0h:0m:28s left)
+ 546 LG+F+I+G4    579294.192  11.954      GENE_gtdb_PF00900.15.nex+GENE_TIGR00134.nex+GENE_TIGR03629.nex	0h:1m:5s (0h:0m:28s left)
+ 547 LG+F+I+G4    579263.356  12.327      GENE_gtdb_PF04104.9.nex+GENE_TIGR00307.nex+GENE_TIGR00522.nex	0h:1m:5s (0h:0m:28s left)
+ 548 LG+F+I+G4    579239.476  8.503       GENE_TIGR01028.nex+GENE_TIGR01171.nex+GENE_TIGR03673.nex	0h:1m:6s (0h:0m:28s left)
+ 549 LG+F+I+G4    579216.464  10.033      GENE_TIGR00279.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex	0h:1m:6s (0h:0m:28s left)
+ 550 LG+F+I+G4    579204.711  7.670       GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:1m:6s (0h:0m:27s left)
+ 551 LG+F+I+G4    579245.961  7.533       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:1m:7s (0h:0m:28s left)
+ 552 LG+F+I+G4    579291.682  11.819      GENE_TIGR00134.nex+GENE_TIGR02338.nex+GENE_TIGR03629.nex	0h:1m:7s (0h:0m:27s left)
+ 553 LG+F+I+G4    579212.383  8.883       GENE_TIGR00279.nex+GENE_TIGR01171.nex+GENE_TIGR03673.nex	0h:1m:7s (0h:0m:27s left)
+ 554 LG+F+I+G4    579222.008  12.001      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR03636.nex	0h:1m:7s (0h:0m:27s left)
+ 555 LG+F+I+G4    579232.472  11.764      GENE_TIGR00134.nex+GENE_TIGR02928.nex+GENE_TIGR03629.nex+GENE_TIGR03665.nex	0h:1m:7s (0h:0m:27s left)
+ 556 LG+F+I+G4    579258.623  9.728       GENE_gtdb_PF01280.15.nex+GENE_TIGR00037.nex+GENE_TIGR00448.nex	0h:1m:7s (0h:0m:27s left)
+ 557 LG+F+I+G4    579248.960  9.655       GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01280.15.nex+GENE_gtdb_PF04919.7.nex	0h:1m:8s (0h:0m:27s left)
+ 558 LG+F+I+G4    579251.339  11.470      GENE_gtdb_PF01092.14.nex+GENE_TIGR02338.nex+GENE_TIGR03636.nex	0h:1m:8s (0h:0m:27s left)
+ 559 LG+F+I+G4    579225.775  12.567      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex	0h:1m:8s (0h:0m:27s left)
+ 560 LG+F+I+G4    579220.087  10.122      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00037.nex+GENE_TIGR00448.nex	0h:1m:8s (0h:0m:27s left)
+ 561 LG+F+I+G4    579226.840  12.648      GENE_gtdb_PF01015.13.nex+GENE_TIGR00323.nex+GENE_TIGR01008.nex+GENE_TIGR03671.nex	0h:1m:8s (0h:0m:26s left)
+ 562 LG+F+I+G4    579235.717  9.967       GENE_gtdb_PF00687.16.nex+GENE_OG9906.nex+GENE_TIGR00405.nex+GENE_TIGR01018.nex	0h:1m:8s (0h:0m:26s left)
+ 563 LG+F+I+G4    579232.148  8.098       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR01028.nex	0h:1m:9s (0h:0m:26s left)
+ 564 LG+F+I+G4    579226.089  8.190       GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01028.nex	0h:1m:9s (0h:0m:26s left)
+ 565 LG+F+I+G4    579248.409  12.379      GENE_gtdb_PF01655.13.nex+GENE_TIGR00323.nex+GENE_TIGR01038.nex+GENE_TIGR03671.nex	0h:1m:9s (0h:0m:26s left)
+ 566 LG+F+I+G4    579260.423  11.225      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01798.13.nex+GENE_TIGR03653.nex	0h:1m:9s (0h:0m:26s left)
+ 567 LG+F+I+G4    579217.310  7.738       GENE_TIGR01028.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:1m:10s (0h:0m:26s left)
+ 568 LG+F+I+G4    579180.820  10.813      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:10s (0h:0m:26s left)
+ 569 LG+F+I+G4    579211.696  10.691      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01157.13.nex+GENE_TIGR00291.nex+GENE_TIGR03653.nex	0h:1m:10s (0h:0m:26s left)
+ 570 LG+F+I+G4    579238.874  9.617       GENE_OG5172.nex+GENE_TIGR01025.nex+GENE_TIGR01158.nex	0h:1m:10s (0h:0m:26s left)
+ 571 LG+F+I+G4    579252.317  8.634       GENE_gtdb_PF01269.12.nex+GENE_TIGR03626.nex+GENE_TIGR03670.nex+GENE_TIGR03672.nex	0h:1m:11s (0h:0m:26s left)
+ 572 LG+F+I+G4    579347.168  9.521       GENE_OG9906.nex+GENE_TIGR00967.nex+GENE_TIGR01018.nex	0h:1m:11s (0h:0m:25s left)
+ 573 LG+F+I+G4    579216.574  8.848       GENE_OG8696.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03680.nex	0h:1m:11s (0h:0m:25s left)
+ 574 LG+F+I+G4    579239.491  7.691       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR01025.nex+GENE_TIGR01158.nex	0h:1m:11s (0h:0m:25s left)
+ 575 LG+F+I+G4    579271.148  8.018       GENE_gtdb_PF01269.12.nex+GENE_TIGR01171.nex+GENE_TIGR03670.nex+GENE_TIGR03673.nex	0h:1m:11s (0h:0m:25s left)
+ 576 LG+F+I+G4    579260.178  11.878      GENE_gtdb_PF01655.13.nex+GENE_TIGR00134.nex+GENE_TIGR01038.nex+GENE_TIGR03629.nex	0h:1m:12s (0h:0m:25s left)
+ 577 LG+F+I+G4    579276.278  11.019      GENE_gtdb_PF01798.13.nex+GENE_TIGR00037.nex+GENE_TIGR00448.nex	0h:1m:12s (0h:0m:25s left)
+ 578 LG+F+I+G4    579247.045  8.049       GENE_OG8696.nex+GENE_TIGR01171.nex+GENE_TIGR03673.nex+GENE_TIGR03680.nex	0h:1m:12s (0h:0m:25s left)
+ 579 LG+F+I+G4    579200.650  7.600       GENE_TIGR01025.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:1m:12s (0h:0m:25s left)
+ 580 LG+F+I+G4    579222.739  10.440      GENE_gtdb_PF01157.13.nex+GENE_TIGR00037.nex+GENE_TIGR00291.nex+GENE_TIGR00448.nex	0h:1m:13s (0h:0m:25s left)
+ 581 LG+F+I+G4    579233.319  12.709      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex	0h:1m:13s (0h:0m:25s left)
+ 582 LG+F+I+G4    579198.524  10.287      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00291.nex	0h:1m:13s (0h:0m:25s left)
+ 583 LG+F+I+G4    579260.864  7.437       GENE_gtdb_PF01090.14.nex+GENE_TIGR01213.nex	0h:1m:13s (0h:0m:25s left)
+ 584 LG+F+I+G4    579224.438  5.511       GENE_TIGR00483.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex	0h:1m:13s (0h:0m:24s left)
+ 585 LG+F+I+G4    579227.517  7.941       GENE_gtdb_PF01269.12.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR03670.nex	0h:1m:14s (0h:0m:24s left)
+ 586 LG+F+I+G4    579254.419  7.818       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_gtdb_PF01269.12.nex+GENE_TIGR03670.nex	0h:1m:14s (0h:0m:24s left)
+ 587 LG+F+I+G4    579206.568  7.898       GENE_OG8696.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR03680.nex	0h:1m:14s (0h:0m:24s left)
+ 588 LG+F+I+G4    579274.495  10.883      GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02338.nex	0h:1m:14s (0h:0m:24s left)
+ 589 LG+F+I+G4    579206.523  7.733       GENE_gtdb_PF01269.12.nex+GENE_TIGR02390.nex+GENE_TIGR03670.nex+GENE_TIGR03674.nex	0h:1m:15s (0h:0m:24s left)
+ 590 LG+F+I+G4    579258.729  7.765       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_OG8696.nex+GENE_TIGR03680.nex	0h:1m:15s (0h:0m:24s left)
+ 591 LG+F+I+G4    579248.167  9.508       GENE_OG9906.nex+GENE_TIGR00279.nex+GENE_TIGR01018.nex	0h:1m:15s (0h:0m:24s left)
+ 592 LG+F+I+G4    579234.018  7.899       GENE_TIGR00425.nex+GENE_TIGR00982.nex	0h:1m:15s (0h:0m:24s left)
+ 593 LG+F+I+G4    579236.194  11.861      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR03653.nex	0h:1m:15s (0h:0m:24s left)
+ 594 LG+F+I+G4    579245.209  11.513      GENE_gtdb_PF01092.14.nex+GENE_gtdb_PF01798.13.nex+GENE_TIGR03636.nex	0h:1m:15s (0h:0m:23s left)
+ 595 LG+F+I+G4    579229.915  7.654       GENE_OG8696.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03680.nex	0h:1m:16s (0h:0m:23s left)
+ 596 LG+F+I+G4    579248.370  11.045      GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF01798.13.nex+GENE_TIGR00291.nex	0h:1m:16s (0h:0m:23s left)
+ 597 LG+F+I+G4    579208.016  10.744      GENE_gtdb_PF01092.14.nex+GENE_gtdb_PF01157.13.nex+GENE_TIGR00291.nex+GENE_TIGR03636.nex	0h:1m:16s (0h:0m:23s left)
+ 598 LG+F+I+G4    579224.928  8.100       GENE_gtdb_PF01269.12.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex	0h:1m:16s (0h:0m:23s left)
+ 599 LG+F+I+G4    579238.791  8.115       GENE_OG8696.nex+GENE_TIGR01028.nex+GENE_TIGR03680.nex	0h:1m:16s (0h:0m:23s left)
+ 600 LG+F+I+G4    579203.022  7.848       GENE_OG8696.nex+GENE_TIGR01025.nex+GENE_TIGR01158.nex+GENE_TIGR03680.nex	0h:1m:17s (0h:0m:23s left)
+ 601 LG+F+I+G4    579215.737  12.455      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex	0h:1m:17s (0h:0m:23s left)
+ 602 LG+F+I+G4    579223.892  12.198      GENE_gtdb_PF01092.14.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR03636.nex	0h:1m:17s (0h:0m:23s left)
+ 603 LG+F+I+G4    579246.030  7.922       GENE_gtdb_PF01269.12.nex+GENE_OG8696.nex+GENE_TIGR03670.nex+GENE_TIGR03680.nex	0h:1m:17s (0h:0m:22s left)
+ 604 LG+F+I+G4    579239.606  11.596      GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00291.nex+GENE_TIGR00522.nex	0h:1m:17s (0h:0m:22s left)
+13 compatible better partition pairs found
+Merging GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex with AIC score: 579180.820 (LnL: -288585.410  df: 1005)
+Merging GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00291.nex with AIC score: 579152.159 (LnL: -288593.080  df: 983)
+Merging GENE_TIGR01025.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex with AIC score: 579125.625 (LnL: -288582.813  df: 980)
+Merging GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex with AIC score: 579102.583 (LnL: -288593.292  df: 958)
+Merging GENE_arCOG01228.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01052.nex with AIC score: 579079.769 (LnL: -288603.884  df: 936)
+Merging GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01866.12.nex+GENE_TIGR00323.nex+GENE_TIGR03671.nex with AIC score: 579057.989 (LnL: -288614.994  df: 914)
+Merging GENE_arCOG01574.nex+GENE_TIGR00491.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex with AIC score: 579036.857 (LnL: -288626.429  df: 892)
+Merging GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex with AIC score: 579018.339 (LnL: -288639.169  df: 870)
+Merging GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex with AIC score: 579006.891 (LnL: -288655.445  df: 848)
+Merging GENE_TIGR00307.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex with AIC score: 579004.069 (LnL: -288676.035  df: 826)
+Merging GENE_TIGR00483.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex with AIC score: 579001.322 (LnL: -288677.661  df: 823)
+Merging GENE_gtdb_PF01269.12.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex with AIC score: 578999.065 (LnL: -288679.533  df: 820)
+Merging GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex with AIC score: 578997.656 (LnL: -288700.828  df: 798)
+ 605 LG+F+I+G4    12.406      GENE_gtdb_PF00900.15.nex+GENE_TIGR02338.nex
+ 606 LG+F+I+G4    11.764      GENE_TIGR00134.nex+GENE_TIGR02928.nex+GENE_TIGR03629.nex+GENE_TIGR03665.nex
+ 607 LG+I+G4      9.587       GENE_gtdb_PF01984.15.nex+GENE_TIGR00279.nex
+ 608 LG+F+I+G4    10.152      GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01280.15.nex+GENE_TIGR00405.nex
+ 609 LG+F+I+G4    10.190      GENE_TIGR00279.nex+GENE_TIGR00967.nex
+ 610 LG+F+I+G4    8.382       GENE_OG5172.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex
+ 611 LG+F+I+G4    11.819      GENE_TIGR00134.nex+GENE_TIGR02338.nex+GENE_TIGR03629.nex
+ 612 LG+F+I+G4    11.954      GENE_gtdb_PF00900.15.nex+GENE_TIGR00134.nex+GENE_TIGR03629.nex
+ 613 LG+F+I+G4    10.053      GENE_OG9906.nex+GENE_TIGR00308.nex+GENE_TIGR01018.nex
+ 614 LG+F+I+G4    8.610       GENE_gtdb_PF01984.15.nex+GENE_TIGR00967.nex
+ 615 LG+F+I+G4    15.204      GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex+GENE_TIGR00293.nex
+ 616 LG+F+I+G4    11.964      GENE_TIGR02338.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex
+ 617 LG+F+I+G4    12.202      GENE_gtdb_PF00900.15.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex
+ 618 LG+F+I+G4    7.765       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_OG8696.nex+GENE_TIGR03680.nex
+ 619 LG+F+I+G4    9.713       GENE_TIGR00308.nex+GENE_TIGR00967.nex
+ 620 LG+F+I+G4    6.960       GENE_TIGR00425.nex+GENE_TIGR01952.nex
+ 621 LG+F+I+G4    10.623      GENE_TIGR00279.nex+GENE_TIGR00308.nex
+ 622 LG+F+I+G4    9.266       GENE_OG5172.nex+GENE_TIGR00982.nex
+ 623 LG+F+I+G4    9.521       GENE_OG9906.nex+GENE_TIGR00967.nex+GENE_TIGR01018.nex
+ 624 LG+F+I+G4    10.024      GENE_gtdb_PF01984.15.nex+GENE_TIGR00308.nex
+ 625 LG+F+I+G4    9.967       GENE_gtdb_PF00687.16.nex+GENE_OG9906.nex+GENE_TIGR00405.nex+GENE_TIGR01018.nex
+ 626 LG+F+I+G4    7.437       GENE_gtdb_PF01090.14.nex+GENE_TIGR01213.nex
+ 627 LG+F+I+G4    9.728       GENE_gtdb_PF01280.15.nex+GENE_TIGR00037.nex+GENE_TIGR00448.nex
+ 628 LG+F+I+G4    7.344       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex
+ 629 LG+F+I+G4    9.508       GENE_OG9906.nex+GENE_TIGR00279.nex+GENE_TIGR01018.nex
+ 630 LG+F+I+G4    7.899       GENE_TIGR00425.nex+GENE_TIGR00982.nex
+ 631 LG+F+I+G4    579016.848  7.570       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR01025.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:1m:19s (0h:0m:18s left)
+ 632 LG+F+I+G4    579004.345  7.526       GENE_TIGR01025.nex+GENE_TIGR01158.nex+GENE_TIGR02065.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03722.nex	0h:1m:19s (0h:0m:18s left)
+ 633 LG+F+I+G4    578971.811  7.792       GENE_arCOG01228.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:1m:20s (0h:0m:18s left)
+ 634 LG+F+I+G4    578994.327  7.665       GENE_OG8696.nex+GENE_TIGR01025.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03680.nex	0h:1m:20s (0h:0m:18s left)
+ 635 LG+F+I+G4    578977.660  7.815       GENE_gtdb_PF01269.12.nex+GENE_TIGR01025.nex+GENE_TIGR01028.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03670.nex+GENE_TIGR03674.nex	0h:1m:20s (0h:0m:18s left)
+ 636 LG+F+I+G4    579002.764  8.049       GENE_OG5172.nex+GENE_TIGR01025.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:1m:21s (0h:0m:18s left)
+ 637 LG+F+I+G4    579020.646  7.906       GENE_arCOG01228.nex+GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01052.nex	0h:1m:21s (0h:0m:18s left)
+ 638 LG+F+I+G4    579015.538  8.173       GENE_arCOG01228.nex+GENE_gtdb_PF01984.15.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01052.nex	0h:1m:22s (0h:0m:18s left)
+ 639 LG+F+I+G4    579145.297  9.427       GENE_arCOG01574.nex+GENE_TIGR00491.nex+GENE_TIGR00967.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:1m:22s (0h:0m:18s left)
+ 640 LG+F+I+G4    579052.609  12.849      GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_gtdb_PF01866.12.nex+GENE_TIGR00323.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR03671.nex	0h:1m:23s (0h:0m:18s left)
+ 641 LG+F+I+G4    579010.104  8.050       GENE_arCOG01228.nex+GENE_gtdb_PF01269.12.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01028.nex+GENE_TIGR01052.nex+GENE_TIGR03670.nex	0h:1m:24s (0h:0m:18s left)
+ 642 LG+F+I+G4    578989.872  7.956       GENE_arCOG01228.nex+GENE_OG8696.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01052.nex+GENE_TIGR03680.nex	0h:1m:24s (0h:0m:18s left)
+ 643 LG+F+I+G4    579017.705  7.051       GENE_TIGR00982.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex	0h:1m:25s (0h:0m:18s left)
+ 644 LG+F+I+G4    579005.289  9.632       GENE_arCOG01574.nex+GENE_gtdb_PF00687.16.nex+GENE_TIGR00405.nex+GENE_TIGR00491.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:1m:25s (0h:0m:18s left)
+ 645 LG+F+I+G4    579033.933  9.662       GENE_arCOG01574.nex+GENE_TIGR00308.nex+GENE_TIGR00491.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:1m:25s (0h:0m:18s left)
+ 646 LG+F+I+G4    579062.941  11.322      GENE_TIGR00307.nex+GENE_TIGR02338.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:1m:25s (0h:0m:17s left)
+ 647 LG+F+I+G4    579058.979  12.019      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR00134.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR03629.nex	0h:1m:26s (0h:0m:17s left)
+ 648 LG+F+I+G4    579030.050  11.481      GENE_TIGR00134.nex+GENE_TIGR00307.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03629.nex	0h:1m:26s (0h:0m:17s left)
+ 649 LG+F+I+G4    579094.699  9.339       GENE_TIGR00967.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:27s (0h:0m:17s left)
+ 650 LG+F+I+G4    578997.758  10.563      GENE_gtdb_PF00687.16.nex+GENE_TIGR00037.nex+GENE_TIGR00405.nex+GENE_TIGR00448.nex	0h:1m:27s (0h:0m:17s left)
+ 651 LG+F+I+G4    579028.418  11.678      GENE_gtdb_PF00900.15.nex+GENE_TIGR00307.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:1m:28s (0h:0m:17s left)
+ 652 LG+F+I+G4    579003.775  12.943      GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF01866.12.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00323.nex+GENE_TIGR00522.nex+GENE_TIGR03671.nex	0h:1m:28s (0h:0m:17s left)
+ 653 LG+F+I+G4    579098.079  9.271       GENE_arCOG01574.nex+GENE_TIGR00491.nex+GENE_TIGR01171.nex+GENE_TIGR02397.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex+GENE_TIGR03676.nex	0h:1m:28s (0h:0m:17s left)
+ 654 LG+F+I+G4    578983.525  10.677      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR00037.nex+GENE_TIGR00448.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:29s (0h:0m:17s left)
+ 655 LG+F+I+G4    578978.600  10.409      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00291.nex+GENE_TIGR00405.nex	0h:1m:29s (0h:0m:17s left)
+ 656 LG+F+I+G4    578992.450  9.349       GENE_arCOG01574.nex+GENE_OG9906.nex+GENE_TIGR00491.nex+GENE_TIGR01018.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:1m:29s (0h:0m:17s left)
+ 657 LG+F+I+G4    579054.803  9.309       GENE_arCOG01574.nex+GENE_gtdb_PF01280.15.nex+GENE_TIGR00491.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:1m:30s (0h:0m:17s left)
+ 658 LG+F+I+G4    579031.176  12.203      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:1m:30s (0h:0m:16s left)
+ 659 LG+F+I+G4    578988.067  10.977      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR00307.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:30s (0h:0m:16s left)
+ 660 LG+F+I+G4    578985.455  10.510      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00291.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:31s (0h:0m:16s left)
+ 661 LG+F+I+G4    579028.674  9.620       GENE_gtdb_PF00687.16.nex+GENE_TIGR00405.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:31s (0h:0m:16s left)
+ 662 LG+F+I+G4    579023.972  11.596      GENE_TIGR00307.nex+GENE_TIGR02389.nex+GENE_TIGR02928.nex+GENE_TIGR03627.nex+GENE_TIGR03665.nex	0h:1m:31s (0h:0m:16s left)
+ 663 LG+F+I+G4    579039.925  12.293      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02338.nex	0h:1m:31s (0h:0m:16s left)
+ 664 LG+F+I+G4    578998.620  10.267      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00037.nex+GENE_TIGR00291.nex+GENE_TIGR00448.nex	0h:1m:32s (0h:0m:16s left)
+ 665 LG+F+I+G4    579045.680  9.686       GENE_TIGR00308.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:32s (0h:0m:16s left)
+ 666 LG+F+I+G4    579011.053  12.018      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00134.nex+GENE_TIGR00522.nex+GENE_TIGR03629.nex	0h:1m:32s (0h:0m:16s left)
+ 667 LG+F+I+G4    579022.314  12.475      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex	0h:1m:32s (0h:0m:15s left)
+ 668 LG+F+I+G4    579103.983  9.415       GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR00967.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex	0h:1m:33s (0h:0m:15s left)
+ 669 LG+F+I+G4    579020.261  7.960       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_gtdb_PF01269.12.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex	0h:1m:33s (0h:0m:15s left)
+ 670 LG+F+I+G4    579027.462  8.299       GENE_gtdb_PF01269.12.nex+GENE_gtdb_PF01984.15.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex	0h:1m:34s (0h:0m:15s left)
+ 671 LG+F+I+G4    579018.995  9.353       GENE_arCOG01574.nex+GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR00491.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:1m:34s (0h:0m:15s left)
+ 672 LG+F+I+G4    579009.308  9.235       GENE_OG9906.nex+GENE_TIGR01018.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:34s (0h:0m:15s left)
+ 673 LG+F+I+G4    578976.826  12.205      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:1m:35s (0h:0m:15s left)
+ 674 LG+F+I+G4    579022.813  10.059      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF01280.15.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00291.nex	0h:1m:35s (0h:0m:15s left)
+ 675 LG+F+I+G4    579028.049  9.286       GENE_gtdb_PF01280.15.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:35s (0h:0m:15s left)
+ 676 LG+F+I+G4    579013.355  6.195       GENE_TIGR00425.nex+GENE_TIGR00483.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex	0h:1m:36s (0h:0m:14s left)
+ 677 LG+F+I+G4    579025.256  12.369      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex	0h:1m:36s (0h:0m:14s left)
+ 678 LG+F+I+G4    578978.385  9.348       GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR01018.nex	0h:1m:36s (0h:0m:14s left)
+ 679 LG+F+I+G4    579003.707  9.743       GENE_gtdb_PF00687.16.nex+GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR00405.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex	0h:1m:36s (0h:0m:14s left)
+ 680 LG+F+I+G4    579033.439  6.003       GENE_TIGR00483.nex+GENE_TIGR01952.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex	0h:1m:37s (0h:0m:14s left)
+ 681 LG+F+I+G4    579008.299  9.796       GENE_OG7638.nex+GENE_TIGR00308.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex	0h:1m:37s (0h:0m:14s left)
+ 682 LG+F+I+G4    578984.541  9.400       GENE_TIGR00279.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:37s (0h:0m:14s left)
+ 683 LG+F+I+G4    579007.956  8.317       GENE_gtdb_PF01269.12.nex+GENE_TIGR00279.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex	0h:1m:38s (0h:0m:14s left)
+ 684 LG+F+I+G4    579018.582  8.019       GENE_gtdb_PF01269.12.nex+GENE_OG8696.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex+GENE_TIGR03680.nex	0h:1m:38s (0h:0m:13s left)
+ 685 LG+F+I+G4    579019.058  9.244       GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:38s (0h:0m:13s left)
+ 686 LG+F+I+G4    578997.747  9.210       GENE_OG7638.nex+GENE_OG9906.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01018.nex+GENE_TIGR01046.nex	0h:1m:39s (0h:0m:13s left)
+ 687 LG+F+I+G4    579024.367  9.190       GENE_gtdb_PF01280.15.nex+GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex	0h:1m:39s (0h:0m:13s left)
+ 688 LG+F+I+G4    579007.035  9.377       GENE_OG7638.nex+GENE_TIGR00279.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex	0h:1m:39s (0h:0m:13s left)
+6 compatible better partition pairs found
+Merging GENE_arCOG01228.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex with AIC score: 578971.811 (LnL: -288709.905  df: 776)
+Merging GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex with AIC score: 578950.981 (LnL: -288721.490  df: 754)
+Merging GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR01018.nex with AIC score: 578931.711 (LnL: -288733.855  df: 732)
+Merging GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00291.nex+GENE_TIGR00405.nex with AIC score: 578912.655 (LnL: -288746.327  df: 710)
+Merging GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR00037.nex+GENE_TIGR00448.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex with AIC score: 578898.524 (LnL: -288761.262  df: 688)
+Merging GENE_TIGR00279.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex with AIC score: 578885.410 (LnL: -288757.705  df: 685)
+ 689 LG+F+I+G4    12.406      GENE_gtdb_PF00900.15.nex+GENE_TIGR02338.nex
+ 690 LG+F+I+G4    6.003       GENE_TIGR00483.nex+GENE_TIGR01952.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex
+ 691 LG+F+I+G4    9.796       GENE_OG7638.nex+GENE_TIGR00308.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex
+ 692 LG+F+I+G4    8.382       GENE_OG5172.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex
+ 693 LG+F+I+G4    11.819      GENE_TIGR00134.nex+GENE_TIGR02338.nex+GENE_TIGR03629.nex
+ 694 LG+F+I+G4    9.353       GENE_arCOG01574.nex+GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR00491.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex
+ 695 LG+F+I+G4    11.954      GENE_gtdb_PF00900.15.nex+GENE_TIGR00134.nex+GENE_TIGR03629.nex
+ 696 LG+F+I+G4    8.610       GENE_gtdb_PF01984.15.nex+GENE_TIGR00967.nex
+ 697 LG+F+I+G4    8.019       GENE_gtdb_PF01269.12.nex+GENE_OG8696.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex+GENE_TIGR03680.nex
+ 698 LG+F+I+G4    15.204      GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex+GENE_TIGR00293.nex
+ 699 LG+F+I+G4    7.765       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_OG8696.nex+GENE_TIGR03680.nex
+ 700 LG+F+I+G4    9.662       GENE_arCOG01574.nex+GENE_TIGR00308.nex+GENE_TIGR00491.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex
+ 701 LG+F+I+G4    9.713       GENE_TIGR00308.nex+GENE_TIGR00967.nex
+ 702 LG+F+I+G4    6.960       GENE_TIGR00425.nex+GENE_TIGR01952.nex
+ 703 LG+F+I+G4    6.195       GENE_TIGR00425.nex+GENE_TIGR00483.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex
+ 704 LG+F+I+G4    7.960       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_gtdb_PF01269.12.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex
+ 705 LG+F+I+G4    9.415       GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR00967.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex
+ 706 LG+F+I+G4    9.266       GENE_OG5172.nex+GENE_TIGR00982.nex
+ 707 LG+F+I+G4    10.024      GENE_gtdb_PF01984.15.nex+GENE_TIGR00308.nex
+ 708 LG+F+I+G4    8.299       GENE_gtdb_PF01269.12.nex+GENE_gtdb_PF01984.15.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex
+ 709 LG+F+I+G4    11.678      GENE_gtdb_PF00900.15.nex+GENE_TIGR00307.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex
+ 710 LG+F+I+G4    11.322      GENE_TIGR00307.nex+GENE_TIGR02338.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex
+ 711 LG+F+I+G4    7.437       GENE_gtdb_PF01090.14.nex+GENE_TIGR01213.nex
+ 712 LG+F+I+G4    7.344       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex
+ 713 LG+F+I+G4    7.899       GENE_TIGR00425.nex+GENE_TIGR00982.nex
+ 714 LG+F+I+G4    7.051       GENE_TIGR00982.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex
+ 715 LG+F+I+G4    9.427       GENE_arCOG01574.nex+GENE_TIGR00491.nex+GENE_TIGR00967.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex
+ 716 LG+F+I+G4    11.481      GENE_TIGR00134.nex+GENE_TIGR00307.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03629.nex
+ 717 LG+F+I+G4    12.019      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR00134.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR03629.nex
+ 718 LG+F+I+G4    12.849      GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_gtdb_PF01866.12.nex+GENE_TIGR00323.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR03671.nex
+ 719 LG+F+I+G4    578961.190  12.451      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR02338.nex	0h:1m:39s (0h:0m:8s left)
+ 720 LG+F+I+G4    578914.438  12.149      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02338.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:1m:40s (0h:0m:8s left)
+ 721 LG+F+I+G4    578894.263  7.721       GENE_arCOG01228.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02065.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03722.nex	0h:1m:41s (0h:0m:8s left)
+ 722 LG+F+I+G4    578873.091  10.831      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR00037.nex+GENE_TIGR00307.nex+GENE_TIGR00448.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:41s (0h:0m:8s left)
+ 723 LG+F+I+G4    578910.273  7.755       GENE_arCOG01228.nex+GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex	0h:1m:42s (0h:0m:8s left)
+ 724 LG+F+I+G4    578885.450  9.405       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_OG5172.nex	0h:1m:42s (0h:0m:8s left)
+ 725 LG+F+I+G4    578899.556  10.567      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00291.nex+GENE_TIGR00307.nex+GENE_TIGR00405.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex	0h:1m:43s (0h:0m:7s left)
+ 726 LG+F+I+G4    578888.134  7.877       GENE_arCOG01228.nex+GENE_gtdb_PF01269.12.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01028.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03670.nex+GENE_TIGR03674.nex	0h:1m:44s (0h:0m:7s left)
+ 727 LG+F+I+G4    578893.997  10.512      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00037.nex+GENE_TIGR00291.nex+GENE_TIGR00405.nex+GENE_TIGR00448.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:45s (0h:0m:7s left)
+ 728 LG+F+I+G4    578882.784  7.794       GENE_arCOG01228.nex+GENE_OG8696.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03680.nex	0h:1m:45s (0h:0m:7s left)
+ 729 LG+F+I+G4    578886.819  12.573      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex	0h:1m:45s (0h:0m:7s left)
+ 730 LG+F+I+G4    579000.601  9.294       GENE_arCOG01574.nex+GENE_TIGR00279.nex+GENE_TIGR00491.nex+GENE_TIGR01171.nex+GENE_TIGR02397.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex+GENE_TIGR03676.nex	0h:1m:46s (0h:0m:7s left)
+ 731 LG+F+I+G4    578944.087  9.279       GENE_arCOG01574.nex+GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR00491.nex+GENE_TIGR01018.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:1m:47s (0h:0m:7s left)
+ 732 LG+F+I+G4    578985.959  9.395       GENE_TIGR00279.nex+GENE_TIGR00967.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:47s (0h:0m:7s left)
+ 733 LG+F+I+G4    579051.516  9.224       GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR00967.nex+GENE_TIGR01018.nex	0h:1m:47s (0h:0m:7s left)
+ 734 LG+F+I+G4    578847.385  16.321      GENE_gtdb_PF03874.11.nex+GENE_gtdb_PF07541.7.nex+GENE_TIGR00373.nex	0h:1m:48s (0h:0m:6s left)
+ 735 LG+F+I+G4    578917.617  12.275      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:1m:48s (0h:0m:6s left)
+ 736 LG+F+I+G4    578934.275  12.246      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:1m:48s (0h:0m:6s left)
+ 737 LG+F+I+G4    578988.676  8.489       GENE_gtdb_PF01269.12.nex+GENE_TIGR00967.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex	0h:1m:49s (0h:0m:6s left)
+ 738 LG+F+I+G4    578946.455  9.312       GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR00279.nex+GENE_TIGR01018.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:49s (0h:0m:6s left)
+ 739 LG+F+I+G4    578913.146  9.308       GENE_OG7638.nex+GENE_TIGR00279.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:49s (0h:0m:6s left)
+ 740 LG+F+I+G4    578900.599  9.671       GENE_gtdb_PF01280.15.nex+GENE_gtdb_PF01984.15.nex+GENE_OG9906.nex+GENE_TIGR01018.nex	0h:1m:50s (0h:0m:6s left)
+ 741 LG+F+I+G4    578932.543  9.707       GENE_TIGR00279.nex+GENE_TIGR00308.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:1m:50s (0h:0m:5s left)
+ 742 LG+F+I+G4    578966.089  9.822       GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR00308.nex+GENE_TIGR01018.nex	0h:1m:51s (0h:0m:5s left)
+ 743 LG+F+I+G4    578905.844  11.969      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00134.nex+GENE_TIGR00522.nex+GENE_TIGR02928.nex+GENE_TIGR03629.nex+GENE_TIGR03665.nex	0h:1m:51s (0h:0m:5s left)
+ 744 LG+F+I+G4    578918.078  9.192       GENE_gtdb_PF01280.15.nex+GENE_OG7638.nex+GENE_OG9906.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01018.nex+GENE_TIGR01046.nex	0h:1m:51s (0h:0m:5s left)
+ 745 LG+F+I+G4    578920.332  9.412       GENE_gtdb_PF01984.15.nex+GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex	0h:1m:51s (0h:0m:5s left)
+ 746 LG+F+I+G4    578928.336  8.272       GENE_gtdb_PF01984.15.nex+GENE_OG8696.nex+GENE_TIGR03680.nex	0h:1m:51s (0h:0m:5s left)
+3 compatible better partition pairs found
+Merging GENE_gtdb_PF03874.11.nex+GENE_gtdb_PF07541.7.nex+GENE_TIGR00373.nex with AIC score: 578847.385 (LnL: -288760.692  df: 663)
+Merging GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR00037.nex+GENE_TIGR00307.nex+GENE_TIGR00448.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex with AIC score: 578835.066 (LnL: -288776.533  df: 641)
+Merging GENE_arCOG01228.nex+GENE_OG8696.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03680.nex with AIC score: 578832.441 (LnL: -288797.220  df: 619)
+ 747 LG+F+I+G4    12.406      GENE_gtdb_PF00900.15.nex+GENE_TIGR02338.nex
+ 748 LG+F+I+G4    9.294       GENE_arCOG01574.nex+GENE_TIGR00279.nex+GENE_TIGR00491.nex+GENE_TIGR01171.nex+GENE_TIGR02397.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex+GENE_TIGR03676.nex
+ 749 LG+F+I+G4    6.003       GENE_TIGR00483.nex+GENE_TIGR01952.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex
+ 750 LG+F+I+G4    9.279       GENE_arCOG01574.nex+GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR00491.nex+GENE_TIGR01018.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex
+ 751 LG+F+I+G4    9.312       GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR00279.nex+GENE_TIGR01018.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex
+ 752 LG+F+I+G4    9.192       GENE_gtdb_PF01280.15.nex+GENE_OG7638.nex+GENE_OG9906.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01018.nex+GENE_TIGR01046.nex
+ 753 LG+F+I+G4    9.796       GENE_OG7638.nex+GENE_TIGR00308.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex
+ 754 LG+F+I+G4    8.382       GENE_OG5172.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex
+ 755 LG+F+I+G4    11.819      GENE_TIGR00134.nex+GENE_TIGR02338.nex+GENE_TIGR03629.nex
+ 756 LG+F+I+G4    9.353       GENE_arCOG01574.nex+GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR00491.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex
+ 757 LG+F+I+G4    11.954      GENE_gtdb_PF00900.15.nex+GENE_TIGR00134.nex+GENE_TIGR03629.nex
+ 758 LG+F+I+G4    9.308       GENE_OG7638.nex+GENE_TIGR00279.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex
+ 759 LG+F+I+G4    8.610       GENE_gtdb_PF01984.15.nex+GENE_TIGR00967.nex
+ 760 LG+F+I+G4    15.204      GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex+GENE_TIGR00293.nex
+ 761 LG+F+I+G4    9.822       GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR00308.nex+GENE_TIGR01018.nex
+ 762 LG+F+I+G4    9.662       GENE_arCOG01574.nex+GENE_TIGR00308.nex+GENE_TIGR00491.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex
+ 763 LG+F+I+G4    9.707       GENE_TIGR00279.nex+GENE_TIGR00308.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex
+ 764 LG+F+I+G4    11.969      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00134.nex+GENE_TIGR00522.nex+GENE_TIGR02928.nex+GENE_TIGR03629.nex+GENE_TIGR03665.nex
+ 765 LG+F+I+G4    9.713       GENE_TIGR00308.nex+GENE_TIGR00967.nex
+ 766 LG+F+I+G4    12.246      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex
+ 767 LG+F+I+G4    6.960       GENE_TIGR00425.nex+GENE_TIGR01952.nex
+ 768 LG+F+I+G4    6.195       GENE_TIGR00425.nex+GENE_TIGR00483.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex
+ 769 LG+F+I+G4    7.960       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_gtdb_PF01269.12.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex
+ 770 LG+F+I+G4    9.415       GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR00967.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex
+ 771 LG+F+I+G4    9.266       GENE_OG5172.nex+GENE_TIGR00982.nex
+ 772 LG+F+I+G4    12.149      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02338.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex
+ 773 LG+F+I+G4    12.275      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex
+ 774 LG+F+I+G4    10.024      GENE_gtdb_PF01984.15.nex+GENE_TIGR00308.nex
+ 775 LG+F+I+G4    8.299       GENE_gtdb_PF01269.12.nex+GENE_gtdb_PF01984.15.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex
+ 776 LG+F+I+G4    7.437       GENE_gtdb_PF01090.14.nex+GENE_TIGR01213.nex
+ 777 LG+F+I+G4    7.344       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex
+ 778 LG+F+I+G4    9.224       GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR00967.nex+GENE_TIGR01018.nex
+ 779 LG+F+I+G4    7.899       GENE_TIGR00425.nex+GENE_TIGR00982.nex
+ 780 LG+F+I+G4    7.051       GENE_TIGR00982.nex+GENE_TIGR02065.nex+GENE_TIGR03722.nex
+ 781 LG+F+I+G4    9.427       GENE_arCOG01574.nex+GENE_TIGR00491.nex+GENE_TIGR00967.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex
+ 782 LG+F+I+G4    9.395       GENE_TIGR00279.nex+GENE_TIGR00967.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex
+ 783 LG+F+I+G4    9.412       GENE_gtdb_PF01984.15.nex+GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex
+ 784 LG+F+I+G4    12.019      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR00134.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR03629.nex
+ 785 LG+F+I+G4    8.489       GENE_gtdb_PF01269.12.nex+GENE_TIGR00967.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex
+ 786 LG+F+I+G4    9.405       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_OG5172.nex
+ 787 LG+F+I+G4    12.849      GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_gtdb_PF01866.12.nex+GENE_TIGR00323.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR03671.nex
+ 788 LG+F+I+G4    12.451      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex+GENE_TIGR02338.nex
+ 789 LG+F+I+G4    12.573      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex
+ 790 LG+F+I+G4    578844.879  7.734       GENE_arCOG01228.nex+GENE_OG8696.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02065.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03680.nex+GENE_TIGR03722.nex	0h:1m:54s (0h:0m:0s left)
+ 791 LG+F+I+G4    578860.642  7.764       GENE_arCOG01228.nex+GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex+GENE_OG8696.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03680.nex	0h:1m:54s (0h:0m:0s left)
+ 792 LG+F+I+G4    578843.173  7.869       GENE_arCOG01228.nex+GENE_gtdb_PF01269.12.nex+GENE_OG8696.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01028.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03670.nex+GENE_TIGR03674.nex+GENE_TIGR03680.nex	0h:1m:55s (0h:0m:0s left)
+ 793 LG+F+I+G4    578855.412  11.098      GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR00037.nex+GENE_TIGR00307.nex+GENE_TIGR00448.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:56s (0h:0m:0s left)
+ 794 LG+F+I+G4    578896.397  10.892      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR00037.nex+GENE_TIGR00307.nex+GENE_TIGR00448.nex+GENE_TIGR02338.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:56s (0h:0m:0s left)
+ 795 LG+F+I+G4    578853.035  10.603      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00037.nex+GENE_TIGR00291.nex+GENE_TIGR00307.nex+GENE_TIGR00405.nex+GENE_TIGR00448.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:1m:56s (0h:0m:0s left)
+Agglomerative model selection: (((((GENE_arCOG01228.nex,GENE_TIGR01052.nex)6:579747,(GENE_TIGR00064.nex,GENE_TIGR01020.nex)22:579321)37:579080,((GENE_TIGR01025.nex,GENE_TIGR01158.nex)30:579229,(GENE_TIGR02390.nex,GENE_TIGR03674.nex)15:579468)35:579126)46:578972,(GENE_OG8696.nex,GENE_TIGR03680.nex)13:579525)54:578832,((GENE_arCOG01574.nex,GENE_TIGR02397.nex)29:579234,(GENE_TIGR00491.nex,GENE_TIGR03676.nex)11:579586)39:579037,(((GENE_gtdb_PF00410.14.nex,GENE_gtdb_PF04919.7.nex)2:579903,(GENE_gtdb_PF01157.13.nex,GENE_TIGR00291.nex)23:579304)34:579152,(GENE_gtdb_PF00687.16.nex,GENE_TIGR00405.nex)12:579555)49:578913,((GENE_gtdb_PF00466.15.nex,GENE_gtdb_PF01866.12.nex)17:579422,(GENE_TIGR00323.nex,GENE_TIGR03671.nex)14:579497)38:579058,(GENE_gtdb_PF00827.12.nex,GENE_gtdb_PF01200.13.nex)16:579445,GENE_gtdb_PF00900.15.nex,((((GENE_gtdb_PF01000.21.nex,GENE_TIGR03653.nex)9:579649,(GENE_gtdb_PF01092.14.nex,GENE_TIGR03636.nex)1:579947)33:579181,(GENE_TIGR00037.nex,GENE_TIGR00448.nex)3:579863)50:578899,(GENE_TIGR00307.nex,(GENE_TIGR02389.nex,GENE_TIGR03627.nex)28:579240)42:579004)53:578835,((GENE_gtdb_PF01015.13.nex,GENE_TIGR01008.nex)5:579785,(GENE_gtdb_PF01655.13.nex,GENE_TIGR01038.nex)21:579339)45:578998,GENE_gtdb_PF01090.14.nex,((GENE_gtdb_PF01269.12.nex,GENE_TIGR03670.nex)24:579290,GENE_TIGR01028.nex)44:578999,(GENE_gtdb_PF01280.15.nex,(GENE_OG9906.nex,GENE_TIGR01018.nex)10:579617)48:578932,((GENE_gtdb_PF01798.13.nex,(GENE_gtdb_PF04104.9.nex,GENE_TIGR00522.nex)18:579399)41:579007,(GENE_TIGR02928.nex,GENE_TIGR03665.nex)25:579275)47:578951,GENE_gtdb_PF01984.15.nex,GENE_gtdb_PF02006.11.nex,(GENE_gtdb_PF03874.11.nex,(GENE_gtdb_PF07541.7.nex,GENE_TIGR00373.nex)7:579713)52:578847,(GENE_gtdb_PF13656.1.nex,GENE_TIGR00111.nex)19:579378,GENE_OG5172.nex,((GENE_OG7638.nex,GENE_TIGR01012.nex)20:579358,(GENE_TIGR00335.nex,GENE_TIGR01046.nex)26:579262)36:579103,(GENE_TIGR00134.nex,GENE_TIGR03629.nex)32:579227,(GENE_TIGR00279.nex,((GENE_TIGR01171.nex,GENE_TIGR03673.nex)8:579681,(GENE_TIGR03626.nex,GENE_TIGR03672.nex)4:579823)40:579018)51:578885,GENE_TIGR00293.nex,GENE_TIGR00308.nex,GENE_TIGR00425.nex,((GENE_TIGR00483.nex,GENE_TIGR02236.nex)27:579250,GENE_TIGR03628.nex)43:579001,GENE_TIGR00967.nex,GENE_TIGR00982.nex,GENE_TIGR01213.nex,GENE_TIGR01952.nex,(GENE_TIGR02065.nex,GENE_TIGR03722.nex)31:579228,GENE_TIGR02338.nex)
+Merging into 30 partitions...
+In ModelFinder: parallelization over partitions
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
+ 796 LG+F+I+G4    44646.565   10.831      GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF01092.14.nex+GENE_TIGR00037.nex+GENE_TIGR00307.nex+GENE_TIGR00448.nex+GENE_TIGR02389.nex+GENE_TIGR03627.nex+GENE_TIGR03636.nex+GENE_TIGR03653.nex	0h:9m:31s (0h:0m:-11s left)
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
+ 797 LG+F+R4      48769.010   9.658       GENE_arCOG01574.nex+GENE_TIGR00491.nex+GENE_TIGR02397.nex+GENE_TIGR03676.nex	0h:11m:43s (0h:0m:-15s left)
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
+ 798 LG+F+I+G4    38964.904   12.205      GENE_gtdb_PF01798.13.nex+GENE_gtdb_PF04104.9.nex+GENE_TIGR00522.nex+GENE_TIGR02928.nex+GENE_TIGR03665.nex	0h:14m:8s (0h:0m:-19s left)
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
+ 799 RTREV+F+R3   32829.975   8.945       GENE_TIGR00279.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03672.nex+GENE_TIGR03673.nex	0h:15m:25s (0h:0m:-21s left)
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.500
+ 800 LG+F+I+G4    32524.913   8.100       GENE_gtdb_PF01269.12.nex+GENE_TIGR01028.nex+GENE_TIGR03670.nex	0h:17m:46s (0h:0m:-26s left)
++R4 reinitialized from +R3 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 801 LG+F+I+G4    93275.392   7.794       GENE_arCOG01228.nex+GENE_OG8696.nex+GENE_TIGR00064.nex+GENE_TIGR01020.nex+GENE_TIGR01025.nex+GENE_TIGR01052.nex+GENE_TIGR01158.nex+GENE_TIGR02390.nex+GENE_TIGR03674.nex+GENE_TIGR03680.nex	0h:18m:44s (0h:0m:-29s left)
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.500
+ 802 LG+F+I+R3    35883.072   10.457      GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF00687.16.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF04919.7.nex+GENE_TIGR00291.nex+GENE_TIGR00405.nex	0h:19m:15s (0h:0m:-31s left)
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++I+R3 reinitialized from +I+R2 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 803 LG+F+I+R2    34277.553   12.505      GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01866.12.nex+GENE_TIGR00323.nex+GENE_TIGR03671.nex	0h:20m:42s (0h:0m:-35s left)
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
+ 804 LG+F+R3      22783.163   5.518       GENE_TIGR00483.nex+GENE_TIGR02236.nex+GENE_TIGR03628.nex	0h:21m:17s (0h:0m:-37s left)
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
+ 805 LG+F+I+G4    17834.555   11.892      GENE_TIGR00134.nex+GENE_TIGR03629.nex	0h:22m:47s (0h:0m:-41s left)
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
+ 806 LG+F+G4      20708.879   9.249       GENE_OG7638.nex+GENE_TIGR00335.nex+GENE_TIGR01012.nex+GENE_TIGR01046.nex	0h:22m:58s (0h:0m:-43s left)
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
+ 807 Q.PFAM+F+R3  22126.930   11.926      GENE_gtdb_PF01015.13.nex+GENE_gtdb_PF01655.13.nex+GENE_TIGR01008.nex+GENE_TIGR01038.nex	0h:23m:21s (0h:0m:-46s left)
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 808 Q.PFAM+F+I+G4 14129.234   8.785       GENE_gtdb_PF01280.15.nex+GENE_OG9906.nex+GENE_TIGR01018.nex	0h:23m:58s (0h:0m:-49s left)
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
+ 809 LG+R3        15010.743   7.026       GENE_TIGR02065.nex+GENE_TIGR03722.nex	0h:24m:10s (0h:0m:-51s left)
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
+ 810 LG+F+R3      17070.901   17.541      GENE_gtdb_PF03874.11.nex+GENE_gtdb_PF07541.7.nex+GENE_TIGR00373.nex	0h:24m:35s (0h:0m:-53s left)
++R4 reinitialized from +R3 with factor 0.500
+ 811 LG+F+R3      11303.344   8.824       GENE_TIGR00967.nex	0h:24m:38s (0h:0m:-55s left)
++I+R3 reinitialized from +I+R2 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.500
+ 812 LG+F+I+G4    13752.067   14.459      GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex	0h:25m:6s (0h:0m:-58s left)
++R3 reinitialized from +R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 813 LG+F+I+R2    8683.148    8.761       GENE_TIGR00308.nex	0h:25m:10s (0h:-1m:0s left)
++R4 reinitialized from +R3 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
+ 814 RTREV+F+I+G4 7422.691    7.267       GENE_gtdb_PF00827.12.nex+GENE_gtdb_PF01200.13.nex	0h:25m:17s (0h:-1m:-2s left)
++R3 reinitialized from +R2 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
+ 815 Q.PFAM+F+R2  7912.571    10.786      GENE_gtdb_PF00900.15.nex	0h:25m:30s (0h:-1m:-4s left)
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 816 LG+I+G4      6588.130    5.929       GENE_TIGR00425.nex	0h:25m:38s (0h:-1m:-6s left)
+ 817 LG+F+I       5066.641    3.996       GENE_TIGR01213.nex	0h:25m:40s (0h:-1m:-8s left)
++R3 reinitialized from +R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 818 RTREV+F+G4   4783.104    6.333       GENE_TIGR00982.nex	0h:25m:41s (0h:-1m:-10s left)
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 819 LG+F+G4      4225.556    7.041       GENE_OG5172.nex	0h:25m:50s (0h:-1m:-12s left)
+ 820 Q.YEAST+F+G4 4125.363    11.835      GENE_TIGR02338.nex	0h:25m:55s (0h:-1m:-14s left)
+ 821 RTREV+F+G4   3734.787    12.692      GENE_TIGR00293.nex	0h:25m:55s (0h:-1m:-16s left)
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 822 LG+G4        3155.949    4.643       GENE_gtdb_PF01090.14.nex	0h:25m:58s (0h:-1m:-18s left)
++I+R3 reinitialized from +I+R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.250
++R3 reinitialized from +R2 with factor 0.125
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++R3 reinitialized from +R2 with factor 0.500
+ 823 BLOSUM62+F   1827.093    1.308       GENE_gtdb_PF02006.11.nex	0h:26m:0s (0h:-1m:-20s left)
++R3 reinitialized from +R2 with factor 0.500
+ 824 LG+F+G4      2836.627    5.573       GENE_TIGR01952.nex	0h:26m:2s (0h:-1m:-22s left)
++I+R3 reinitialized from +I+R2 with factor 0.500
+ 825 RTREV+F+I+G4 2411.251    7.723       GENE_gtdb_PF01984.15.nex	0h:26m:7s (0h:-1m:-24s left)
+Best partition model AIC score: 578696.111 (LnL: -288718.055  df:630)
+Partition information was printed to archaea10_p_mf.best_scheme.nex
+Partition information in Raxml format was printed to archaea10_p_mf.best_scheme
+
+All model information printed to archaea10_p_mf.model.gz
+CPU time for ModelFinder: 4709.696 seconds (1h:18m:29s)
+Wall-clock time for ModelFinder: 1577.326 seconds (0h:26m:17s)
+WARNING: States(s) C, W rarely appear in partition GENE_gtdb_PF01984.15.nex and may cause numerical problems
+WARNING: States(s) W rarely appear in partition GENE_TIGR00293.nex and may cause numerical problems
+WARNING: States(s) W rarely appear in partition GENE_TIGR01952.nex and may cause numerical problems
+WARNING: States(s) C rarely appear in partition GENE_TIGR02338.nex and may cause numerical problems
+
+NOTE: 88 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -289024.830
+Current log-likelihood at step 1: -288742.375
+Current log-likelihood at step 2: -288725.981
+Current log-likelihood at step 3: -288724.817
+Current log-likelihood at step 4: -288724.321
+Current log-likelihood at step 5: -288724.049
+Current log-likelihood at step 6: -288723.885
+Current log-likelihood at step 7: -288723.779
+Current log-likelihood at step 8: -288723.708
+Current log-likelihood at step 9: -288723.658
+Current log-likelihood at step 10: -288723.622
+Current log-likelihood at step 11: -288723.595
+Current log-likelihood at step 12: -288723.575
+Current log-likelihood at step 13: -288723.560
+Current log-likelihood at step 14: -288723.548
+Current log-likelihood at step 15: -288723.539
+Partition-specific rates:  0.792 0.990 1.067 1.270 0.739 1.198 1.101 1.220 0.790 0.823 0.893 1.241 1.146 0.492 1.806 1.471 1.394 0.940 1.210 0.906 1.643 1.098 0.847 0.561 1.095 0.643 1.069 1.150 0.716 1.379
+Parameters optimization took 14 rounds (10.340 sec)
+
+Wrote distance file to... 
+Partition information was printed to archaea10_p_mf.best_model.nex
+BEST SCORE FOUND : -288723.539
+Total tree length: 9.862
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 4740.823 sec (1h:19m:0s)
+Total wall-clock time used: 1587.752 sec (0h:26m:27s)
+Identifying sites to remove: done in 0.00215743 secs using 363.7% CPU
+Identifying sites to remove: done in 0.00144342 secs using 653.8% CPU
+Identifying sites to remove: done in 0.00138506 secs using 99.85% CPU
+Identifying sites to remove: done in 0.00195525 secs using 509% CPU
+Identifying sites to remove: done in 0.000929989 secs using 99.57% CPU
+Identifying sites to remove: done in 0.00194524 secs using 431.7% CPU
+Identifying sites to remove: done in 0.00135727 secs using 99.61% CPU
+Identifying sites to remove: done in 0.00194644 secs using 200.7% CPU
+Identifying sites to remove: done in 0.00144304 secs using 101.9% CPU
+Identifying sites to remove: done in 0.00135841 secs using 99.82% CPU
+Identifying sites to remove: done in 0.00198034 secs using 99.88% CPU
+Identifying sites to remove: done in 0.001316 secs using 707.7% CPU
+Identifying sites to remove: done in 0.000778191 secs using 99.46% CPU
+Identifying sites to remove: done in 0.000829846 secs using 99.42% CPU
+Identifying sites to remove: done in 0.000583299 secs using 335.2% CPU
+Identifying sites to remove: done in 0.000950307 secs using 151.1% CPU
+Identifying sites to remove: done in 0.000581764 secs using 99.52% CPU
+Identifying sites to remove: done in 0.000709057 secs using 99.71% CPU
+Identifying sites to remove: done in 0.000702471 secs using 99.65% CPU
+Identifying sites to remove: done in 0.000950143 secs using 99.77% CPU
+Identifying sites to remove: done in 0.000712626 secs using 99.77% CPU
+Identifying sites to remove: done in 0.00065352 secs using 1323% CPU
+Identifying sites to remove: done in 0.00068868 secs using 99.76% CPU
+Identifying sites to remove: done in 0.000772491 secs using 99.81% CPU
+Identifying sites to remove: done in 0.000402778 secs using 99.31% CPU
+Identifying sites to remove: done in 0.000325426 secs using 99.56% CPU
+Identifying sites to remove: done in 0.000320964 secs using 99.39% CPU
+Identifying sites to remove: done in 0.00059247 secs using 99.75% CPU
+Identifying sites to remove: done in 0.00036265 secs using 99.55% CPU
+Identifying sites to remove: done in 0.000366494 secs using 99.32% CPU
+Identifying sites to remove: done in 0.00044214 secs using 99.52% CPU
+Identifying sites to remove: done in 0.000402465 secs using 1053% CPU
+Identifying sites to remove: done in 0.000537679 secs using 725.3% CPU
+Identifying sites to remove: done in 0.000362612 secs using 99.56% CPU
+Identifying sites to remove: done in 0.000414155 secs using 99.72% CPU
+Identifying sites to remove: done in 0.000409096 secs using 99.73% CPU
+Identifying sites to remove: done in 0.000354514 secs using 99.57% CPU
+Identifying sites to remove: done in 0.000318602 secs using 99.5% CPU
+Identifying sites to remove: done in 0.000315912 secs using 99.39% CPU
+Identifying sites to remove: done in 0.000469238 secs using 99.74% CPU
+Identifying sites to remove: done in 0.000325769 secs using 99.46% CPU
+Identifying sites to remove: done in 0.000365265 secs using 99.65% CPU
+Identifying sites to remove: done in 0.000419185 secs using 99.48% CPU
+Identifying sites to remove: done in 0.000480823 secs using 336.5% CPU
+Identifying sites to remove: done in 0.000373445 secs using 110.9% CPU
+Identifying sites to remove: done in 0.000359334 secs using 99.63% CPU
+Identifying sites to remove: done in 0.000406817 secs using 99.8% CPU
+Identifying sites to remove: done in 0.000388026 secs using 99.48% CPU
+Identifying sites to remove: done in 0.000131078 secs using 99.18% CPU
+Identifying sites to remove: done in 0.000111125 secs using 7297% CPU
+Identifying sites to remove: done in 0.000102848 secs using 99.18% CPU
+Identifying sites to remove: done in 0.000131294 secs using 99.01% CPU
+Identifying sites to remove: done in 0.000112928 secs using 99.18% CPU
+Identifying sites to remove: done in 9.85041e-05 secs using 98.47% CPU
+Identifying sites to remove: done in 0.000112578 secs using 98.6% CPU
+Identifying sites to remove: done in 0.000103064 secs using 154.3% CPU
+Identifying sites to remove: done in 0.000122383 secs using 1214% CPU
+Identifying sites to remove: done in 0.00010974 secs using 98.41% CPU
+Identifying sites to remove: done in 0.000103302 secs using 98.74% CPU
+Identifying sites to remove: done in 0.000110157 secs using 98.95% CPU
+Identifying sites to remove: done in 0.000112228 secs using 98.91% CPU
+Identifying sites to remove: done in 9.62466e-05 secs using 98.7% CPU
+Identifying sites to remove: done in 9.75952e-05 secs using 98.37% CPU
+Identifying sites to remove: done in 0.000110745 secs using 99.33% CPU
+Identifying sites to remove: done in 9.80496e-05 secs using 98.93% CPU
+Identifying sites to remove: done in 9.11355e-05 secs using 98.75% CPU
+Identifying sites to remove: done in 8.9623e-05 secs using 98.19% CPU
+Identifying sites to remove: done in 8.53911e-05 secs using 98.37% CPU
+Identifying sites to remove: done in 8.31187e-05 secs using 98.65% CPU
+Identifying sites to remove: done in 9.23723e-05 secs using 98.51% CPU
+Identifying sites to remove: done in 9.7543e-05 secs using 98.42% CPU
+Identifying sites to remove: done in 0.000660241 secs using 99.66% CPU
+Identifying sites to remove: done in 0.000578634 secs using 99.54% CPU
+Identifying sites to remove: done in 0.000554636 secs using 99.52% CPU
+Identifying sites to remove: done in 0.000928327 secs using 99.75% CPU
+Identifying sites to remove: done in 0.000489146 secs using 99.36% CPU
+Identifying sites to remove: done in 0.000664316 secs using 99.8% CPU
+Identifying sites to remove: done in 0.000657655 secs using 99.75% CPU
+Identifying sites to remove: done in 0.000915855 secs using 262.3% CPU
+Identifying sites to remove: done in 0.000654869 secs using 145.7% CPU
+Identifying sites to remove: done in 0.000582255 secs using 99.44% CPU
+Identifying sites to remove: done in 0.00072103 secs using 1209% CPU
+Identifying sites to remove: done in 0.000632912 secs using 99.7% CPU
+Identifying sites to remove: done in 0.00026457 secs using 99.41% CPU
+Identifying sites to remove: done in 0.000227518 secs using 98.89% CPU
+Identifying sites to remove: done in 0.000222273 secs using 98.98% CPU
+Identifying sites to remove: done in 0.000408553 secs using 1485% CPU
+Identifying sites to remove: done in 0.000243753 secs using 99.28% CPU
+Identifying sites to remove: done in 0.000253424 secs using 99.44% CPU
+Identifying sites to remove: done in 0.000297539 secs using 99.48% CPU
+Identifying sites to remove: done in 0.00023701 secs using 355.7% CPU
+Identifying sites to remove: done in 0.000278838 secs using 147.4% CPU
+Identifying sites to remove: done in 0.000193231 secs using 99.36% CPU
+Identifying sites to remove: done in 0.000273243 secs using 99.18% CPU
+Identifying sites to remove: done in 0.000240535 secs using 99.78% CPU
+Identifying sites to remove: done in 9.18657e-05 secs using 99.06% CPU
+Identifying sites to remove: done in 5.42477e-05 secs using 97.7% CPU
+Identifying sites to remove: done in 5.27427e-05 secs using 98.59% CPU
+Identifying sites to remove: done in 6.70552e-05 secs using 98.43% CPU
+Identifying sites to remove: done in 5.7444e-05 secs using 97.49% CPU
+Identifying sites to remove: done in 6.53341e-05 secs using 97.96% CPU
+Identifying sites to remove: done in 5.74589e-05 secs using 97.46% CPU
+Identifying sites to remove: done in 4.45768e-05 secs using 96.46% CPU
+Identifying sites to remove: done in 5.08949e-05 secs using 98.24% CPU
+Identifying sites to remove: done in 0.00046511 secs using 99.55% CPU
+Identifying sites to remove: done in 0.000335939 secs using 2481% CPU
+Identifying sites to remove: done in 0.000325143 secs using 99.65% CPU
+Identifying sites to remove: done in 0.000501014 secs using 99.8% CPU
+Identifying sites to remove: done in 0.000314131 secs using 99.32% CPU
+Identifying sites to remove: done in 0.000374727 secs using 99.54% CPU
+Identifying sites to remove: done in 0.000429742 secs using 99.83% CPU
+Identifying sites to remove: done in 0.00038328 secs using 1008% CPU
+Identifying sites to remove: done in 0.000480108 secs using 144.6% CPU
+Identifying sites to remove: done in 0.000356279 secs using 99.64% CPU
+Identifying sites to remove: done in 0.000429928 secs using 99.55% CPU
+Identifying sites to remove: done in 0.000406712 secs using 99.58% CPU
+Identifying sites to remove: done in 0.000158928 secs using 98.79% CPU
+Identifying sites to remove: done in 0.000169583 secs using 99.07% CPU
+Identifying sites to remove: done in 0.000170536 secs using 99.1% CPU
+Identifying sites to remove: done in 0.000244923 secs using 99.62% CPU
+Identifying sites to remove: done in 0.000194632 secs using 99.16% CPU
+Identifying sites to remove: done in 0.000178374 secs using 2552% CPU
+Identifying sites to remove: done in 0.000200219 secs using 99.39% CPU
+Identifying sites to remove: done in 0.000190005 secs using 2747% CPU
+Identifying sites to remove: done in 0.000190496 secs using 771.7% CPU
+Identifying sites to remove: done in 0.000157319 secs using 99.16% CPU
+Identifying sites to remove: done in 0.000185847 secs using 99.01% CPU
+Identifying sites to remove: done in 0.000185207 secs using 99.35% CPU
+Identifying sites to remove: done in 0.000464194 secs using 1751% CPU
+Identifying sites to remove: done in 0.00037545 secs using 99.35% CPU
+Identifying sites to remove: done in 0.000362232 secs using 99.66% CPU
+Identifying sites to remove: done in 0.000594281 secs using 605.8% CPU
+Identifying sites to remove: done in 0.000369914 secs using 99.21% CPU
+Identifying sites to remove: done in 0.000429794 secs using 99.58% CPU
+Identifying sites to remove: done in 0.000505559 secs using 99.69% CPU
+Identifying sites to remove: done in 0.000618845 secs using 730.9% CPU
+Identifying sites to remove: done in 0.000473663 secs using 168.1% CPU
+Identifying sites to remove: done in 0.000427015 secs using 99.53% CPU
+Identifying sites to remove: done in 0.000479519 secs using 99.68% CPU
+Identifying sites to remove: done in 0.000454679 secs using 99.63% CPU
+Identifying sites to remove: done in 9.11951e-05 secs using 97.59% CPU
+Identifying sites to remove: done in 4.87715e-05 secs using 98.42% CPU
+Identifying sites to remove: done in 4.64916e-05 secs using 98.94% CPU
+Identifying sites to remove: done in 4.71473e-05 secs using 95.45% CPU
+Identifying sites to remove: done in 5.22807e-05 secs using 97.55% CPU
+Identifying sites to remove: done in 4.50835e-05 secs using 97.6% CPU
+Identifying sites to remove: done in 3.91528e-05 secs using 97.06% CPU
+Identifying sites to remove: done in 4.0926e-05 secs using 97.74% CPU
+Identifying sites to remove: done in 6.89328e-05 secs using 98.65% CPU
+Identifying sites to remove: done in 3.33861e-05 secs using 98.84% CPU
+Identifying sites to remove: done in 6.83516e-05 secs using 345.3% CPU
+Identifying sites to remove: done in 4.27961e-05 secs using 177.6% CPU
+Identifying sites to remove: done in 5.09471e-05 secs using 98.14% CPU
+Identifying sites to remove: done in 5.08875e-05 secs using 98.26% CPU
+Identifying sites to remove: done in 0.000205323 secs using 99.36% CPU
+Identifying sites to remove: done in 0.000179432 secs using 99.2% CPU
+Identifying sites to remove: done in 0.000183955 secs using 4448% CPU
+Identifying sites to remove: done in 0.000265211 secs using 99.54% CPU
+Identifying sites to remove: done in 0.000185691 secs using 99.09% CPU
+Identifying sites to remove: done in 0.000179917 secs using 99.49% CPU
+Identifying sites to remove: done in 0.000207238 secs using 99.4% CPU
+Identifying sites to remove: done in 0.000169978 secs using 3015% CPU
+Identifying sites to remove: done in 0.000197113 secs using 657% CPU
+Identifying sites to remove: done in 0.000165641 secs using 99.01% CPU
+Identifying sites to remove: done in 0.000193879 secs using 99.03% CPU
+Identifying sites to remove: done in 0.000257112 secs using 99.18% CPU
+Identifying sites to remove: done in 0.000162624 secs using 99.62% CPU
+Identifying sites to remove: done in 0.000160679 secs using 98.95% CPU
+Identifying sites to remove: done in 0.000160404 secs using 99.12% CPU
+Identifying sites to remove: done in 0.000195071 secs using 99.45% CPU
+Identifying sites to remove: done in 0.000155099 secs using 99.29% CPU
+Identifying sites to remove: done in 0.00015825 secs using 99.21% CPU
+Identifying sites to remove: done in 0.000171036 secs using 99.39% CPU
+Identifying sites to remove: done in 0.000162557 secs using 2111% CPU
+Identifying sites to remove: done in 0.000150129 secs using 175.8% CPU
+Identifying sites to remove: done in 0.000145316 secs using 99.78% CPU
+Identifying sites to remove: done in 0.000171252 secs using 99.27% CPU
+Identifying sites to remove: done in 0.000168033 secs using 99.39% CPU
+Identifying sites to remove: done in 0.000111237 secs using 97.99% CPU
+Identifying sites to remove: done in 7.77096e-05 secs using 99.09% CPU
+Identifying sites to remove: done in 7.42078e-05 secs using 4646% CPU
+Identifying sites to remove: done in 8.42512e-05 secs using 135.3% CPU
+Identifying sites to remove: done in 6.10054e-05 secs using 98.35% CPU
+Identifying sites to remove: done in 7.9304e-05 secs using 5276% CPU
+Identifying sites to remove: done in 8.26195e-05 secs using 99.25% CPU
+Identifying sites to remove: done in 7.58246e-05 secs using 98.91% CPU
+Identifying sites to remove: done in 5.65574e-05 secs using 97.25% CPU
+Identifying sites to remove: done in 7.46474e-05 secs using 99.13% CPU
+Identifying sites to remove: done in 0.000331782 secs using 99.76% CPU
+Identifying sites to remove: done in 0.000242151 secs using 99.11% CPU
+Identifying sites to remove: done in 0.000238784 secs using 99.25% CPU
+Identifying sites to remove: done in 0.000323571 secs using 99.51% CPU
+Identifying sites to remove: done in 0.000226237 secs using 1875% CPU
+Identifying sites to remove: done in 0.000274606 secs using 99.05% CPU
+Identifying sites to remove: done in 0.000303946 secs using 99.36% CPU
+Identifying sites to remove: done in 0.000215098 secs using 1387% CPU
+Identifying sites to remove: done in 0.000293754 secs using 171.9% CPU
+Identifying sites to remove: done in 0.000183158 secs using 98.82% CPU
+Identifying sites to remove: done in 0.000304751 secs using 99.43% CPU
+Identifying sites to remove: done in 0.000272647 secs using 99.4% CPU
+Identifying sites to remove: done in 0.000281736 secs using 99.74% CPU
+Identifying sites to remove: done in 0.000253178 secs using 99.53% CPU
+Identifying sites to remove: done in 0.000248618 secs using 99.35% CPU
+Identifying sites to remove: done in 0.000308871 secs using 99.39% CPU
+Identifying sites to remove: done in 0.000207432 secs using 99.31% CPU
+Identifying sites to remove: done in 0.000288278 secs using 99.56% CPU
+Identifying sites to remove: done in 0.000311434 secs using 99.54% CPU
+Identifying sites to remove: done in 0.000228725 secs using 99.25% CPU
+Identifying sites to remove: done in 0.000211947 secs using 99.08% CPU
+Identifying sites to remove: done in 0.000203013 secs using 99.5% CPU
+Identifying sites to remove: done in 0.0003222 secs using 99.32% CPU
+Identifying sites to remove: done in 0.000250168 secs using 99.13% CPU
+Identifying sites to remove: done in 0.000411876 secs using 99.79% CPU
+Identifying sites to remove: done in 0.000337228 secs using 99.34% CPU
+Identifying sites to remove: done in 0.000331029 secs using 99.39% CPU
+Identifying sites to remove: done in 0.000518598 secs using 99.69% CPU
+Identifying sites to remove: done in 0.000358671 secs using 99.26% CPU
+Identifying sites to remove: done in 0.000388354 secs using 1283% CPU
+Identifying sites to remove: done in 0.000440471 secs using 99.44% CPU
+Identifying sites to remove: done in 0.000392437 secs using 426.8% CPU
+Identifying sites to remove: done in 0.000514746 secs using 175.6% CPU
+Identifying sites to remove: done in 0.000362635 secs using 99.55% CPU
+Identifying sites to remove: done in 0.000441425 secs using 99.68% CPU
+Identifying sites to remove: done in 0.000415094 secs using 99.74% CPU
+Identifying sites to remove: done in 5.25191e-05 secs using 97.11% CPU
+Identifying sites to remove: done in 5.21094e-05 secs using 97.87% CPU
+Identifying sites to remove: done in 5.71981e-05 secs using 96.16% CPU
+Identifying sites to remove: done in 4.53144e-05 secs using 97.1% CPU
+Identifying sites to remove: done in 5.21466e-05 secs using 97.8% CPU
+Identifying sites to remove: done in 5.36069e-05 secs using 1684% CPU
+Identifying sites to remove: done in 4.62011e-05 secs using 210% CPU
+Identifying sites to remove: done in 4.21703e-05 secs using 97.22% CPU
+Identifying sites to remove: done in 5.03734e-05 secs using 97.27% CPU
+Identifying sites to remove: done in 0.000152409 secs using 99.08% CPU
+Identifying sites to remove: done in 0.000131309 secs using 99% CPU
+Identifying sites to remove: done in 0.000172704 secs using 99.01% CPU
+Identifying sites to remove: done in 0.000114754 secs using 98.47% CPU
+Identifying sites to remove: done in 0.000142977 secs using 98.62% CPU
+Identifying sites to remove: done in 0.000147082 secs using 98.58% CPU
+Identifying sites to remove: done in 0.000100091 secs using 1937% CPU
+Identifying sites to remove: done in 0.000109524 secs using 189% CPU
+Identifying sites to remove: done in 0.00010027 secs using 98.73% CPU
+Identifying sites to remove: done in 0.000147432 secs using 99.03% CPU
+Identifying sites to remove: done in 0.000109412 secs using 98.71% CPU
+Identifying sites to remove: done in 0.000123963 secs using 98.42% CPU
+Identifying sites to remove: done in 0.000107542 secs using 98.57% CPU
+Identifying sites to remove: done in 0.000110112 secs using 98.08% CPU
+Identifying sites to remove: done in 8.36104e-05 secs using 98.07% CPU
+Identifying sites to remove: done in 0.000105694 secs using 98.4% CPU
+Identifying sites to remove: done in 0.000113428 secs using 98.74% CPU
+Identifying sites to remove: done in 9.19551e-05 secs using 1782% CPU
+Identifying sites to remove: done in 0.000103228 secs using 148.2% CPU
+Identifying sites to remove: done in 0.000102796 secs using 98.25% CPU
+Identifying sites to remove: done in 9.52184e-05 secs using 399.1% CPU
+Identifying sites to remove: done in 0.000111513 secs using 148.9% CPU
+Identifying sites to remove: done in 0.000388913 secs using 99.51% CPU
+Identifying sites to remove: done in 0.000321709 secs using 99.47% CPU
+Identifying sites to remove: done in 0.00031884 secs using 2609% CPU
+Identifying sites to remove: done in 0.000469834 secs using 99.82% CPU
+Identifying sites to remove: done in 0.000244476 secs using 99.4% CPU
+Identifying sites to remove: done in 0.000330925 secs using 99.42% CPU
+Identifying sites to remove: done in 0.00037697 secs using 99.48% CPU
+Identifying sites to remove: done in 0.000393242 secs using 475.5% CPU
+Identifying sites to remove: done in 0.00026872 secs using 168.9% CPU
+Identifying sites to remove: done in 0.000319891 secs using 99.41% CPU
+Identifying sites to remove: done in 0.000369295 secs using 99.65% CPU
+Identifying sites to remove: done in 0.000339672 secs using 99.51% CPU
+Identifying sites to remove: done in 0.000182234 secs using 4489% CPU
+Identifying sites to remove: done in 0.000172302 secs using 99.24% CPU
+Identifying sites to remove: done in 0.000167236 secs using 99.26% CPU
+Identifying sites to remove: done in 0.000212744 secs using 99.18% CPU
+Identifying sites to remove: done in 0.00011652 secs using 98.7% CPU
+Identifying sites to remove: done in 0.000172898 secs using 98.9% CPU
+Identifying sites to remove: done in 0.000115432 secs using 181.1% CPU
+Identifying sites to remove: done in 0.000164583 secs using 2492% CPU
+Identifying sites to remove: done in 0.000138491 secs using 99.65% CPU
+Identifying sites to remove: done in 0.000168033 secs using 99.39% CPU
+Identifying sites to remove: done in 0.000172928 secs using 98.89% CPU
+Identifying sites to remove: done in 9.27448e-05 secs using 98.12% CPU
+Identifying sites to remove: done in 7.55936e-05 secs using 97.89% CPU
+Identifying sites to remove: done in 7.3947e-05 secs using 98.72% CPU
+Identifying sites to remove: done in 8.11517e-05 secs using 97.35% CPU
+Identifying sites to remove: done in 6.17579e-05 secs using 98.77% CPU
+Identifying sites to remove: done in 7.31945e-05 secs using 98.37% CPU
+Identifying sites to remove: done in 8.03098e-05 secs using 98.37% CPU
+Identifying sites to remove: done in 5.71609e-05 secs using 96.22% CPU
+Identifying sites to remove: done in 6.62133e-05 secs using 98.17% CPU
+Identifying sites to remove: done in 6.23688e-05 secs using 97.81% CPU
+Identifying sites to remove: done in 7.93561e-05 secs using 98.29% CPU
+Identifying sites to remove: done in 6.70925e-05 secs using 98.37% CPU
+Identifying sites to remove: done in 0.00015565 secs using 98.94% CPU
+Identifying sites to remove: done in 0.000102468 secs using 98.57% CPU
+Identifying sites to remove: done in 0.000137597 secs using 98.84% CPU
+Identifying sites to remove: done in 9.95249e-05 secs using 776.7% CPU
+Identifying sites to remove: done in 0.000111245 secs using 128.5% CPU
+Identifying sites to remove: done in 0.000131853 secs using 99.35% CPU
+Identifying sites to remove: done in 0.00010521 secs using 1085% CPU
+Identifying sites to remove: done in 0.000135988 secs using 175.8% CPU
+Identifying sites to remove: done in 8.89152e-05 secs
+Identifying sites to remove: done in 6.85453e-05 secs
+Identifying sites to remove: done in 5.2467e-05 secs
+Identifying sites to remove: done in 5.75855e-05 secs using 97.25% CPU
+Identifying sites to remove: done in 5.12823e-05 secs using 97.5% CPU
+Identifying sites to remove: done in 5.71087e-05 secs using 98.06% CPU
+Identifying sites to remove: done in 4.59477e-05 secs using 97.94% CPU
+Identifying sites to remove: done in 5.01126e-05 secs using 97.78% CPU
+Identifying sites to remove: done in 5.04255e-05 secs using 97.17% CPU
+Identifying sites to remove: done in 0.000242293 secs using 997.1% CPU
+Identifying sites to remove: done in 0.000192806 secs using 99.06% CPU
+Identifying sites to remove: done in 0.000199698 secs using 4106% CPU
+Identifying sites to remove: done in 0.000256255 secs using 99.51% CPU
+Identifying sites to remove: done in 0.000181489 secs using 98.63% CPU
+Identifying sites to remove: done in 0.000204124 secs using 2277% CPU
+Identifying sites to remove: done in 0.000224702 secs using 99.24% CPU
+Identifying sites to remove: done in 0.000179939 secs using 487.4% CPU
+Identifying sites to remove: done in 0.000192761 secs using 191.4% CPU
+Identifying sites to remove: done in 0.000177428 secs using 99.2% CPU
+Identifying sites to remove: done in 0.000216275 secs using 99.41% CPU
+Identifying sites to remove: done in 0.000207074 secs using 99.48% CPU
+Identifying sites to remove: done in 7.57799e-05 secs using 97.65% CPU
+Identifying sites to remove: done in 5.3294e-05 secs using 99.45% CPU
+Identifying sites to remove: done in 5.25042e-05 secs using 97.14% CPU
+Identifying sites to remove: done in 6.65262e-05 secs using 97.71% CPU
+Identifying sites to remove: done in 4.85554e-05 secs using 96.8% CPU
+Identifying sites to remove: done in 5.44265e-05 secs using 97.38% CPU
+Identifying sites to remove: done in 5.42626e-05 secs using 95.83% CPU
+Identifying sites to remove: done in 5.78985e-05 secs using 1893% CPU
+Identifying sites to remove: done in 4.95166e-05 secs using 212.1% CPU
+Identifying sites to remove: done in 5.16325e-05 secs using 98.77% CPU
+Identifying sites to remove: done in 5.61774e-05 secs using 96.12% CPU
+
+Analysis results written to: 
+  IQ-TREE report:                archaea10_p_mf.iqtree
+  Tree used for ModelFinder:     archaea10_p_mf.treefile
+  Best partitioning scheme:      archaea10_p_mf.best_scheme.nex
+           in RAxML format:      archaea10_p_mf.best_scheme
+  Screen log file:               archaea10_p_mf.log
+
+Date and Time: Mon May 19 17:38:33 2025

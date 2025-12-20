@@ -1,0 +1,11 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,BIC,RunT,Command
+Sacfungi5_c60_unopt,9,NA,NA,4643485.702,-2321733.851,4643485.702,4643580.268,0.45 h,../../iqtree2 -s ./5_concated.nex -m LG+C60+I+G4 -te ../partition/Q/Sacfungi5_Q_search.treefile -T 21 -mem 120G -safe -pre Sacfungi5_c60_unopt
+Sacfungi5_c60_F,88,NA,NA,4597792.317,-2298808.159,4597792.317,4598716.967,0.96 h,../../iqtree2 -s ./5_concated.nex -m LG+C60+F+I+G4 -te ../partition/Q/Sacfungi5_Q_search.treefile -T 21 -mem 120G -safe -pre Sacfungi5_c60_F
+Sacfungi5_c60_opt,68,NA,NA,4610768.744,-2305316.372,4610768.744,4611483.247,0.26 h,../../iqtree2 -s ./5_concated.nex -m LG+C60+I+G4 -te ../partition/Q/Sacfungi5_Q_search.treefile -mwopt -T 21 -mem 120G -safe -pre Sacfungi5_c60_opt
+5Sacfungi_c60_init,28,NA,NA,4603275.484,-2301609.742,4603275.484,4603569.691,4.65 h,../../iqtree2 -s 5_concated.nex -m MF -merit AIC -T 21 -mem 120G -pre 5Sacfungi_c60_init
+Sacfungi5_c60_search,7,NA,NA,4597538.573,-2298762.286,4597538.573,4597612.125,1.16 h,../../iqtree2 -s 5_concated.nex -mdef Sacfungi5_c60_F_parameter.nex -m LG_C60_F_I_G4 -t ../partition/Q/Sacfungi5_Q_search.treefile -bb 1000 --wbtl -T 21 --mem 120G -pre Sacfungi5_c60_search
+Sacfungi5_p_mf,3572,182,-2304381.506,4615907.012,-2270554.868,4548253.736,4585786.138,1.04 h,../../../iqtree2 -s 5_concated.nex -p 5_concated.nex -m MF+MERGE -merit AIC -T 5 -pre Sacfungi5_p_mf
+Sacfungi5_p_search,3266,182,-2304359.591,4615251.182,-2270551.693,4547635.387,4581952.527,0.05 h,../../../iqtree2 -s 5_concated.nex -p Sacfungi5_p_mf.best_model.nex -t Sacfungi5_p_mf.treefile -bb 1000 --wbtl -T 21 -pre Sacfungi5_p_search
+Sacfungi5_q_mf,3645,206,-2314350.412,4635990.824,-2277886.267,4563062.533,4601361.974,0.70 h,"../../../iqtree2 -s 5_concated.nex -q 5_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 5 -pre Sacfungi5_q_mf"
+Sacfungi5_Q_mf,5452,228,-2303508.949,4617921.898,-2265088.946,4541081.892,4598368.189,0.90 h,../../../iqtree2 -s 5_concated.nex -Q 5_concated.nex -m MF+MERGE -merit AIC -T 5 -pre Sacfungi5_Q_mf
+Sacfungi5_Q_search,5067,228,-2303456.936,4617047.872,-2265088.947,4540311.894,4593552.845,0.04 h,../../../iqtree2 -s 5_concated.nex -Q Sacfungi5_Q_mf.best_model.nex -t Sacfungi5_Q_mf.treefile -bb 1000 --wbtl -T 21 -pre Sacfungi5_Q_search

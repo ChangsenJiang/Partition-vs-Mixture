@@ -1,0 +1,23 @@
+	Command being timed: "../../iqtree2 -s ./20_concated.nex -m Q.BIRD+C60+F+I+R6 -te ../partition/Q/avian20_Q_search.treefile -T 50 -mem 120G -safe -pre avian20_c60_F"
+	User time (seconds): 52316.10
+	System time (seconds): 350.03
+	Percent of CPU this job got: 2979%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 29:27.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88761220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 154641513
+	Voluntary context switches: 154654
+	Involuntary context switches: 129202
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 144
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

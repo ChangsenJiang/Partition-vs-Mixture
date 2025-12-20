@@ -1,0 +1,10 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,BIC,RunT,Command
+bird20_c60_opt,107,NA,NA,3052199.513,-1525992.757,3052199.513,3053323.213,1.66 h,../../iqtree2 -s ./20_concated.nex -m Q.BIRD+C60+I+R6 -te ../partition/Q/bird20_Q_search.treefile -mwopt -T 50 -mem 120G -safe -pre bird20_c60_opt
+bird20_c60_F,127,NA,NA,3046290.335,-1523018.168,3046290.335,3047624.072,0.49 h,../../iqtree2 -s ./20_concated.nex -m Q.BIRD+C60+F+I+R6 -te ../partition/Q/bird20_Q_search.treefile -T 50 -mem 120G -safe -pre bird20_c60_F
+bird20_c60_unopt,48,NA,NA,3080005.706,-1539954.853,3080005.706,3080509.796,12.20 h,../../iqtree2 -s ./20_concated.nex -m Q.BIRD+C60+I+R6 -te ../partition/Q/bird20_Q_search.treefile -T 50 -mem 120G -safe -pre bird20_c60_unopt
+bird20_c60_search,37,NA,NA,3046068.995,-1522997.497,3046068.995,3046457.564,10.21 h,../../iqtree2 -s 20_concated.nex -mdef bird20_c60_F_parameter.nex -m Q_BIRD_C60_F_I_R6 -t ../partition/Q/bird20_Q_search.treefile -T 50 --mem 120G -pre bird20_c60_search
+20bird_c60_init,48,NA,NA,3061888.576,-1530896.288,3061888.576,3062392.665,2.08 h,../../iqtree2 -s 20_concated.nex -m MF -merit AIC -T 50 -mem 120G -pre 20bird_c60_init
+bird20_p_mf,3228,165,-1553601.014,3113658.029,-1500041.23,3006538.46,3040438.478,2.02 h,../../../iqtree2 -s 20_concated.nex -p 20_concated.nex -m MF+MERGE -merit AIC -T 12 -pre bird20_p_mf
+bird20_q_mf,3514,230,-1607249.797,3221527.593,-1511998.79,3031025.579,3067929.13,1.27 h,"../../../iqtree2 -s 20_concated.nex -q 20_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 12 -pre bird20_q_mf"
+bird20_Q_mf,8214,164,-1556176.735,3128781.471,-1492062.138,3000552.277,3086814.59,1.88 h,../../../iqtree2 -s 20_concated.nex -Q 20_concated.nex -m MF+MERGE -merit AIC -T 12 -pre bird20_Q_mf
+bird20_Q_search,7748,164,-1556138.193,3127772.386,-1491987.593,2999471.185,3080839.629,0.18 h,../../../iqtree2 -s 20_concated.nex -Q bird20_Q_mf.best_model.nex -t bird20_Q_mf.treefile -T 50 -pre bird20_Q_search

@@ -1,0 +1,11 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,BIC,RunT,Command
+5butterfly_c60_init,37,NA,NA,1823415.369,-911670.6843,1823415.369,1823803.938,0.37 h,../../iqtree2 -s 5_concated.nex -m MF -merit AIC -T 30 -mem 120G -pre 5butterfly_c60_init
+butterfly5_c60_opt,77,NA,NA,1827641.338,-913743.6691,1827641.338,1828449.982,0.12 h,../../iqtree2 -s ./5_concated.nex -m Q.BIRD+C60+I+R6 -te ../partition/Q/butterfly5_Q_search.treefile -mwopt -T 30 -mem 120G -safe -pre butterfly5_c60_opt
+butterfly5_c60_unopt,18,NA,NA,1844094.192,-922029.096,1844094.192,1844283.226,1.60 h,../../iqtree2 -s ./5_concated.nex -m Q.BIRD+C60+I+R6 -te ../partition/Q/butterfly5_Q_search.treefile -T 30 -mem 120G -safe -pre butterfly5_c60_unopt
+butterfly5_c60_search,7,NA,NA,1822287.975,-911136.9875,1822287.975,1822361.488,0.87 h,../../iqtree2 -s 5_concated.nex -mdef butterfly5_c60_F_parameter.nex -m Q_BIRD_C60_F_I_R6 -t ../partition/Q/butterfly5_Q_search.treefile -bb 1000 --wbtl -T 30 --mem 120G -pre butterfly5_c60_search
+butterfly5_c60_F,97,NA,NA,1822467.764,-911136.8822,1822467.764,1823486.445,0.30 h,../../iqtree2 -s ./5_concated.nex -m Q.BIRD+C60+F+I+R6 -te ../partition/Q/butterfly5_Q_search.treefile -T 30 -mem 120G -safe -pre butterfly5_c60_F
+butterfly5_p_mf,2880,151,-917042.6355,1839845.271,-889725.7198,1785211.44,1815456.809,0.49 h,../../../iqtree2 -s 5_concated.nex -p 5_concated.nex -m MF+MERGE -merit AIC -T 7 -pre butterfly5_p_mf
+butterfly5_p_search,2741,151,-917042.1633,1839566.327,-889725.72,1784933.44,1813719.05,0.06 h,../../../iqtree2 -s 5_concated.nex -p butterfly5_p_mf.best_model.nex -t butterfly5_p_mf.treefile -bb 1000 --wbtl -T 30 -pre butterfly5_p_search
+butterfly5_q_mf,3321,194,-955316.4041,1917274.808,-896261.0255,1799164.051,1834040.742,0.46 h,"../../../iqtree2 -s 5_concated.nex -q 5_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 7 -pre butterfly5_q_mf"
+butterfly5_Q_mf,4180,169,-919805.6769,1847971.354,-887637.1231,1783634.246,1827532.039,0.39 h,../../../iqtree2 -s 5_concated.nex -Q 5_concated.nex -m MF+MERGE -merit AIC -T 7 -pre butterfly5_Q_mf
+butterfly5_Q_search,4019,169,-920105.6299,1848249.26,-887637.118,1783312.236,1825519.228,0.01 h,../../../iqtree2 -s 5_concated.nex -Q butterfly5_Q_mf.best_model.nex -t butterfly5_Q_mf.treefile -bb 1000 --wbtl -T 30 -pre butterfly5_Q_search

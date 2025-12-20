@@ -1,0 +1,23 @@
+	Command being timed: "../../iqtree2 -s ./10_concated.nex -m Q.YEAST+C60+R5 -te ../partition/Q/butterfly10_Q_search.treefile -mwopt -T 45 -mem 120G -safe -pre butterfly10_c60_opt"
+	User time (seconds): 1137949.04
+	System time (seconds): 7731.83
+	Percent of CPU this job got: 4080%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:47:54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 40056588
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1245686396
+	Voluntary context switches: 3648640
+	Involuntary context switches: 3122757
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8424
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

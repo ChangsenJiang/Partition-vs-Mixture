@@ -1,0 +1,27 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=5;
+TAXLABELS
+[1] 'Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST'
+[2] 'Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2'
+[3] 'Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2'
+[4] 'Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida'
+[5] 'Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=5 nsplits=7;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 2 3,
+	100	 4,
+	100	 1 5,
+	100	 5,
+	100	 1,
+;
+END; [Splits]
+

@@ -1,0 +1,57 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    fisher.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s ./5_concated.nex -m Q.BIRD+C60+I+R6 -te ../partition/Q/avian5_Q_search.treefile -mwopt -T 30 -mem 120G -safe -pre avian5_c60_opt
+Seed:    554936 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 13 04:48:23 2025
+Kernel:  Safe AVX+FMA - 30 threads (31 CPU cores detected)
+
+Reading alignment file ./5_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 50255 sites contain only gaps or ambiguous characters.
+Alignment has 5 sequences with 268838 columns, 14785 distinct patterns
+5587 parsimony-informative, 31112 singleton sites, 232139 constant sites
+        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00674904 secs using 1372% CPU
+   1  ANAPLA   33.17%    passed     95.66%
+   2  CALSQU   28.06%    passed     99.97%
+   3  JUNHYE   36.20%    failed      0.03%
+   4  NOTORN   36.15%    passed     49.78%
+   5  URILOM   28.82%    passed     48.13%
+****  TOTAL    32.48%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000371971 for long alignment
+Checking for duplicate sequences: done in 0.00688867 secs using 1558% CPU
+Reading input tree file ../partition/Q/avian5_Q_search.treefile ...
+Model Q.BIRD+C60+I+R6 is alias for Q.BIRD+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+I+R6
+WARNING: Your input class weight 0.000415008 is very small and may cause numerical issues
+WARNING: Both Gamma and FreeRate models were specified, continue with FreeRate model
+
+NOTE: 4118 MB RAM (4 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -923393.123
+2. Current log-likelihood: -915367.657
+3. Current log-likelihood: -913501.445
+Optimal log-likelihood: -913743.669
+Mixture weights: 0.022 0.002 0.010 0.024 0.008 0.001 0.001 0.015 0.006 0.084 0.020 0.015 0.000 0.000 0.000 0.004 0.110 0.025 0.014 0.001 0.001 0.041 0.000 0.001 0.003 0.032 0.049 0.023 0.000 0.014 0.017 0.017 0.036 0.001 0.043 0.000 0.003 0.013 0.000 0.000 0.000 0.025 0.022 0.000 0.045 0.009 0.008 0.011 0.000 0.024 0.003 0.072 0.000 0.000 0.059 0.030 0.011 0.022 0.000 0.000
+Proportion of invariable sites: 0.448
+Site proportion and rates:  (0.097,0.130) (0.096,0.432) (0.094,0.816) (0.091,1.332) (0.088,2.153) (0.086,6.487)
+Parameters optimization took 3 rounds (443.142 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+BEST SCORE FOUND : -913743.669
+Total tree length: 0.401
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 3915.563 sec (1h:5m:15s)
+Total wall-clock time used: 20626204.373 sec (5729h:30m:4s)
+
+Analysis results written to: 
+  IQ-TREE report:                avian5_c60_opt.iqtree
+  Maximum-likelihood tree:       avian5_c60_opt.treefile
+  Screen log file:               avian5_c60_opt.log
+
+Date and Time: Fri Jun 13 04:55:47 2025

@@ -1,0 +1,44 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=10;
+TAXLABELS
+[1] 'Calothrix_rhizosoleniae_SC01'
+[2] 'Calothrix_sp_336_3'
+[3] 'Calothrix_sp_NIES_3974'
+[4] 'Calothrix_sp_PCC_6303'
+[5] 'Chroococcidiopsis_thermalis_PCC_7203'
+[6] 'Cylindrospermopsis_raciborskii_CS_505_v2'
+[7] 'Dictyo3444.bin.3'
+[8] 'Gloeocapsa_sp_PCC_7428'
+[9] 'Rivularia_sp_PCC_7116'
+[10] 'Synechocystis_sp_PCC_7509'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=10 nsplits=19;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 4,
+	100	 3 4,
+	100	 2 3 4,
+	100	 5,
+	100	 8,
+	74	 5 8,
+	100	 10,
+	100	 5 8 10,
+	100	 7,
+	52	 5 7 8 10,
+	100	 6,
+	100	 1 2 3 4 9,
+	100	 1 9,
+	100	 9,
+	100	 1,
+	49	 5 6 8 10,
+	26	 8 10,
+;
+END; [Splits]
+

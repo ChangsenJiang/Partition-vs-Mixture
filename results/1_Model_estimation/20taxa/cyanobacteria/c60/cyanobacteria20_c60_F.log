@@ -1,0 +1,74 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    wright.uds.anu.edu.au (AVX512, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s ./20_concated.nex -m Q.PLANT+C60+F+I+R8 -te ../partition/Q/cyanobacteria20_Q_search.treefile -T 50 -mem 120G -safe -pre cyanobacteria20_c60_F
+Seed:    757657 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr 26 02:56:52 2025
+Kernel:  Safe AVX+FMA - 50 threads (51 CPU cores detected)
+
+Reading alignment file ./20_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+Alignment has 20 sequences with 120784 columns, 64109 distinct patterns
+51083 parsimony-informative, 19626 singleton sites, 50075 constant sites
+                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0178322 secs using 3950% CPU
+   1  Calothrix_desertica_PCC_7102_v2               2.10%    failed      0.00%
+   2  Calothrix_elsteri_CCALA_953                   5.87%    failed      0.00%
+   3  Calothrix_rhizosoleniae_SC01                  6.34%    failed      0.00%
+   4  Calothrix_sp_336_3                            0.34%    passed     47.61%
+   5  Calothrix_sp_NIES_3974                        3.72%    failed      0.00%
+   6  Calothrix_sp_PCC_6303                         1.04%    failed      0.00%
+   7  Chroococcidiopsis_thermalis_PCC_7203          9.40%    failed      0.00%
+   8  Cylindrospermopsis_raciborskii_CS_505_v2      0.76%    failed      0.00%
+   9  Dictyo3444.bin.3                              4.76%    failed      0.42%
+  10  Dolichospermum_planctonicum_strain_NIES_80    2.23%    failed      0.00%
+  11  Fischerella_sp_NIES_4106                      1.12%    passed     60.04%
+  12  Fortiea_contorta_PCC_7126                     0.00%    failed      0.00%
+  13  Gloeocapsa_sp_PCC_7428                        8.91%    failed      0.00%
+  14  Nodularia_spumigena_CENA596                   2.81%    passed     58.60%
+  15  Nostoc_sp_CENA543                             0.27%    failed      0.01%
+  16  Peltula.bin.10                                7.75%    failed      0.00%
+  17  Rivularia_sp_PCC_7116                         2.04%    failed      0.00%
+  18  Synechocystis_sp_PCC_7509                    10.75%    failed      0.00%
+  19  Tolypothrix_bouteillei_VB521301               0.31%    failed      0.00%
+  20  Tolypothrix_sp_NIES_4075                      0.53%    failed      0.70%
+****  TOTAL                                         3.55%  17 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000827924 for long alignment
+Checking for duplicate sequences: done in 0.0314026 secs using 3337% CPU
+Reading input tree file ../partition/Q/cyanobacteria20_Q_search.treefile ...
+Model Q.PLANT+C60+F+I+R8 is alias for Q.PLANT+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+I+R8
+WARNING: Your input class weight 0.000415008 is very small and may cause numerical issues
+WARNING: Both Gamma and FreeRate models were specified, continue with FreeRate model
+
+NOTE: 96703 MB RAM (94 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1921372.875
+2. Current log-likelihood: -1904111.326
+3. Current log-likelihood: -1903653.499
+4. Current log-likelihood: -1903389.971
+5. Current log-likelihood: -1903337.160
+6. Current log-likelihood: -1903265.840
+Optimal log-likelihood: -1903270.075
+Mixture weights: 0.132 0.021 0.010 0.009 0.003 0.013 0.009 0.001 0.004 0.012 0.007 0.011 0.017 0.000 0.020 0.001 0.000 0.022 0.074 0.012 0.007 0.003 0.037 0.007 0.000 0.013 0.012 0.057 0.000 0.005 0.012 0.009 0.020 0.014 0.043 0.038 0.023 0.016 0.028 0.004 0.005 0.012 0.003 0.009 0.007 0.010 0.001 0.037 0.013 0.030 0.003 0.006 0.012 0.007 0.021 0.057 0.009 0.007 0.013 0.010 0.005
+Proportion of invariable sites: 0.255
+Site proportion and rates:  (0.140,0.078) (0.115,0.191) (0.091,0.382) (0.081,0.722) (0.081,1.052) (0.080,1.557) (0.108,2.896) (0.049,7.150)
+Parameters optimization took 6 rounds (4736.603 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+BEST SCORE FOUND : -1903270.075
+Total tree length: 6.167
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 110411.633 sec (30h:40m:11s)
+Total wall-clock time used: 32649735.264 sec (9069h:22m:15s)
+
+Analysis results written to: 
+  IQ-TREE report:                cyanobacteria20_c60_F.iqtree
+  Maximum-likelihood tree:       cyanobacteria20_c60_F.treefile
+  Screen log file:               cyanobacteria20_c60_F.log
+
+Date and Time: Sat Apr 26 04:16:26 2025

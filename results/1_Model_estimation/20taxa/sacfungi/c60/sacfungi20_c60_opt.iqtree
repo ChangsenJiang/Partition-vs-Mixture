@@ -1,0 +1,180 @@
+IQ-TREE 2.4.0 built Mar 21 2025
+
+Input file name: ./20_concated.nex
+User tree file name: ../partition/Q/Ascomycota20_Q_search.treefile
+Type of analysis: tree reconstruction
+Random seed number: 341832
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 270328 amino-acid sites
+Number of constant sites: 30328 (= 11.219% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 30328 (= 11.219% of all sites)
+Number of parsimony informative sites: 191343
+Number of distinct site patterns: 240778
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{Q.YEAST+FC60pi1,Q.YEAST+FC60pi2,Q.YEAST+FC60pi3,Q.YEAST+FC60pi4,Q.YEAST+FC60pi5,Q.YEAST+FC60pi6,Q.YEAST+FC60pi7,Q.YEAST+FC60pi8,Q.YEAST+FC60pi9,Q.YEAST+FC60pi10,Q.YEAST+FC60pi11,Q.YEAST+FC60pi12,Q.YEAST+FC60pi13,Q.YEAST+FC60pi14,Q.YEAST+FC60pi15,Q.YEAST+FC60pi16,Q.YEAST+FC60pi17,Q.YEAST+FC60pi18,Q.YEAST+FC60pi19,Q.YEAST+FC60pi20,Q.YEAST+FC60pi21,Q.YEAST+FC60pi22,Q.YEAST+FC60pi23,Q.YEAST+FC60pi24,Q.YEAST+FC60pi25,Q.YEAST+FC60pi26,Q.YEAST+FC60pi27,Q.YEAST+FC60pi28,Q.YEAST+FC60pi29,Q.YEAST+FC60pi30,Q.YEAST+FC60pi31,Q.YEAST+FC60pi32,Q.YEAST+FC60pi33,Q.YEAST+FC60pi34,Q.YEAST+FC60pi35,Q.YEAST+FC60pi36,Q.YEAST+FC60pi37,Q.YEAST+FC60pi38,Q.YEAST+FC60pi39,Q.YEAST+FC60pi40,Q.YEAST+FC60pi41,Q.YEAST+FC60pi42,Q.YEAST+FC60pi43,Q.YEAST+FC60pi44,Q.YEAST+FC60pi45,Q.YEAST+FC60pi46,Q.YEAST+FC60pi47,Q.YEAST+FC60pi48,Q.YEAST+FC60pi49,Q.YEAST+FC60pi50,Q.YEAST+FC60pi51,Q.YEAST+FC60pi52,Q.YEAST+FC60pi53,Q.YEAST+FC60pi54,Q.YEAST+FC60pi55,Q.YEAST+FC60pi56,Q.YEAST+FC60pi57,Q.YEAST+FC60pi58,Q.YEAST+FC60pi59,Q.YEAST+FC60pi60}+I+R7
+
+  No  Component      Rate    Weight   Parameters
+   1  Q.YEAST+FC60pi1  1.0000   0.0510   Q.YEAST+FC60pi1
+   2  Q.YEAST+FC60pi2  1.0000   0.0001   Q.YEAST+FC60pi2
+   3  Q.YEAST+FC60pi3  1.0000   0.0058   Q.YEAST+FC60pi3
+   4  Q.YEAST+FC60pi4  1.0000   0.0077   Q.YEAST+FC60pi4
+   5  Q.YEAST+FC60pi5  1.0000   0.0255   Q.YEAST+FC60pi5
+   6  Q.YEAST+FC60pi6  1.0000   0.0112   Q.YEAST+FC60pi6
+   7  Q.YEAST+FC60pi7  1.0000   0.0020   Q.YEAST+FC60pi7
+   8  Q.YEAST+FC60pi8  1.0000   0.0017   Q.YEAST+FC60pi8
+   9  Q.YEAST+FC60pi9  1.0000   0.0100   Q.YEAST+FC60pi9
+  10  Q.YEAST+FC60pi10  1.0000   0.2005   Q.YEAST+FC60pi10
+  11  Q.YEAST+FC60pi11  1.0000   0.0076   Q.YEAST+FC60pi11
+  12  Q.YEAST+FC60pi12  1.0000   0.0078   Q.YEAST+FC60pi12
+  13  Q.YEAST+FC60pi13  1.0000   0.0000   Q.YEAST+FC60pi13
+  14  Q.YEAST+FC60pi14  1.0000   0.0033   Q.YEAST+FC60pi14
+  15  Q.YEAST+FC60pi15  1.0000   0.0000   Q.YEAST+FC60pi15
+  16  Q.YEAST+FC60pi16  1.0000   0.0159   Q.YEAST+FC60pi16
+  17  Q.YEAST+FC60pi17  1.0000   0.0356   Q.YEAST+FC60pi17
+  18  Q.YEAST+FC60pi18  1.0000   0.0412   Q.YEAST+FC60pi18
+  19  Q.YEAST+FC60pi19  1.0000   0.0252   Q.YEAST+FC60pi19
+  20  Q.YEAST+FC60pi20  1.0000   0.0021   Q.YEAST+FC60pi20
+  21  Q.YEAST+FC60pi21  1.0000   0.0018   Q.YEAST+FC60pi21
+  22  Q.YEAST+FC60pi22  1.0000   0.0308   Q.YEAST+FC60pi22
+  23  Q.YEAST+FC60pi23  1.0000   0.0014   Q.YEAST+FC60pi23
+  24  Q.YEAST+FC60pi24  1.0000   0.0000   Q.YEAST+FC60pi24
+  25  Q.YEAST+FC60pi25  1.0000   0.0047   Q.YEAST+FC60pi25
+  26  Q.YEAST+FC60pi26  1.0000   0.0064   Q.YEAST+FC60pi26
+  27  Q.YEAST+FC60pi27  1.0000   0.0638   Q.YEAST+FC60pi27
+  28  Q.YEAST+FC60pi28  1.0000   0.0287   Q.YEAST+FC60pi28
+  29  Q.YEAST+FC60pi29  1.0000   0.0214   Q.YEAST+FC60pi29
+  30  Q.YEAST+FC60pi30  1.0000   0.0246   Q.YEAST+FC60pi30
+  31  Q.YEAST+FC60pi31  1.0000   0.0025   Q.YEAST+FC60pi31
+  32  Q.YEAST+FC60pi32  1.0000   0.0088   Q.YEAST+FC60pi32
+  33  Q.YEAST+FC60pi33  1.0000   0.0138   Q.YEAST+FC60pi33
+  34  Q.YEAST+FC60pi34  1.0000   0.0089   Q.YEAST+FC60pi34
+  35  Q.YEAST+FC60pi35  1.0000   0.0227   Q.YEAST+FC60pi35
+  36  Q.YEAST+FC60pi36  1.0000   0.0069   Q.YEAST+FC60pi36
+  37  Q.YEAST+FC60pi37  1.0000   0.0054   Q.YEAST+FC60pi37
+  38  Q.YEAST+FC60pi38  1.0000   0.0716   Q.YEAST+FC60pi38
+  39  Q.YEAST+FC60pi39  1.0000   0.0001   Q.YEAST+FC60pi39
+  40  Q.YEAST+FC60pi40  1.0000   0.0030   Q.YEAST+FC60pi40
+  41  Q.YEAST+FC60pi41  1.0000   0.0020   Q.YEAST+FC60pi41
+  42  Q.YEAST+FC60pi42  1.0000   0.0050   Q.YEAST+FC60pi42
+  43  Q.YEAST+FC60pi43  1.0000   0.0070   Q.YEAST+FC60pi43
+  44  Q.YEAST+FC60pi44  1.0000   0.0045   Q.YEAST+FC60pi44
+  45  Q.YEAST+FC60pi45  1.0000   0.0058   Q.YEAST+FC60pi45
+  46  Q.YEAST+FC60pi46  1.0000   0.0000   Q.YEAST+FC60pi46
+  47  Q.YEAST+FC60pi47  1.0000   0.0180   Q.YEAST+FC60pi47
+  48  Q.YEAST+FC60pi48  1.0000   0.0074   Q.YEAST+FC60pi48
+  49  Q.YEAST+FC60pi49  1.0000   0.0000   Q.YEAST+FC60pi49
+  50  Q.YEAST+FC60pi50  1.0000   0.0038   Q.YEAST+FC60pi50
+  51  Q.YEAST+FC60pi51  1.0000   0.0049   Q.YEAST+FC60pi51
+  52  Q.YEAST+FC60pi52  1.0000   0.0219   Q.YEAST+FC60pi52
+  53  Q.YEAST+FC60pi53  1.0000   0.0003   Q.YEAST+FC60pi53
+  54  Q.YEAST+FC60pi54  1.0000   0.0122   Q.YEAST+FC60pi54
+  55  Q.YEAST+FC60pi55  1.0000   0.0723   Q.YEAST+FC60pi55
+  56  Q.YEAST+FC60pi56  1.0000   0.0000   Q.YEAST+FC60pi56
+  57  Q.YEAST+FC60pi57  1.0000   0.0014   Q.YEAST+FC60pi57
+  58  Q.YEAST+FC60pi58  1.0000   0.0475   Q.YEAST+FC60pi58
+  59  Q.YEAST+FC60pi59  1.0000   0.0041   Q.YEAST+FC60pi59
+  60  Q.YEAST+FC60pi60  1.0000   0.0002   Q.YEAST+FC60pi60
+
+Model of rate heterogeneity: Invar+FreeRate with 7 categories
+Proportion of invariable sites: 0.0537
+Site proportion and rates:  (0.1118,0.0304) (0.1689,0.1291) (0.2067,0.3199) (0.1518,0.6032) (0.1136,0.8437) (0.1005,1.1728) (0.0931,6.4829)
+
+ Category  Relative_rate  Proportion
+  0         0              0.0537
+  1         0.0304         0.1118
+  2         0.1291         0.1689
+  3         0.3199         0.2067
+  4         0.6032         0.1518
+  5         0.8437         0.1136
+  6         1.1728         0.1005
+  7         6.4829         0.0931
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -7366783.0165 (s.e. 7411.2949)
+Unconstrained log-likelihood (without tree): -3262992.1499
+Number of free parameters (#branches + #model parameters): 109
+Akaike information criterion (AIC) score: 14733784.0331
+Corrected Akaike information criterion (AICc) score: 14733784.1218
+Bayesian information criterion (BIC) score: 14734929.3387
+
+Total tree length (sum of branch lengths): 43.2599
+Sum of internal branch lengths: 6.6366 (15.3412% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ascoidea_asiatica' is drawn at root
+
++---------------------Ascoidea_asiatica
+|
+|                +-----------------------Candida_hispaniensis
+|             +--|
+|             |  |     +-------------------Candida_incommunis
+|             |  |  +--|
+|             |  |  |  +---------------Zygoascus_ofunaensis
+|             |  +--|
+|             |     |           +--------------------------Starmerella_apicola
+|             |     +-----------|
+|             |                 +------------------Wickerhamiella_cacticola
+|         +---|
+|         |   |                       +---------Cercospora_zeina
+|         |   |                    +--|
+|         |   |                    |  +--------Curvularia_papendorfii
+|         |   |                 +--|
+|         |   |                 |  +-------------Phialophora_attae
+|         |   |        +--------|
+|         |   |        |        +---------------Huntiella_omanensis
+|         |   |  +-----|
+|         |   |  |     |      +------------------------------Schizosaccharomyces_octosporus
+|         |   |  |     |   +--|
+|         |   |  |     |   |  +---------------------Pneumocystis_murina
+|         |   |  |     +---|
+|         |   |  |         +----------------------Taphrina_populina
+|         |   +--|
+|         |      +----------------------------Tortispora_starmeri
+|  +------|
+|  |      +--------------------Sporopachydermia_lactativora
++--|
+|  |           +-----------Lodderomyces_elongisporus
+|  |  +--------|
+|  |  |        +-------------Metschnikowia_bowlesiae
+|  +--|
+|     +-------------------------------Saturnispora_silvae
+|
+|  +---------------------------Kazachstania_transvaalensis
++--|
+   +--------------Phaffomyces_antillensis
+
+Tree in newick format:
+
+(Ascoidea_asiatica:1.9731795952,((((Candida_hispaniensis:2.1937486459,((Candida_incommunis:1.8294855329,Zygoascus_ofunaensis:1.4674721328):0.1268036022,(Starmerella_apicola:2.4184074065,Wickerhamiella_cacticola:1.7110441913):1.1386761640):0.2164690289):0.1443399364,(((((Cercospora_zeina:0.9730761252,Curvularia_papendorfii:0.8232979089):0.2095400233,Phialophora_attae:1.3053714569):0.1488643709,Huntiella_omanensis:1.4864437214):0.8269477989,((Schizosaccharomyces_octosporus:2.7461080012,Pneumocystis_murina:2.0169792389):0.1385944056,Taphrina_populina:2.0400314338):0.4195671688):0.5537576856,Tortispora_starmeri:2.6312944021):0.3049203169):0.3941441956,Sporopachydermia_lactativora:1.8796939853):0.6376121581,((Lodderomyces_elongisporus:1.1277071082,Metschnikowia_bowlesiae:1.2401260533):0.8414513048,Saturnispora_silvae:2.8340192383):0.1573407580):0.1180735861,(Kazachstania_transvaalensis:2.5428265209,Phaffomyces_antillensis:1.3829653043):0.2594875856);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Apr 18 12:12:49 2025
+Total CPU time used: 6771792 seconds (1881h:3m:12s)
+Total wall-clock time used: 2060671 seconds (572h:24m:31s)
+

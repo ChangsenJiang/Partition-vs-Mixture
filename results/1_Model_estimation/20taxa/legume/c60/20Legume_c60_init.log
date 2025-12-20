@@ -1,0 +1,278 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    dayhoff.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s 20_concated.nex -m MF -merit AIC -T 60 -mem 120G -pre 20Legume_c60_init
+Seed:    526188 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 25 07:01:05 2025
+Kernel:  AVX+FMA - 60 threads (62 CPU cores detected)
+
+Reading alignment file 20_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+Alignment has 20 sequences with 116731 columns, 70806 distinct patterns
+40231 parsimony-informative, 24219 singleton sites, 52281 constant sites
+                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0186011 secs using 3486% CPU
+   1  Lathyrus_sativus      24.04%    failed      0.00%
+   2  Linum_usitatissimum   19.69%    failed      0.12%
+   3  Fragaria_vesca        22.25%    passed     22.11%
+   4  Cucumis_sativus       13.97%    passed     61.87%
+   5  Cannabis_sativa        4.60%    passed     56.41%
+   6  Gossypium_raimondii    2.63%    passed     90.35%
+   7  Citrus_sinensis       13.33%    passed     99.65%
+   8  Acacia_koa             7.82%    passed     99.63%
+   9  Juglans_regia         10.46%    passed     44.64%
+  10  Vigna_radiata         20.47%    passed     32.59%
+  11  Salix_purpurea         1.98%    passed     99.76%
+  12  Nelumbo_nucifera       4.80%    failed      2.55%
+  13  Papaver_somniferum    16.76%    passed     33.08%
+  14  Eucalyptus_grandis     7.93%    failed      0.00%
+  15  Carica_papaya         30.79%    passed     56.36%
+  16  Aquilegia_coerulea     9.79%    passed     28.32%
+  17  Vitis_vinifera        12.33%    passed     15.63%
+  18  Mimulus_guttatus      14.21%    passed     47.80%
+  19  Lactuca_sativa        17.91%    failed      0.00%
+  20  Solanum_tuberosum     26.41%    passed     83.18%
+****  TOTAL                 14.11%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000856670 for long alignment
+Checking for duplicate sequences: done in 0.00623263 secs using 3690% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.291 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 14.7357 secs using 5049% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1522784.381
+2. Current log-likelihood: -1522782.293
+3. Current log-likelihood: -1522781.015
+4. Current log-likelihood: -1522779.875
+Optimal log-likelihood: -1522778.703
+Proportion of invariable sites: 0.233
+Gamma shape alpha: 0.758
+Parameters optimization took 4 rounds (4.556 sec)
+Time for fast ML tree search: 29.304 seconds
+
+NOTE: ModelFinder requires 2188 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 116731 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            1617037.248  37  3234148.496  3234148.521  3234506.199
+  2  LG+I          1551903.341  38  3103882.681  3103882.707  3104250.051
+  3  LG+G4         1523886.329  38  3047848.658  3047848.683  3048216.027
+  4  LG+I+G4       1522773.581  39  3045625.161  3045625.188  3046002.199
+  5  LG+R2         1529521.340  39  3059120.680  3059120.707  3059497.718
+  6  LG+R3         1522306.794  41  3044695.588  3044695.617  3045091.960
+  7  LG+R4         1521460.657  43  3043007.314  3043007.347  3043423.022
+  8  LG+R5         1521386.449  45  3042862.899  3042862.934  3043297.942
+  9  LG+R6         1521385.609  47  3042865.219  3042865.258  3043319.597
+ 14  LG+I+R2       1524060.178  40  3048200.356  3048200.384  3048587.061
+ 15  LG+I+R3       1521664.825  42  3043413.650  3043413.680  3043819.690
+ 16  LG+I+R4       1521395.111  44  3042878.223  3042878.257  3043303.598
+ 17  LG+I+R5       1521393.152  46  3042878.304  3042878.341  3043323.015
+ 30  LG+F+R5       1520086.266  64  3040300.531  3040300.603  3040919.259
+ 31  LG+F+R6       1520085.515  66  3040303.029  3040303.105  3040941.093
+ 52  WAG+R5        1527456.106  45  3055002.213  3055002.248  3055437.256
+ 53  WAG+R6        1527455.998  47  3055005.996  3055006.034  3055460.374
+ 74  WAG+F+R5      1525947.747  64  3052023.495  3052023.566  3052642.223
++R6 reinitialized from +R5 with factor 0.500
+ 75  WAG+F+R6      1525946.813  66  3052025.626  3052025.702  3052663.690
+ 96  JTT+R5        1514015.802  45  3028121.604  3028121.640  3028556.647
+ 97  JTT+R6        1514015.305  47  3028124.610  3028124.649  3028578.989
+118  JTT+F+R5      1512448.211  64  3025024.423  3025024.494  3025643.151
+119  JTT+F+R6      1512447.499  66  3025026.998  3025027.073  3025665.061
+140  Q.PFAM+R5     1523030.447  45  3046150.893  3046150.929  3046585.937
+141  Q.PFAM+R6     1523029.600  47  3046153.200  3046153.238  3046607.578
+162  Q.PFAM+F+R5   1522091.409  64  3044310.818  3044310.889  3044929.546
+163  Q.PFAM+F+R6   1522090.475  66  3044312.951  3044313.027  3044951.014
+184  Q.BIRD+R5     1520960.516  45  3042011.031  3042011.067  3042446.074
+185  Q.BIRD+R6     1520958.511  47  3042011.021  3042011.060  3042465.400
+206  Q.BIRD+F+R5   1520063.147  64  3040254.295  3040254.366  3040873.023
+207  Q.BIRD+F+R6   1520061.309  66  3040254.618  3040254.694  3040892.681
+228  Q.MAMMAL+R5   1518609.495  45  3037308.989  3037309.025  3037744.033
+229  Q.MAMMAL+R6   1518608.449  47  3037310.898  3037310.937  3037765.276
+250  Q.MAMMAL+F+R5 1517333.488  64  3034794.976  3034795.047  3035413.704
+251  Q.MAMMAL+F+R6 1517332.544  66  3034797.087  3034797.163  3035435.151
+272  Q.INSECT+R5   1515722.698  45  3031535.396  3031535.431  3031970.439
+273  Q.INSECT+R6   1515721.564  47  3031537.128  3031537.167  3031991.506
+294  Q.INSECT+F+R5 1515673.340  64  3031474.680  3031474.751  3032093.408
+295  Q.INSECT+F+R6 1515672.269  66  3031476.538  3031476.614  3032114.602
+316  Q.PLANT+R5    1502175.300  45  3004440.600  3004440.635  3004875.643
+317  Q.PLANT+R6    1502173.708  47  3004441.417  3004441.455  3004895.795
+338  Q.PLANT+F+R5  1503152.319  64  3006432.637  3006432.708  3007051.365
+339  Q.PLANT+F+R6  1503151.050  66  3006434.100  3006434.176  3007072.164
+360  Q.YEAST+R5    1520090.308  45  3040270.615  3040270.651  3040705.659
+361  Q.YEAST+R6    1520089.365  47  3040272.730  3040272.768  3040727.108
+382  Q.YEAST+F+R5  1518435.417  64  3036998.833  3036998.905  3037617.561
+383  Q.YEAST+F+R6  1518434.388  66  3037000.777  3037000.853  3037638.840
+404  JTTDCMUT+R5   1514148.822  45  3028387.645  3028387.680  3028822.688
+405  JTTDCMUT+R6   1514147.883  47  3028389.767  3028389.805  3028844.145
+426  JTTDCMUT+F+R5 1512526.518  64  3025181.036  3025181.108  3025799.764
+427  JTTDCMUT+F+R6 1512525.654  66  3025183.308  3025183.384  3025821.371
+448  DCMUT+R5      1534665.152  45  3069420.304  3069420.340  3069855.348
+449  DCMUT+R6      1534660.469  47  3069414.939  3069414.977  3069869.317
+470  DCMUT+F+R5    1528374.172  64  3056876.344  3056876.415  3057495.072
+471  DCMUT+F+R6    1528369.094  66  3056870.187  3056870.263  3057508.250
+492  VT+R5         1534193.018  45  3068476.035  3068476.071  3068911.078
+493  VT+R6         1534192.215  47  3068478.430  3068478.469  3068932.809
+514  VT+F+R5       1534202.525  64  3068533.050  3068533.121  3069151.778
+515  VT+F+R6       1534201.671  66  3068535.342  3068535.418  3069173.406
+536  PMB+R5        1555217.715  45  3110525.430  3110525.465  3110960.473
+537  PMB+R6        1555216.746  47  3110527.491  3110527.530  3110981.870
+558  PMB+F+R5      1553649.482  64  3107426.964  3107427.035  3108045.692
+559  PMB+F+R6      1553648.270  66  3107428.540  3107428.615  3108066.603
+580  BLOSUM62+R5   1556139.852  45  3112369.704  3112369.740  3112804.747
+581  BLOSUM62+R6   1556138.903  47  3112371.807  3112371.845  3112826.185
+602  BLOSUM62+F+R5 1555522.832  64  3111173.664  3111173.735  3111792.392
+603  BLOSUM62+F+R6 1555521.701  66  3111175.403  3111175.479  3111813.466
+624  DAYHOFF+R5    1534447.424  45  3068984.847  3068984.883  3069419.890
+625  DAYHOFF+R6    1534443.746  47  3068981.492  3068981.531  3069435.871
+646  DAYHOFF+F+R5  1528178.337  64  3056484.674  3056484.745  3057103.402
+647  DAYHOFF+F+R6  1528174.348  66  3056480.695  3056480.771  3057118.758
+668  MTREV+R5      1593887.407  45  3187864.813  3187864.849  3188299.857
+669  MTREV+R6      1593880.001  47  3187854.001  3187854.040  3188308.380
+690  MTREV+F+R5    1531583.569  64  3063295.138  3063295.209  3063913.866
+691  MTREV+F+R6    1531579.593  66  3063291.186  3063291.262  3063929.249
+712  MTART+R5      1600983.691  45  3202057.381  3202057.417  3202492.424
+713  MTART+R6      1600797.179  47  3201688.358  3201688.397  3202142.737
+734  MTART+F+R5    1545432.983  64  3090993.965  3090994.037  3091612.693
+735  MTART+F+R6    1545363.345  66  3090858.690  3090858.766  3091496.753
+756  MTZOA+R5      1571016.740  45  3142123.480  3142123.516  3142558.524
+757  MTZOA+R6      1570942.475  47  3141978.950  3141978.989  3142433.328
+778  MTZOA+F+R5    1528945.241  64  3058018.483  3058018.554  3058637.211
+779  MTZOA+F+R6    1528916.329  66  3057964.658  3057964.734  3058602.722
+800  MTMET+R5      1583057.593  45  3166205.187  3166205.222  3166640.230
+801  MTMET+R6      1583025.614  47  3166145.228  3166145.266  3166599.606
+822  MTMET+F+R5    1524063.126  64  3048254.252  3048254.323  3048872.980
+823  MTMET+F+R6    1524050.316  66  3048232.632  3048232.708  3048870.696
+844  MTVER+R5      1594584.220  45  3189258.441  3189258.476  3189693.484
+845  MTVER+R6      1594502.043  47  3189098.085  3189098.124  3189552.464
+866  MTVER+F+R5    1535519.166  64  3071166.331  3071166.403  3071785.059
+867  MTVER+F+R6    1535492.799  66  3071117.598  3071117.674  3071755.661
+888  MTINV+R5      1595746.082  45  3191582.164  3191582.199  3192017.207
+889  MTINV+R6      1595734.209  47  3191562.417  3191562.456  3192016.796
+910  MTINV+F+R5    1523270.123  64  3046668.247  3046668.318  3047286.975
+911  MTINV+F+R6    1523259.980  66  3046651.959  3046652.035  3047290.023
+932  MTMAM+R5      1607005.776  45  3214101.552  3214101.587  3214536.595
+933  MTMAM+R6      1606792.319  47  3213678.638  3213678.676  3214133.016
+954  MTMAM+F+R5    1545372.139  64  3090872.279  3090872.350  3091491.007
+955  MTMAM+F+R6    1545283.485  66  3090698.969  3090699.045  3091337.033
+976  FLAVI+R5      1545856.292  45  3091802.583  3091802.619  3092237.627
+977  FLAVI+R6      1545816.266  47  3091726.531  3091726.570  3092180.910
+998  FLAVI+F+R5    1538811.042  64  3077750.084  3077750.155  3078368.812
+999  FLAVI+F+R6    1538787.420  66  3077706.840  3077706.915  3078344.903
+1020  HIVB+R5       1533697.750  45  3067485.500  3067485.536  3067920.544
+1021  HIVB+R6       1533690.879  47  3067475.757  3067475.796  3067930.136
+1042  HIVB+F+R5     1524310.909  64  3048749.818  3048749.890  3049368.546
+1043  HIVB+F+R6     1524303.835  66  3048739.669  3048739.745  3049377.733
+1064  HIVW+R5       1583322.139  45  3166734.278  3166734.313  3167169.321
+1065  HIVW+R6       1583301.068  47  3166696.136  3166696.174  3167150.514
+1086  HIVW+F+R5     1562367.426  64  3124862.853  3124862.924  3125481.581
+1087  HIVW+F+R6     1562338.451  66  3124808.902  3124808.978  3125446.965
+1108  FLU+R5        1533196.194  45  3066482.388  3066482.424  3066917.432
+1109  FLU+R6        1533129.027  47  3066352.054  3066352.093  3066806.433
+1130  FLU+F+R5      1526577.595  64  3053283.191  3053283.262  3053901.919
+1131  FLU+F+R6      1526479.130  66  3053090.260  3053090.336  3053728.324
+1152  RTREV+R5      1544277.646  45  3088645.292  3088645.328  3089080.336
+1153  RTREV+R6      1544273.304  47  3088640.609  3088640.648  3089094.987
+1174  RTREV+F+R5    1532640.495  64  3065408.991  3065409.062  3066027.719
+1175  RTREV+F+R6    1532639.894  66  3065411.789  3065411.864  3066049.852
+1196  CPREV+R5      1528085.795  45  3056261.589  3056261.625  3056696.633
++R6 reinitialized from +R5 with factor 0.500
+1197  CPREV+R6      1528084.580  47  3056263.161  3056263.199  3056717.539
+1218  CPREV+F+R5    1527343.519  64  3054815.039  3054815.110  3055433.767
+1219  CPREV+F+R6    1527341.948  66  3054815.895  3054815.971  3055453.958
+Akaike Information Criterion:           Q.PLANT+R5
+Corrected Akaike Information Criterion: Q.PLANT+R5
+Bayesian Information Criterion:         Q.PLANT+R5
+Best-fit model: Q.PLANT+R5 chosen according to AIC
+
+All model information printed to 20Legume_c60_init.model.gz
+CPU time for ModelFinder: 279535.287 seconds (77h:38m:55s)
+Wall-clock time for ModelFinder: 5279.704 seconds (1h:27m:59s)
+
+NOTE: 1094 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1502289.030
+2. Current log-likelihood: -1502179.664
+3. Current log-likelihood: -1502177.400
+4. Current log-likelihood: -1502176.959
+5. Current log-likelihood: -1502176.630
+6. Current log-likelihood: -1502176.430
+7. Current log-likelihood: -1502176.207
+8. Current log-likelihood: -1502176.136
+9. Current log-likelihood: -1502176.055
+10. Current log-likelihood: -1502175.936
+11. Current log-likelihood: -1502175.876
+12. Current log-likelihood: -1502175.825
+13. Current log-likelihood: -1502175.727
+14. Current log-likelihood: -1502175.679
+15. Current log-likelihood: -1502175.632
+16. Current log-likelihood: -1502175.586
+17. Current log-likelihood: -1502175.547
+18. Current log-likelihood: -1502175.510
+19. Current log-likelihood: -1502175.422
+20. Current log-likelihood: -1502175.384
+21. Current log-likelihood: -1502175.352
+22. Current log-likelihood: -1502175.316
+23. Current log-likelihood: -1502175.282
+24. Current log-likelihood: -1502175.252
+25. Current log-likelihood: -1502175.224
+26. Current log-likelihood: -1502175.195
+27. Current log-likelihood: -1502175.167
+28. Current log-likelihood: -1502175.151
+29. Current log-likelihood: -1502175.123
+30. Current log-likelihood: -1502175.108
+31. Current log-likelihood: -1502175.081
+32. Current log-likelihood: -1502175.066
+33. Current log-likelihood: -1502175.040
+34. Current log-likelihood: -1502175.026
+35. Current log-likelihood: -1502174.999
+36. Current log-likelihood: -1502174.985
+37. Current log-likelihood: -1502174.970
+38. Current log-likelihood: -1502174.946
+39. Current log-likelihood: -1502174.933
+40. Current log-likelihood: -1502174.919
+41. Current log-likelihood: -1502174.905
+42. Current log-likelihood: -1502174.891
+43. Current log-likelihood: -1502174.878
+44. Current log-likelihood: -1502174.864
+45. Current log-likelihood: -1502174.851
+46. Current log-likelihood: -1502174.838
+47. Current log-likelihood: -1502174.825
+48. Current log-likelihood: -1502174.812
+49. Current log-likelihood: -1502174.800
+50. Current log-likelihood: -1502174.788
+51. Current log-likelihood: -1502174.776
+52. Current log-likelihood: -1502174.764
+53. Current log-likelihood: -1502174.752
+54. Current log-likelihood: -1502174.741
+55. Current log-likelihood: -1502174.729
+56. Current log-likelihood: -1502174.716
+57. Current log-likelihood: -1502174.701
+58. Current log-likelihood: -1502174.689
+59. Current log-likelihood: -1502174.678
+60. Current log-likelihood: -1502174.667
+61. Current log-likelihood: -1502174.657
+62. Current log-likelihood: -1502174.647
+63. Current log-likelihood: -1502174.636
+Optimal log-likelihood: -1502174.620
+Site proportion and rates:  (0.423,0.047) (0.264,0.553) (0.204,1.754) (0.095,3.854) (0.013,8.195)
+Parameters optimization took 63 rounds (81.002 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -1502174.620
+Total tree length: 3.156
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 284308.413 sec (78h:58m:28s)
+Total wall-clock time used: 5360.772 sec (1h:29m:20s)
+
+Analysis results written to: 
+  IQ-TREE report:                20Legume_c60_init.iqtree
+  Tree used for ModelFinder:     20Legume_c60_init.treefile
+  Screen log file:               20Legume_c60_init.log
+
+Date and Time: Fri Apr 25 08:30:27 2025

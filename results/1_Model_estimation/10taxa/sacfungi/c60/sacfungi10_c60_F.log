@@ -1,0 +1,77 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    fisher.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s ./10_concated.nex -m LG+C60+F+I+R7 -te ../partition/Q/Ascomycota10_Q_search.treefile -T 40 -mem 120G -safe -pre Ascomycota10_c60_F
+Seed:    4197 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri May  9 17:09:52 2025
+Kernel:  Safe AVX+FMA - 40 threads (41 CPU cores detected)
+
+Reading alignment file ./10_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 2768 sites contain only gaps or ambiguous characters.
+Alignment has 10 sequences with 270328 columns, 208998 distinct patterns
+121737 parsimony-informative, 102201 singleton sites, 46390 constant sites
+                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0112749 secs using 1981% CPU
+   1  Saturnispora_silvae              24.16%    failed      0.00%
+   2  Huntiella_omanensis              16.48%    failed      0.00%
+   3  Starmerella_apicola              32.88%    failed      0.00%
+   4  Kazachstania_transvaalensis      18.08%    failed      0.00%
+   5  Metschnikowia_bowlesiae          18.27%    failed      0.00%
+   6  Schizosaccharomyces_octosporus   26.87%    failed      0.00%
+   7  Tortispora_starmeri              24.59%    failed      0.00%
+   8  Candida_hispaniensis             19.27%    failed      0.00%
+   9  Phialophora_attae                14.65%    failed      0.00%
+  10  Phaffomyces_antillensis          16.71%    failed      0.00%
+****  TOTAL                            21.20%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000369921 for long alignment
+Checking for duplicate sequences: done in 0.0437027 secs using 377.4% CPU
+Reading input tree file ../partition/Q/Ascomycota10_Q_search.treefile ...
+Model LG+C60+F+I+R7 is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+I+R7
+WARNING: Your input class weight 0.000415008 is very small and may cause numerical issues
+WARNING: Both Gamma and FreeRate models were specified, continue with FreeRate model
+
+NOTE: 110312 MB RAM (107 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4196300.287
+2. Current log-likelihood: -4108239.905
+3. Current log-likelihood: -4103471.484
+4. Current log-likelihood: -4102735.408
+5. Current log-likelihood: -4102497.829
+6. Current log-likelihood: -4102464.512
+7. Current log-likelihood: -4102413.230
+8. Current log-likelihood: -4102400.105
+9. Current log-likelihood: -4102372.403
+10. Current log-likelihood: -4102361.958
+11. Current log-likelihood: -4102347.301
+12. Current log-likelihood: -4102345.833
+13. Current log-likelihood: -4102342.876
+14. Current log-likelihood: -4102335.276
+15. Current log-likelihood: -4102334.945
+16. Current log-likelihood: -4102334.324
+17. Current log-likelihood: -4102332.026
+18. Current log-likelihood: -4102330.419
+Optimal log-likelihood: -4102330.660
+Mixture weights: 0.564 0.021 0.000 0.002 0.012 0.014 0.002 0.001 0.001 0.000 0.012 0.010 0.007 0.000 0.004 0.000 0.004 0.011 0.032 0.006 0.001 0.003 0.018 0.002 0.000 0.003 0.006 0.034 0.000 0.006 0.006 0.002 0.006 0.007 0.010 0.017 0.008 0.003 0.038 0.000 0.004 0.001 0.002 0.013 0.000 0.000 0.000 0.015 0.006 0.000 0.000 0.006 0.010 0.000 0.012 0.019 0.000 0.002 0.029 0.005 0.001
+Proportion of invariable sites: 0.070
+Site proportion and rates:  (0.179,0.103) (0.189,0.380) (0.152,0.634) (0.136,1.027) (0.125,1.289) (0.111,1.383) (0.038,9.363)
+Parameters optimization took 18 rounds (34405.448 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+BEST SCORE FOUND : -4102330.660
+Total tree length: 13.896
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 393082.416 sec (109h:11m:22s)
+Total wall-clock time used: 17680664.039 sec (4911h:17m:44s)
+
+Analysis results written to: 
+  IQ-TREE report:                Ascomycota10_c60_F.iqtree
+  Maximum-likelihood tree:       Ascomycota10_c60_F.treefile
+  Screen log file:               Ascomycota10_c60_F.log
+
+Date and Time: Sat May 10 02:43:38 2025

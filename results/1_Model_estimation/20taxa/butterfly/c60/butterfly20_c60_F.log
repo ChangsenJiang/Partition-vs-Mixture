@@ -1,0 +1,103 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    dayhoff.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s ./20_concated.nex -m Q.INSECT+C60+F+I+R6 -te ../partition/Q/butterfly20_Q_search.treefile -T 60 -mem 120G -safe -pre butterfly20_c60_F
+Seed:    477309 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr 22 16:27:18 2025
+Kernel:  Safe AVX+FMA - 60 threads (66 CPU cores detected)
+
+Reading alignment file ./20_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 1615 sites contain only gaps or ambiguous characters.
+Alignment has 20 sequences with 146199 columns, 112924 distinct patterns
+53958 parsimony-informative, 39206 singleton sites, 53035 constant sites
+                                                                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0117215 secs using 5425% CPU
+   1  Adeloidea_Adelidae_Adelinae_Nemophora_degeerella_INShauTABRAAPEI__93                         25.65%    failed      0.00%
+   2  Agathiphagoidea_Agathiphagidae_Agathiphaga_queenslandensis_Aga3                              73.50%    failed      0.07%
+   3  Coleoptera_Tenebrionidae_Tenebrioninae_Tribolium_castaneum_TCAST                              7.15%    failed      0.00%
+   4  Eriocranioidea_Eriocraniidae_Dyseriocrania_subpurpurella_INSbusTBDRAAPEI__79                 50.97%    failed      0.00%
+   5  Geometroidea_Geometridae_Larentiinae_Operophtera_brumata                                     37.98%    failed      0.00%
+   6  Gracillarioidea_Bucculatricidae_Bucculatrix_cristatella_ANIsrmTAASRAAPEI__220                30.99%    passed      9.58%
+   7  Gracillarioidea_Gracillariidae_Phyllocnistinae_Phyllocnistis_citrella_Pcit2                  47.25%    failed      3.03%
+   8  Hepialoidea_Hepialidae_Phymatopus_californicus_Phm                                           18.26%    passed      5.09%
+   9  Neopseustoidea_Neopseustidae_Neopseustinae_Neopseustis_meyricki_RINSinlTEERAAPEI__79         50.38%    failed      0.59%
+  10  Nepticuloidea_Nepticulidae_Nepticulinae_Enteucha_acetosae_Enac2                              55.36%    failed      0.00%
+  11  Papilionoidea_Lycaenidae_Polyommatinae_Hemiargus_ceraunus_GNV120025                          49.15%    failed      0.18%
+  12  Tineoidea_Tineidae_Tineinae_Tineola_bisselliella_INSswpTACRAAPEI__13                         17.33%    failed      1.87%
+  13  Tischerioidea_Tischeriidae_Tischeria_quercitella_Ts2                                         33.19%    failed      0.00%
+  14  Trichoptera_Hydroptilidae_Ptilocolepinae_Palaeagapetus_nearcticus_RINSramTAARAAPEI__209_zz   46.56%    failed      0.05%
+  15  Trichoptera_Leptoceridae_Leptocerinae_Nectopsyche_candida                                    32.97%    failed      0.10%
+  16  Trichoptera_Psychomyiidae_Psychomyiinae_Psychomyia_flavida                                   27.70%    failed      0.24%
+  17  Diptera_Culicidae_Anophelinae_Anopheles_gambiae                                              37.81%    failed      0.00%
+  18  Diptera_Drosophilidae_Drosophilinae_Drosophila_melanogaster                                  39.52%    failed      0.00%
+  19  Mecoptera_Boreidae_Boreus_hyemalis                                                           36.10%    failed      0.01%
+  20  Siphonaptera_Pulicidae_Archaeopsyllini_Ctenocephalides_felis                                 35.50%    failed      0.00%
+WARNING: 4 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                        37.67%  18 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000683999 for long alignment
+Checking for duplicate sequences: done in 0.0137779 secs using 4895% CPU
+Reading input tree file ../partition/Q/butterfly20_Q_search.treefile ...
+Model Q.INSECT+C60+F+I+R6 is alias for Q.INSECT+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+I+R6
+WARNING: Your input class weight 0.000415008 is very small and may cause numerical issues
+WARNING: Both Gamma and FreeRate models were specified, continue with FreeRate model
+
+NOTE: 121343 MB RAM (118 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1955962.619
+2. Current log-likelihood: -1934473.234
+3. Current log-likelihood: -1934194.007
+4. Current log-likelihood: -1934123.129
+5. Current log-likelihood: -1934107.191
+6. Current log-likelihood: -1934090.767
+7. Current log-likelihood: -1934076.895
+8. Current log-likelihood: -1934063.269
+9. Current log-likelihood: -1934051.756
+10. Current log-likelihood: -1934039.715
+11. Current log-likelihood: -1934032.995
+12. Current log-likelihood: -1934022.576
+13. Current log-likelihood: -1934015.598
+14. Current log-likelihood: -1934006.322
+15. Current log-likelihood: -1934000.237
+16. Current log-likelihood: -1933993.378
+17. Current log-likelihood: -1933989.525
+18. Current log-likelihood: -1933983.824
+19. Current log-likelihood: -1933980.957
+20. Current log-likelihood: -1933976.443
+21. Current log-likelihood: -1933974.412
+22. Current log-likelihood: -1933970.527
+23. Current log-likelihood: -1933968.805
+24. Current log-likelihood: -1933965.946
+25. Current log-likelihood: -1933965.364
+26. Current log-likelihood: -1933962.267
+27. Current log-likelihood: -1933961.740
+28. Current log-likelihood: -1933959.634
+29. Current log-likelihood: -1933958.147
+30. Current log-likelihood: -1933956.856
+31. Current log-likelihood: -1933955.566
+32. Current log-likelihood: -1933954.734
+33. Current log-likelihood: -1933953.403
+Optimal log-likelihood: -1933953.896
+Mixture weights: 0.292 0.015 0.007 0.007 0.010 0.016 0.010 0.001 0.005 0.000 0.048 0.024 0.013 0.000 0.009 0.000 0.000 0.024 0.042 0.020 0.001 0.003 0.039 0.005 0.000 0.009 0.002 0.053 0.003 0.002 0.030 0.015 0.010 0.012 0.014 0.028 0.011 0.010 0.041 0.003 0.005 0.004 0.006 0.021 0.000 0.004 0.000 0.015 0.009 0.002 0.000 0.009 0.014 0.005 0.016 0.034 0.003 0.000 0.014 0.003 0.000
+Proportion of invariable sites: 0.155
+Site proportion and rates:  (0.224,0.092) (0.152,0.322) (0.143,0.688) (0.129,1.167) (0.155,2.528) (0.041,7.086)
+Parameters optimization took 33 rounds (10000.476 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+BEST SCORE FOUND : -1933953.896
+Total tree length: 7.765
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 556609.388 sec (154h:36m:49s)
+Total wall-clock time used: 45300204.227 sec (12583h:23m:24s)
+
+Analysis results written to: 
+  IQ-TREE report:                butterfly20_c60_F.iqtree
+  Maximum-likelihood tree:       butterfly20_c60_F.treefile
+  Screen log file:               butterfly20_c60_F.log
+
+Date and Time: Tue Apr 22 19:14:08 2025

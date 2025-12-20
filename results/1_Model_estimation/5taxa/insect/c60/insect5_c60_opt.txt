@@ -1,0 +1,23 @@
+	Command being timed: "../../iqtree2 -s ./5_concated.nex -m LG+C60+R3 -te ../partition/Q/insect5_Q_search.treefile -mwopt -T 30 -mem 120G -safe -pre insect5_c60_opt"
+	User time (seconds): 160884.30
+	System time (seconds): 1403.29
+	Percent of CPU this job got: 1740%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:35:24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3782180
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 218513692
+	Voluntary context switches: 4226738
+	Involuntary context switches: 641511
+	Swaps: 0
+	File system inputs: 600
+	File system outputs: 4680
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,10 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,RunT,Command
+sacfungi20_c60_F,129,NA,NA,14673207.76,-7336474.879,14673207.76,4.56 h,../../iqtree2 -s ./20_concated.nex -m Q.YEAST+C60+F+I+R7 -te ../partition/Q/sacfungi20_Q_search.treefile -T 80 --mem 140G -safe -pre sacfungi20_c60_F
+sacfungi20_c60_unopt,50,NA,NA,14858185.27,-7429042.634,14858185.27,72.33 h,../../iqtree2 -s ./20_concated.nex -m Q.YEAST+C60+I+R7 -te ../partition/Q/sacfungi20_Q_search.treefile -T 40 --mem 70G -safe -pre sacfungi20_c60_unopt
+sacfungi20_c60_search,37,NA,NA,14673046.52,-7336486.26,14673046.52,41.50 h,../../iqtree2 -s 20_concated.nex -mdef sacfungi20_c60_F_parameter.nex -m Q_YEAST_C60_F_I_R7 -t ../partition/Q/sacfungi20_Q_search.treefile -T 80 --mem 140G -pre sacfungi20_c60_search
+sacfungi20_c60_opt,109,NA,NA,14733784.03,-7366783.017,14733784.03,55.14 h,../../iqtree2 -s ./20_concated.nex -m Q.YEAST+C60+I+R7 -te ../partition/Q/sacfungi20_Q_search.treefile -mwopt -T 40 --mem 70G -safe -pre sacfungi20_c60_opt
+20sacfungi_c60_init,50,NA,NA,14790216.92,-7395058.461,14790216.92,6.72 h,../../iqtree2 -s 20_concated.nex -m MF -merit AIC -T 80 --mem 140G -pre 20sacfungi_c60_init
+sacfungi20_p_mf,4242,195,-7386842.179,14782168.36,-7345616.804,14699717.61,4.17 h,../../../iqtree2 -s 20_concated.nex -p 20_concated.nex -m MF+MERGE -merit AIC -T 20 -pre sacfungi20_p_mf
+sacfungi20_q_mf,3472,223,-7403658.525,14814261.05,-7365153.155,14737250.31,0.63 h,"../../../iqtree2 -s 20_concated.nex -q 20_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 20 -pre sacfungi20_q_mf"
+sacfungi20_Q_mf,18004,361,-7415725.738,14867459.48,-7293830.593,14623669.19,2.44 h,../../../iqtree2 -s 20_concated.nex -Q 20_concated.nex -m MF+MERGE -merit AIC -T 20 -pre sacfungi20_Q_mf
+sacfungi20_Q_search,16095,361,-7415650.269,14863490.54,-7293830.533,14619851.07,0.32 h,../../../iqtree2 -s 20_concated.nex -Q sacfungi20_Q_mf.best_model.nex -t sacfungi20_Q_mf.treefile -T 80 -pre sacfungi20_Q_search

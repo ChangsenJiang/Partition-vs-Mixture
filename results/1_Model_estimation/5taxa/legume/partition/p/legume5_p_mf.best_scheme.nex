@@ -1,0 +1,188 @@
+#nexus
+begin sets;
+  charset GENE_cluster1132_2rr_1.nex_GENE_cluster3738_1rr_1.nex_GENE_cluster5095_1rr_1.nex_GENE_cluster5216_1rr_1.nex_GENE_cluster5652_1rr_1.nex_GENE_cluster5656_1rr_1.nex_GENE_cluster719_2rr_1.nex = 1-160  21291-21694  50226-50323  56150-56365  72971-73097  73098-73501  114658-115104;
+  charset GENE_cluster115_5rr_1.nex_GENE_cluster5579_1rr_1.nex_GENE_cluster5602_1rr_1.nex = 161-324  68299-68528  69689-70094;
+  charset GENE_cluster1181_1rr_1.nex_GENE_cluster1668_1rr_1.nex_GENE_cluster3934_1rr_1.nex_GENE_cluster4560_1rr_1.nex_GENE_cluster4827_1rr_1.nex_GENE_cluster5437_1rr_1.nex_GENE_cluster5610_1rr_1.nex_GENE_cluster6227_1rr_1.nex = 325-738  4267-4494  24455-24713  33984-34434  41615-41857  63269-63459  70932-71389  96245-96628;
+  charset GENE_cluster1224_3rr_1.nex_GENE_cluster2748_2rr_1.nex_GENE_cluster3779_1rr_1.nex_GENE_cluster4277_1rr_1.nex_GENE_cluster4411_1rr_1.nex_GENE_cluster4484_1rr_1.nex_GENE_cluster4590_1rr_1.nex_GENE_cluster5209_1rr_1.nex_GENE_cluster5219_1rr_1.nex_GENE_cluster5972_1rr_1.nex_GENE_cluster6210_1rr_1.nex_GENE_cluster6310_1rr_1.nex_GENE_cluster6447_1rr_1.nex = 739-1174  15506-16072  22105-22502  29607-29828  31807-31974  32659-32828  35343-35495  55509-55665  56645-57467  86820-87128  95833-96244  100804-101332  105569-105647;
+  charset GENE_cluster1247_1rr_1.nex_GENE_cluster349_2rr_1.nex_GENE_cluster4725_1rr_1.nex_GENE_cluster5020_1rr_1.nex_GENE_cluster5268_1rr_1.nex_GENE_cluster5637_1rr_1.nex = 1175-1298  19957-20265  39643-39779  47669-47772  58971-59173  72806-72970;
+  charset GENE_cluster1248_2rr_1.nex_GENE_cluster1794_2rr_1.nex_GENE_cluster3912_1rr_1.nex_GENE_cluster5247_1rr_1.nex_GENE_cluster5730_1rr_1.nex_GENE_cluster6336_1rr_1.nex_GENE_cluster6342_1rr_1.nex_GENE_cluster6612_1rr_1.nex = 1299-1746  6329-6619  23780-23979  58394-58539  76909-77012  102103-102208  102209-102490  112130-112694;
+  charset GENE_cluster1309_1rr_1.nex_GENE_cluster5145_1rr_1.nex = 1747-2285  50959-51189;
+  charset GENE_cluster1438_1rr_1.nex_GENE_cluster4706_1rr_1.nex = 2286-2751  38726-39174;
+  charset GENE_cluster1450_1rr_1.nex_GENE_cluster4758_1rr_1.nex_GENE_cluster5754_1rr_1.nex_GENE_cluster6296_1rr_1.nex = 2752-2857  40616-40813  78609-78809  98769-98907;
+  charset GENE_cluster1453_2rr_1.nex_GENE_cluster4208_1rr_1.nex_GENE_cluster4664_1rr_1.nex_GENE_cluster5193_1rr_1.nex_GENE_cluster5243_1rr_1.nex_GENE_cluster5422_1rr_1.nex_GENE_cluster5860_1rr_1.nex_GENE_cluster5889_1rr_1.nex_GENE_cluster6104_1rr_1.nex_GENE_cluster757_2rr_1.nex = 2858-3188  27104-27311  36946-37056  54106-54374  58117-58393  62660-62859  81310-81614  82816-83078  90541-90846  115579-115914;
+  charset GENE_cluster1523_2rr_1.nex = 3189-3527;
+  charset GENE_cluster1539_2rr_1.nex_GENE_cluster4713_1rr_1.nex_GENE_cluster4965_1rr_1.nex_GENE_cluster5194_1rr_1.nex_GENE_cluster5830_1rr_1.nex = 3528-3768  39175-39422  46425-46540  54375-54604  80253-80437;
+  charset GENE_cluster1603_1rr_1.nex_GENE_cluster1794_1rr_1.nex_GENE_cluster3567_1rr_1.nex_GENE_cluster4622_1rr_1.nex_GENE_cluster4851_1rr_1.nex_GENE_cluster5362_1rr_1.nex_GENE_cluster5509_1rr_1.nex_GENE_cluster5529_1rr_1.nex_GENE_cluster5550_1rr_1.nex_GENE_cluster5736_1rr_1.nex_GENE_cluster5869_1rr_1.nex_GENE_cluster5936_1rr_1.nex_GENE_cluster6326_1rr_1.nex = 3769-3949  6121-6328  20536-20707  36310-36521  42458-42733  60807-61024  64057-64218  64824-65108  66388-66779  78041-78197  81988-82108  84225-84564  101946-102102;
+  charset GENE_cluster1629_1rr_1.nex_GENE_cluster4594_1rr_1.nex_GENE_cluster5083_1rr_1.nex_GENE_cluster5560_1rr_1.nex_GENE_cluster5685_1rr_1.nex_GENE_cluster6151_1rr_1.nex_GENE_cluster6176_1rr_1.nex = 3950-4266  35496-35660  49286-49510  67531-67749  74271-74435  93516-93697  94889-95090;
+  charset GENE_cluster1678_1rr_1.nex_GENE_cluster4153_1rr_1.nex = 4495-4848  26731-26992;
+  charset GENE_cluster168_5rr_1.nex_GENE_cluster3482_1rr_1.nex_GENE_cluster4241_1rr_1.nex_GENE_cluster4414_1rr_1.nex_GENE_cluster4570_1rr_1.nex_GENE_cluster5086_1rr_1.nex_GENE_cluster5214_1rr_1.nex_GENE_cluster5319_1rr_1.nex_GENE_cluster5571_1rr_1.nex_GENE_cluster5732_1rr_1.nex_GENE_cluster682_1rr_1.nex_GENE_cluster895_2rr_1.nex = 4849-5372  19479-19956  27526-27968  31975-32266  34787-35038  49771-50225  55761-56149  60065-60270  68085-68298  77013-77604  113185-113529  116082-116731;
+  charset GENE_cluster1698_1rr_1.nex_GENE_cluster2113_2rr_1.nex_GENE_cluster3127_1rr_1.nex_GENE_cluster4649_1rr_1.nex_GENE_cluster4736_1rr_1.nex_GENE_cluster5165_1rr_1.nex_GENE_cluster5184_1rr_1.nex_GENE_cluster5540_1rr_1.nex_GENE_cluster5808_1rr_1.nex_GENE_cluster6026_1rr_1.nex_GENE_cluster6281_1rr_1.nex_GENE_cluster6474_1rr_1.nex = 5373-5862  9059-9655  17522-17704  36662-36945  39997-40115  51578-51849  53036-53396  65936-66387  79100-79568  88468-88757  98669-98768  106304-106555;
+  charset GENE_cluster1721_1rr_1.nex_GENE_cluster2066_1rr_1.nex_GENE_cluster6130_1rr_1.nex = 5863-6120  8326-8519  92541-92882;
+  charset GENE_cluster1810_1rr_1.nex_GENE_cluster3707_1rr_1.nex_GENE_cluster4850_1rr_1.nex_GENE_cluster5477_1rr_1.nex = 6620-6951  21018-21290  42304-42457  63913-64056;
+  charset GENE_cluster1848_1rr_1.nex_GENE_cluster3296_1rr_1.nex_GENE_cluster4142_1rr_1.nex_GENE_cluster4611_1rr_1.nex = 6952-7157  18012-18189  26481-26730  35942-36102;
+  charset GENE_cluster1860_1rr_1.nex_GENE_cluster3522_1rr_1.nex = 7158-7321  20266-20415;
+  charset GENE_cluster1979_1rr_1.nex_GENE_cluster3749_1rr_1.nex_GENE_cluster4889_1rr_1.nex_GENE_cluster4924_1rr_1.nex_GENE_cluster5050_1rr_1.nex = 7322-7570  21695-21830  43756-43963  44579-44773  48189-48520;
+  charset GENE_cluster2035_1rr_1.nex_GENE_cluster4267_1rr_1.nex_GENE_cluster4437_1rr_1.nex_GENE_cluster5593_1rr_1.nex = 7571-7983  28452-28669  32460-32658  68529-68792;
+  charset GENE_cluster2061_1rr_1.nex_GENE_cluster2426_2rr_1.nex_GENE_cluster4833_1rr_1.nex_GENE_cluster4954_1rr_1.nex_GENE_cluster5036_1rr_1.nex_GENE_cluster5359_1rr_1.nex_GENE_cluster5635_1rr_1.nex_GENE_cluster5681_1rr_1.nex_GENE_cluster5967_1rr_1.nex_GENE_cluster6033_1rr_1.nex = 7984-8325  12907-13284  41858-42153  46044-46424  47896-48078  60664-60806  72308-72431  73937-74270  86544-86819  88758-89160;
+  charset GENE_cluster2068_1rr_1.nex_GENE_cluster4700_1rr_1.nex_GENE_cluster5919_1rr_1.nex = 8520-8761  38579-38725  83410-83824;
+  charset GENE_cluster2080_2rr_1.nex_GENE_cluster3842_1rr_1.nex_GENE_cluster4345_1rr_1.nex_GENE_cluster5636_1rr_1.nex = 8762-9058  22814-23031  31193-31405  72432-72805;
+  charset GENE_cluster2128_2rr_1.nex_GENE_cluster5372_1rr_1.nex = 9656-9987  61190-61371;
+  charset GENE_cluster2146_1rr_1.nex_GENE_cluster5862_1rr_1.nex = 9988-10312  81615-81987;
+  charset GENE_cluster2180_1rr_1.nex_GENE_cluster5569_1rr_1.nex_GENE_cluster5599_1rr_1.nex_GENE_cluster6421_1rr_1.nex = 10313-11035  67750-68084  68793-68911  104078-104410;
+  charset GENE_cluster2199_1rr_1.nex_GENE_cluster2199_2rr_1.nex_GENE_cluster3050_1rr_1.nex_GENE_cluster4303_1rr_1.nex_GENE_cluster4895_1rr_1.nex_GENE_cluster5166_1rr_1.nex_GENE_cluster5186_1rr_1.nex_GENE_cluster5410_1rr_1.nex_GENE_cluster5553_1rr_1.nex_GENE_cluster5743_1rr_1.nex_GENE_cluster5963_1rr_1.nex = 11036-11653  11654-12133  17255-17521  30213-30403  43964-44333  51850-52251  53397-53665  62030-62489  67006-67363  78198-78608  86088-86543;
+  charset GENE_cluster2216_1rr_2.nex_GENE_cluster3301_1rr_1.nex_GENE_cluster3907_1rr_1.nex_GENE_cluster4542_1rr_1.nex_GENE_cluster4751_1rr_1.nex_GENE_cluster5206_1rr_1.nex_GENE_cluster6108_1rr_1.nex_GENE_cluster6348_1rr_1.nex = 12134-12410  18190-18382  23488-23667  33275-33631  40331-40615  55086-55295  90847-91060  102491-102812;
+  charset GENE_cluster226_2rr_1.nex_GENE_cluster397_1rr_1.nex_GENE_cluster6051_1rr_1.nex_GENE_cluster6425_1rr_1.nex = 12411-12709  25723-25954  89802-90224  104878-105182;
+  charset GENE_cluster2336_1rr_1.nex_GENE_cluster281_1rr_1.nex_GENE_cluster4695_1rr_1.nex_GENE_cluster5976_1rr_1.nex_GENE_cluster6536_1rr_1.nex = 12710-12906  16562-17254  37856-38243  87129-87312  109012-109710;
+  charset GENE_cluster2504_2rr_1.nex_GENE_cluster4562_1rr_1.nex = 13285-13755  34435-34786;
+  charset GENE_cluster252_1rr_1.nex_GENE_cluster4680_1rr_1.nex_GENE_cluster518_2rr_1.nex_GENE_cluster5250_1rr_1.nex_GENE_cluster5600_1rr_1.nex_GENE_cluster6152_1rr_1.nex_GENE_cluster6166_1rr_1.nex_GENE_cluster6455_1rr_1.nex_GENE_cluster6478_1rr_1.nex_GENE_cluster6591_1rr_1.nex = 13756-14092  37389-37855  53666-54105  58540-58970  68912-69688  93698-94087  94088-94692  105648-105945  106556-106828  110464-111131;
+  charset GENE_cluster2648_1rr_1.nex_GENE_cluster4846_1rr_1.nex = 14093-14413  42154-42303;
+  charset GENE_cluster2674_1rr_1.nex_GENE_cluster5452_1rr_1.nex = 14414-15219  63594-63912;
+  charset GENE_cluster2747_1rr_1.nex_GENE_cluster5530_1rr_1.nex_GENE_cluster5686_1rr_1.nex = 15220-15505  65109-65370  74436-75077;
+  charset GENE_cluster274_4rr_1.nex = 16073-16561;
+  charset GENE_cluster327_2rr_1.nex = 17705-18011;
+  charset GENE_cluster3309_1rr_1.nex_GENE_cluster5720_1rr_1.nex_GENE_cluster5950_1rr_1.nex_GENE_cluster6272_1rr_1.nex = 18383-18650  76241-76484  84725-84902  98204-98668;
+  charset GENE_cluster3363_1rr_1.nex_GENE_cluster5055_1rr_1.nex_GENE_cluster5133_1rr_1.nex_GENE_cluster5702_1rr_1.nex_GENE_cluster6112_1rr_1.nex_GENE_cluster6195_1rr_1.nex_GENE_cluster6235_1rr_1.nex_GENE_cluster779_1rr_1.nex = 18651-19049  48755-49018  50736-50958  75415-75991  91478-91779  95091-95670  97055-97723  115915-116081;
+  charset GENE_cluster3404_1rr_1.nex_GENE_cluster4886_1rr_1.nex_GENE_cluster5659_1rr_1.nex = 19050-19337  43631-43755  73502-73637;
+  charset GENE_cluster3448_1rr_1.nex_GENE_cluster5938_1rr_1.nex = 19338-19478  84565-84724;
+  charset GENE_cluster3529_1rr_1.nex_GENE_cluster51_3rr_1.nex_GENE_cluster5831_1rr_1.nex = 20416-20535  54605-55085  80438-80566;
+  charset GENE_cluster3635_1rr_1.nex_GENE_cluster4699_1rr_1.nex_GENE_cluster4883_1rr_1.nex_GENE_cluster5239_1rr_1.nex_GENE_cluster5699_1rr_1.nex_GENE_cluster5999_1rr_1.nex_GENE_cluster6514_1rr_1.nex = 20708-21017  38244-38578  43339-43630  57807-58116  75078-75414  87621-87824  107854-108054;
+  charset GENE_cluster3755_1rr_1.nex_GENE_cluster4508_1rr_1.nex_GENE_cluster4821_1rr_1.nex_GENE_cluster4854_1rr_1.nex = 21831-22104  33099-33274  41426-41614  43111-43218;
+  charset GENE_cluster3797_1rr_1.nex_GENE_cluster4312_1rr_1.nex_GENE_cluster6020_1rr_1.nex = 22503-22813  30404-30763  87963-88263;
+  charset GENE_cluster3869_1rr_1.nex_GENE_cluster3894_1rr_1.nex_GENE_cluster5059_1rr_1.nex_GENE_cluster5312_1rr_1.nex_GENE_cluster5886_1rr_1.nex_GENE_cluster6049_1rr_1.nex = 23032-23316  23317-23487  49019-49133  59791-60064  82587-82815  89492-89801;
+  charset GENE_cluster3908_1rr_1.nex_GENE_cluster4497_1rr_1.nex_GENE_cluster5179_1rr_1.nex_GENE_cluster5436_1rr_1.nex_GENE_cluster6170_1rr_1.nex_GENE_cluster6302_1rr_1.nex = 23668-23779  32965-33098  52651-52912  63042-63268  94693-94888  99510-99963;
+  charset GENE_cluster3928_1rr_1.nex_GENE_cluster4300_1rr_1.nex = 23980-24187  29829-30212;
+  charset GENE_cluster3932_1rr_1.nex_GENE_cluster4138_1rr_1.nex_GENE_cluster4792_1rr_1.nex_GENE_cluster4853_1rr_1.nex_GENE_cluster4992_1rr_1.nex_GENE_cluster5220_1rr_1.nex_GENE_cluster5412_1rr_1.nex_GENE_cluster5603_1rr_1.nex_GENE_cluster5631_1rr_1.nex_GENE_cluster6390_1rr_1.nex = 24188-24454  26325-26480  41029-41425  42870-43110  47204-47424  57468-57624  62490-62659  70095-70456  72132-72307  103174-103542;
+  charset GENE_cluster3941_1rr_1.nex_GENE_cluster4602_1rr_1.nex_GENE_cluster4937_1rr_1.nex_GENE_cluster5984_1rr_1.nex_GENE_cluster6039_1rr_1.nex_GENE_cluster6063_1rr_1.nex_GENE_cluster6121_1rr_1.nex_GENE_cluster6404_1rr_1.nex = 24714-25615  35661-35941  45356-45548  87313-87620  89161-89329  90225-90446  92185-92540  103735-104077;
+  charset GENE_cluster3976_1rr_1.nex_GENE_cluster4673_1rr_1.nex_GENE_cluster4877_1rr_1.nex_GENE_cluster5207_1rr_1.nex_GENE_cluster5604_1rr_1.nex_GENE_cluster6546_1rr_1.nex = 25616-25722  37057-37388  43219-43338  55296-55508  70457-70931  109711-110162;
+  charset GENE_cluster4032_1rr_1.nex = 25955-26205;
+  charset GENE_cluster4114_1rr_1.nex_GENE_cluster4268_1rr_1.nex_GENE_cluster4419_1rr_1.nex_GENE_cluster5222_1rr_1.nex = 26206-26324  28670-28841  32267-32459  57625-57806;
+  charset GENE_cluster4168_1rr_1.nex_GENE_cluster6266_1rr_1.nex = 26993-27103  97968-98203;
+  charset GENE_cluster4240_1rr_1.nex_GENE_cluster4356_1rr_1.nex_GENE_cluster4718_1rr_1.nex_GENE_cluster5279_1rr_1.nex_GENE_cluster6045_1rr_1.nex = 27312-27525  31406-31687  39423-39642  59350-59593  89330-89491;
+  charset GENE_cluster4250_1rr_1.nex_GENE_cluster4271_1rr_1.nex_GENE_cluster5269_1rr_1.nex_GENE_cluster5348_1rr_1.nex = 27969-28451  29032-29606  59174-59349  60271-60519;
+  charset GENE_cluster4269_1rr_1.nex_GENE_cluster6078_1rr_1.nex = 28842-29031  90447-90540;
+  charset GENE_cluster4330_1rr_1.nex_GENE_cluster4331_1rr_1.nex_GENE_cluster4852_1rr_1.nex_GENE_cluster5678_1rr_1.nex_GENE_cluster6136_1rr_1.nex_GENE_cluster6320_1rr_1.nex_GENE_cluster6532_1rr_1.nex = 30764-30977  30978-31078  42734-42869  73638-73936  92883-93515  101333-101945  108246-109011;
+  charset GENE_cluster4335_1rr_1.nex_GENE_cluster4364_1rr_1.nex_GENE_cluster6234_1rr_1.nex_GENE_cluster663_1rr_1.nex = 31079-31192  31688-31806  96629-97054  112695-113184;
+  charset GENE_cluster4490_1rr_1.nex_GENE_cluster4588_1rr_1.nex_GENE_cluster5062_1rr_1.nex_GENE_cluster5132_1rr_1.nex_GENE_cluster5181_1rr_1.nex_GENE_cluster5951_1rr_1.nex_GENE_cluster6021_1rr_1.nex_GENE_cluster6597_1rr_1.nex = 32829-32964  35218-35342  49134-49285  50637-50735  52913-53035  84903-85079  88264-88467  111132-111598;
+  charset GENE_cluster4543_1rr_1.nex = 33632-33983;
+  charset GENE_cluster4579_1rr_1.nex_GENE_cluster5052_1rr_1.nex_GENE_cluster6400_1rr_1.nex = 35039-35217  48521-48754  103543-103734;
+  charset GENE_cluster4618_1rr_1.nex_GENE_cluster5516_1rr_1.nex_GENE_cluster5535_1rr_1.nex_GENE_cluster5885_1rr_1.nex_GENE_cluster6308_1rr_1.nex_GENE_cluster751_2rr_1.nex = 36103-36309  64497-64823  65371-65661  82421-82586  100413-100803  115105-115578;
+  charset GENE_cluster4648_1rr_1.nex = 36522-36661;
+  charset GENE_cluster4733_1rr_1.nex_GENE_cluster5113_1rr_1.nex_GENE_cluster5435_1rr_1.nex_GENE_cluster5858_1rr_1.nex = 39780-39996  50474-50636  62860-63041  80842-81309;
+  charset GENE_cluster4750_1rr_1.nex_GENE_cluster4921_1rr_1.nex_GENE_cluster5787_1rr_1.nex_GENE_cluster6472_1rr_1.nex = 40116-40330  44334-44578  78810-79099  105946-106303;
+  charset GENE_cluster4791_1rr_1.nex_GENE_cluster4935_1rr_1.nex_GENE_cluster5099_1rr_1.nex_GENE_cluster6015_1rr_1.nex_GENE_cluster6111_1rr_1.nex = 40814-41028  45190-45355  50324-50473  87825-87962  91061-91477;
+  charset GENE_cluster4933_1rr_1.nex_GENE_cluster5177_1rr_1.nex_GENE_cluster5212_1rr_1.nex_GENE_cluster5297_1rr_1.nex_GENE_cluster5378_1rr_1.nex_GENE_cluster5393_1rr_1.nex_GENE_cluster5857_1rr_1.nex_GENE_cluster5961_1rr_1.nex_GENE_cluster6297_1rr_1.nex_GENE_cluster6305_1rr_1.nex_GENE_cluster6424_1rr_1.nex_GENE_cluster6440_1rr_1.nex_GENE_cluster6516_1rr_1.nex_GENE_cluster6573_1rr_1.nex_GENE_cluster692_1rr_1.nex = 44774-45189  52252-52650  55666-55760  59594-59790  61372-61615  61616-61858  80567-80841  85464-86087  98908-99509  99964-100412  104411-104877  105183-105568  108055-108245  110163-110463  113530-114241;
+  charset GENE_cluster4943_1rr_1.nex_GENE_cluster5370_1rr_1.nex_GENE_cluster6609_1rr_1.nex = 45549-45708  61025-61189  111599-112129;
+  charset GENE_cluster4950_1rr_1.nex = 45709-46043;
+  charset GENE_cluster4982_1rr_1.nex_GENE_cluster5155_1rr_1.nex_GENE_cluster5449_1rr_1.nex_GENE_cluster5622_1rr_1.nex = 46541-46792  51359-51577  63460-63593  71543-71925;
+  charset GENE_cluster4990_1rr_1.nex_GENE_cluster5024_1rr_1.nex_GENE_cluster5552_1rr_1.nex_GENE_cluster5811_1rr_1.nex = 46793-47065  47773-47895  66780-67005  79569-79784;
+  charset GENE_cluster4991_1rr_1.nex_GENE_cluster5734_1rr_1.nex = 47066-47203  77605-78040;
+  charset GENE_cluster5019_1rr_1.nex_GENE_cluster5218_1rr_1.nex_GENE_cluster5926_1rr_1.nex_GENE_cluster6378_1rr_1.nex = 47425-47668  56366-56644  83825-84224  102813-103173;
+  charset GENE_cluster5038_1rr_1.nex = 48079-48188;
+  charset GENE_cluster5085_1rr_1.nex = 49511-49770;
+  charset GENE_cluster5147_1rr_1.nex_GENE_cluster5400_1rr_1.nex = 51190-51358  61859-62029;
+  charset GENE_cluster5350_1rr_1.nex_GENE_cluster5879_1rr_1.nex_GENE_cluster6487_1rr_1.nex_GENE_cluster6508_1rr_1.nex = 60520-60663  82109-82420  106829-107284  107285-107853;
+  charset GENE_cluster5515_1rr_1.nex_GENE_cluster5627_1rr_1.nex = 64219-64496  71926-72131;
+  charset GENE_cluster5537_1rr_1.nex = 65662-65935;
+  charset GENE_cluster5556_1rr_1.nex_GENE_cluster5898_1rr_1.nex_GENE_cluster6120_1rr_1.nex = 67364-67530  83079-83409  91780-92184;
+  charset GENE_cluster5611_1rr_1.nex = 71390-71542;
+  charset GENE_cluster5718_1rr_1.nex_GENE_cluster5956_1rr_1.nex = 75992-76240  85080-85463;
+  charset GENE_cluster5725_1rr_1.nex = 76485-76908;
+  charset GENE_cluster5815_1rr_1.nex = 79785-80080;
+  charset GENE_cluster5818_1rr_1.nex = 80081-80252;
+  charset GENE_cluster6201_1rr_1.nex = 95671-95832;
+  charset GENE_cluster6248_1rr_1.nex = 97724-97967;
+  charset GENE_cluster716_1rr_1.nex = 114242-114657;
+  charpartition mymodels =
+    Q.PLANT+F+G4: GENE_cluster1132_2rr_1.nex_GENE_cluster3738_1rr_1.nex_GENE_cluster5095_1rr_1.nex_GENE_cluster5216_1rr_1.nex_GENE_cluster5652_1rr_1.nex_GENE_cluster5656_1rr_1.nex_GENE_cluster719_2rr_1.nex,
+    JTT+G4: GENE_cluster115_5rr_1.nex_GENE_cluster5579_1rr_1.nex_GENE_cluster5602_1rr_1.nex,
+    Q.PLANT+G4: GENE_cluster1181_1rr_1.nex_GENE_cluster1668_1rr_1.nex_GENE_cluster3934_1rr_1.nex_GENE_cluster4560_1rr_1.nex_GENE_cluster4827_1rr_1.nex_GENE_cluster5437_1rr_1.nex_GENE_cluster5610_1rr_1.nex_GENE_cluster6227_1rr_1.nex,
+    Q.PLANT+I+R2: GENE_cluster1224_3rr_1.nex_GENE_cluster2748_2rr_1.nex_GENE_cluster3779_1rr_1.nex_GENE_cluster4277_1rr_1.nex_GENE_cluster4411_1rr_1.nex_GENE_cluster4484_1rr_1.nex_GENE_cluster4590_1rr_1.nex_GENE_cluster5209_1rr_1.nex_GENE_cluster5219_1rr_1.nex_GENE_cluster5972_1rr_1.nex_GENE_cluster6210_1rr_1.nex_GENE_cluster6310_1rr_1.nex_GENE_cluster6447_1rr_1.nex,
+    Q.INSECT+F+G4: GENE_cluster1247_1rr_1.nex_GENE_cluster349_2rr_1.nex_GENE_cluster4725_1rr_1.nex_GENE_cluster5020_1rr_1.nex_GENE_cluster5268_1rr_1.nex_GENE_cluster5637_1rr_1.nex,
+    Q.PLANT+I: GENE_cluster1248_2rr_1.nex_GENE_cluster1794_2rr_1.nex_GENE_cluster3912_1rr_1.nex_GENE_cluster5247_1rr_1.nex_GENE_cluster5730_1rr_1.nex_GENE_cluster6336_1rr_1.nex_GENE_cluster6342_1rr_1.nex_GENE_cluster6612_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster1309_1rr_1.nex_GENE_cluster5145_1rr_1.nex,
+    Q.PLANT+F+I+G4: GENE_cluster1438_1rr_1.nex_GENE_cluster4706_1rr_1.nex,
+    Q.BIRD: GENE_cluster1450_1rr_1.nex_GENE_cluster4758_1rr_1.nex_GENE_cluster5754_1rr_1.nex_GENE_cluster6296_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster1453_2rr_1.nex_GENE_cluster4208_1rr_1.nex_GENE_cluster4664_1rr_1.nex_GENE_cluster5193_1rr_1.nex_GENE_cluster5243_1rr_1.nex_GENE_cluster5422_1rr_1.nex_GENE_cluster5860_1rr_1.nex_GENE_cluster5889_1rr_1.nex_GENE_cluster6104_1rr_1.nex_GENE_cluster757_2rr_1.nex,
+    WAG+F+G4: GENE_cluster1523_2rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster1539_2rr_1.nex_GENE_cluster4713_1rr_1.nex_GENE_cluster4965_1rr_1.nex_GENE_cluster5194_1rr_1.nex_GENE_cluster5830_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster1603_1rr_1.nex_GENE_cluster1794_1rr_1.nex_GENE_cluster3567_1rr_1.nex_GENE_cluster4622_1rr_1.nex_GENE_cluster4851_1rr_1.nex_GENE_cluster5362_1rr_1.nex_GENE_cluster5509_1rr_1.nex_GENE_cluster5529_1rr_1.nex_GENE_cluster5550_1rr_1.nex_GENE_cluster5736_1rr_1.nex_GENE_cluster5869_1rr_1.nex_GENE_cluster5936_1rr_1.nex_GENE_cluster6326_1rr_1.nex,
+    Q.PLANT+F+I+G4: GENE_cluster1629_1rr_1.nex_GENE_cluster4594_1rr_1.nex_GENE_cluster5083_1rr_1.nex_GENE_cluster5560_1rr_1.nex_GENE_cluster5685_1rr_1.nex_GENE_cluster6151_1rr_1.nex_GENE_cluster6176_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster1678_1rr_1.nex_GENE_cluster4153_1rr_1.nex,
+    Q.PLANT+F+I+G4: GENE_cluster168_5rr_1.nex_GENE_cluster3482_1rr_1.nex_GENE_cluster4241_1rr_1.nex_GENE_cluster4414_1rr_1.nex_GENE_cluster4570_1rr_1.nex_GENE_cluster5086_1rr_1.nex_GENE_cluster5214_1rr_1.nex_GENE_cluster5319_1rr_1.nex_GENE_cluster5571_1rr_1.nex_GENE_cluster5732_1rr_1.nex_GENE_cluster682_1rr_1.nex_GENE_cluster895_2rr_1.nex,
+    Q.PLANT+F+I+R2: GENE_cluster1698_1rr_1.nex_GENE_cluster2113_2rr_1.nex_GENE_cluster3127_1rr_1.nex_GENE_cluster4649_1rr_1.nex_GENE_cluster4736_1rr_1.nex_GENE_cluster5165_1rr_1.nex_GENE_cluster5184_1rr_1.nex_GENE_cluster5540_1rr_1.nex_GENE_cluster5808_1rr_1.nex_GENE_cluster6026_1rr_1.nex_GENE_cluster6281_1rr_1.nex_GENE_cluster6474_1rr_1.nex,
+    Q.YEAST+F+G4: GENE_cluster1721_1rr_1.nex_GENE_cluster2066_1rr_1.nex_GENE_cluster6130_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster1810_1rr_1.nex_GENE_cluster3707_1rr_1.nex_GENE_cluster4850_1rr_1.nex_GENE_cluster5477_1rr_1.nex,
+    JTTDCMUT+F+G4: GENE_cluster1848_1rr_1.nex_GENE_cluster3296_1rr_1.nex_GENE_cluster4142_1rr_1.nex_GENE_cluster4611_1rr_1.nex,
+    Q.PLANT+G4: GENE_cluster1860_1rr_1.nex_GENE_cluster3522_1rr_1.nex,
+    Q.PLANT+G4: GENE_cluster1979_1rr_1.nex_GENE_cluster3749_1rr_1.nex_GENE_cluster4889_1rr_1.nex_GENE_cluster4924_1rr_1.nex_GENE_cluster5050_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster2035_1rr_1.nex_GENE_cluster4267_1rr_1.nex_GENE_cluster4437_1rr_1.nex_GENE_cluster5593_1rr_1.nex,
+    Q.PLANT+G4: GENE_cluster2061_1rr_1.nex_GENE_cluster2426_2rr_1.nex_GENE_cluster4833_1rr_1.nex_GENE_cluster4954_1rr_1.nex_GENE_cluster5036_1rr_1.nex_GENE_cluster5359_1rr_1.nex_GENE_cluster5635_1rr_1.nex_GENE_cluster5681_1rr_1.nex_GENE_cluster5967_1rr_1.nex_GENE_cluster6033_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster2068_1rr_1.nex_GENE_cluster4700_1rr_1.nex_GENE_cluster5919_1rr_1.nex,
+    Q.INSECT+F+G4: GENE_cluster2080_2rr_1.nex_GENE_cluster3842_1rr_1.nex_GENE_cluster4345_1rr_1.nex_GENE_cluster5636_1rr_1.nex,
+    LG: GENE_cluster2128_2rr_1.nex_GENE_cluster5372_1rr_1.nex,
+    Q.PLANT+R2: GENE_cluster2146_1rr_1.nex_GENE_cluster5862_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster2180_1rr_1.nex_GENE_cluster5569_1rr_1.nex_GENE_cluster5599_1rr_1.nex_GENE_cluster6421_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster2199_1rr_1.nex_GENE_cluster2199_2rr_1.nex_GENE_cluster3050_1rr_1.nex_GENE_cluster4303_1rr_1.nex_GENE_cluster4895_1rr_1.nex_GENE_cluster5166_1rr_1.nex_GENE_cluster5186_1rr_1.nex_GENE_cluster5410_1rr_1.nex_GENE_cluster5553_1rr_1.nex_GENE_cluster5743_1rr_1.nex_GENE_cluster5963_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster2216_1rr_2.nex_GENE_cluster3301_1rr_1.nex_GENE_cluster3907_1rr_1.nex_GENE_cluster4542_1rr_1.nex_GENE_cluster4751_1rr_1.nex_GENE_cluster5206_1rr_1.nex_GENE_cluster6108_1rr_1.nex_GENE_cluster6348_1rr_1.nex,
+    Q.PLANT+F+R2: GENE_cluster226_2rr_1.nex_GENE_cluster397_1rr_1.nex_GENE_cluster6051_1rr_1.nex_GENE_cluster6425_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster2336_1rr_1.nex_GENE_cluster281_1rr_1.nex_GENE_cluster4695_1rr_1.nex_GENE_cluster5976_1rr_1.nex_GENE_cluster6536_1rr_1.nex,
+    Q.PLANT+F+I+G4: GENE_cluster2504_2rr_1.nex_GENE_cluster4562_1rr_1.nex,
+    Q.PLANT+F+I+R2: GENE_cluster252_1rr_1.nex_GENE_cluster4680_1rr_1.nex_GENE_cluster518_2rr_1.nex_GENE_cluster5250_1rr_1.nex_GENE_cluster5600_1rr_1.nex_GENE_cluster6152_1rr_1.nex_GENE_cluster6166_1rr_1.nex_GENE_cluster6455_1rr_1.nex_GENE_cluster6478_1rr_1.nex_GENE_cluster6591_1rr_1.nex,
+    Q.PLANT+I: GENE_cluster2648_1rr_1.nex_GENE_cluster4846_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster2674_1rr_1.nex_GENE_cluster5452_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster2747_1rr_1.nex_GENE_cluster5530_1rr_1.nex_GENE_cluster5686_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster274_4rr_1.nex,
+    Q.PLANT+F+I+G4: GENE_cluster327_2rr_1.nex,
+    Q.YEAST+F+I: GENE_cluster3309_1rr_1.nex_GENE_cluster5720_1rr_1.nex_GENE_cluster5950_1rr_1.nex_GENE_cluster6272_1rr_1.nex,
+    Q.PLANT+I+R2: GENE_cluster3363_1rr_1.nex_GENE_cluster5055_1rr_1.nex_GENE_cluster5133_1rr_1.nex_GENE_cluster5702_1rr_1.nex_GENE_cluster6112_1rr_1.nex_GENE_cluster6195_1rr_1.nex_GENE_cluster6235_1rr_1.nex_GENE_cluster779_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster3404_1rr_1.nex_GENE_cluster4886_1rr_1.nex_GENE_cluster5659_1rr_1.nex,
+    Q.PLANT: GENE_cluster3448_1rr_1.nex_GENE_cluster5938_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster3529_1rr_1.nex_GENE_cluster51_3rr_1.nex_GENE_cluster5831_1rr_1.nex,
+    Q.PLANT+I+G4: GENE_cluster3635_1rr_1.nex_GENE_cluster4699_1rr_1.nex_GENE_cluster4883_1rr_1.nex_GENE_cluster5239_1rr_1.nex_GENE_cluster5699_1rr_1.nex_GENE_cluster5999_1rr_1.nex_GENE_cluster6514_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster3755_1rr_1.nex_GENE_cluster4508_1rr_1.nex_GENE_cluster4821_1rr_1.nex_GENE_cluster4854_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster3797_1rr_1.nex_GENE_cluster4312_1rr_1.nex_GENE_cluster6020_1rr_1.nex,
+    Q.INSECT+F+G4: GENE_cluster3869_1rr_1.nex_GENE_cluster3894_1rr_1.nex_GENE_cluster5059_1rr_1.nex_GENE_cluster5312_1rr_1.nex_GENE_cluster5886_1rr_1.nex_GENE_cluster6049_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster3908_1rr_1.nex_GENE_cluster4497_1rr_1.nex_GENE_cluster5179_1rr_1.nex_GENE_cluster5436_1rr_1.nex_GENE_cluster6170_1rr_1.nex_GENE_cluster6302_1rr_1.nex,
+    LG+I: GENE_cluster3928_1rr_1.nex_GENE_cluster4300_1rr_1.nex,
+    Q.PLANT+I+R2: GENE_cluster3932_1rr_1.nex_GENE_cluster4138_1rr_1.nex_GENE_cluster4792_1rr_1.nex_GENE_cluster4853_1rr_1.nex_GENE_cluster4992_1rr_1.nex_GENE_cluster5220_1rr_1.nex_GENE_cluster5412_1rr_1.nex_GENE_cluster5603_1rr_1.nex_GENE_cluster5631_1rr_1.nex_GENE_cluster6390_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster3941_1rr_1.nex_GENE_cluster4602_1rr_1.nex_GENE_cluster4937_1rr_1.nex_GENE_cluster5984_1rr_1.nex_GENE_cluster6039_1rr_1.nex_GENE_cluster6063_1rr_1.nex_GENE_cluster6121_1rr_1.nex_GENE_cluster6404_1rr_1.nex,
+    Q.PLANT+F+I+G4: GENE_cluster3976_1rr_1.nex_GENE_cluster4673_1rr_1.nex_GENE_cluster4877_1rr_1.nex_GENE_cluster5207_1rr_1.nex_GENE_cluster5604_1rr_1.nex_GENE_cluster6546_1rr_1.nex,
+    LG+F: GENE_cluster4032_1rr_1.nex,
+    JTT+F+G4: GENE_cluster4114_1rr_1.nex_GENE_cluster4268_1rr_1.nex_GENE_cluster4419_1rr_1.nex_GENE_cluster5222_1rr_1.nex,
+    Q.YEAST+F+G4: GENE_cluster4168_1rr_1.nex_GENE_cluster6266_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster4240_1rr_1.nex_GENE_cluster4356_1rr_1.nex_GENE_cluster4718_1rr_1.nex_GENE_cluster5279_1rr_1.nex_GENE_cluster6045_1rr_1.nex,
+    Q.INSECT+F+G4: GENE_cluster4250_1rr_1.nex_GENE_cluster4271_1rr_1.nex_GENE_cluster5269_1rr_1.nex_GENE_cluster5348_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster4269_1rr_1.nex_GENE_cluster6078_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster4330_1rr_1.nex_GENE_cluster4331_1rr_1.nex_GENE_cluster4852_1rr_1.nex_GENE_cluster5678_1rr_1.nex_GENE_cluster6136_1rr_1.nex_GENE_cluster6320_1rr_1.nex_GENE_cluster6532_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster4335_1rr_1.nex_GENE_cluster4364_1rr_1.nex_GENE_cluster6234_1rr_1.nex_GENE_cluster663_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster4490_1rr_1.nex_GENE_cluster4588_1rr_1.nex_GENE_cluster5062_1rr_1.nex_GENE_cluster5132_1rr_1.nex_GENE_cluster5181_1rr_1.nex_GENE_cluster5951_1rr_1.nex_GENE_cluster6021_1rr_1.nex_GENE_cluster6597_1rr_1.nex,
+    CPREV+F+I: GENE_cluster4543_1rr_1.nex,
+    CPREV+F+G4: GENE_cluster4579_1rr_1.nex_GENE_cluster5052_1rr_1.nex_GENE_cluster6400_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster4618_1rr_1.nex_GENE_cluster5516_1rr_1.nex_GENE_cluster5535_1rr_1.nex_GENE_cluster5885_1rr_1.nex_GENE_cluster6308_1rr_1.nex_GENE_cluster751_2rr_1.nex,
+    Q.YEAST+F: GENE_cluster4648_1rr_1.nex,
+    Q.PLANT+F+R3: GENE_cluster4733_1rr_1.nex_GENE_cluster5113_1rr_1.nex_GENE_cluster5435_1rr_1.nex_GENE_cluster5858_1rr_1.nex,
+    Q.PLANT+F+I+G4: GENE_cluster4750_1rr_1.nex_GENE_cluster4921_1rr_1.nex_GENE_cluster5787_1rr_1.nex_GENE_cluster6472_1rr_1.nex,
+    JTT+F+G4: GENE_cluster4791_1rr_1.nex_GENE_cluster4935_1rr_1.nex_GENE_cluster5099_1rr_1.nex_GENE_cluster6015_1rr_1.nex_GENE_cluster6111_1rr_1.nex,
+    Q.PLANT+F+I+R2: GENE_cluster4933_1rr_1.nex_GENE_cluster5177_1rr_1.nex_GENE_cluster5212_1rr_1.nex_GENE_cluster5297_1rr_1.nex_GENE_cluster5378_1rr_1.nex_GENE_cluster5393_1rr_1.nex_GENE_cluster5857_1rr_1.nex_GENE_cluster5961_1rr_1.nex_GENE_cluster6297_1rr_1.nex_GENE_cluster6305_1rr_1.nex_GENE_cluster6424_1rr_1.nex_GENE_cluster6440_1rr_1.nex_GENE_cluster6516_1rr_1.nex_GENE_cluster6573_1rr_1.nex_GENE_cluster692_1rr_1.nex,
+    Q.PLANT+F+I+G4: GENE_cluster4943_1rr_1.nex_GENE_cluster5370_1rr_1.nex_GENE_cluster6609_1rr_1.nex,
+    Q.PLANT+F+R2: GENE_cluster4950_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster4982_1rr_1.nex_GENE_cluster5155_1rr_1.nex_GENE_cluster5449_1rr_1.nex_GENE_cluster5622_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster4990_1rr_1.nex_GENE_cluster5024_1rr_1.nex_GENE_cluster5552_1rr_1.nex_GENE_cluster5811_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster4991_1rr_1.nex_GENE_cluster5734_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster5019_1rr_1.nex_GENE_cluster5218_1rr_1.nex_GENE_cluster5926_1rr_1.nex_GENE_cluster6378_1rr_1.nex,
+    MTINV+F+R2: GENE_cluster5038_1rr_1.nex,
+    MTZOA+F: GENE_cluster5085_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster5147_1rr_1.nex_GENE_cluster5400_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster5350_1rr_1.nex_GENE_cluster5879_1rr_1.nex_GENE_cluster6487_1rr_1.nex_GENE_cluster6508_1rr_1.nex,
+    JTT+F+G4: GENE_cluster5515_1rr_1.nex_GENE_cluster5627_1rr_1.nex,
+    Q.PLANT+F: GENE_cluster5537_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster5556_1rr_1.nex_GENE_cluster5898_1rr_1.nex_GENE_cluster6120_1rr_1.nex,
+    Q.PFAM: GENE_cluster5611_1rr_1.nex,
+    Q.INSECT+F+I: GENE_cluster5718_1rr_1.nex_GENE_cluster5956_1rr_1.nex,
+    LG+F+G4: GENE_cluster5725_1rr_1.nex,
+    Q.INSECT+R3: GENE_cluster5815_1rr_1.nex,
+    PMB: GENE_cluster5818_1rr_1.nex,
+    Q.PLANT+F+G4: GENE_cluster6201_1rr_1.nex,
+    LG+G4: GENE_cluster6248_1rr_1.nex,
+    Q.PLANT+F+I: GENE_cluster716_1rr_1.nex;
+end;

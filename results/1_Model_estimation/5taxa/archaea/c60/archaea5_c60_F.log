@@ -1,0 +1,72 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    fisher.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s ./5_concated.nex -m LG+C60+F+I+G4 -te ../partition/Q/archaea5_Q_search.treefile -T 30 -mem 120G -safe -pre archaea5_c60_F
+Seed:    424551 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jun 12 22:14:02 2025
+Kernel:  Safe AVX+FMA - 30 threads (31 CPU cores detected)
+
+Reading alignment file ./5_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 198 sites contain only gaps or ambiguous characters.
+Alignment has 5 sequences with 17191 columns, 12116 distinct patterns
+1681 parsimony-informative, 11942 singleton sites, 3568 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00708002 secs using 1409% CPU
+   1  GCA_000806055   26.48%    failed      0.00%
+   2  GCA_001629205   17.96%    failed      0.00%
+   3  GCA_002779075   15.51%    failed      0.00%
+   4  GCA_002790315   22.36%    failed      0.00%
+   5  GCA_002412085   22.88%    failed      0.00%
+****  TOTAL           21.04%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.009553 secs using 1270% CPU
+Reading input tree file ../partition/Q/archaea5_Q_search.treefile ...
+Model LG+C60+F+I+G4 is alias for LG+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}+F+I+G4
+WARNING: Your input class weight 0.000415008 is very small and may cause numerical issues
+
+NOTE: 2288 MB RAM (2 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -162796.932
+2. Current log-likelihood: -157642.578
+3. Current log-likelihood: -157039.261
+4. Current log-likelihood: -156925.114
+5. Current log-likelihood: -156873.550
+6. Current log-likelihood: -156815.251
+7. Current log-likelihood: -156750.283
+8. Current log-likelihood: -156699.674
+9. Current log-likelihood: -156629.796
+10. Current log-likelihood: -156577.992
+11. Current log-likelihood: -156520.575
+12. Current log-likelihood: -156474.792
+13. Current log-likelihood: -156449.578
+14. Current log-likelihood: -156355.847
+15. Current log-likelihood: -156321.532
+16. Current log-likelihood: -156310.651
+17. Current log-likelihood: -156297.732
+18. Current log-likelihood: -156291.623
+19. Current log-likelihood: -156284.488
+20. Current log-likelihood: -156280.791
+Optimal log-likelihood: -156279.678
+Mixture weights: 0.738 0.000 0.000 0.000 0.011 0.021 0.000 0.000 0.000 0.008 0.000 0.000 0.001 0.000 0.010 0.000 0.014 0.010 0.010 0.015 0.000 0.000 0.049 0.001 0.000 0.004 0.015 0.000 0.000 0.000 0.000 0.000 0.007 0.014 0.003 0.002 0.009 0.012 0.023 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.005 0.000 0.000 0.001 0.000 0.000 0.000 0.000 0.001 0.000 0.001 0.003 0.011
+Proportion of invariable sites: 0.051
+Gamma shape alpha: 1.624
+Parameters optimization took 20 rounds (344.348 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+BEST SCORE FOUND : -156279.678
+Total tree length: 6.135
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 5977.430 sec (1h:39m:37s)
+Total wall-clock time used: 20602443.896 sec (5722h:54m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                archaea5_c60_F.iqtree
+  Maximum-likelihood tree:       archaea5_c60_F.treefile
+  Screen log file:               archaea5_c60_F.log
+
+Date and Time: Thu Jun 12 22:19:47 2025

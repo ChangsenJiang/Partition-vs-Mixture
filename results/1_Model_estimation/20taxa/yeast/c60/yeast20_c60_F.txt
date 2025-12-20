@@ -1,0 +1,23 @@
+	Command being timed: "../../iqtree2 -s ./20_concated.nex -m Q.YEAST+C60+F+I+R10 -te ../partition/Q/yeast20_Q_search.treefile -T 50 --mem 100G -safe -pre yeast20_c60_F"
+	User time (seconds): 1024949.56
+	System time (seconds): 3725.89
+	Percent of CPU this job got: 3809%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:30:02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 124167816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1632
+	Minor (reclaiming a frame) page faults: 680979841
+	Voluntary context switches: 2756722
+	Involuntary context switches: 13212106
+	Swaps: 0
+	File system inputs: 25568
+	File system outputs: 552
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

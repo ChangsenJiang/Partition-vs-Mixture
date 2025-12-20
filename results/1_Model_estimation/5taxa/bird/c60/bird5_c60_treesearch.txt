@@ -1,0 +1,23 @@
+	Command being timed: "../../iqtree2 -s 5_concated.nex -mdef avian5_c60_F_parameter.nex -m Q_BIRD_C60_F_I_R6 -t ../partition/Q/avian5_Q_search.treefile -bb 1000 --wbtl -T 30 --mem 120G -pre avian5_c60_search"
+	User time (seconds): 28478.02
+	System time (seconds): 138.37
+	Percent of CPU this job got: 909%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 52:25.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5287960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 22722014
+	Voluntary context switches: 618284
+	Involuntary context switches: 156923
+	Swaps: 0
+	File system inputs: 536
+	File system outputs: 2368
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

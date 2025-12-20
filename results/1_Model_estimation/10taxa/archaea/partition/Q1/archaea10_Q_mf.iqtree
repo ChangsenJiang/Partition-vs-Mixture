@@ -1,0 +1,243 @@
+IQ-TREE 2.4.0 built Mar 21 2025
+
+Partition file name: 10_concated.nex
+Input file name: 10_concated.nex
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 193550
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 10 taxa with 36 partitions and 17191 total sites (4.71002% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	AA	8	670	627	324	87	87	GENE_arCOG01228.nex+GENE_TIGR00064.nex
+   2	AA	10	1215	1178	634	118	118	GENE_arCOG01574.nex+GENE_gtdb_PF01092.14.nex+GENE_OG5172.nex+GENE_TIGR00037.nex+GENE_TIGR00279.nex+GENE_TIGR00335.nex+GENE_TIGR00405.nex+GENE_TIGR00448.nex
+   3	AA	10	1301	1247	723	108	108	GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF01200.13.nex+GENE_OG9906.nex+GENE_TIGR00307.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03627.nex+GENE_TIGR03672.nex
+   4	AA	10	433	428	318	17	17	GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01866.12.nex
+   5	AA	10	399	390	265	26	26	GENE_gtdb_PF00687.16.nex+GENE_TIGR03629.nex+GENE_TIGR03636.nex
+   6	AA	10	844	805	554	77	77	GENE_gtdb_PF00827.12.nex+GENE_OG8696.nex+GENE_TIGR01018.nex+GENE_TIGR01025.nex+GENE_TIGR01028.nex+GENE_TIGR03673.nex
+   7	AA	10	710	705	471	14	14	GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01015.13.nex+GENE_TIGR00323.nex+GENE_TIGR01008.nex
+   8	AA	10	307	304	215	13	13	GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF04919.7.nex
+   9	AA	6	128	117	40	19	19	GENE_gtdb_PF01090.14.nex
+  10	AA	10	1130	1070	680	126	126	GENE_gtdb_PF01269.12.nex+GENE_TIGR00491.nex+GENE_TIGR01158.nex+GENE_TIGR03676.nex
+  11	AA	10	126	126	90	5	5	GENE_gtdb_PF01280.15.nex
+  12	AA	10	209	207	152	9	9	GENE_gtdb_PF01655.13.nex+GENE_TIGR01038.nex
+  13	AA	9	199	197	121	11	11	GENE_gtdb_PF01798.13.nex
+  14	AA	7	85	83	32	9	9	GENE_gtdb_PF01984.15.nex
+  15	AA	3	232	85	0	155	155	GENE_gtdb_PF02006.11.nex
+  16	AA	10	76	76	66	1	1	GENE_gtdb_PF03874.11.nex
+  17	AA	8	129	128	77	4	4	GENE_gtdb_PF04104.9.nex
+  18	AA	10	335	334	210	11	11	GENE_gtdb_PF07541.7.nex+GENE_TIGR00373.nex
+  19	AA	10	443	441	284	9	9	GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex+GENE_TIGR00293.nex
+  20	AA	10	322	318	210	13	13	GENE_OG7638.nex+GENE_TIGR01012.nex
+  21	AA	10	1139	1082	510	139	139	GENE_TIGR00134.nex+GENE_TIGR00522.nex+GENE_TIGR03665.nex+GENE_TIGR03671.nex
+  22	AA	10	361	358	271	13	13	GENE_TIGR00291.nex+GENE_TIGR03653.nex
+  23	AA	8	269	262	130	24	24	GENE_TIGR00308.nex
+  24	AA	10	643	617	255	76	76	GENE_TIGR00425.nex+GENE_TIGR01052.nex
+  25	AA	10	671	592	330	138	138	GENE_TIGR00483.nex+GENE_TIGR02236.nex
+  26	AA	8	361	349	208	30	30	GENE_TIGR00967.nex
+  27	AA	10	265	261	144	22	22	GENE_TIGR00982.nex+GENE_TIGR03628.nex
+  28	AA	10	2120	1932	1102	279	279	GENE_TIGR01020.nex+GENE_TIGR02389.nex+GENE_TIGR02390.nex+GENE_TIGR03670.nex+GENE_TIGR03674.nex
+  29	AA	10	95	93	71	5	5	GENE_TIGR01046.nex
+  30	AA	4	322	297	7	66	66	GENE_TIGR01213.nex
+  31	AA	5	123	120	25	8	8	GENE_TIGR01952.nex
+  32	AA	10	488	457	244	79	79	GENE_TIGR02065.nex+GENE_TIGR03722.nex
+  33	AA	9	102	102	82	1	1	GENE_TIGR02338.nex
+  34	AA	10	265	257	161	28	28	GENE_TIGR02397.nex
+  35	AA	10	320	310	213	24	24	GENE_TIGR02928.nex
+  36	AA	10	354	330	206	50	50	GENE_TIGR03680.nex
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to AIC: LG+F+I+G4:GENE_arCOG01228.nex+GENE_TIGR00064.nex,LG+F+I+R3:GENE_arCOG01574.nex+GENE_gtdb_PF01092.14.nex+GENE_OG5172.nex+GENE_TIGR00037.nex+GENE_TIGR00279.nex+GENE_TIGR00335.nex+GENE_TIGR00405.nex+GENE_TIGR00448.nex,RTREV+F+I+G4:GENE_gtdb_PF00410.14.nex+GENE_gtdb_PF01157.13.nex+GENE_gtdb_PF01200.13.nex+GENE_OG9906.nex+GENE_TIGR00307.nex+GENE_TIGR01171.nex+GENE_TIGR03626.nex+GENE_TIGR03627.nex+GENE_TIGR03672.nex,RTREV+F+I+R2:GENE_gtdb_PF00466.15.nex+GENE_gtdb_PF01866.12.nex,LG+F+I+G4:GENE_gtdb_PF00687.16.nex+GENE_TIGR03629.nex+GENE_TIGR03636.nex,RTREV+F+I+G4:GENE_gtdb_PF00827.12.nex+GENE_OG8696.nex+GENE_TIGR01018.nex+GENE_TIGR01025.nex+GENE_TIGR01028.nex+GENE_TIGR03673.nex,Q.PFAM+F+G4:GENE_gtdb_PF00900.15.nex+GENE_gtdb_PF01015.13.nex+GENE_TIGR00323.nex+GENE_TIGR01008.nex,LG+F+I+R2:GENE_gtdb_PF01000.21.nex+GENE_gtdb_PF04919.7.nex,LG+G4:GENE_gtdb_PF01090.14.nex,LG+F+I+G4:GENE_gtdb_PF01269.12.nex+GENE_TIGR00491.nex+GENE_TIGR01158.nex+GENE_TIGR03676.nex,Q.PFAM+F+I+G4:GENE_gtdb_PF01280.15.nex,RTREV+F+R3:GENE_gtdb_PF01655.13.nex+GENE_TIGR01038.nex,LG+F+I+G4:GENE_gtdb_PF01798.13.nex,RTREV+F+I+R2:GENE_gtdb_PF01984.15.nex,BLOSUM62+F:GENE_gtdb_PF02006.11.nex,LG+F+R2:GENE_gtdb_PF03874.11.nex,BLOSUM62+I+G4:GENE_gtdb_PF04104.9.nex,LG+F+R3:GENE_gtdb_PF07541.7.nex+GENE_TIGR00373.nex,LG+F+I+G4:GENE_gtdb_PF13656.1.nex+GENE_TIGR00111.nex+GENE_TIGR00293.nex,RTREV+F+I+G4:GENE_OG7638.nex+GENE_TIGR01012.nex,LG+F+I+R3:GENE_TIGR00134.nex+GENE_TIGR00522.nex+GENE_TIGR03665.nex+GENE_TIGR03671.nex,LG+F+R3:GENE_TIGR00291.nex+GENE_TIGR03653.nex,Q.PFAM+F+I+R2:GENE_TIGR00308.nex,LG+F+I+G4:GENE_TIGR00425.nex+GENE_TIGR01052.nex,LG+F+R3:GENE_TIGR00483.nex+GENE_TIGR02236.nex,LG+F+R3:GENE_TIGR00967.nex,LG+F+G4:GENE_TIGR00982.nex+GENE_TIGR03628.nex,LG+F+I+G4:GENE_TIGR01020.nex+GENE_TIGR02389.nex+GENE_TIGR02390.nex+GENE_TIGR03670.nex+GENE_TIGR03674.nex,LG+G4:GENE_TIGR01046.nex,WAG+F+I:GENE_TIGR01213.nex,LG+F+G4:GENE_TIGR01952.nex,LG+R3:GENE_TIGR02065.nex+GENE_TIGR03722.nex,Q.YEAST+F+G4:GENE_TIGR02338.nex,MTZOA+F+G4:GENE_TIGR02397.nex,LG+F+I+G4:GENE_TIGR02928.nex,LG+F+I+G4:GENE_TIGR03680.nex
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  LG+F+I+G4         -9616.245   19300.489 + 9.39e-316   19304.237 + 5.46e-317   19453.737 + 7.37e-317
+   2  LG+F+I+R3        -19737.324   39556.648 + 9.39e-316   39559.584 + 5.46e-317   39765.850 + 7.37e-317
+   3  RTREV+F+I+G4     -22760.227   45596.454 + 9.39e-316   45598.802 + 5.46e-317   45792.947 + 7.37e-317
+   4  RTREV+F+I+R2      -9294.281   18666.561 + 9.39e-316   18674.500 + 5.46e-317   18825.320 + 7.37e-317
+   5  LG+F+I+G4         -7710.965   15497.929 + 9.39e-316   15506.162 + 5.46e-317   15649.510 + 7.37e-317
+   6  RTREV+F+I+G4     -15493.515   31063.031 + 9.39e-316   31066.713 + 5.46e-317   31243.080 + 7.37e-317
+   7  Q.PFAM+F+G4      -13872.118   27818.236 + 9.39e-316   27822.421 + 5.46e-317   27987.151 + 7.37e-317
+   8  LG+F+I+R2         -6177.249   12432.499 + 9.39e-316   12444.184 + 5.46e-317   12577.846 + 7.37e-317
+   9  LG+G4             -1574.894    3169.788 + 9.39e-316    3171.669 + 5.46e-317    3198.309 + 7.37e-317
+  10  LG+F+I+G4        -19825.189   39726.379 + 9.39e-316   39729.096 + 5.46e-317   39917.518 + 7.37e-317
+  11  Q.PFAM+F+I+G4     -2491.126    5058.251 + 9.39e-316    5092.320 + 5.46e-317    5166.030 + 7.37e-317
+  12  RTREV+F+R3        -4327.016    8734.032 + 9.39e-316    8753.555 + 5.46e-317    8867.725 + 7.37e-317
+  13  LG+F+I+G4         -3697.635    7467.271 + 9.39e-316    7483.715 + 5.46e-317    7585.830 + 7.37e-317
+  14  RTREV+F+I+R2      -1173.363    2412.725 + 9.39e-316    2456.725 + 5.46e-317    2493.333 + 7.37e-317
+  15  BLOSUM62+F         -893.546    1831.093 + 9.39e-316    1835.935 + 5.46e-317    1906.921 + 7.37e-317
+  16  LG+F+R2           -1747.868    3571.736 + 9.39e-316    3651.844 + 5.46e-317    3660.304 + 7.37e-317
+  17  BLOSUM62+I+G4     -2351.704    4733.409 + 9.39e-316    4737.656 + 5.46e-317    4776.306 + 7.37e-317
+  18  LG+F+R3           -6725.065   13530.129 + 9.39e-316   13541.285 + 5.46e-317   13682.694 + 7.37e-317
+  19  LG+F+I+G4         -8722.599   17521.198 + 9.39e-316   17528.534 + 5.46e-317   17676.753 + 7.37e-317
+  20  RTREV+F+I+G4      -6271.498   12618.996 + 9.39e-316   12629.470 + 5.46e-317   12762.429 + 7.37e-317
+  21  LG+F+I+R3        -17675.472   35432.944 + 9.39e-316   35436.083 + 5.46e-317   35639.498 + 7.37e-317
+  22  LG+F+R3           -7536.685   15153.370 + 9.39e-316   15163.620 + 5.46e-317   15308.925 + 7.37e-317
+  23  Q.PFAM+F+I+R2     -4312.169    8694.338 + 9.39e-316    8705.154 + 5.46e-317    8820.153 + 7.37e-317
+  24  LG+F+I+G4         -8693.832   17463.665 + 9.39e-316   17468.572 + 5.46e-317   17633.378 + 7.37e-317
+  25  LG+F+R3           -9432.398   18944.796 + 9.39e-316   18950.002 + 5.46e-317   19125.147 + 7.37e-317
+  26  LG+F+R3           -5606.951   11285.901 + 9.39e-316   11294.124 + 5.46e-317   11425.901 + 7.37e-317
+  27  LG+F+G4           -4250.697    8575.394 + 9.39e-316    8587.781 + 5.46e-317    8707.844 + 7.37e-317
+  28  LG+F+I+G4        -33715.923   67507.846 + 9.39e-316   67509.270 + 5.46e-317   67722.895 + 7.37e-317
+  29  LG+G4             -1808.644    3653.287 + 9.39e-316    3662.287 + 5.46e-317    3699.257 + 7.37e-317
+  30  WAG+F+I           -2483.480    5016.960 + 9.39e-316    5021.351 + 5.46e-317    5111.323 + 7.37e-317
+  31  LG+F+G4           -1388.843    2831.686 + 9.39e-316    2847.602 + 5.46e-317    2907.615 + 7.37e-317
+  32  LG+R3             -7479.402   15000.803 + 9.39e-316   15002.786 + 5.46e-317   15088.800 + 7.37e-317
+  33  Q.YEAST+F+G4      -2025.731    4121.462 + 9.39e-316    4159.644 + 5.46e-317    4213.336 + 7.37e-317
+  34  MTZOA+F+G4        -4650.280    9374.560 + 9.39e-316    9386.948 + 5.46e-317    9507.010 + 7.37e-317
+  35  LG+F+I+G4         -6222.841   12521.683 + 9.39e-316   12532.231 + 5.46e-317   12664.879 + 7.37e-317
+  36  LG+F+I+G4         -5908.740   11893.480 + 9.39e-316   11902.890 + 5.46e-317   12040.514 + 7.37e-317
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-unlinked partition model with separate substitution models and separate rates across sites
+
+  ID  Model         TreeLen  Parameters
+   1  LG+F+I+G4      6.5077  LG+F+I{0.0561976}+G4{1.77577}
+   2  LG+F+I+R3      12.4371  LG+F+I{0.0537883}+R3{0.269112,0.246644,0.632252,0.97432,0.044848,7.08191}
+   3  RTREV+F+I+G4   9.1591  RTREV+F+I{0.0230666}+G4{1.87349}
+   4  RTREV+F+I+R2   12.3338  RTREV+F+I{0.0245698}+R2{0.311566,0.382963,0.663865,1.3266}
+   5  LG+F+I+G4      11.6991  LG+F+I{0.0391477}+G4{1.71146}
+   6  RTREV+F+I+G4   7.6721  RTREV+F+I{0.0340035}+G4{1.93928}
+   7  Q.PFAM+F+G4    12.2495  Q.PFAM+F+G4{2.48865}
+   8  LG+F+I+R2      11.0215  LG+F+I{0.0252355}+R2{0.393638,0.339039,0.581127,1.49114}
+   9  LG+G4          4.7124  LG+G4{1.5672}
+  10  LG+F+I+G4      9.7037  LG+F+I{0.0577744}+G4{1.57201}
+  11  Q.PFAM+F+I+G4  10.2082  Q.PFAM+F+I{0.0242887}+G4{2.84628}
+  12  RTREV+F+R3     12.0420  RTREV+F+R3{0.172425,0.140837,0.606895,0.807635,0.22068,2.20032}
+  13  LG+F+I+G4      11.5565  LG+F+I{0.0348647}+G4{1.9372}
+  14  RTREV+F+I+R2   15.6227  RTREV+F+I{0.0861661}+R2{0.720136,0.393012,0.193697,3.70153}
+  15  BLOSUM62+F     0.9361  BLOSUM62+F
+  16  LG+F+R2        41.6044  LG+F+R2{0.839911,0.281777,0.160089,4.76817}
+  17  BLOSUM62+I+G4  6.9463  BLOSUM62+I{0.0159249}+G4{7.66481}
+  18  LG+F+R3        17.3311  LG+F+R3{0.0733337,0.0654486,0.661553,0.674223,0.265114,2.07144}
+  19  LG+F+I+G4      15.0987  LG+F+I{0.0117011}+G4{3.29852}
+  20  RTREV+F+I+G4   9.4428  RTREV+F+I{0.0159082}+G4{2.36218}
+  21  LG+F+I+R3      12.2286  LG+F+I{0.0647526}+R3{0.224519,0.2052,0.462025,0.858008,0.248703,2.24166}
+  22  LG+F+R3        11.3379  LG+F+R3{0.166714,0.179938,0.673286,0.82928,0.160001,2.57286}
+  23  Q.PFAM+F+I+R2  8.3945  Q.PFAM+F+I{0.0550037}+R2{0.297907,0.391951,0.647089,1.36494}
+  24  LG+F+I+G4      9.3422  LG+F+I{0.039592}+G4{1.79702}
+  25  LG+F+R3        5.3270  LG+F+R3{0.291795,0.110699,0.487202,0.937557,0.221002,2.31182}
+  26  LG+F+R3        9.1078  LG+F+R3{0.134561,0.0970713,0.621061,0.757725,0.244378,2.11289}
+  27  LG+F+G4        7.0994  LG+F+G4{1.33192}
+  28  LG+F+I+G4      8.1292  LG+F+I{0.0537018}+G4{1.50136}
+  29  LG+G4          7.3592  LG+G4{2.28833}
+  30  WAG+F+I        3.9306  WAG+F+I{0.0546324}
+  31  LG+F+G4        5.7458  LG+F+G4{3.18575}
+  32  LG+R3          6.9970  LG+R3{0.246404,0.106449,0.453509,0.791103,0.300087,2.0494}
+  33  Q.YEAST+F+G4   12.4482  Q.YEAST+F+G4{3.54419}
+  34  MTZOA+F+G4     20.3154  MTZOA+F+G4{0.720603}
+  35  LG+F+I+G4      14.4913  LG+F+I{0.0547512}+G4{1.97122}
+  36  LG+F+I+G4      9.0450  LG+F+I{0.0642229}+G4{1.43423}
+
+TREE USED FOR ModelFinder
+-------------------------
+
+Log-likelihood of the tree: -287657.6449 (s.e. 912.2871)
+Unconstrained log-likelihood (without tree): -109946.1718
+Number of free parameters (#branches + #model parameters): 1234
+Akaike information criterion (AIC) score: 577783.2899
+Corrected Akaike information criterion (AICc) score: 577974.3139
+Bayesian information criterion (BIC) score: 587349.4322
+
+Marginal log-likelihood of the tree: -290186.1580
+Marginal Akaike information criterion (mAIC) score: 582840.3160
+
+Total tree length (sum of branch lengths): 10.4580
+Sum of internal branch lengths: 0.7816 (7.4738% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCA_002790315' is drawn at root
+NOTE: Branch lengths are weighted average over all partitions
+      (weighted by the number of sites in the partitions)
+
++-----------------------------------------------------GCA_002790315
+|
+|          +---------------------------------------GCA_002779075
+|     +----|
+|     |    +----------------------------------GCA_001896515
+|  +--|
+|  |  |   +--------------------------------------GCA_001629205
+|  |  +---|
+|  |      |      +-----------------------------------------GCA_001315925
+|  |      +------|
+|  |             +--------------------------------GCA_000200715
++--|
+|  +-----------------------------------GCA_001564035
+|
+|        +----------------------------------GCA_000806055
+|   +----|
+|   |    +--------------------------------------GCA_002412085
++---|
+    +---------------------------------------GCA_000387965
+
+Tree in newick format:
+
+(GCA_002790315:1.3127439114,(((GCA_002779075:0.9798305153,GCA_001896515:0.8708967510):0.1406945061,(GCA_001629205:0.9591694066,(GCA_001315925:1.0402684294,GCA_000200715:0.8230019992):0.1741954985):0.1132349270):0.0608978153,GCA_001564035:0.8786944942):0.0696684255,((GCA_000806055:0.8523392562,GCA_002412085:0.9687124575):0.1250413812,GCA_000387965:0.9907272978):0.0978736486);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t archaea10_Q_mf.parttrees -Q archaea10_Q_mf.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s 10_concated.nex --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s 10_concated.nex --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon May 19 17:30:31 2025
+Total CPU time used: 3285.72 seconds (0h:54m:45s)
+Total wall-clock time used: 1106.81 seconds (0h:18m:26s)
+

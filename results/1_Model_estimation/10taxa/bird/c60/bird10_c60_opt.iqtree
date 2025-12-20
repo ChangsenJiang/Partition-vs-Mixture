@@ -1,0 +1,158 @@
+IQ-TREE 2.4.0 built Mar 21 2025
+
+Input file name: ./10_concated.nex
+User tree file name: ../partition/Q/avain10_Q_search.treefile
+Type of analysis: tree reconstruction
+Random seed number: 794694
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 10 sequences with 266811 amino-acid sites
+Number of constant sites: 219775 (= 82.371% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 219775 (= 82.371% of all sites)
+Number of parsimony informative sites: 17242
+Number of distinct site patterns: 36712
+
+SUBSTITUTION PROCESS
+--------------------
+
+Mixture model of substitution: MIX{Q.BIRD+FC60pi1,Q.BIRD+FC60pi2,Q.BIRD+FC60pi3,Q.BIRD+FC60pi4,Q.BIRD+FC60pi5,Q.BIRD+FC60pi6,Q.BIRD+FC60pi7,Q.BIRD+FC60pi8,Q.BIRD+FC60pi9,Q.BIRD+FC60pi10,Q.BIRD+FC60pi11,Q.BIRD+FC60pi12,Q.BIRD+FC60pi13,Q.BIRD+FC60pi14,Q.BIRD+FC60pi15,Q.BIRD+FC60pi16,Q.BIRD+FC60pi17,Q.BIRD+FC60pi18,Q.BIRD+FC60pi19,Q.BIRD+FC60pi20,Q.BIRD+FC60pi21,Q.BIRD+FC60pi22,Q.BIRD+FC60pi23,Q.BIRD+FC60pi24,Q.BIRD+FC60pi25,Q.BIRD+FC60pi26,Q.BIRD+FC60pi27,Q.BIRD+FC60pi28,Q.BIRD+FC60pi29,Q.BIRD+FC60pi30,Q.BIRD+FC60pi31,Q.BIRD+FC60pi32,Q.BIRD+FC60pi33,Q.BIRD+FC60pi34,Q.BIRD+FC60pi35,Q.BIRD+FC60pi36,Q.BIRD+FC60pi37,Q.BIRD+FC60pi38,Q.BIRD+FC60pi39,Q.BIRD+FC60pi40,Q.BIRD+FC60pi41,Q.BIRD+FC60pi42,Q.BIRD+FC60pi43,Q.BIRD+FC60pi44,Q.BIRD+FC60pi45,Q.BIRD+FC60pi46,Q.BIRD+FC60pi47,Q.BIRD+FC60pi48,Q.BIRD+FC60pi49,Q.BIRD+FC60pi50,Q.BIRD+FC60pi51,Q.BIRD+FC60pi52,Q.BIRD+FC60pi53,Q.BIRD+FC60pi54,Q.BIRD+FC60pi55,Q.BIRD+FC60pi56,Q.BIRD+FC60pi57,Q.BIRD+FC60pi58,Q.BIRD+FC60pi59,Q.BIRD+FC60pi60}+R7
+
+  No  Component      Rate    Weight   Parameters
+   1  Q.BIRD+FC60pi1  1.0000   0.0000   Q.BIRD+FC60pi1
+   2  Q.BIRD+FC60pi2  1.0000   0.0000   Q.BIRD+FC60pi2
+   3  Q.BIRD+FC60pi3  1.0000   0.0216   Q.BIRD+FC60pi3
+   4  Q.BIRD+FC60pi4  1.0000   0.0059   Q.BIRD+FC60pi4
+   5  Q.BIRD+FC60pi5  1.0000   0.0000   Q.BIRD+FC60pi5
+   6  Q.BIRD+FC60pi6  1.0000   0.0000   Q.BIRD+FC60pi6
+   7  Q.BIRD+FC60pi7  1.0000   0.0000   Q.BIRD+FC60pi7
+   8  Q.BIRD+FC60pi8  1.0000   0.0206   Q.BIRD+FC60pi8
+   9  Q.BIRD+FC60pi9  1.0000   0.0085   Q.BIRD+FC60pi9
+  10  Q.BIRD+FC60pi10  1.0000   0.1882   Q.BIRD+FC60pi10
+  11  Q.BIRD+FC60pi11  1.0000   0.0301   Q.BIRD+FC60pi11
+  12  Q.BIRD+FC60pi12  1.0000   0.0227   Q.BIRD+FC60pi12
+  13  Q.BIRD+FC60pi13  1.0000   0.0000   Q.BIRD+FC60pi13
+  14  Q.BIRD+FC60pi14  1.0000   0.0000   Q.BIRD+FC60pi14
+  15  Q.BIRD+FC60pi15  1.0000   0.0000   Q.BIRD+FC60pi15
+  16  Q.BIRD+FC60pi16  1.0000   0.0033   Q.BIRD+FC60pi16
+  17  Q.BIRD+FC60pi17  1.0000   0.1131   Q.BIRD+FC60pi17
+  18  Q.BIRD+FC60pi18  1.0000   0.0236   Q.BIRD+FC60pi18
+  19  Q.BIRD+FC60pi19  1.0000   0.0270   Q.BIRD+FC60pi19
+  20  Q.BIRD+FC60pi20  1.0000   0.0001   Q.BIRD+FC60pi20
+  21  Q.BIRD+FC60pi21  1.0000   0.0000   Q.BIRD+FC60pi21
+  22  Q.BIRD+FC60pi22  1.0000   0.0320   Q.BIRD+FC60pi22
+  23  Q.BIRD+FC60pi23  1.0000   0.0000   Q.BIRD+FC60pi23
+  24  Q.BIRD+FC60pi24  1.0000   0.0000   Q.BIRD+FC60pi24
+  25  Q.BIRD+FC60pi25  1.0000   0.0007   Q.BIRD+FC60pi25
+  26  Q.BIRD+FC60pi26  1.0000   0.0000   Q.BIRD+FC60pi26
+  27  Q.BIRD+FC60pi27  1.0000   0.0277   Q.BIRD+FC60pi27
+  28  Q.BIRD+FC60pi28  1.0000   0.0000   Q.BIRD+FC60pi28
+  29  Q.BIRD+FC60pi29  1.0000   0.0000   Q.BIRD+FC60pi29
+  30  Q.BIRD+FC60pi30  1.0000   0.0000   Q.BIRD+FC60pi30
+  31  Q.BIRD+FC60pi31  1.0000   0.0095   Q.BIRD+FC60pi31
+  32  Q.BIRD+FC60pi32  1.0000   0.0315   Q.BIRD+FC60pi32
+  33  Q.BIRD+FC60pi33  1.0000   0.0000   Q.BIRD+FC60pi33
+  34  Q.BIRD+FC60pi34  1.0000   0.0000   Q.BIRD+FC60pi34
+  35  Q.BIRD+FC60pi35  1.0000   0.0344   Q.BIRD+FC60pi35
+  36  Q.BIRD+FC60pi36  1.0000   0.0000   Q.BIRD+FC60pi36
+  37  Q.BIRD+FC60pi37  1.0000   0.0017   Q.BIRD+FC60pi37
+  38  Q.BIRD+FC60pi38  1.0000   0.0229   Q.BIRD+FC60pi38
+  39  Q.BIRD+FC60pi39  1.0000   0.0000   Q.BIRD+FC60pi39
+  40  Q.BIRD+FC60pi40  1.0000   0.0000   Q.BIRD+FC60pi40
+  41  Q.BIRD+FC60pi41  1.0000   0.0004   Q.BIRD+FC60pi41
+  42  Q.BIRD+FC60pi42  1.0000   0.0395   Q.BIRD+FC60pi42
+  43  Q.BIRD+FC60pi43  1.0000   0.0340   Q.BIRD+FC60pi43
+  44  Q.BIRD+FC60pi44  1.0000   0.0000   Q.BIRD+FC60pi44
+  45  Q.BIRD+FC60pi45  1.0000   0.0540   Q.BIRD+FC60pi45
+  46  Q.BIRD+FC60pi46  1.0000   0.0158   Q.BIRD+FC60pi46
+  47  Q.BIRD+FC60pi47  1.0000   0.0000   Q.BIRD+FC60pi47
+  48  Q.BIRD+FC60pi48  1.0000   0.0171   Q.BIRD+FC60pi48
+  49  Q.BIRD+FC60pi49  1.0000   0.0000   Q.BIRD+FC60pi49
+  50  Q.BIRD+FC60pi50  1.0000   0.0000   Q.BIRD+FC60pi50
+  51  Q.BIRD+FC60pi51  1.0000   0.0043   Q.BIRD+FC60pi51
+  52  Q.BIRD+FC60pi52  1.0000   0.0748   Q.BIRD+FC60pi52
+  53  Q.BIRD+FC60pi53  1.0000   0.0000   Q.BIRD+FC60pi53
+  54  Q.BIRD+FC60pi54  1.0000   0.0000   Q.BIRD+FC60pi54
+  55  Q.BIRD+FC60pi55  1.0000   0.0970   Q.BIRD+FC60pi55
+  56  Q.BIRD+FC60pi56  1.0000   0.0130   Q.BIRD+FC60pi56
+  57  Q.BIRD+FC60pi57  1.0000   0.0036   Q.BIRD+FC60pi57
+  58  Q.BIRD+FC60pi58  1.0000   0.0197   Q.BIRD+FC60pi58
+  59  Q.BIRD+FC60pi59  1.0000   0.0000   Q.BIRD+FC60pi59
+  60  Q.BIRD+FC60pi60  1.0000   0.0017   Q.BIRD+FC60pi60
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.1844,0.0111) (0.1746,0.0443) (0.1634,0.1070) (0.1509,0.2341) (0.1392,1.0354) (0.1624,3.2703) (0.0252,10.4291)
+
+ Category  Relative_rate  Proportion
+  1         0.0111         0.1844
+  2         0.0443         0.1746
+  3         0.1070         0.1634
+  4         0.2341         0.1509
+  5         1.0354         0.1392
+  6         3.2703         0.1624
+  7         10.4291        0.0252
+
+USER TREE
+---------
+
+Log-likelihood of the tree: -1109244.9854 (s.e. 2091.7257)
+Unconstrained log-likelihood (without tree): -1728156.5680
+Number of free parameters (#branches + #model parameters): 88
+Akaike information criterion (AIC) score: 2218665.9708
+Corrected Akaike information criterion (AICc) score: 2218666.0295
+Bayesian information criterion (BIC) score: 2219589.4688
+
+Total tree length (sum of branch lengths): 0.5810
+Sum of internal branch lengths: 0.1144 (19.6934% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ANAPLA' is drawn at root
+
++------------------ANAPLA
+|
++--------------------------------CALSQU
+|
+|                             +-----------------CAMPRO
+|             +---------------| (100)
+|             |               |         +-------CORBRA
+|             |               +---------| (100)
+|             |                         |  +-------------JUNHYE
+|             |                         +--| (100)
+|             |                            +----------ZOSLAT
+|      +------| (100)
+|      |      |     +---------HALALB
+|      |      |  +--| (92)
+|      |      |  |  +-------------NANAUR
+|      |      +--| (100)
+|      |         +------------URILOM
++------| (100)
+       +------------------------------------------------NOTORN
+
+Tree in newick format:
+
+(ANAPLA:0.0470281282,CALSQU:0.0808353940,(((CAMPRO:0.0456821092,(CORBRA:0.0209158132,(JUNHYE:0.0349632259,ZOSLAT:0.0274906321)100:0.0090620500)100:0.0249505695)100:0.0387939453,((HALALB:0.0241722051,NANAUR:0.0348796470)92:0.0018562156,URILOM:0.0320789163)100:0.0028439069)100:0.0180429036,NOTORN:0.1185369799)100:0.0188696206);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Jun 12 10:40:43 2025
+Total CPU time used: 390398.16 seconds (108h:26m:38s)
+Total wall-clock time used: 49675803 seconds (13798h:50m:3s)
+

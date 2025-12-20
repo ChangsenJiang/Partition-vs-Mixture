@@ -1,0 +1,237 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Mar 19 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    fisher.uds.anu.edu.au (AVX2, FMA3, 1007 GB RAM)
+Command: ../../iqtree2 -s 10_concated.nex -mdef Ascomycota10_c60_F_parameter.nex -m LG_C60_F_I_R7 -t ../partition/Q/Ascomycota10_Q_search.treefile -bb 1000 --wbtl -T 40 --mem 120G -pre Ascomycota10_c60_search
+Seed:    85590 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri May 16 12:09:05 2025
+Kernel:  AVX+FMA - 40 threads (41 CPU cores detected)
+
+Reading alignment file 10_concated.nex ... Nexus format detected
+Skipping unknown block (sets)...
+WARNING: 2768 sites contain only gaps or ambiguous characters.
+Alignment has 10 sequences with 270328 columns, 208998 distinct patterns
+121737 parsimony-informative, 102201 singleton sites, 46390 constant sites
+                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.020389 secs using 1196% CPU
+   1  Saturnispora_silvae              24.16%    failed      0.00%
+   2  Huntiella_omanensis              16.48%    failed      0.00%
+   3  Starmerella_apicola              32.88%    failed      0.00%
+   4  Kazachstania_transvaalensis      18.08%    failed      0.00%
+   5  Metschnikowia_bowlesiae          18.27%    failed      0.00%
+   6  Schizosaccharomyces_octosporus   26.87%    failed      0.00%
+   7  Tortispora_starmeri              24.59%    failed      0.00%
+   8  Candida_hispaniensis             19.27%    failed      0.00%
+   9  Phialophora_attae                14.65%    failed      0.00%
+  10  Phaffomyces_antillensis          16.71%    failed      0.00%
+****  TOTAL                            21.20%  10 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000369921 for long alignment
+Checking for duplicate sequences: done in 0.0638417 secs using 372.2% CPU
+Reading model definition file Ascomycota10_c60_F_parameter.nex ... 87 models and 215 frequency vectors loaded
+Reading input tree file ../partition/Q/Ascomycota10_Q_search.treefile ...
+Generating 1000 samples for ultrafast bootstrap (seed: 85590)...
+Model LG_C60_F_I_R7 is alias for LG+I{0.0705}+R7{0.1787,0.1031,0.1889,0.3804,0.1519,0.6336,0.1357,1.0270,0.1250,1.2887,0.1109,1.3831,0.0384,9.3632}+FMIX{F:1.0000:0.5642,C60pi1:1.0000:0.0207,C60pi2:1.0000:0.00005,C60pi3:1.0000:0.0023,C60pi4:1.0000:0.0120,C60pi5:1.0000:0.0141,C60pi6:1.0000:0.0018,C60pi7:1.0000:0.0008,C60pi8:1.0000:0.0011,C60pi9:1.0000:0.0002,C60pi10:1.0000:0.0124,C60pi11:1.0000:0.0095,C60pi12:1.0000:0.0072,C60pi13:1.0000:0.00005,C60pi14:1.0000:0.0042,C60pi15:1.0000:0.00005,C60pi16:1.0000:0.0043,C60pi17:1.0000:0.0112,C60pi18:1.0000:0.0318,C60pi19:1.0000:0.0062,C60pi20:1.0000:0.0007,C60pi21:1.0000:0.0030,C60pi22:1.0000:0.0182,C60pi23:1.0000:0.0024,C60pi24:1.0000:0.00005,C60pi25:1.0000:0.0027,C60pi26:1.0000:0.0058,C60pi27:1.0000:0.0343,C60pi28:1.0000:0.00005,C60pi29:1.0000:0.0055,C60pi30:1.0000:0.0059,C60pi31:1.0000:0.0019,C60pi32:1.0000:0.0064,C60pi33:1.0000:0.0072,C60pi34:1.0000:0.0103,C60pi35:1.0000:0.0167,C60pi36:1.0000:0.0079,C60pi37:1.0000:0.0030,C60pi38:1.0000:0.0381,C60pi39:1.0000:0.0004,C60pi40:1.0000:0.0041,C60pi41:1.0000:0.0006,C60pi42:1.0000:0.0025,C60pi43:1.0000:0.0131,C60pi44:1.0000:0.00005,C60pi45:1.0000:0.00005,C60pi46:1.0000:0.00005,C60pi47:1.0000:0.0150,C60pi48:1.0000:0.0063,C60pi49:1.0000:0.00005,C60pi50:1.0000:0.00005,C60pi51:1.0000:0.0061,C60pi52:1.0000:0.0103,C60pi53:1.0000:0.0003,C60pi54:1.0000:0.0116,C60pi55:1.0000:0.0194,C60pi56:1.0000:0.00005,C60pi57:1.0000:0.0020,C60pi58:1.0000:0.0291,C60pi59:1.0000:0.0045,C60pi60:1.0000:0.0006}
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0008 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0002 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0007 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0004 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0006 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0003 is very small and may cause numerical issues
+WARNING: Your input class weight 5e-05 is very small and may cause numerical issues
+WARNING: Your input class weight 0.0006 is very small and may cause numerical issues
+WARNING: Normalizing category proportions so that sum of them equals to 1
+
+NOTE: 111109 MB RAM (108 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4116212.799
+2. Current log-likelihood: -4102662.033
+3. Current log-likelihood: -4102334.871
+4. Current log-likelihood: -4102334.201
+Optimal log-likelihood: -4102334.191
+Mixture weights: 0.564 0.021 0.000 0.002 0.012 0.014 0.002 0.001 0.001 0.000 0.012 0.009 0.007 0.000 0.004 0.000 0.004 0.011 0.032 0.006 0.001 0.003 0.018 0.002 0.000 0.003 0.006 0.034 0.000 0.005 0.006 0.002 0.006 0.007 0.010 0.017 0.008 0.003 0.038 0.000 0.004 0.001 0.002 0.013 0.000 0.000 0.000 0.015 0.006 0.000 0.000 0.006 0.010 0.000 0.012 0.019 0.000 0.002 0.029 0.004 0.001
+Proportion of invariable sites: 0.070
+Site proportion and rates:  (0.179,0.103) (0.189,0.380) (0.152,0.634) (0.136,1.027) (0.125,1.289) (0.111,1.383) (0.038,9.364)
+Parameters optimization took 4 rounds (1190.688 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+Wrote distance file to... 
+
+Do NNI search on 1 best initial trees
+Optimizing NNI: done in 560.594 secs using 1226% CPU
+Finish initializing candidate tree set (1)
+Current best tree score: -4102334.191 / CPU time: 633.575
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 1090.97 secs using 1186% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4102334.190
+Optimizing NNI: done in 1341.81 secs using 1147% CPU
+Optimizing NNI: done in 1969.21 secs using 1137% CPU
+Optimizing NNI: done in 1334.77 secs using 1139% CPU
+Optimizing NNI: done in 2518.46 secs using 1152% CPU
+Optimizing NNI: done in 1246.09 secs using 1133% CPU
+Optimizing NNI: done in 1352.93 secs using 1151% CPU
+Optimizing NNI: done in 2610.61 secs using 1136% CPU
+Optimizing NNI: done in 2056.15 secs using 1096% CPU
+Iteration 10 / LogL: -4102337.801 / Time: 5069h:35m:38s
+Optimizing NNI: done in 1800.46 secs using 1124% CPU
+Optimizing NNI: done in 1350.56 secs using 1116% CPU
+Optimizing NNI: done in 1818.05 secs using 1132% CPU
+Optimizing NNI: done in 2147.51 secs using 1108% CPU
+Optimizing NNI: done in 1347.83 secs using 1117% CPU
+Optimizing NNI: done in 1977.44 secs using 1135% CPU
+Optimizing NNI: done in 1260.24 secs using 1141% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4102334.190
+Optimizing NNI: done in 2528.32 secs using 1120% CPU
+Optimizing NNI: done in 3241.88 secs using 1149% CPU
+Optimizing NNI: done in 1288.32 secs using 1215% CPU
+Iteration 20 / LogL: -4102340.769 / Time: 5074h:52m:27s
+Optimizing NNI: done in 2074.76 secs using 1158% CPU
+Optimizing NNI: done in 2516.56 secs using 1154% CPU
+Optimizing NNI: done in 3415.83 secs using 1148% CPU
+Optimizing NNI: done in 1419.94 secs using 1118% CPU
+Optimizing NNI: done in 557.938 secs using 1235% CPU
+Optimizing NNI: done in 1180.83 secs using 1178% CPU
+Optimizing NNI: done in 1960.72 secs using 1133% CPU
+Optimizing NNI: done in 3156.87 secs using 1163% CPU
+Optimizing NNI: done in 2058.48 secs using 1145% CPU
+Optimizing NNI: done in 1890.48 secs using 1169% CPU
+Iteration 30 / LogL: -4102334.870 / Time: 5080h:32m:46s (38h:11m:35s left)
+Optimizing NNI: done in 1871.03 secs using 1149% CPU
+Optimizing NNI: done in 1718.63 secs using 1180% CPU
+Optimizing NNI: done in 3151.33 secs using 1167% CPU
+Optimizing NNI: done in 1286.88 secs using 1207% CPU
+Optimizing NNI: done in 1179.98 secs using 1189% CPU
+Optimizing NNI: done in 2056.37 secs using 1149% CPU
+Optimizing NNI: done in 1083.95 secs using 1179% CPU
+Optimizing NNI: done in 1331.1 secs using 1134% CPU
+Optimizing NNI: done in 1988.06 secs using 1170% CPU
+Optimizing NNI: done in 1336.02 secs using 1136% CPU
+Iteration 40 / LogL: -4102346.036 / Time: 5085h:19m:14s (31h:41m:17s left)
+Optimizing NNI: done in 2502.73 secs using 1146% CPU
+Optimizing NNI: done in 1089.12 secs using 1185% CPU
+Optimizing NNI: done in 1150.1 secs using 1126% CPU
+Optimizing NNI: done in 1253.34 secs using 1149% CPU
+Optimizing NNI: done in 2534.35 secs using 1176% CPU
+Optimizing NNI: done in 2001.83 secs using 1190% CPU
+Optimizing NNI: done in 1995.3 secs using 1186% CPU
+Optimizing NNI: done in 1892.1 secs using 1173% CPU
+Optimizing NNI: done in 1087.92 secs using 1174% CPU
+Optimizing NNI: done in 1337.01 secs using 1142% CPU
+Iteration 50 / LogL: -4102344.248 / Time: 5090h:4m:3s (25h:51m:41s left)
+Log-likelihood cutoff on original alignment: -4102444.844
+UFBoot trees printed to Ascomycota10_c60_search.ufboot
+Optimizing NNI: done in 1808.23 secs using 1174% CPU
+Optimizing NNI: done in 2788.94 secs using 1163% CPU
+Optimizing NNI: done in 1873.69 secs using 1145% CPU
+Optimizing NNI: done in 1890.1 secs using 1167% CPU
+Optimizing NNI: done in 2410.16 secs using 1149% CPU
+Optimizing NNI: done in 1168.07 secs using 1170% CPU
+Optimizing NNI: done in 1807.96 secs using 1182% CPU
+Optimizing NNI: done in 1344.14 secs using 1162% CPU
+Optimizing NNI: done in 1086.01 secs using 1176% CPU
+Optimizing NNI: done in 1076.03 secs using 1169% CPU
+Iteration 60 / LogL: -4102334.290 / Time: 5094h:53m:40s (20h:27m:18s left)
+Optimizing NNI: done in 1812.44 secs using 1189% CPU
+Optimizing NNI: done in 1271.6 secs using 1194% CPU
+Optimizing NNI: done in 1985.7 secs using 1184% CPU
+Optimizing NNI: done in 1990.09 secs using 1175% CPU
+Optimizing NNI: done in 1333.65 secs using 1135% CPU
+Optimizing NNI: done in 1181.3 secs using 1195% CPU
+Optimizing NNI: done in 1889.64 secs using 1170% CPU
+Optimizing NNI: done in 1164.31 secs using 1169% CPU
+Optimizing NNI: done in 1262.97 secs using 1187% CPU
+Optimizing NNI: done in 2442.38 secs using 1190% CPU
+Iteration 70 / LogL: -4102335.306 / Time: 5099h:30m:2s (15h:7m:14s left)
+Optimizing NNI: done in 1085.23 secs using 1181% CPU
+Optimizing NNI: done in 1270.51 secs using 1195% CPU
+Optimizing NNI: done in 3146.14 secs using 1174% CPU
+Optimizing NNI: done in 2431.07 secs using 1175% CPU
+Optimizing NNI: done in 1806.18 secs using 1180% CPU
+Optimizing NNI: done in 1327.83 secs using 1135% CPU
+Optimizing NNI: done in 1996.98 secs using 1192% CPU
+Optimizing NNI: done in 2899.54 secs using 1189% CPU
+Optimizing NNI: done in 1276.32 secs using 1222% CPU
+Optimizing NNI: done in 3046.08 secs using 1165% CPU
+Iteration 80 / LogL: -4102337.061 / Time: 5105h:13m:13s (10h:15m:8s left)
+Optimizing NNI: done in 3050.99 secs using 1165% CPU
+Optimizing NNI: done in 1977.71 secs using 1171% CPU
+Optimizing NNI: done in 2345.04 secs using 1176% CPU
+Optimizing NNI: done in 1897.12 secs using 1143% CPU
+Optimizing NNI: done in 3135.15 secs using 1160% CPU
+Optimizing NNI: done in 2870.07 secs using 1160% CPU
+Optimizing NNI: done in 3051.32 secs using 1161% CPU
+Optimizing NNI: done in 1075.24 secs using 1154% CPU
+Optimizing NNI: done in 1254.19 secs using 1167% CPU
+Optimizing NNI: done in 1260.27 secs using 1158% CPU
+Iteration 90 / LogL: -4102493.461 / Time: 5111h:19m:37s (5h:14m:10s left)
+Optimizing NNI: done in 1165.12 secs using 1158% CPU
+Optimizing NNI: done in 1790.96 secs using 1155% CPU
+Optimizing NNI: done in 1074.38 secs using 1164% CPU
+Optimizing NNI: done in 2241.52 secs using 1157% CPU
+Optimizing NNI: done in 2060.83 secs using 1159% CPU
+Optimizing NNI: done in 2971.72 secs using 1172% CPU
+Optimizing NNI: done in 1798.49 secs using 1171% CPU
+Optimizing NNI: done in 1823.47 secs using 1193% CPU
+Optimizing NNI: done in 1984.63 secs using 1176% CPU
+Optimizing NNI: done in 1069.85 secs using 1157% CPU
+Iteration 100 / LogL: -4102334.202 / Time: 5116h:22m:23s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -4102444.843
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UFBoot trees printed to Ascomycota10_c60_search.ufboot
+Optimizing NNI: done in 1174.39 secs using 1192% CPU
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 5116h:42m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4102334.190
+Optimal log-likelihood: -4102334.190
+Mixture weights: 0.564 0.021 0.000 0.002 0.012 0.014 0.002 0.001 0.001 0.000 0.012 0.009 0.007 0.000 0.004 0.000 0.004 0.011 0.032 0.006 0.001 0.003 0.018 0.002 0.000 0.003 0.006 0.034 0.000 0.005 0.006 0.002 0.006 0.007 0.010 0.017 0.008 0.003 0.038 0.000 0.004 0.001 0.002 0.013 0.000 0.000 0.000 0.015 0.006 0.000 0.000 0.006 0.010 0.000 0.012 0.019 0.000 0.002 0.029 0.004 0.001
+Proportion of invariable sites: 0.070
+Site proportion and rates:  (0.179,0.103) (0.189,0.380) (0.152,0.634) (0.136,1.027) (0.125,1.289) (0.111,1.383) (0.038,9.364)
+Parameters optimization took 1 rounds (194.114 sec)
+WARNING: The mixture model might be overfitting because some mixture weights are estimated close to zero
+BEST SCORE FOUND : -4102334.190
+Creating bootstrap support values...
+Split supports printed to NEXUS file Ascomycota10_c60_search.splits.nex
+Total tree length: 13.898
+
+Total number of iterations: 101
+CPU time used for tree search: 2159380.940 sec (599h:49m:40s)
+Wall-clock time used for tree search: 185863.334 sec (51h:37m:43s)
+Total CPU time used: 2175030.788 sec (604h:10m:30s)
+Total wall-clock time used: 18420319.415 sec (5116h:45m:19s)
+UFBoot trees printed to Ascomycota10_c60_search.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file Ascomycota10_c60_search.splits.nex...
+10 taxa and 19 splits.
+Consensus tree written to Ascomycota10_c60_search.contree
+Reading input trees file Ascomycota10_c60_search.contree
+Log-likelihood of consensus tree: -4102334.190
+
+Analysis results written to: 
+  IQ-TREE report:                Ascomycota10_c60_search.iqtree
+  Maximum-likelihood tree:       Ascomycota10_c60_search.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Ascomycota10_c60_search.splits.nex
+  Consensus tree:                Ascomycota10_c60_search.contree
+  UFBoot trees:                  Ascomycota10_c60_search.ufboot
+  Screen log file:               Ascomycota10_c60_search.log
+
+Date and Time: Sun May 18 16:31:57 2025

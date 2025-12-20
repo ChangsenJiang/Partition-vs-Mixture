@@ -1,0 +1,23 @@
+	Command being timed: "../../iqtree2 -s 10_concated.nex -mdef avain10_c60_F_parameter.nex -m Q_BIRD_C60_F_R7 -t ../partition/Q/avain10_Q_search.treefile -bb 1000 --wbtl -T 45 --mem 120G -pre avain10_c60_search"
+	User time (seconds): 387125.70
+	System time (seconds): 270.28
+	Percent of CPU this job got: 4216%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:33:06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 27433664
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 110443835
+	Voluntary context switches: 851288
+	Involuntary context switches: 526756
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 9000
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

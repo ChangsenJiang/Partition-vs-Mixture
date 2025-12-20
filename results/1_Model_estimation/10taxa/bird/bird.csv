@@ -1,0 +1,11 @@
+Name,FreeParams,Partitions,MixLogL,mAIC,LogL,AIC,BIC,RunT,Command
+10bird_c60_init,29,NA,NA,2217413.636,-1108677.818,2217413.636,2217717.97,0.31 h,../../iqtree2 -s 10_concated.nex -m MF -merit AIC -T 45 -mem 120G -pre 10bird_c60_init
+bird10_c60_opt,88,NA,NA,2218665.971,-1109244.985,2218665.971,2219589.469,2.48 h,../../iqtree2 -s ./10_concated.nex -m Q.BIRD+C60+R7 -te ../partition/Q/bird10_Q_search.treefile -mwopt -T 45 -mem 120G -safe -pre bird10_c60_opt
+bird10_c60_F,108,NA,NA,2213637.87,-1106710.935,2213637.87,2214771.253,3.43 h,../../iqtree2 -s ./10_concated.nex -m Q.BIRD+C60+F+R7 -te ../partition/Q/bird10_Q_search.treefile -T 45 -mem 120G -safe -pre bird10_c60_F
+bird10_c60_unopt,29,NA,NA,2241243.052,-1120592.526,2241243.052,2241547.387,1.67 h,../../iqtree2 -s ./10_concated.nex -m Q.BIRD+C60+R7 -te ../partition/Q/bird10_Q_search.treefile -T 45 -mem 120G -safe -pre bird10_c60_unopt
+bird10_c60_search,17,NA,NA,2213460.287,-1106713.144,2213460.287,2213638.69,2.55 h,../../iqtree2 -s 10_concated.nex -mdef bird10_c60_F_parameter.nex -m Q_BIRD_C60_F_R7 -t ../partition/Q/bird10_Q_search.treefile -bb 1000 --wbtl -T 45 --mem 120G -pre bird10_c60_search
+bird10_p_mf,3122,164,-1122000.063,2250244.126,-1083285.371,2172814.741,2205577.933,0.32 h,../../../iqtree2 -s 10_concated.nex -p 10_concated.nex -m MF+MERGE -merit AIC -T 11 -pre bird10_p_mf
+bird10_p_search,2897,164,-1122030.176,2249854.353,-1083285.37,2172364.74,2202766.715,0.04 h,../../../iqtree2 -s 10_concated.nex -p bird10_p_mf.best_model.nex -t bird10_p_mf.treefile -bb 1000 --wbtl -T 45 -pre bird10_p_search
+bird10_q_mf,3325,208,-1171735.879,2350121.757,-1092103.407,2190856.814,2225750.348,0.27 h,"../../../iqtree2 -s 10_concated.nex -q 10_concated.nex -m MF+MERGE -mrate E,I,G,I+G -merit AIC -T 11 -pre bird10_q_mf"
+bird10_Q_search,5312,173,-1126237.521,2263099.041,-1079370.146,2169364.291,2225109.991,0.03 h,../../../iqtree2 -s 10_concated.nex -Q bird10_Q_mf.best_model.nex -t bird10_Q_mf.treefile -bb 1000 --wbtl -T 45 -pre bird10_Q_search
+bird10_Q_mf,5553,173,-1126229.191,2263564.381,-1079370.165,2169846.329,2228121.154,0.29 h,../../../iqtree2 -s 10_concated.nex -Q 10_concated.nex -m MF+MERGE -merit AIC -T 11 -pre bird10_Q_mf
