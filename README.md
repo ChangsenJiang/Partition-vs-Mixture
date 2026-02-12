@@ -97,11 +97,11 @@ bash model_estimation_pipeline.sh
 This would 
 
  1) run MF+MERGE on p/Q/q partitioned
- 2) select the best partitioned model by AIC & mAIC  
+ 2) select the best partitioned model using cAIC and mAIC. The model with the best cAIC will then be used for the partitioned model tree search. The tree generated from this search will serve as the fixed tree in step 4.
   3) initialize the best exchangeability and RHAS for C60 models using ModelFinder
-  4) fit three C60 variants (C60+F,C60-opt,C60) 
-  5) select the best C60 model by AIC/mAIC
- 6) run a final tree search under the best C60 model  
+  4) fit three C60 variants (C60+F,C60-opt,C60) with the fixed tree from step 2 
+  5) select the best C60 model by cAIC & mAIC
+ 6) run a final tree search under the best mAIC C60 model  
   7) Produces a timestamped log and writes IQ-TREE outputs into each dataset’s `partition/` and `c60/`
 
 > [!NOTE] 
