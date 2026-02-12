@@ -254,13 +254,17 @@ robustness_tests/
 ├── ...
 └── robustness_test_dataset_9/
 ```
-For **each model folder in each dataset**, run
+For **each model folder (e.g. c60, p, Q) in each dataset**, run
 
 ```bash
 python Robustness_test.py <treefile_folder> -o <output_name.txt>
 ```
+for example, to run robustness test for c60 model for a dataset, run
+```bash
+python Robustness_test.py path_in_your_coumpter/treesearch_trees/c60 -o path_in_your_coumpter/treesearch_trees/c60/lrm_distances.txt
+```
 
-This would compute **Lin–Rajan–Moret (LRM)** tree distances between all trees generated from the minus-one-taxa subalignment and the original `reference.treefile` (to-Ref LRM distance), and also calculates the summary statistics (mean/SD/median) for those calculated LRM distances. 
+The robustness test script would compute **Lin–Rajan–Moret (LRM)** tree distances between all trees generated from the minus-one-taxa subalignment and the original `reference.treefile` (to-Ref LRM distance), and also calculates the summary statistics (mean/SD/median) for those calculated LRM distances. 
 
 > [!NOTE] 
 > [LRM results](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results/3_Robustness_test) could then be used to plot **Figure 4** in the paper
