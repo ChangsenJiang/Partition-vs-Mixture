@@ -1,8 +1,8 @@
 # Partition vs Mixture
 
-Phylogenetic inference underpins our understanding of evolutionary relationships, and choosing an appropriate evolutionary model is critical—especially when **heterogeneity** is present across genes, sites, and lineages. Partitioned and profile **mixture** models capture different aspects of this heterogeneity, but past comparisons between them have been confounded by limitations of the Akaike Information Criterion (AIC), which is not directly comparable across different model classes.
+Phylogenetic inference underpins our understanding of evolutionary relationships, and choosing an appropriate evolutionary model is critical—especially when **heterogeneity** is present across genes, sites, and lineages. Partitioned and profile mixture models capture different aspects of this heterogeneity, but previous comparisons between them have been confounded by limitations of the Akaike Information Criterion (AIC), which is not directly comparable across different model types.
 
-**This project addresses that issue by applying a marginal AIC (mAIC) framework** to enable direct, like-for-like comparisons between partitioned and mixture models. We benchmark **partitioned** models against **C60 mixture** models across **nine** large empirical amino-acid datasets, and we assess not only **model fit** (mAIC) but also **model adequacy** (recovery of sequence properties) and **robustness** (stability of tree inference).
+**This project addresses this issue by applying a marginal AIC (mAIC) calculation framework** for both partitioned and mixture models to enable direct comparisons between them. We benchmark all three commonly-used **partitioned models** against **C60 mixture** models across nine large empirical amino-acid datasets. We assess not only **model fit** (mAIC), but also **model adequacy** (ability to reproduce statistical properties of the original alignment) and **robustness** (stability of tree inference).
 
 
 
@@ -96,18 +96,18 @@ bash model_estimation_pipeline.sh
 ```
 This would 
 
- 1) run MF+MERGE on p/Q/q partitioned
- 2) select the best partitioned model using cAIC and mAIC. The model with the best cAIC will then be used for the partitioned model tree search. The tree generated from this search will serve as the fixed tree in step 4.
-  3) initialize the best exchangeability and RHAS for C60 models using ModelFinder
-  4) fit three C60 variants (C60+F,C60-opt,C60) with the fixed tree from step 2 
-  5) select the best C60 model by cAIC & mAIC
- 6) run a final tree search under the best mAIC C60 model  
-  7) Produces a timestamped log and writes IQ-TREE outputs into each dataset’s `partition/` and `c60/`
+ 1) Run MF+MERGE on p/Q/q partitioned model
+ 2) Select best partitioned models using both cAIC and mAIC. Model with the best cAIC score will then be used for the partitioned model tree search. The tree generated from this search will serve as the fixed tree in step 4
+  3) Initialize the best exchangeability and RHAS for C60 models using ModelFinder
+  4) Fit three C60 variants (C60+F,C60-opt,C60) with the fixed tree from step 2 
+  5) Select the best C60 model by mAIC
+ 6) Run a final tree search under best C60 model  
+  7) Produces a timestamped log and writes IQ-TREE outputs into each dataset’s `partition/` and `c60/` folder
 
 > [!NOTE] 
-> For specific IQ-TREE commands performed in this pipeline, see [here](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/scripts/1_Model_estimation/Only_commands.txt).
+> For specific IQ-TREE commands performed in this pipeline, see [here](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/scripts/1_Model_estimation/Only_commands.txt)
 
-After estimation, the [mAIC/cAIC values](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results/1_Model_estimation/20taxa) for each model could be extracted from the `.iqtree` and `.log` files, then used for plotting **Fig. 1** in the paper
+After estimation, the [mAIC/cAIC values](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results/1_Model_estimation/20taxa) for each model could be extracted from the `.iqtree` and `.log` files, then used for plotting **Fig. 1** in the manuscript
 
 
 
@@ -116,7 +116,7 @@ After estimation, the [mAIC/cAIC values](https://github.com/ChangsenJiang/Partit
 ### 2. Extended Parametric bootstrap test
 #### 2.1 Extract the estimated model parameters from Step 1
 
-For every partitioned model estimated in step 1, the model parameter file is simply the `.best_model.nex` file generated during the estimation.
+For every partitioned model estimated in step 1, the model parameter file is simply the `.best_model.nex` file generated during the estimation
 
 For every C60 model, the model parameters could be extracted by first extracting its corresponding `.iqtree` and `.log` file, then run 
 
@@ -152,7 +152,7 @@ After the above process, **100 simulated alignments should be generated for each
 
 #### 2.3 Performing extended parametric bootstrap test
 
-We will use the program written by [Yutong Shao](https://github.com/Yutong-Shao/new-metrics-PBT) to perform the test.
+We will use the program written by [Yutong Shao](https://github.com/Yutong-Shao/new-metrics-PBT) to perform the test
 
 First, enter the `scripts/2_Parametric bootstrap_test` folder, and install and activate the required environment through
 
@@ -205,8 +205,8 @@ this script would
   - sitewise diversity
 
 > [!NOTE] 
-> Results for the parametric bootstrap test are summarized in [`.pbr_gaps`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/result/Parametric%20bootstrap%20results/Mean/mean_div/1kplant_c60_F.pbr_gaps) and [`.txt_gaps`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/result/Parametric%20bootstrap%20results/Mean/mean_div/1kplant_c60_F.txt_gaps) files.
-Results for the CvM test are summarized in [`cvm_diversity/entropy_results.txt`](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/result/Parametric%20bootstrap%20results/CvM%20test/Ascomycota), which could be used to plot **Figure 2&3** in the paper
+> Results for the parametric bootstrap test are summarized in [`.pbr_gaps`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/results/2_Extended_Parametric_bootstrap/Parametric_Bootstrap_mean/mean_entropy/1kplant_Q1_entropy.pbr_gaps) and [`.txt_gaps`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/results/2_Extended_Parametric_bootstrap/Parametric_Bootstrap_mean/mean_entropy/1kplant_Q1_entropy_scores_bootstrapped_data.txt_gaps) files.
+Results for the CvM test are summarized in [`cvm_diversity/entropy_results.txt`](https://github.com/ChangsenJiang/Partition-vs-Mixture/blob/main/results/2_Extended_Parametric_bootstrap/CvM_test_sitewise/plant/cvm_entropy_results.txt), which could be used to plot **Figure 2&3** in the manuscript
 
 
 
@@ -267,7 +267,7 @@ python Robustness_test.py path_in_your_coumpter/treesearch_trees/c60 -o path_in_
 The robustness test script would compute **Lin–Rajan–Moret (LRM)** tree distances between all trees generated from the minus-one-taxa subalignment and the original `reference.treefile` (to-Ref LRM distance), and also calculates the summary statistics (mean/SD/median) for those calculated LRM distances. 
 
 > [!NOTE] 
-> [LRM results](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results/3_Robustness_test) could then be used to plot **Figure 4** in the paper
+> [LRM results](https://github.com/ChangsenJiang/Partition-vs-Mixture/tree/main/results/3_Robustness_test) could then be used to plot **Figure 4** in the manuscript
 
 
 

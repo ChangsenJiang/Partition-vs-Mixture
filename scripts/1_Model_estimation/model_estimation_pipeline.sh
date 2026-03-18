@@ -8,7 +8,7 @@
 # including automatic selection of best models based on AIC/mAIC scores and subsequent tree search.
 #
 # The pipeline includes:
-#   1. Partition model selection and tree search using MF+MERGE on p/Q/q schemes
+#   1. Partitioned model selection using MF+MERGE on p/Q/q schemes, and partitioned model tree search
 #   2. C60 initialization to identify the best-fit C60-based model
 #   3. C60 model fitting (with and without +F, with and without weight optimization)
 #   4. Model comparison between C60 and partitioned models
@@ -18,9 +18,10 @@
 #   Place this script in the dataset folder (named after the dataset),
 #   with a subfolder named "partition" containing p/q/Q alignment files,
 #   and another subfolder named "c60" with the same alignment used for C60 models.
+#   (See the GitHub README for the required folder structure and ensure it matches exactly.)
 #
 #   Then simply run:
-#       bash iqtree_pipeline.sh
+#       bash model_estimation_pipeline.sh
 #
 # Parameters (defined at the top of the script):
 #   ns       - Number of taxa in the dataset (e.g. 20)
@@ -29,7 +30,7 @@
 #   mode     - always choose "full"
 #
 # Requirements:
-#   - IQ-TREE 2 executable available as ../../iqtree2
+#   - IQ-TREE 2 
 #   - Python script `parameter_nex.py` (in the same directory as this script)
 #   - GNU time, awk, grep, and bc (for shell-side processing)
 #
